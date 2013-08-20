@@ -1,19 +1,17 @@
 ---
 layout: calendar
----
-
-# Week 1
-
+title: Introduction
 Sec1: 2013-09-04  
 Sec2: 2013-09-05  
-Sec3: 2013-09-06  
-
-Introduction  
-Motion Basics lecture  
-Animated GIF tutorial  
-Quick in class animated GIF project  
-Assign stop motion project  
-Assign 1st reading  
+Sec3: 2013-09-06
+outline:
+  - "Introduction"
+  - "Motion Basics lecture"
+  - "Animated GIF tutorial"
+  - "Quick in class animated GIF project"
+  - "Assign stop motion project"
+  - "Assign 1st reading"
+---
 
 ## Outline
 
