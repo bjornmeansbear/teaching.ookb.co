@@ -105,6 +105,9 @@ sup {
   vertical-align: super;
 }
 
+h1, h2, h3, h4, h5, h6 {font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
+h1, h2 {font-weight: 800;}
+
 /* Links and More */
 /* =================================================================== */
 
@@ -143,7 +146,22 @@ ul.sidenav.affix {
   top: 82px
 }
 
+div.block.yellow {
+  background: rgba(197,192,101,1);
+}
 
+div.block {
+  display: table;
+  height: 300px;
+  width: 100%;
+}
+
+div.block a {
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
 
 
 
