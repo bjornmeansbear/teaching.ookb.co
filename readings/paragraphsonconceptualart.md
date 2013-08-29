@@ -3,9 +3,8 @@ layout: essay
 title: "Paragraphs on Conceptual Art"
 byline: "Sol Lewitt"
 written: "1967"
-class: "gd3"
-term: "Fall"
-year: "2013"
+tags: 
+  - "gd3"
 ---
 
 The editor has written me that he is in favor of avoiding “the notion that the artist is a kind of ape that has to be explained by the civilized critic.” This should be good news to both artists and apes. With this assurance I hope to justify his confidence. To use a baseball metaphor (one artist wanted to hit the ball out of the park, another to stay loose at the plate and hit the ball where it was pitched), I am grateful for the opportunity to strike out for myself.

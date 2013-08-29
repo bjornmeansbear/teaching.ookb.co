@@ -3,9 +3,8 @@ layout: essay
 title: "Space-Time Problems"
 byline: "László Moholy-Nagy"
 written: "1946"
-class: "gd3"
-term: "Fall"
-year: "2013"
+tags: 
+  - "gd3"
 ---
 
 First published in the 1946 _American Abstract Artists Yearbook_. New York: Ram Press.

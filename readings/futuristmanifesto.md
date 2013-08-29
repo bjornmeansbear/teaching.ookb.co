@@ -3,9 +3,8 @@ layout: essay
 title: "The Futurist Manifesto"
 byline: "Filippo Tommaso Marinetti"
 written: "1909"
-class: "gd3"
-term: "Fall"
-year: "2013"
+tags: 
+  - "gd3"
 ---
 
 ([text found here][FML])

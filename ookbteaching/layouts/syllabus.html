@@ -16,20 +16,85 @@ layout : default
 <div class="row">
   <div class="col-lg-3">
     <ul class="sidenav" data-spy="affix" data-offset-top="264">
-      <li>Course Description</li>
-      <li>Learning Outcomes</li>
-      <li>Materials/Supplies</li>
-      <li>Required Reading </li>
-      <li>Calendar</li>
-      <li>Grading Criteria</li>
-      <li>Attendance Policy</li>
-      <li><a href="#ada" class="scroll">Compliance Statements</a></li>
+      <li><a href="#description" class="scroll">Catalog Description</a></li>
+      <li><a href="#addtl" class="scroll">Additional Explanation</a></li>
+      <li><a href="#outcomes" class="scroll">Learning Outcomes</a></li>
+      <li><a href="#supplies" class="scroll">Materials/Supplies</li>
+      <li><a href="#readings" class="scroll">Required Reading </li>
+      <li><a href="#calendar" class="scroll">Calendar</li>
+      <li><a href="#grades" class="scroll">Grading Criteria</li>
+      <li><a href="#attendance" class="scroll">Attendance Policy</li>
+      <li><a href="#compliance" class="scroll">Compliance Statements</a></li>
       <li><a href="#projects" class="scroll">Projects</a></li>
     </ul>
   </div>
   <div class="col-lg-9">
-    <article class="content" class="syllabus">
+    <article class="content" id="syllabus">
       
+      <!-- Catalog Description from MICA -->
+      {{# courses.find_by_name.gd3/description }}
+      <section id="description" class="">
+        <h3>{{ title }}</h3>
+        {{{ content }}}
+      </section>
+      {{/ courses.find_by_name.gd3/description }}
+
+      <!-- Personal desires for the class... -->
+      {{# courses.find_by_name.gd3/additions }}
+      <section id="addtl" class="">
+        <h3>{{ title }}</h3>
+        {{{ content }}}
+      </section>
+      {{/ courses.find_by_name.gd3/additions }}
+
+      <!-- Learning Outcomes from MICA -->
+      {{# courses.find_by_name.gd3/learning-outcomes }}
+      <section id="outcomes" class="">
+        <h3>{{ title }}</h3>
+        {{{ content }}}
+      </section>
+      {{/ courses.find_by_name.gd3/learning-outcomes }}
+
+      <!-- Materials/Supplies -->
+      {{# courses.find_by_name.gd3/supplies }}
+      <section id="supplies" class="">
+        <h3>{{ title }}</h3>
+        {{{ content }}}
+      </section>
+      {{/ courses.find_by_name.gd3/supplies }}
+
+      <!-- Reading List -->
+      {{# courses.find_by_name.gd3/required-reading }}
+      <section id="readings" class="">
+        <h3>{{ title }}</h3>
+        {{{ content }}}
+      </section>
+      {{/ courses.find_by_name.gd3/required-reading }}
+
+      <!-- Calendar -->
+      {{# courses.find_by_name.gd3/calendar }}
+      <section id="calendar" class="">
+        <h3>{{ title }}</h3>
+        {{{ content }}}
+      </section>
+      {{/ courses.find_by_name.gd3/calendar }}
+
+      <!-- Grading -->
+      {{# courses.find_by_name.grades }}
+      <section id="grades" class="">
+        <h3>{{ title }}</h3>
+        {{{ content }}}
+      </section>
+      {{/ courses.find_by_name.grades }}
+
+      <!-- Attendance -->
+      {{# courses.find_by_name.attendance }}
+      <section id="attendance" class="">
+        <h3>{{ title }}</h3>
+        {{{ content }}}
+      </section>
+      {{/ courses.find_by_name.attendance }}
+
       <!-- ADA statement -->
       {{# courses.find_by_name.ada }}
       <section id="ada" class="">
