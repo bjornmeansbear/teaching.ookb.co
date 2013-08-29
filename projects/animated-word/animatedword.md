@@ -1,7 +1,8 @@
 ---
 layout: project
 title: "The Animated Word"
-project: 3
+tags:
+  - "gd3"
 ---
 
 # The Animated Word

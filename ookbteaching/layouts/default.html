@@ -12,6 +12,9 @@
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      {{# javascripts.load }}
+        respond.min.js
+      {{/ javascripts.load }}
     <![endif]-->
 
     <!-- Le styles -->
@@ -20,13 +23,6 @@
       newookb.css
     {{/ stylesheets.load }}
 
-    <!-- Le fav and touch icons -->
-  <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  -->
   </head>
 
   <body>
@@ -98,7 +94,9 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     {{# javascripts.load }}
       bootstrap.js
+      affix.js
       jquery.cycle2.js
+      teaching.js
     {{/ javascripts.load }}
 
     <!-- okay, so this is the main template -->    

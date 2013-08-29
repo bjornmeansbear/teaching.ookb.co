@@ -2,6 +2,8 @@
 layout: project
 title: "Stop! Motion! Graphic! (or Animated Frames)"
 project: 1
+tags:
+  - "gd3"
 ---
 
 The purpose of this project is to give you some fundamentals of “Frame-by-frame” or traditional animation …

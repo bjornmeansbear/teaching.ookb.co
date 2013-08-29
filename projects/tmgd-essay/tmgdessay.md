@@ -1,7 +1,8 @@
 ---
 layout: project
 title: "Time and Motion and Graphic Design: the essay"
-project: 5
+tags:
+  - "gd3"
 ---
 
 # Time and Motion and Graphic Design: the essay

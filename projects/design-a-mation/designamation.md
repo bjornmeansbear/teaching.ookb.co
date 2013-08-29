@@ -1,7 +1,8 @@
 ---
 layout: project
 title: "Design-a-Mations"
-project: 1
+tags:
+  - "gd3"
 ---
 
 # Design-a-Mations

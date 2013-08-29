@@ -139,6 +139,11 @@ a:link {
   text-shadow: none;
 }
 
+ul.sidenav.affix {
+  top: 82px
+}
+
+
 /**************************/
 /* crazy type on homepage */
 /**************************/
