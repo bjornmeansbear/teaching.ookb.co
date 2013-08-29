@@ -16,9 +16,28 @@ layout : default
 <div class="row">
   <div class="col-lg-3">
     <p>This will be the "TOC" for the syllabus...</p>
+    <ul class="sidenav">
+      <li>Course Description</li>
+      <li>Learning Outcomes</li>
+      <li>Materials/Supplies</li>
+      <li>Required Reading </li>
+      <li>Calendar</li>
+      <li>Grading Criteria</li>
+      <li>Attendance Policy</li>
+      <li><a href="">Compliance Statements</a></li>
+      <li>Projects</li>
+    </ul>
   </div>
   <div class="col-lg-9">
     <article class="content" class="syllabus">
+
+      <!-- ADA statement -->
+      {{# courses.by_sub_directory.gd3 }}
+      <section id="ada" class="">
+        <h3>{{ title }}</h3>
+        {{{ content }}}
+      </section>
+      {{/ courses.by_sub_directory.gd3 }}
       
       <!-- ADA statement -->
       {{# courses.find_by_name.ada }}
