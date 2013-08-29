@@ -19,13 +19,17 @@ layout : default
       <li><a href="#description" class="scroll">Catalog Description</a></li>
       <li><a href="#addtl" class="scroll">Additional Explanation</a></li>
       <li><a href="#outcomes" class="scroll">Learning Outcomes</a></li>
-      <li><a href="#supplies" class="scroll">Materials/Supplies</li>
-      <li><a href="#readings" class="scroll">Required Reading </li>
-      <li><a href="#calendar" class="scroll">Calendar</li>
-      <li><a href="#grades" class="scroll">Grading Criteria</li>
-      <li><a href="#attendance" class="scroll">Attendance Policy</li>
-      <li><a href="#compliance" class="scroll">Compliance Statements</a></li>
+      <li><a href="#supplies" class="scroll">Materials/Supplies</a></li>
+      <li><a href="#readings" class="scroll">Required Reading</a></li>
+      <li><a href="#calendar" class="scroll">Calendar</a></li>
       <li><a href="#projects" class="scroll">Projects</a></li>
+      <li><a href="#grades" class="scroll">Grading Criteria</a></li>
+      &mdash;<br/>
+      MICA Policies
+      <li><a href="#attendance" class="scroll">Attendance Policy</a></li>
+      <li><a href="#ada" class="scroll">ADA</a></li>
+      <li><a href="#health" class="scroll">Health and Safety</a></li>
+      <li><a href="#plagiarism" class="scroll">Plagiarism</a></li>
     </ul>
   </div>
   <div class="col-lg-9">
@@ -79,6 +83,14 @@ layout : default
       </section>
       {{/ courses.find_by_name.gd3/calendar }}
 
+      <!-- Projects  -->
+      {{# courses.find_by_name.gd3/projects }}
+      <section id="projects" class="">
+        <h3>Projects</h3>
+        {{{ content }}}
+      </section>
+      {{/ courses.find_by_name.gd3/projects }}
+
       <!-- Grading -->
       {{# courses.find_by_name.grades }}
       <section id="grades" class="">
@@ -113,19 +125,11 @@ layout : default
 
       <!-- Plagarism statement -->
       {{# courses.find_by_name.plagiarism }}
-      <section id="health" class="">
+      <section id="plagiarism" class="">
         <h3>{{ title }}</h3>
         {{{ content }}}
       </section>
       {{/ courses.find_by_name.plagiarism }}
-
-      <!-- Projects statement -->
-      {{# courses.find_by_name.gd3/projects }}
-      <section id="projects" class="">
-        <h3>Projects</h3>
-        {{{ content }}}
-      </section>
-      {{/ courses.find_by_name.gd3/projects }}
 
     </article>
   </div>
