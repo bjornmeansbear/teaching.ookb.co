@@ -2,12 +2,10 @@
 layout: essay
 title: "The Futurist Manifesto"
 byline: "Filippo Tommaso Marinetti"
-written: "1909"
+published: "1909"
 tags: 
   - "gd3"
 ---
-
-([text found here][FML])
 
 We have been up all night, my friends and I, beneath mosque lamps whose brass cupolas are bright as our souls, because like them they were illuminated by the internal glow of electric hearts. And trampling underfoot our native sloth on opulent Persian carpets, we have been discussing right up to the limits of logic and scrawling the paper with demented writing.
 Our hearts were filled with an immense pride at feeling ourselves standing quite alone, like lighthouses or like the sentinels in an outpost, facing the army of enemy stars encamped in their celestial bivouacs. Alone with the engineers in the infernal stokeholes of great ships, alone with the black spirits which rage in the belly of rogue locomotives, alone with the drunkards beating their wings against the walls.
@@ -84,6 +82,8 @@ Your objections? All right! I know them! Of course! We know just what our beauti
 
 Standing on the world's summit we launch once again our insolent challenge to the stars!
 
+_Reference_
+([text found here][FML])
 (Text of translation taken from [James Joll, _Three Intellectuals in Politics_][3int])
 
 [FML]: http://vserver1.cscs.lsa.umich.edu/~crshalizi/T4PM/futurist-manifesto.html

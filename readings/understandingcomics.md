@@ -1,6 +1,8 @@
 ---
-title: Understanding Comics
-author: Scott McCloud
+layout: essay
+title: "Understanding Comics"
+author: "Scott McCloud"
+published: 1993
 tags:
   - "gd3"
 ---

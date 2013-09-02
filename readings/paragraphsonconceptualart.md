@@ -2,7 +2,7 @@
 layout: essay
 title: "Paragraphs on Conceptual Art"
 byline: "Sol Lewitt"
-written: "1967"
+published: "1967"
 tags: 
   - "gd3"
 ---

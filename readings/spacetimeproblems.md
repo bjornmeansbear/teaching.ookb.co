@@ -2,7 +2,7 @@
 layout: essay
 title: "Space-Time Problems"
 byline: "László Moholy-Nagy"
-written: "1946"
+published: "1946"
 tags: 
   - "gd3"
 ---

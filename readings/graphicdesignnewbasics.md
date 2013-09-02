@@ -1,6 +1,8 @@
 ---
+layout: essay
 title: Graphic Design The New Basics
 author: Ellen Lupton and Jennifer Cole Phillips
+published: 2008
 tags:
   - "gd3"
 ---

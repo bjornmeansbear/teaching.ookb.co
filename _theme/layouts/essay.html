@@ -2,24 +2,16 @@
 layout : default
 ---
 
-{{# page.author?to_data }}
-  <strong>{{ name }}</strong>
-  <p>{{ bio }}</p>
-{{/ page.author?to_data }}
-
 <div class="page-header">
   <h1>{{ page.title }}</h1>
 </div>
 
 <div class="byline-etc">
-  <p>{{ page.byline }}, {{ page.written }}</p>
+  <p>{{ page.byline }}, {{ page.published }}</p>
 </div>
 
 <div class="row-fluid post-full">
   <div class="span12">
-    <div class="date">
-      <span>{{page.date}}</strong>
-    </div>
     <div class="content">
       {{{ page.content }}}
     </div>

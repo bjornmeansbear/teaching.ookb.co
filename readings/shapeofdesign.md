@@ -1,6 +1,8 @@
 ---
+layout: essay
 title: "The Shape of Design"
 author: "Frank Chimero"
+published: 2012
 tags:
   - "gd3"
 ---

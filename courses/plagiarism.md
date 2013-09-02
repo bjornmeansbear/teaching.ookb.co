@@ -12,3 +12,4 @@ When an instructor has evidence that a student has plagiarized work submitted fo
 
 **Appeal Process**  
 Students who are penalized by an instructor or department for committing plagiarism have the right to appeal the charge and penalties that ensue. Within three weeks of institutional action, the student must submit a letter of appeal to the department chairperson of the course for which actions were taken. The chairperson will assign three members of the relevant department to serve on a review panel. The panel will meet with the student an  the instructor of record and will review all relevant and available materials. The panel will determine whether or not to confirm the charge and penalties. The findings of the panel are final. The panel will notify the instructor, the chairperson, the student, and the Office of Academic Affairs of their findings and any recommendations for change in penalties.
+
