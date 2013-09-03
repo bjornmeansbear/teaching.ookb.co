@@ -74,6 +74,15 @@ footer {
   margin-bottom: 30px;
 }
 
+.add-top {
+  margin-top: 15px;
+}
+
+.border-top {
+  border-top: 2px solid rgba(47,41,38,1);
+  padding-top: 10px;
+}
+
 /* MAIN TOP NAV STYLES                                   */
 /* ===================================================== */
 
@@ -110,6 +119,8 @@ sup {
 h1, h2, h3, h4, h5, h6 {font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
 h1, h2 {font-weight: 800;}
 
+.course-header h2 { margin-top: 0; }
+
 /* Links and More */
 /* =================================================================== */
 
@@ -144,8 +155,34 @@ a:link {
   text-shadow: none;
 }
 
-ul.sidenav.affix {
-  top: 82px
+#scrollspy-nav.affix {
+  top: 66px;
+  width: inherit;
+  max-width: 262px;
+}
+
+#scrollspy-nav {
+  border-top: 1px solid rgba(236,64,121,1); 
+}
+
+#scrollspy-nav ul.sidenav li > a,
+#scrollspy-nav ul.sidenav li > h6 {
+  padding: 5px;
+}
+
+#scrollspy-nav ul.sidenav li > h6 {
+  border-bottom: 1px solid rgba(236,64,121,1); 
+  margin: 15px 0 0 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#scrollspy-nav ul.sidenav li.active {
+  background-color: rgba(47,41,38,1);
+}
+#scrollspy-nav ul.sidenav li.active,
+#scrollspy-nav ul.sidenav li.active a {
+  color: white;
 }
 
 div.block.yellow {
@@ -169,7 +206,8 @@ div.block a {
 
 #syllabus section {
   border-bottom: 1px solid;
-  padding: 10px 0 20px 0;
+/*   padding: 10px 0 20px 0; */
+  padding: 50px 0;
 }
 
 #syllabus section:first-child {
@@ -182,226 +220,11 @@ div.block a {
 
 
 
-
-
-
-
-
-/**************************/
-/* crazy type on homepage */
-/**************************/
-.home header h1 {
-  display: block;
-  font-size: 54px;
-  font-weight: 800;
-  letter-spacing: 0;
-  line-height: 54px;
-  text-align: center;
-  text-transform: uppercase;
-  width: auto;
-}
-
-header h1 em { 
-  text-transform: lowercase;
-  font-weight: 400;
-  letter-spacing: -5px;
-}
-
-header h1 em, header span {
-  display:block;
-  margin:0;
-  padding:0;
-}
-
-/* Homepage type positioning */
-header h1 .text {
-  transform:rotate(-22.5deg);
-  -ms-transform:rotate(-22.5deg); 
-  -moz-transform:rotate(-22.5deg);
-  -webkit-transform:rotate(-22.5deg);
-  -o-transform:rotate(-22.5deg);
-}
-
-@media (max-width: 480px) {
-  .home header h1 {
-    position: absolute;
-    top: 12px;
-    left: 0;
-    z-index: 1;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header h1 .one   { text-indent: -200px; }
-  header h1 .two   { text-indent: 48px; }
-  header h1 .three { text-indent: -270px; margin-top: -24px; }
-  header h1 .four  { text-indent: 36px; }
-  header h1 .five  { text-indent: 36px; }
-}
-
-@media (min-width: 481px) and (max-width: 761px) {
-  .home header h1 {
-    top: 72px;
-    left:-72px;
-  }
-  
-  header h1 .one   { text-indent: -402px; }
-  header h1 .two   { text-indent: 0; }
-  header h1 .three { text-indent: -402px; }
-  header h1 .four  { text-indent: -72px; }
-  header h1 .five  { text-indent: 120px; }
-}
-
-@media (min-width: 761px) and (max-width: 979px) {
-  .home header h1 {
-    font-size: 72px;
-    letter-spacing: 5px;
-    line-height: 80px;
-    position: absolute;
-    top: 72px;
-    left:-72px;
-    z-index: 1;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header h1 .one   { text-indent: -402px; }
-  header h1 .two   { text-indent: 0; }
-  header h1 .three { text-indent: -546px; }
-  header h1 .four  { text-indent: 0; }
-  header h1 .five  { text-indent: 320px; }
-}
-
-@media (min-width: 980px) {
-  .home header h1 {
-    font-size: 108px;
-    letter-spacing: 5px;
-    line-height: 120px;
-    position: absolute;
-    top: 72px;
-    left:-72px;
-    z-index: 1;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header h1 .one   { text-indent: -600px; }
-  header h1 .two   { text-indent: 0; }
-  header h1 .three { text-indent: -780px; }
-  header h1 .four  { text-indent: 0; }
-  header h1 .five  { text-indent: 360px; }
-}
-
-@media (min-width: 1200px) {
-  header h1 .five  { text-indent: 508px; }
-}
-
 /* Quote Style Tweak */
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
   border-left: 3px solid rgba(96,103,103,1);
-}
-
-
-
-/*=======================================*/
-/*=======================================*/
-/*=======================================*/
-/* Full Page Loading Screen */
-/*=======================================*/
-/*=======================================*/
-/*=======================================*/
-#loader {
-  width: 100% !important;
-  height: 100% !important;
-  position: fixed;
-  top: 0;
-  right: 0;
-  background: rgba(55,46,42,1);
-  color: rgba(132,132,120,1);
-  z-index: 1000000;
-}
-
-#loader .outer-container {
-  width: 100% !important;
-  height: 100% !important;
-  position: fixed;
-  display: table;
-  top: 0;
-  right: 0;
-}
-
-#loader .outer-container .inner-container {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-#loader .outer-container .inner-container div {
-  width: 97.91667%;
-  float: left;
-  margin: 0 1.04167%;
-  font-size: 2.25em;
-  line-height: 1.33333em;
-  text-align: center;
-}
-
-#loader .outer-container .inner-container div img {
-  display: block;
-  margin: 0 auto;
-  }
-
-#loader .outer-container .inner-container div h1 {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  }
-
-#loader .outer-container .inner-container div p {
-  width: 50%;
-  margin: 0 auto;
-  font-size: 80%;
-}
-
-#loader .outer-container .inner-container p.close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 1000001;
-}
-
-/*=======================================*/
-/*=======================================*/
-/*=======================================*/
-
-/*.navbar mediaqueries */
-@media (max-width: 979px) {
-  #main {
-    clear:both;
-    margin: 0 10px;
-  }
-  footer {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-@media (min-width: 980px) {
-  #main {
-    margin-top:60px;
-  }
-}
-
-/* + Notes.ookb.co stuff */
-/* =================================================================== */
-/* =================================================================== */
-
-.past h2 {
-  font-size: 17px;
-  line-height: 20px;
-  margin-bottom: 0;
-  text-decoration: line-through;
 }
 
 article h3  {
@@ -412,151 +235,29 @@ article h3  {
   text-transform: uppercase;
 }
 
-article ol {
-  margin: 0 0 0 4px;
-  padding: 0;
-}
-
 .stricken, del {
   text-decoration: line-through;
 }
 
-#post h1 {
-  color: rgba(175,171,104,1);
-  font-size: 48px;
+/*=============================================================*/
+/*=============================================================*/
+/*=============================================================*/
+
+article.calendar section {
+  border-top: 1px solid;
+  padding: 25px 0 45px;
 }
 
-#post p {
-  font-size: 16px;
-  line-height: 26px;
-  margin: 0 0 1em;
+article.calendar section:first-child {
+  border-top: none;
+  padding-top: 0;
 }
 
-#post p:nth-child(3) {
-  font-size: 24px;
-  line-height: 32.5px;
-  margin: 19.5px 0;
-  text-indent: 0;
+article.calendar section:last-child {
+  padding-bottom: 0;
 }
 
-#post p.meta {
-  color: rgba(96,103,103,1);
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  margin: 19.5px 0;
-  text-indent: 0;
-}
-
-#loader h1 em {
-  font-family: "gentium book basic", georgia, "times new roman", times, serif !important;
-  font-weight: 400 !important;
-  text-transform: lowercase !important;
-  }
-
-/* #main homepage "notes" link list */
-#main ul.posts {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 26px;
-  /**/
-  list-style: none;
-  padding: 0;
-}
-
-#main ul.posts li {
-  list-style: none;
-  margin: 5px 0;
-  padding: 0;
-}
-
-#main ul.posts li:first-child {
-  font-size: 24px;
-  line-height: 32.5px;
-}
-
-#main ul.posts li span {
-  color: rgba(96,103,103,1);
-  font-size: 14px;
-  display: inline-block;
-  width: 100px;
-  text-transform: uppercase;
-}
-
-/* Related Posts Styles */
-aside#related {
-  border-top: 1px solid rgba(96,103,103,1);
-  color: rgba(96,103,103,1);
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  margin-top: 39px;
-  padding-top: 19.5px;
-}
-
-.notes footer {
-  margin-top: 80px;
-}
-
-/* ========================= */
-
-
-
-
-
-
-/* temporary SS styles from deutsch site... */
-
-/* Slideshow Stuff */
-/*=========================*/
-
-#slideshow {
-  overflow: hidden;
-  position: relative;
-  border-radius: 0;
-}
-
-#slideshow .cycle-slideshow, 
-#slideshow .cycle-slideshow img {
-  width: 100%;
-}
-
-#slideshow:before,
-#slideshow:after {
-  position: absolute;
-  right: 0;
-  left: 0;
-  z-index: 777;
-  display: block;
-  content: "";
-  height: 40px;
-}
-#slideshow:before {
-  top:0;
-  background-image: -moz-linear-gradient(rgba(0, 0, 0, .2), rgba(0,0,0,0));
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, .2), rgba(0,0,0,0));
-}
-#slideshow:after {
-  bottom: 0;
-  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.2));
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,.2));
-}
-
-/* next/prev */
-.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 888; height: 100%; cursor: pointer; }
-.cycle-prev { left: 0;  background: url(../img/prev2.png) 50% 50% no-repeat;}
-.cycle-next { right: 0; background: url(../img/next2.png) 50% 50% no-repeat;}
-.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
-
-/* pager */
-.cycle-pager { 
-  text-align: center; width: 100%; z-index: 999; position: absolute; bottom: 10px; overflow: hidden;
-}
-.cycle-pager span { 
-  font-family: arial; font-size: 80px; width: 30px; height: 30px; line-height: 30px;
-  display: inline-block; color: #F3F3F3; cursor: pointer; 
-}
-.cycle-pager span:hover { color: #0799C8; }
-.cycle-pager span.cycle-pager-active { color: #77A41D;}
-.cycle-pager > * { cursor: pointer;}
-
-
+/*=============================================================*/
+/*=============================================================*/
+/*=============================================================*/
 

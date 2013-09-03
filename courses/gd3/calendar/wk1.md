@@ -1,9 +1,8 @@
 ---
-layout: calendar
-title: Introduction
-Sec1: 2013-09-04  
-Sec2: 2013-09-05  
-Sec3: 2013-09-06
+title: "Week 1: Introduction"
+sec1: 2013-09-04  
+sec2: 2013-09-05  
+sec3: 2013-09-06
 outline:
   - "Introduction"
   - "Motion Basics lecture"
@@ -11,6 +10,12 @@ outline:
   - "Quick in class animated GIF project"
   - "Assign stop motion project"
   - "Assign 1st reading"
+examples:
+  - "[]()"
+reading: 
+  - ""
+homework:
+  - ""
 ---
 
 ## Outline

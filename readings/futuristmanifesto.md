@@ -82,9 +82,9 @@ Your objections? All right! I know them! Of course! We know just what our beauti
 
 Standing on the world's summit we launch once again our insolent challenge to the stars!
 
-_Reference_
-([text found here][FML])
-(Text of translation taken from [James Joll, _Three Intellectuals in Politics_][3int])
+_Reference_  
+([text found here][FML])  
+(Text of translation taken from [James Joll, _Three Intellectuals in Politics_][3int])  
 
 [FML]: http://vserver1.cscs.lsa.umich.edu/~crshalizi/T4PM/futurist-manifesto.html
 [3int]: http://archive.org/details/threeintellectua017821mbp

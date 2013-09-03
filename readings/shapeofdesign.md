@@ -1,13 +1,13 @@
 ---
 layout: essay
 title: "The Shape of Design"
-author: "Frank Chimero"
+byline: "Frank Chimero"
 published: 2012
 tags:
   - "gd3"
 ---
 
-_The Shape of Design_
-by Frank Chimero
+![](http://frankchimero.com/work/shape-of-design/sod-cover2.jpg)
+
 [Chapter 7, Stories and Voids](http://read.shapeofdesignbook.com/chapter07.html)
 
