@@ -30,6 +30,13 @@ blue          rgba(157,178,176,1)
 purple        rgba(174,139,164,1)
 */
 
+div.red     { background: rgba(183,80,81,1); }
+div.orange  { background: rgba(195,115,99,1); }
+div.yellow  { background: rgba(197,192,101,1); }
+div.green   { background: rgba(140,165,115,1); }
+div.blue    { background: rgba(157,178,176,1); }
+div.purple  { background: rgba(174,139,164,1); }
+
 html {
   background: rgba(96,103,103,1);
   color: rgba(47,41,38,1) !important;
@@ -127,7 +134,6 @@ h1, h2 {font-weight: 800;}
 a {
   color: rgba(47,41,38,1);
   text-decoration: none;
-  background: rgba(132,132,120,.1);
   border-bottom: 1px solid rgba(236,64,121,1);
   padding: 1px 2px 1px 2px;
   transition: all 500ms;
@@ -185,14 +191,10 @@ a:link {
   color: white;
 }
 
-div.block.yellow {
-  background: rgba(197,192,101,1);
-}
-
 div.block {
   display: table;
   height: 300px;
-  width: 100%;
+/*   width: 100%; */
 }
 
 div.block a {
