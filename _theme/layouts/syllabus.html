@@ -89,9 +89,11 @@ layout : default
       {{# projects.tags.gd3 }}
       <section id="projects" class="">
         <h3>Projects</h3>
+        <ul>
         {{# projects?to_projects }}
           <li><a href="{{url}}">{{title}}</a></li>
         {{/ projects?to_projects }}
+        </ul>
       </section>
       {{/ projects.tags.gd3 }} 
 
