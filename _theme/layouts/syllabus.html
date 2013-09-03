@@ -2,14 +2,16 @@
 layout : default
 ---
 
-<div class="row course-header col-lg-12">
-  <h1>{{ page.title }}</h1>
-  <h2>{{ page.sub-title }}</h2>
-  <div class="row add-top border-top">
-    <p class="col-md-3">Fall 2013, {{ page.room }}</p>
-    <p class="col-md-3">{{ page.sec1 }}</p>
-    <p class="col-md-3">{{ page.sec2 }}</p>
-    <p class="col-md-3">{{ page.sec3 }}</p>
+<div class="row course-header">
+  <h1 class="col-lg-12">{{ page.title }}</h1>
+  <h2 class="col-lg-12">{{ page.sub-title }}</h2>
+  <div class="col-lg-12 add-top border-top">
+    <div class="row">
+      <p class="col-md-3">Fall 2013, {{ page.room }}</p>
+      <p class="col-md-3">{{ page.sec1 }}</p>
+      <p class="col-md-3">{{ page.sec2 }}</p>
+      <p class="col-md-3">{{ page.sec3 }}</p>
+    </div>
   </div>
 </div>
 
