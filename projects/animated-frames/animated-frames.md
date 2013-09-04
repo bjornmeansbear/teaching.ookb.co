@@ -4,11 +4,16 @@ title: "Stop! Motion! Graphic! (or Animated Frames)"
 project: 1
 tags:
   - "gd3"
+requirements:
+  - "Minimum 150 frames"
+  - "Use the animation to tackle your take on the content we've been discussing"
+  - "No automated TWEENING allowed"
+  - "Deliver in .mov, .gif formats (or something else that is collectable in 1 file and allows for universal playback)"
 ---
 
-The purpose of this project is to give you some fundamentals of “Frame-by-frame” or traditional animation …
+The purpose of this project is to give you some fundamentals of “Frame-by-frame” or traditional animation, and then how you can use that in a design context.
 
-You can make this a legit stop-motion, or you can manufacture all the frames in illustrator, indesign, or similar. Please DO NOT use an actual animation software or tweening tools however — only stop motion, photoshop, illustrator, indesign, or any sort of hand creation are allowed.
+You can make this a legit stop-motion, or you can manufacture all the frames in illustrator, indesign, or similar. Please DO NOT use an actual animation software or automatic tweening tools however — only stop motion, photoshop, illustrator, indesign, or any sort of hand creation are allowed. Part of the point of this is to show how simple, even if slightly time intensive making “motion” design can be, and allow you the comfort of tools you are already used to.
 
 You must at minimum have 150 frames.
 
