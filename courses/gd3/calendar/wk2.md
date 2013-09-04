@@ -12,7 +12,7 @@ outline:
 examples:
   - "TK"
 reading: 
-  - "TK"
+  - "Chapter 1 and 3 from Understanding Comics"
 homework:
   - "TK"
 ---
