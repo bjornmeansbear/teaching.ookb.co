@@ -7,5 +7,11 @@ outline:
   - "Mid Term discussions"
   - "Sign up for individual talks"
   - "Work day, perhaps mini-group meet ups for crit on word stuff?"
+examples:
+  - "TK"
+reading: 
+  - "TK"
+homework:
+  - "TK"
 ---
 

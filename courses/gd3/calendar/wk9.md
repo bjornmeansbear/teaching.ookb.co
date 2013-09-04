@@ -9,5 +9,11 @@ outline:
   - "More demos?"
   - "Lecture?"
   - "Readings?"
+examples:
+  - "TK"
+reading: 
+  - "TK"
+homework:
+  - "TK"
 ---
 

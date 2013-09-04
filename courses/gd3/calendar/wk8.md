@@ -7,6 +7,12 @@ outline:
   - "Look @ Animated word projects"
   - "More AE demos"
   - "Work in class"
+examples:
+  - "TK"
+reading: 
+  - "TK"
+homework:
+  - "TK"
 ---
 
 Fall break does not effect our schedule, we have class!

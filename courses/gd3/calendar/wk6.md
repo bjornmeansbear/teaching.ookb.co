@@ -8,6 +8,12 @@ outline:
   - "More AE demos"
   - "Assign animated work homework"
   - "Additional AE tutorials from Lynda as homework as well"
+examples:
+  - "TK"
+reading: 
+  - "TK"
+homework:
+  - "TK"
 ---
 
 

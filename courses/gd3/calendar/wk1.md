@@ -11,11 +11,12 @@ outline:
   - "Assign stop motion project"
   - "Assign 1st reading"
 examples:
-  - "[]()"
+  - "TK"
 reading: 
-  - ""
+  - "Graphic Design The New Basics Time and Motion Chapter"
 homework:
-  - ""
+  - "Read Graphic Design The New Basics Time and Motion Chapter"
+  - "Find a VIDEO/ANIMATION that you think looks like Graphic Design in Motion"
 ---
 
 ## Outline
@@ -41,6 +42,7 @@ homework:
 - Otherways to make them?
 - Turn layers/artboards into JPGs and convert into .mov with afterFX?
 - Any gif builders online?
+  - http://gifmaker.me
 
 LUNCH BREAK! if that works with suggested break times…
 

@@ -9,5 +9,11 @@ outline:
   - "animated shapes project assign (review)"
   - "animated shapes homework assign"
   - "More reading?"
+examples:
+  - "TK"
+reading: 
+  - "TK"
+homework:
+  - "TK"
 ---
 

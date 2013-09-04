@@ -115,6 +115,16 @@ footer {
   text-transform: uppercase;
 }
 
+.nav .caret {
+  border-top-color: rgba(47,41,38,1);
+  border-bottom-color: rgba(47,41,38,1);
+}
+
+.nav a:hover .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+
 /* 3. TYPOGRAPHY */
 /* =================================================================== */
 /* =================================================================== */

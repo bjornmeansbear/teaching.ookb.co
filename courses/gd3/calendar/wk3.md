@@ -4,8 +4,13 @@ sec1: 2013-09-18
 sec2: 2013-09-19
 sec3: 2013-09-20
 outline:
-  - "Discussion of GD basics reading"
-  - "Assign Comics readings"
+  - "Discuss 1st Understanding Comics reading"
   - "Stop Motion checkin & work day"
+examples:
+  - "TK"
+reading: 
+  - "TK"
+homework:
+  - "TK"
 ---
 

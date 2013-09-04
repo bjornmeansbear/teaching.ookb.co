@@ -1,0 +1,34 @@
+---
+layout : default
+title: Glossary
+---
+
+<div class="row course-header col-lg-12">
+  <h1>{{ page.title }}</h1>
+</div>
+
+<div class="row">
+
+  <!-- glossary  -->
+  {{# glossary.tags.gd3 }}
+  <article class="glossary col-md-12">
+    <div class="row">
+      {{# glossary?to_glossary }}
+      <section class="col-md-4 col-lg-3">
+        <h2><a href="{{url}}">{{title}}</a></h2>
+        {{{ content }}}
+      </section>
+      {{/ glossary?to_glossary }}
+    </div>
+  </article>
+  {{/ glossary.tags.gd3 }} 
+
+  <article class="additions">
+    <div class="row">
+      <h2>Additional Links and Resources</h2>
+      <p><a href="http://www.evl.uic.edu/ralph/508S99/contents.html">Principles of Animation</a></p>
+      <p><a href="http://cla.calpoly.edu/~smarx/courses/Vocabulary.html">Basic Film Vocabulary</a></p>
+    </div>
+  </article>
+
+</div>
