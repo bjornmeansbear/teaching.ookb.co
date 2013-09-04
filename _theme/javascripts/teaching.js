@@ -7,3 +7,14 @@ $(".scroll").click(function(event){
 	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
 });
 
+$(document).ready(function() {
+  var diw   =  $('.designamation img').width();
+  var ratio = (diw*(320/480));
+  $('.designamation').height(ratio);
+});
+
+$(window).resize(function() {
+  var diw   =  $('.designamation img').width();
+  var ratio = (diw*(320/480));
+  $('.designamation').height(ratio);
+});

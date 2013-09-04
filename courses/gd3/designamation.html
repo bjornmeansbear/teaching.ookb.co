@@ -15,10 +15,37 @@ title: "Design-A-Mation"
     <h2>Wednesdays</h2>
     {{# designamation?to_designamation }}
     <div class="designamation">
-      {{{ content }}}
+      <img src="{{urls.media}}/{{ image }}" alt="{{ title }}"/>
+      <p>by {{ student }}</p>
     </div>
     {{/ designamation?to_designamation }}
   </div>
   {{/ designamation.tags.sec1 }} 
+
+  <!-- designamation  -->
+  {{# designamation.tags.sec2 }}
+  <div class="designamations col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <h2>Thursdays</h2>
+    {{# designamation?to_designamation }}
+    <div class="designamation">
+      <img src="{{urls.media}}/{{ image }}" alt="{{ title }}"/>
+      <p>by {{ student }}</p>
+    </div>
+    {{/ designamation?to_designamation }}
+  </div>
+  {{/ designamation.tags.sec2 }} 
+
+  <!-- designamation  -->
+  {{# designamation.tags.sec3 }}
+  <div class="designamations col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <h2>Fridays</h2>
+    {{# designamation?to_designamation }}
+    <div class="designamation">
+      <img src="{{urls.media}}/{{ image }}" alt="{{ title }}"/>
+      <p>by {{ student }}</p>
+    </div>
+    {{/ designamation?to_designamation }}
+  </div>
+  {{/ designamation.tags.sec3 }} 
 
 </div>
