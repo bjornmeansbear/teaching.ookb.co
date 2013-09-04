@@ -1,0 +1,13 @@
+---
+title: ""
+student: ""
+tags:
+  - "gd3"
+  - "sec1"
+  - "gif"
+image: ""
+---
+
+<img src=" {{ .image }}" alt="{{ title }}"/>
+by {{ student }}
+

@@ -1,0 +1,24 @@
+---
+layout : default
+title: "Design-A-Mation"
+---
+
+<div class="row course-header col-lg-12">
+  <h1>{{ page.title }}</h1>
+</div>
+
+<div class="row">
+
+  <!-- designamation  -->
+  {{# designamation.tags.sec1 }}
+  <div class="designamations col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <h2>Wednesdays</h2>
+    {{# designamation?to_designamation }}
+    <div class="designamation">
+      {{{ content }}}
+    </div>
+    {{/ designamation?to_designamation }}
+  </div>
+  {{/ designamation.tags.sec1 }} 
+
+</div>
