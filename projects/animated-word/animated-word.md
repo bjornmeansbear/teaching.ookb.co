@@ -5,10 +5,6 @@ tags:
   - "gd3"
 ---
 
-# The Animated Word
-
-## GENERAL INFO
-
 This project is about using time and motion as emotive and descriptive forces. How does one make the design, layout, and animation of a thing define it?
 
 There are two components to this project:
@@ -21,17 +17,17 @@ The animation has the same goal: show an action verbs definition through design;
 
 Think of these two works as companion pieces. Together they hopefully make each other better.
 
-## CRITERIA
+### CRITERIA
 
 - Choose an action verb from the provided list.
 - Look up the word in your dictionary of choice.
 - Choose one of the definitions for that verb.
 
-### FOR THE BOOKLET
+#### FOR THE BOOKLET
 - Make a 32 page booklet that helps us to understand your action verb and its definition through typographic exercise and other graphic means.
 - Treat this as a design piece of its own, but also a tool to help test and experiment with graphic means of conveying motion and emotion.
 
-### FOR THE ANIMATION
+#### FOR THE ANIMATION
 Using the same verb and definition from the booklet, animate said verb using After effects so that the animation techniques/styles visually explain the definition. (If you are against using after effects for some reason, one of the other animation methods we've discussed may also be used — stop motion, animated gifs, actual video, or something of your own devising). Easy.
 
 The constraints are as follows:
@@ -43,7 +39,7 @@ There isn’t a duration requirement. Just use a single action verb, and do a go
 
 You will probably be better off creating the letters yourself, or picking a typeface with simpler forms if you plan on doing a lot of manipulation.
 
-## CHOOSING ACTION VERBS
+### CHOOSING ACTION VERBS
 
 [Action verbs are something that a person, animal, force of nature, or thing can do](http://www.chompchomp.com/terms/actionverb.htm). They are mainly used alone as the main verb of a sentence e.g. run, jump, reach, swim, walk, fell etc. Action verbs can also be actions you can’t see such as “thought” or “want.”
 

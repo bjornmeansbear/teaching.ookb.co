@@ -10,7 +10,7 @@ tags:
 
 by Ellen Lupton and Jennifer Cole Phillips  
 
-- Pg 214, Time and Motion
+- [Pg 214, Time and Motion](http://teaching.ookb.co/assets/media/gd-newbasics-tandm.pdf) (there is a PDF here for you to read now)  
 - Pg 156 Modularity  
 - Pg 232 Rules and Randomness  
 

@@ -66,6 +66,8 @@ Todays prompt is to make a piece of design that you think tells us something abo
 - Need GD new basics for later half of term
 - Other few readings will be supplied as PDFs and/or as websites
 
+////////////
+
 ## Syllabus.
 This is easy, just walk everyone through it…
 
