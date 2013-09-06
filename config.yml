@@ -31,6 +31,9 @@ _root:
   paginator:
     enable: false
 
+designamation:
+  sort: ["date", "student"]
+
 posts:
   sort: ["date", "desc"]
   permalink: "/:categories/:title/"
