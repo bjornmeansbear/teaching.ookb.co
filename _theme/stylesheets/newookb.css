@@ -173,12 +173,6 @@ a:link {
   text-shadow: none;
 }
 
-#scrollspy-nav.affix {
-  top: 66px;
-  width: inherit;
-  max-width: 262px;
-}
-
 #scrollspy-nav {
   border-top: 1px solid rgba(236,64,121,1); 
 }
@@ -202,6 +196,15 @@ a:link {
 #scrollspy-nav ul.sidenav li.active a {
   color: white;
 }
+
+@media (min-width: 768px) {
+  #scrollspy-nav.affix {
+    top: 66px;
+    width: inherit;
+    max-width: 262px;
+  }
+}
+
 
 div.block {
   display: table;
@@ -284,7 +287,7 @@ article.calendar section:last-child {
 }
 
 .designamation {
-  width: 50%;
+  width: 25%;
   margin: 0;
   float:left;
   overflow: hidden;
