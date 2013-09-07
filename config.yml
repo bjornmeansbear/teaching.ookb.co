@@ -32,7 +32,7 @@ _root:
     enable: false
 
 designamation:
-  sort: ["date", "student"]
+  sort: ["date", "title", "student"]
 
 posts:
   sort: ["date", "desc"]
