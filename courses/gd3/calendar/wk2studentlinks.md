@@ -11,7 +11,10 @@
 #### Thursday
 - [_Stranger Than Fiction_ Opener](http://www.youtube.com/watch?v=WDwTQ57YyzI) (from Emily Tai)
 - [29 Ways To Stay Creative](http://vimeo.com/24302498) (from Jae-Eun Lee)
+- [Justice - D.A.N.C.E.](http://www.youtube.com/watch?v=sy1dYFGkPUE) (Alex Bailey)
 
 #### Friday
 - [_Man With The Golden Arm_](http://www.artofthetitle.com/title/the-man-with-the-golden-arm/) (from Alayna Citrin)
+- [SYENCE](https://vimeo.com/16219591) (Nicolas KK)
+- [Where Things Come From](http://vimeo.com/40459347) (Crystal Dimeler)
 
