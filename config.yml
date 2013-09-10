@@ -60,7 +60,7 @@ posts:
     root_page: '/'
 
 projects:
-  sort: ["projectorder"]
+  sort: ["projectorder", "title"]
   summary_lines: 1
   rss:
     enable: false

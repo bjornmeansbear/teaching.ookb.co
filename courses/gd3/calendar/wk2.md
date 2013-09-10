@@ -9,10 +9,9 @@ outline:
   - "Stopmotion tutorial"
   - "Newton/Aristotle & the kinds of motion"
   - "Assign Comics readings"
-examples:
-  - "TK"
 reading: 
   - "Chapter 1 and 3 from Understanding Comics"
 homework:
-  - "TK"
+  - "Animated Frames project"
+  - "Understanding Comics Reading Responses"
 ---
