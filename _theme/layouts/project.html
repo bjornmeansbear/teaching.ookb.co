@@ -7,10 +7,28 @@ layout : default
 </div>
 
 <div class="row">
-  <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+  <div class="col-md-8 col-lg-6">
     <div class="content">
       {{{ page.content }}}
     </div>
   </div>
+  <div class="col-md-2 col-lg-3">
+    <h3>Requirements</h3>
+    <div class="requirements">
+      {{# page.requirements }}
+        <p> {{ . }} </p>
+      {{/ page.requirements }}
+    </div>
+  </div>
+  <div class="col-md-2 col-lg-3">
+    <h3>Examples</h3>
+    <div class="examples">
+      {{{ page.examples }}}
+    </div>
+  </div>
+</div>
+
+<div class="row add-top project-footer">
+  <p class="col-md-2 col-lg-3">Listing of other projects TK</p>
 </div>
 
