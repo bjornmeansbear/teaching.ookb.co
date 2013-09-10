@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Stop! Motion! Graphic! (or Animated Frames)"
+title: "Animated Frames"
 project: 1
 tags:
   - "gd3"

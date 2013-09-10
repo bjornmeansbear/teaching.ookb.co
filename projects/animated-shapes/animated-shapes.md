@@ -1,6 +1,7 @@
 ---
 layout: project
-title: Animated Shapes
+title: "Animated Shapes"
+project: 2
 tags:
   - "gd3"
 ---
