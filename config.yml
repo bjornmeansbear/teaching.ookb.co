@@ -60,7 +60,7 @@ posts:
     root_page: '/'
 
 projects:
-  sort: ["project", "title"]
+  sort: ["projectorder", "title"]
   summary_lines: 1
 
 # Enable the asset pipeline to process stylesheets and javascripts using sass, coffeescript, etc.

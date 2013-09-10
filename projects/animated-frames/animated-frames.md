@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Animated Frames"
-project: 1
+projectorder: 1
 tags:
   - "gd3"
 requirements:

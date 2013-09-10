@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "The Animated Identity"
-project: 5
+title: "Animated Identity"
+projectorder: 4
 tags:
   - "gd3"
 ---

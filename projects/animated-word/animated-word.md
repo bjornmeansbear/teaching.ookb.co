@@ -1,6 +1,7 @@
 ---
 layout: project
-title: "The Animated Word"
+title: "Animated Word"
+projectorder: 3
 tags:
   - "gd3"
 ---
