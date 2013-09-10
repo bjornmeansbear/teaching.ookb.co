@@ -2,6 +2,7 @@
 layout: project
 title: "Animated Frames"
 projectorder: 1
+date: 2013-09-10
 tags:
   - "gd3"
 requirements:

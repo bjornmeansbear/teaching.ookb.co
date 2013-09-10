@@ -2,6 +2,7 @@
 layout: project
 title: "Design-a-Mations"
 projectorder: 5
+date: 2013-09-04
 tags:
   - "gd3"
 ---

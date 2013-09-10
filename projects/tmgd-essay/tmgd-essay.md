@@ -2,6 +2,7 @@
 layout: project
 title: "Time and Motion and Graphic Design: the essay"
 projectorder: 6
+date: 2013-11-01
 tags:
   - "gd3"
 ---

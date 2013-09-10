@@ -2,6 +2,7 @@
 layout: project
 title: "Animated Identity"
 projectorder: 4
+date: 2013-11-01
 tags:
   - "gd3"
 ---

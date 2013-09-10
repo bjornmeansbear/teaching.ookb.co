@@ -2,6 +2,7 @@
 layout: project
 title: "Animated Word"
 projectorder: 3
+date: 2013-10-10
 tags:
   - "gd3"
 ---
