@@ -4,7 +4,7 @@ layout: project
 projectorder: 2
 tags: 
   - gd3
-title: "Animated Shapes"
+title: "2. Animated Shapes"
 ---
 
 

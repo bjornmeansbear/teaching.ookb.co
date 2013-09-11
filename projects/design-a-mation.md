@@ -4,7 +4,7 @@ layout: project
 projectorder: 5
 tags: 
   - gd3
-title: Design-a-Mations
+title: "5. Design-a-Mations"
 ---
 
 Ongoing over the term.  

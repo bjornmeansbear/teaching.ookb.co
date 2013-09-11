@@ -13,7 +13,7 @@ requirements:
   - "post your work to Vimeo.com, send me a link to where an online slideshow can be viewed, or bring a .mov or .gif file to class"
 tags: 
   - gd3
-title: "Animated Frames"
+title: "1. Animated Frames"
 ---
 
 ```

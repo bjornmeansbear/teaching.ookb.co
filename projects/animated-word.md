@@ -4,7 +4,7 @@ layout: project
 projectorder: 3
 tags: 
   - gd3
-title: "Animated Word"
+title: "3. Animated Word"
 ---
 
 This project is about using time and motion as emotive and descriptive forces. How does one make the design, layout, and animation of a thing define it?

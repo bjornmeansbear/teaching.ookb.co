@@ -64,8 +64,8 @@ posts:
     root_page: '/'
 
 projects:
-  sort: ["projectorder", "date"]
-  summary_lines: 2
+  sort: ["projectorder"]
+  summary_lines: 1
   rss:
     enable: false
   paginator:
