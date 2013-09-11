@@ -37,7 +37,8 @@
 - [_Man With The Golden Arm_](http://www.artofthetitle.com/title/the-man-with-the-golden-arm/) (from Alayna Citrin)
 - [SYENCE](https://vimeo.com/16219591) (Nicolas KK)
 - [Where Things Come From](http://vimeo.com/40459347) (Crystal Dimeler)
-
+- [New Oreo Commercial](http://www.youtube.com/watch?v=Mrcmm_diiU4) (Lydia Bickal)
+- [Proof we are Soulmates](https://vimeo.com/43457382) (Dianna Vento)
 
 
 
