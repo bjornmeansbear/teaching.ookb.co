@@ -279,6 +279,10 @@ article.calendar .past h2 {
   cursor: pointer;
 }
 
+article.calendar .past h2:hover {
+  color: rgba(96,103,103,1)
+}
+
 article.calendar .week .column-list > ul {
   position: relative;
   min-height: 1px;

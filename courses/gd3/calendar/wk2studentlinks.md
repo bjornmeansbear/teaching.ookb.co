@@ -4,7 +4,7 @@
 - [_Stranger Than Fiction_ Opener](http://www.youtube.com/watch?v=WDwTQ57YyzI) (from Jen Doyle)
 - [Mysteries of Vernacular](http://www.youtube.com/watch?v=dxLLAe-k1W4#t=99) (from Kim Meistrell)
 - [Warby Parker (click see them in action)](http://www.warbyparker.com/eyeglasses/women/sims#striped-sassafras) (from Lily Clark)
-- [Girls Night Out])http://www.youtube.com/watch?v=Rvc662N3VPw) (from Jennifer Byun)
+- [Girls Night Out](http://www.youtube.com/watch?v=Rvc662N3VPw) (from Jennifer Byun)
 - [Seasons](http://vimeo.com/24496773) (Catherine Stuckrath)
 - [Just A Reflektor](https://www.justareflektor.com) (also from Lily Clark)
 - [From Paper to Screen](https://vimeo.com/69375692) (Junnie Shah)
