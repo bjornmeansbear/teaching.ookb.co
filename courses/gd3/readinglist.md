@@ -21,6 +21,7 @@ by Scott McCloud
 
 - Chapter 1, Setting the Record Straight  
 - Chapter 3, Blood in the Gutter  
+- [Reading Response for Ch1 & Ch3]({{urls.media}}/readingresponses/rr01-understandingcomics-ch1-ch3.pdf)
 - Chapter 4, Time Frames  
 - Chapter 6, Show and Tell  
 

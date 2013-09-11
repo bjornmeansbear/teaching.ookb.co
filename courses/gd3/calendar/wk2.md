@@ -15,5 +15,5 @@ reading:
   - "Chapter 1 and 3 from Understanding Comics"
 homework:
   - "Animated Frames project"
-  - "Understanding Comics Reading Response — just for chapter 3"
+  - "Understanding Comics Reading + Response"
 ---
