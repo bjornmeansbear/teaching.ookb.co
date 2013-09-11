@@ -33,6 +33,10 @@ _root:
 
 designamation:
   sort: ["date", "student"]
+  rss:
+    enable: false
+  paginator:
+    enable: false
 
 posts:
   sort: ["date", "desc"]
