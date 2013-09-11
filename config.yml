@@ -19,7 +19,7 @@ production_url: "http://teaching.ookb.co"
 base_path: "/"
 
 # Tell ruhoh which folder will model the "theme"
-_theme :
+_teachingtheme :
   # Tells ruhoh which collection class to use for this folder.
   # Here we use "theme" which makes this folder the theme.
   use : "theme"
@@ -64,7 +64,7 @@ posts:
     root_page: '/'
 
 projects:
-  sort: ["projectorder"]
+  sort: ["title"]
   summary_lines: 1
   rss:
     enable: false
