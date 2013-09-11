@@ -4,17 +4,31 @@
 - [_Stranger Than Fiction_ Opener](http://www.youtube.com/watch?v=WDwTQ57YyzI) (from Jen Doyle)
 - [Mysteries of Vernacular](http://www.youtube.com/watch?v=dxLLAe-k1W4#t=99) (from Kim Meistrell)
 - [Warby Parker (click see them in action)](http://www.warbyparker.com/eyeglasses/women/sims#striped-sassafras) (from Lily Clark)
-- [Martin Luther King](http://www.typegoodness.com/2011/05/martin-luther-king/) (from Katie Mazikins)
 - [Girls Night Out])http://www.youtube.com/watch?v=Rvc662N3VPw) (from Jennifer Byun)
 - [Seasons](http://vimeo.com/24496773) (Catherine Stuckrath)
 - [Just A Reflektor](https://www.justareflektor.com) (also from Lily Clark)
+- [From Paper to Screen](https://vimeo.com/69375692) (Junnie Shah)
 - [FLEET - ward PV](https://vimeo.com/31122916) (Fumi Omori)
+- [Breathless 1960, Typography](https://vimeo.com/7625876) (Julia Rivera)
+- [108 Yrs of Herman Miller](https://vimeo.com/70437049) (Seowon Chang)
+- [My Keynote](http://vimeo.com/70884904) (Seowon Chang)
+- [5 More Minutes](https://vimeo.com/72546870) (Seowon Chang)
+- [Catch Me If You Can](http://www.youtube.com/watch?feature=player_embedded&v=gaLDyrun_Cc#t=47) (Hesuh Park)
+- [Just Fold](https://vimeo.com/20948879) (Roberta Choi)
+- [Alphabet 2](https://vimeo.com/29274467) (Jessica Dickey)
+- [BMW M Print](http://www.youtube.com/watch?v=aYuk64NMYLM) (Daniella Ma)
+- [Evolution of the F1 Car](https://vimeo.com/43233380) (Daniella Ma)
+- [Animated Logos](http://www.youtube.com/watch?v=eldLBdMNjac) (Melanie Cheston)
   
 #### Thursday
 - [_Stranger Than Fiction_ Opener](http://www.youtube.com/watch?v=WDwTQ57YyzI) (from Emily Tai)
+- [Martin Luther King](http://www.typegoodness.com/2011/05/martin-luther-king/) (from Katie Mazikins)
 - [29 Ways To Stay Creative](http://vimeo.com/24302498) (from Jae-Eun Lee)
 - [Justice - D.A.N.C.E.](http://www.youtube.com/watch?v=sy1dYFGkPUE) (Alex Bailey)
-- [From Paper to Screen](https://vimeo.com/69375692) (Junnie Shah)
+- [BlueBerry Energy](http://www.youtube.com/watch?v=Wwvn9S4QJhs#t=13) (Virginia Yu)
+- [ARE YOU IN // OR // OUT ?](https://vimeo.com/65158674) (Anna Bitskaya)
+- [Plant Plants - One To Adore](https://vimeo.com/42966264) (also Anna Bitskaya)
+- [Janelle Monae Pitchfork Feature](http://pitchfork.com/features/cover-story/reader/janelle-monae/) (from Katie Mazikins)
 
 #### Friday
 - [_Man With The Golden Arm_](http://www.artofthetitle.com/title/the-man-with-the-golden-arm/) (from Alayna Citrin)
@@ -26,10 +40,3 @@
 
 
 
-
-
-
-
-- [ARE YOU IN // OR // OUT ?](https://vimeo.com/65158674) (Anna Bitskaya)
-- [Plant Plants - One To Adore](https://vimeo.com/42966264) (also Anna Bitskaya)
-- [Breathless 1960, Typography](https://vimeo.com/7625876) (Julia Rivera)
