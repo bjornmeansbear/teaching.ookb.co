@@ -1,10 +1,10 @@
----
-layout: project
-title: "Animated Word"
-projectorder: 3
+--- 
 date: 2013-10-10
-tags:
-  - "gd3"
+layout: project
+projectorder: 3
+tags: 
+  - gd3
+title: "Animated Word"
 ---
 
 This project is about using time and motion as emotive and descriptive forces. How does one make the design, layout, and animation of a thing define it?

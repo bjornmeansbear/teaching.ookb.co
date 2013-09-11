@@ -1,11 +1,12 @@
----
-layout: project
-title: "Animated Shapes"
-projectorder: 2
+--- 
 date: 2013-09-24
-tags:
-  - "gd3"
+layout: project
+projectorder: 2
+tags: 
+  - gd3
+title: "Animated Shapes"
 ---
+
 
 Using only the shape tool and plain, formal elements, please make a short animation set to music.
 Pick a piece of instrumental music. 

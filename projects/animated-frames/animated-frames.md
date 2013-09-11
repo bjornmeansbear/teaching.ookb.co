@@ -1,19 +1,19 @@
----
-layout: project
-title: "Animated Frames"
-projectorder: 1
+--- 
 date: 2013-09-11
-tags:
-  - "gd3"
-requirements:
+examples: ~
+layout: project
+projectorder: 1
+requirements: 
   - "Size of 640 x 480 px"
   - "Frame rate: 24, 25, or 30 FPS"
   - "You must have 100 frames. Certainly no less, and preferably not much more."
   - "No automated TWEENING allowed"
   - "Use the animation to tackle your take on the content we’ve been discussing thus far"
   - "Deliver in .mov, .gif formats (or something else that is collectable in 1 file or archive, and allows for universal playback, like a web slideshow)"
-  - "post your work to Vimeo.com, send me a link to where an online slideshow can be viewed, or bring a .mov or .gif file to class" 
-examples:
+  - "post your work to Vimeo.com, send me a link to where an online slideshow can be viewed, or bring a .mov or .gif file to class"
+tags: 
+  - gd3
+title: "Animated Frames"
 ---
 
 ```

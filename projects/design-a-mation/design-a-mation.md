@@ -1,10 +1,10 @@
----
-layout: project
-title: "Design-a-Mations"
-projectorder: 5
+--- 
 date: 2013-09-04
-tags:
-  - "gd3"
+layout: project
+projectorder: 5
+tags: 
+  - gd3
+title: Design-a-Mations
 ---
 
 Ongoing over the term.  
