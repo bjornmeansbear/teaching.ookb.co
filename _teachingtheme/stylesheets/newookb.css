@@ -312,3 +312,28 @@ article.calendar section:last-child {
   background: rgba(132,132,120,.66);
 }
 
+/*=============================================================*/
+/*=============================================================*/
+/*=============================================================*/
+
+/* Project pages */
+
+.project .content p:first-child {
+  font-size: 1.66rem;
+  margin-bottom: 1.66em;
+}
+
+.project .sidebar h3 {
+  font-size: 1.66rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.project pre {
+  background-color: rgba(236,64,121,.66);
+  border: none;
+  margin-bottom: 2em;
+  margin-left: -10px;
+}
