@@ -32,7 +32,7 @@ _root:
     enable: false
 
 designamation:
-  sort: ["date", "title", "student"]
+  sort: ["date", "student"]
 
 posts:
   sort: ["date", "desc"]
@@ -60,7 +60,7 @@ posts:
     root_page: '/'
 
 projects:
-  sort: ["projectorder", "date", "title"]
+  sort: ["projectorder", "date"]
   summary_lines: 2
   rss:
     enable: false
