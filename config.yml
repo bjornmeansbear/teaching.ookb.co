@@ -64,7 +64,6 @@ posts:
     root_page: '/'
 
 projects:
-  sort: ["title"]
   summary_lines: 1
   rss:
     enable: false
