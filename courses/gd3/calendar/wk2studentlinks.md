@@ -19,6 +19,9 @@
 - [BMW M Print](http://www.youtube.com/watch?v=aYuk64NMYLM) (Daniella Ma)
 - [Evolution of the F1 Car](https://vimeo.com/43233380) (Daniella Ma)
 - [Animated Logos](http://www.youtube.com/watch?v=eldLBdMNjac) (Melanie Cheston)
+- [The Innovation of Loneliness](http://www.youtube.com/watch?v=c6Bkr_udado) (Estelle Kline)
+- [Count on Me](http://gentlemanscholar.com/countonme/) (Estelle Kline)
+- [Adria Petty](http://adriapetty.com) (Estelle Kline)
   
 #### Thursday
 - [_Stranger Than Fiction_ Opener](http://www.youtube.com/watch?v=WDwTQ57YyzI) (from Emily Tai)
