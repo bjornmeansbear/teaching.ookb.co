@@ -337,3 +337,7 @@ article.calendar section:last-child {
   margin-bottom: 2em;
   margin-left: -10px;
 }
+
+.project .sidebar ol {
+  padding-left: 1.22em;
+}

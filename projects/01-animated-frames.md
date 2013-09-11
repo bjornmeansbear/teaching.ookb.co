@@ -20,7 +20,6 @@ layout: project
 projectorder: 1
 requirements: 
   - "Size of 640 x 480 px"
-  - "Frame rate: 24, 25, or 30 FPS"
   - "You must have 100 frames. Certainly no less, and preferably not much more."
   - "No automated TWEENING allowed"
   - "Use the animation to tackle your take on the content we’ve been discussing thus far"
