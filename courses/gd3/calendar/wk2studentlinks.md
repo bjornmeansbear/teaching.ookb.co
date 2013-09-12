@@ -32,6 +32,9 @@
 - [ARE YOU IN // OR // OUT ?](https://vimeo.com/65158674) (Anna Bitskaya)
 - [Plant Plants - One To Adore](https://vimeo.com/42966264) (also Anna Bitskaya)
 - [Janelle Monae Pitchfork Feature](http://pitchfork.com/features/cover-story/reader/janelle-monae/) (from Katie Mazikins)
+- [SUNSET](http://vimeo.com/74222816) (Hey Jeon)
+- [Stuxnet](http://vimeo.com/25118844) (Kevin Zweerink)
+- [Ólafur Arnalds - Ljósið (Official Music Video)](http://www.youtube.com/watch?v=mYIfiQlfaas) (Mandy Shen)
 
 #### Friday
 - [_Man With The Golden Arm_](http://www.artofthetitle.com/title/the-man-with-the-golden-arm/) (from Alayna Citrin)
@@ -39,8 +42,8 @@
 - [Where Things Come From](http://vimeo.com/40459347) (Crystal Dimeler)
 - [New Oreo Commercial](http://www.youtube.com/watch?v=Mrcmm_diiU4) (Lydia Bickal)
 - [Proof we are Soulmates](https://vimeo.com/43457382) (Dianna Vento)
-
-
-
-
-
+- [Resale right](https://vimeo.com/25139589) (Christina Kwiek)
+- [Open Society Presents: Big Change Baltimore](http://www.youtube.com/watch?v=Gv5sJNvCIWk) (Sharon Duke)
+- [The Art of Making, Red Dress](https://vimeo.com/56962340) (Sharon Duke)
+- [Wind Map](http://hint.fm/wind/) (Margarita Korobskaya)
+- [Cameras](https://vimeo.com/67312701) (Margarita Korobskaya)
