@@ -51,3 +51,5 @@
 - [Ode To A Flower](https://vimeo.com/55874553) (Montana Bowman)
 - [Nuance](https://vimeo.com/67809013) (Hennie Yeh)
 - [Letterpress](https://vimeo.com/22639018) (Hennie Yeh)
+- [Spherikal](https://vimeo.com/39792837) (Amy Hushen)
+- [Where Things Come From](https://vimeo.com/40459347) (Katherine Lee)
