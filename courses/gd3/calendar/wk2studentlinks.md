@@ -22,6 +22,7 @@
 - [The Innovation of Loneliness](http://www.youtube.com/watch?v=c6Bkr_udado) (Estelle Kline)
 - [Count on Me](http://gentlemanscholar.com/countonme/) (Estelle Kline)
 - [Adria Petty](http://adriapetty.com) (Estelle Kline)
+- [The Economy of Coke](https://vimeo.com/33402623) (David Hunt)
   
 #### Thursday
 - [_Stranger Than Fiction_ Opener](http://www.youtube.com/watch?v=WDwTQ57YyzI) (from Emily Tai)
