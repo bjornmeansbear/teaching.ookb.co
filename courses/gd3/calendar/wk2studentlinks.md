@@ -47,3 +47,5 @@
 - [The Art of Making, Red Dress](https://vimeo.com/56962340) (Sharon Duke)
 - [Wind Map](http://hint.fm/wind/) (Margarita Korobskaya)
 - [Cameras](https://vimeo.com/67312701) (Margarita Korobskaya)
+- [ROME - 3 Dreams of Black](http://www.ro.me/) (Renan Machado)
+- [Ode To A Flower](https://vimeo.com/55874553) (Montana Bowman)
