@@ -49,3 +49,5 @@
 - [Cameras](https://vimeo.com/67312701) (Margarita Korobskaya)
 - [ROME - 3 Dreams of Black](http://www.ro.me/) (Renan Machado)
 - [Ode To A Flower](https://vimeo.com/55874553) (Montana Bowman)
+- [Nuance](https://vimeo.com/67809013) (Hennie Yeh)
+- [Letterpress](https://vimeo.com/22639018) (Hennie Yeh)
