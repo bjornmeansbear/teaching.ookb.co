@@ -23,6 +23,7 @@
 - [Count on Me](http://gentlemanscholar.com/countonme/) (Estelle Kline)
 - [Adria Petty](http://adriapetty.com) (Estelle Kline)
 - [The Economy of Coke](https://vimeo.com/33402623) (David Hunt)
+- [TELFAR X Future Brown](http://www.youtube.com/watch?v=dY5-6WGzh8U) (Lily Clark)
   
 #### Thursday
 - [_Stranger Than Fiction_ Opener](http://www.youtube.com/watch?v=WDwTQ57YyzI) (from Emily Tai)
