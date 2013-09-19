@@ -38,6 +38,7 @@
 - [Stuxnet](http://vimeo.com/25118844) (Kevin Zweerink)
 - [Ólafur Arnalds - Ljósið (Official Music Video)](http://www.youtube.com/watch?v=mYIfiQlfaas) (Mandy Shen)
 - [Röyksopp - Remind Me](http://www.youtube.com/watch?v=eo4u4JJAPGk) (Anwar Bukhamseen)
+- [Cost of War](http://www.volumeone.com/good.php) (Marilyn-Elizabeth Peterson)
 
 #### Friday
 - [_Man With The Golden Arm_](http://www.artofthetitle.com/title/the-man-with-the-golden-arm/) (from Alayna Citrin)
