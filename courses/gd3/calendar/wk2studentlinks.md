@@ -25,6 +25,10 @@
 - [The Economy of Coke](https://vimeo.com/33402623) (David Hunt)
 - [TELFAR X Future Brown](http://www.youtube.com/watch?v=dY5-6WGzh8U) (Lily Clark)
 - [Jesse Kanda Site](http://www.jessekanda.com) (Tristan Scow)
+- [Kenzo](https://vimeo.com/52156982) (Tristan Scow)
+- [Kenzo](https://vimeo.com/59653641) (Tristan Scow)
+- [Reply Studio](http://replystudio.cc) (Tristan Scow)
+- [Earl Sweatshirt featuring Vince Staples & Casey Veggies - Hive](http://www.youtube.com/watch?v=0FcDXL5Aw0o) (N'Deye Diakhate)
   
 #### Thursday
 - [_Stranger Than Fiction_ Opener](http://www.youtube.com/watch?v=WDwTQ57YyzI) (from Emily Tai)
