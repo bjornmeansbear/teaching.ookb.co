@@ -24,6 +24,7 @@
 - [Adria Petty](http://adriapetty.com) (Estelle Kline)
 - [The Economy of Coke](https://vimeo.com/33402623) (David Hunt)
 - [TELFAR X Future Brown](http://www.youtube.com/watch?v=dY5-6WGzh8U) (Lily Clark)
+- [Jesse Kanda Site](http://www.jessekanda.com) (Tristan Scow)
   
 #### Thursday
 - [_Stranger Than Fiction_ Opener](http://www.youtube.com/watch?v=WDwTQ57YyzI) (from Emily Tai)
@@ -40,6 +41,9 @@
 - [Röyksopp - Remind Me](http://www.youtube.com/watch?v=eo4u4JJAPGk) (Anwar Bukhamseen)
 - [Cost of War](http://www.volumeone.com/good.php) (Marilyn-Elizabeth Peterson)
 - [How Green Is Your Internet](http://www.youtube.com/watch?v=UOgsyh-9MFc) (Yuka Doyama)
+- [Water Changes Everything](http://www.youtube.com/watch?v=BCHhwxvQqxg) (Ronnie Belo)
+- [Buenos Aires Ciudad](https://vimeo.com/39003269) (Kit Lee)
+- [Dumb Ways To Die](http://www.youtube.com/watch?v=IJNR2EpS0jw) (Kit Lee)
 
 #### Friday
 - [_Man With The Golden Arm_](http://www.artofthetitle.com/title/the-man-with-the-golden-arm/) (from Alayna Citrin)
