@@ -52,7 +52,7 @@
 #### Friday
 - [_Man With The Golden Arm_](http://www.artofthetitle.com/title/the-man-with-the-golden-arm/) (from Alayna Citrin)
 - [SYENCE](https://vimeo.com/16219591) (Nicolas KK)
-- [Where Things Come From](http://vimeo.com/40459347) (Crystal Dimeler)
+- [Where Things Come From](http://vimeo.com/40459347) (Crystal Dimeler and Katherine Lee) 
 - [New Oreo Commercial](http://www.youtube.com/watch?v=Mrcmm_diiU4) (Lydia Bickal)
 - [Proof we are Soulmates](https://vimeo.com/43457382) (Dianna Vento)
 - [Resale right](https://vimeo.com/25139589) (Christina Kwiek)
@@ -65,4 +65,5 @@
 - [Nuance](https://vimeo.com/67809013) (Hennie Yeh)
 - [Letterpress](https://vimeo.com/22639018) (Hennie Yeh)
 - [Spherikal](https://vimeo.com/39792837) (Amy Hushen)
-- [Where Things Come From](https://vimeo.com/40459347) (Katherine Lee)
+- [Flight Patterns](http://www.aaronkoblin.com/work/flightpatterns/) (Alayna Citrin)
+- [Unleash Your Fingers](http://www.youtube.com/watch?v=zyMfpJh3h4A) (Leslie Xia)
