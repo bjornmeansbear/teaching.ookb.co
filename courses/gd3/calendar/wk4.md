@@ -5,16 +5,17 @@ sec2: 2013-09-26
 sec3: 2013-09-27
 outline:
   - "Look @ stop motions"
-  - "Assign next project > basic shapes project"
-  - "Discuss 2nd Understanding Comics reading"
+  - "Discuss briefly the next project > basic shapes project"
+  - "Assign 2nd Understanding Comics reading"
   - "Basic AE tutorial as homework"
-  - "Anything in class work wise?"
+  - "Design-a-mation"
 examples:
   - "TK"
 reading: 
-  - "TK"
+  - "Chapter 4 and 6 from Understanding Comics"
 homework:
-  - "TK"
+  - "Lynda.com AE tutorial"
+  - "Understanding Comics Reading + Response"
 ---
 
 

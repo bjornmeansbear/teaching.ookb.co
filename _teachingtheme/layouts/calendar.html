@@ -90,7 +90,7 @@ layout : default
       
       <!-- Wk2 -->
       {{# courses.find_by_name.gd3/calendar/wk2 }}
-      <section class="week" id="wk02">
+      <section class="week past" id="wk02">
         <h2>{{ title }}</h2>
         <div class="row">
           <p class="col-md-4">{{ sec1 }}</p>
@@ -136,7 +136,7 @@ layout : default
       
       <!-- Wk3 -->
       {{# courses.find_by_name.gd3/calendar/wk3 }}
-      <section class="">
+      <section class="week past" id="wk03">
         <h2>{{ title }}</h2>
         <div class="row">
           <p class="col-md-4">{{ sec1 }}</p>
@@ -155,7 +155,7 @@ layout : default
   
       <!-- Wk4 -->
       {{# courses.find_by_name.gd3/calendar/wk4 }}
-      <section class="">
+      <section class="week" id="wk04">
         <h2>{{ title }}</h2>
         <div class="row">
           <p class="col-md-4">{{ sec1 }}</p>
@@ -163,11 +163,38 @@ layout : default
           <p class="col-md-4">{{ sec3 }}</p>
         </div>
   
-        {{# outline }}
-          <ul>
-            <li> {{ . }} </li>
+        <div class="row">
+          <ul class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 column-list ">
+            <h3>Outline</h3>
+            {{# outline }}
+              <li> {{ . }} </li>
+            {{/ outline }}
           </ul>
-        {{/ outline }}
+    
+          <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 column-list ">
+            <h3>Examples</h3>
+            <!-- Student Links from Homework -->
+            {{# courses.find_by_name.gd3/calendar/wk2studentlinks }}
+              {{{ content }}}
+            {{/ courses.find_by_name.gd3/calendar/wk2studentlinks }}
+          </div>
+  
+          <ul class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 column-list ">
+            <h3>Reading</h3>
+            {{# reading }}
+              <li> {{ . }} </li>
+            {{/ reading }}
+              <li><a href="{{urls.media}}/readingresponses/rr02-understandingcomics-ch4-ch6.pdf">Reading Response</a></li>
+          </ul>
+    
+          <ul class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 column-list ">
+            <h3>Homework</h3>
+            {{# homework }}
+              <li> {{ . }} </li>
+            {{/ homework }}
+              <li><a href="{{urls.media}}/readingresponses/rr02-understandingcomics-ch4-ch6.pdf">Reading Response</a></li>
+          </ul>
+        </div>
         
       </section>
       {{/ courses.find_by_name.gd3/calendar/wk4 }}

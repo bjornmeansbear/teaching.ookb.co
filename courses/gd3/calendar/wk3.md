@@ -6,11 +6,7 @@ sec3: 2013-09-20
 outline:
   - "Discuss 1st Understanding Comics reading"
   - "Stop Motion checkin & work day"
-examples:
-  - "TK"
-reading: 
-  - "TK"
 homework:
-  - "TK"
+  - "Finish Animated Frame Project"
 ---
 
