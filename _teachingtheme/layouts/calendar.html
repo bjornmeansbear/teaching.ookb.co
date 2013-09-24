@@ -144,12 +144,14 @@ layout : default
           <p class="col-md-4">{{ sec3 }}</p>
         </div>
   
-        {{# outline }}
-          <ul>
-            <li> {{ . }} </li>
+        <div class="row">
+          <ul class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 column-list ">
+            <h3>Outline</h3>
+            {{# outline }}
+              <li> {{ . }} </li>
+            {{/ outline }}
           </ul>
-        {{/ outline }}
-        
+        </div>
       </section>
       {{/ courses.find_by_name.gd3/calendar/wk3 }}
   
@@ -173,10 +175,9 @@ layout : default
     
           <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 column-list ">
             <h3>Examples</h3>
-            <!-- Student Links from Homework -->
-            {{# courses.find_by_name.gd3/calendar/wk2studentlinks }}
-              {{{ content }}}
-            {{/ courses.find_by_name.gd3/calendar/wk2studentlinks }}
+            {{# examples }}
+              <li> {{ . }} </li>
+            {{/ examples }}
           </div>
   
           <ul class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 column-list ">
