@@ -18,4 +18,23 @@ homework:
   - "Understanding Comics Reading + Response"
 ---
 
+For those of you looking for royalty free, safe to use sound effects and music, here are some options to look into:
 
+## Music, Sound Effects, Etc.
+
+### Sounds:
+- http://www.freesound.org
+- http://soundbible.com
+- http://www.soundsnap.com
+- http://www.pdsounds.org
+- http://www.grsites.com/archive/sounds/
+
+### Music:
+- http://freemusicarchive.org
+- http://www.flashkit.com
+- http://incompetech.com/music/
+- http://www.jamendo.com/en/
+
+### Miscellany:
+- http://archive.org/details/audio
+- http://tones.wolfram.com
