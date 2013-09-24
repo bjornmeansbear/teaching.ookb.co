@@ -1,5 +1,5 @@
 ---
-title: "Week 4"
+title: "Week 4: Intro to AfterEffects"
 sec1: 2013-09-25
 sec2: 2013-09-26
 sec3: 2013-09-27
@@ -17,10 +17,6 @@ homework:
   - "Lynda.com AE tutorial"
   - "Understanding Comics Reading + Response"
 ---
-
-For those of you looking for royalty free, safe to use sound effects and music, here are some options to look into:
-
-## Music, Sound Effects, Etc.
 
 ### Sounds:
 - http://www.freesound.org

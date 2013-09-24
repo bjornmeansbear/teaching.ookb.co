@@ -173,12 +173,12 @@ layout : default
             {{/ outline }}
           </ul>
     
-          <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 column-list ">
+          <ul class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 column-list ">
             <h3>Examples</h3>
             {{# examples }}
               <li> {{ . }} </li>
             {{/ examples }}
-          </div>
+          </ul>
   
           <ul class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 column-list ">
             <h3>Reading</h3>
@@ -197,8 +197,9 @@ layout : default
           </ul>
         </div>
 
-        <div class="row">
-          <p class="col-md-6 col-lg-4">{{{ content }}}</p>
+        <div class="row add-top">
+          <div class="col-md-6 col-lg-6"><p>For those of you looking for royalty free, safe to use sound effects and music, here are some options to look into:</p></div>
+          <div class="col-md-6 col-lg-6 remove-top">{{{ content }}}</div>
         </div>        
       </section>
       {{/ courses.find_by_name.gd3/calendar/wk4 }}

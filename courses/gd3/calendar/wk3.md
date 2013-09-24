@@ -1,5 +1,5 @@
 ---
-title: "Week 3"
+title: "Week 3: Work Week"
 sec1: 2013-09-18
 sec2: 2013-09-19
 sec3: 2013-09-20

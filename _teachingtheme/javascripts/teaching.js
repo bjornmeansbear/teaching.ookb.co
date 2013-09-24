@@ -13,10 +13,11 @@ $(document).ready(function() {
   $('.designamation').height(ratio);
 
   $('.calendar .week.past .row').hide();
+  
   $('.calendar .week.past h2').click(function(event){
     event.preventDefault();
     //$('html,body').animate({scrollTop:$(this.hash).offset().top-52}, 800);
-    $(this).parent().child('.row').toggle('slow');
+    $(this).parent().find('.row').toggle('slow');
   });
 
 });
