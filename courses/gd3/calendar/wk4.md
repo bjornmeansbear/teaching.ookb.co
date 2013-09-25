@@ -12,10 +12,10 @@ outline:
 examples:
   - "TK"
 reading: 
-  - "Chapter 4 and 6 from Understanding Comics"
+  - "Chapter 4 and 6 from Understanding Comics — to be discussed wk5"
 homework:
   - "Lynda.com AE tutorial"
-  - "Understanding Comics Reading + Response"
+  - "Understanding Comics Reading + Response — to be discussed wk5"
 ---
 
 ### Sounds:
