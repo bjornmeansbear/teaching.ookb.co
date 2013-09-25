@@ -1,5 +1,4 @@
 --- 
-date: 2013-09-11
 examples:
   - "http://www.fastcodesign.com/1664919/how-chipotle-made-this-amazing-stop-motion-film-and-made-us-cry"
   - "https://vimeo.com/3715286"

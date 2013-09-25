@@ -1,5 +1,4 @@
 --- 
-date: 2013-11-01
 layout: project
 projectorder: 6
 tags: 
