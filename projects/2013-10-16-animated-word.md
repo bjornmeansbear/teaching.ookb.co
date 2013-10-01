@@ -1,9 +1,16 @@
 --- 
 layout: project
-projectorder: 3
+projectorder: 03
 tags: 
   - gd3
-title: "3. Animated Word"
+title: "03. Animated Word"
+requirements: 
+  - "For the Animation:"
+  - "Use just your word."
+  - "Use two colors."
+  - "No other graphics allowed."
+  - "For the Book:"
+  - "32 page min."
 ---
 
 This project is about using time and motion as emotive and descriptive forces. How does one make the design, layout, and animation of a thing define it?
@@ -19,7 +26,6 @@ The animation has the same goal: show an action verbs definition through design;
 Think of these two works as companion pieces. Together they hopefully make each other better.
 
 ### CRITERIA
-
 - Choose an action verb from the provided list.
 - Look up the word in your dictionary of choice.
 - Choose one of the definitions for that verb.
@@ -30,11 +36,6 @@ Think of these two works as companion pieces. Together they hopefully make each 
 
 #### FOR THE ANIMATION
 Using the same verb and definition from the booklet, animate said verb using After effects so that the animation techniques/styles visually explain the definition. (If you are against using after effects for some reason, one of the other animation methods we've discussed may also be used — stop motion, animated gifs, actual video, or something of your own devising). Easy.
-
-The constraints are as follows:
-- Use just your word.
-- Use two colors.
-- No other graphics allowed.
 
 There isn’t a duration requirement. Just use a single action verb, and do a good job of animating your word so that the class can figure out the definition you’ve chosen. I would like it if you included the definition in the animation; but you don't have to if you don’t think it is necessary. Using minimal palette, simple type, basic graphic forms — if any — and focussing your energies on making sure your animation is well crafted and truly embodies your word will be to your benefit.
 

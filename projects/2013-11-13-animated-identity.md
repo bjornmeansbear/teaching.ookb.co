@@ -1,9 +1,13 @@
 --- 
 layout: project
-projectorder: 5
+projectorder: 05
 tags: 
   - gd3
-title: "5. Animated Identity"
+title: "05. Animated Identity"
+requirements: 
+  - "a Kit-of-parts"
+  - "Animation that either generates the logo, explains the system, or IS the logo"
+  - "The brand in use, guidelines, where/how it gets used statically AND, if applicable, in motion"
 ---
 
 With more and more content moving to web, touch, + video arenas, brands + logos no longer need to remain static. This project requires you to pick a company or product (or even yourself) that would benefit from a contemporary, motion-based re-branding. If you don't have any good ideas for a product or company, just pick the class, GD3. As part of this choice, you must be able to describe “why” adding motion to this identity better represents the chosen brand. You also need to be clear how this can potentially be expanded to include product line expansion or business growth…

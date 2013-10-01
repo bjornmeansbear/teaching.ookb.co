@@ -16,7 +16,7 @@ examples:
   - "http://gd3.ookb.co/images/andersongifs/AltoidAnimation.gif"
   - "http://gd3.ookb.co/images/2203.gif"
 layout: project
-projectorder: 1
+projectorder: 01
 requirements: 
   - "Size of 640 x 480 px"
   - "You must have 100 frames. Certainly no less, and preferably not much more."
@@ -27,7 +27,7 @@ requirements:
 tags: 
   - gd3
   - project
-title: "1. Animated Frames"
+title: "01. Animated Frames"
 ---
 
 The purpose of this project is to give you some fundamentals of “Frame-by-frame” or traditional animation, and then how you can use that in a design context. The main objective is for you to produce a frame-by-frame animation of at least 100 frames. Stylistically it can be whatever you choose. Hopefully, you will begin to understand some alternate methods of animation and the complexities contained within each.
