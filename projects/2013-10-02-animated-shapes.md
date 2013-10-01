@@ -20,6 +20,8 @@ examples:
   - "https://vimeo.com/63508847"
   - "https://vimeo.com/51914168"
   - "https://vimeo.com/41780556"
+  - "https://vimeo.com/75911284"
+  - "https://vimeo.com/75911726"
 layout: project
 projectorder: 2
 requirements: 
