@@ -22,6 +22,8 @@ examples:
   - "https://vimeo.com/41780556"
   - "https://vimeo.com/75911284"
   - "https://vimeo.com/75911726"
+  - "http://www.behance.net/gallery/GIF-Collaborations/10304635"
+  - "http://www.behance.net/gallery/Animated-GIFs/6228937"
 layout: project
 projectorder: 2
 requirements: 
