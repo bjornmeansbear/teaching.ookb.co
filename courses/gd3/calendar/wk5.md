@@ -7,12 +7,5 @@ outline:
   - "quick once over of AE"
   - "animated shapes project assign (review)"
   - "animated shapes homework assign"
-  - "More reading?"
-examples:
-  - "TK"
-reading: 
-  - "TK"
-homework:
-  - "TK"
 ---
 

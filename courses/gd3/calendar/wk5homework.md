@@ -1,0 +1,4 @@
+- [Animated Shapes Project](/projects/2013-10-02-animated-shapes)
+- [After Effects Apprentice 14 - Shape Layers](http://www.lynda.com/After-Effects-CS5-tutorials/After-Effects-Apprentice-14-Shape-Layers/79643-2.html). Get through at least chapters 1, 2, and 3, Shape Layers, Multiple Shape Paths, and Shape Effects...
+- _FOR NEXT WEEK:_ have a start on your project. Bring whatever you have to show me AND to work on for the duration of class.
+- Begin to look into animating with sound in mind: [Editing and Animating to Sound with AE](http://www.lynda.com/After-Effects-tutorials/Editing-Animating-Sound-Adobe-After-Effects/124094-2.html); [Animating to Music](http://www.lynda.com/After-Effects-tutorials/Mograph-Techniques-Animating-Music/114890-2.html)
