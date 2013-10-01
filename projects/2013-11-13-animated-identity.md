@@ -1,9 +1,9 @@
 --- 
 layout: project
-projectorder: 4
+projectorder: 5
 tags: 
   - gd3
-title: "4. Animated Identity"
+title: "5. Animated Identity"
 ---
 
 With more and more content moving to web, touch, + video arenas, brands + logos no longer need to remain static. This project requires you to pick a company or product (or even yourself) that would benefit from a contemporary, motion-based re-branding. If you don't have any good ideas for a product or company, just pick the class, GD3. As part of this choice, you must be able to describe “why” adding motion to this identity better represents the chosen brand. You also need to be clear how this can potentially be expanded to include product line expansion or business growth…

@@ -1,9 +1,9 @@
 --- 
 layout: project
-projectorder: 6
+projectorder: 7
 tags: 
   - gd3
-title: "6. Time and Motion and Graphic Design: the essay"
+title: "7. Time and Motion and Graphic Design: the essay"
 ---
 
 Please explain what you think describes what “Time + Motion” mean in relation to Graphic Design. We’ve spend a lot of time over the term talking about this, but I want to make sure that you all really think about it on your own; as well as think about how you might explain it to someone else.

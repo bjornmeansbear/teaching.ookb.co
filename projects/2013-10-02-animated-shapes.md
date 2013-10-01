@@ -6,7 +6,6 @@ tags:
 title: "2. Animated Shapes"
 ---
 
-
 Using only the shape tool and plain, formal elements, please make a short animation set to music.
 Pick a piece of instrumental music. 
 Make what you consider to be a “Motion Graphic” with the skills we've learned so far. 
