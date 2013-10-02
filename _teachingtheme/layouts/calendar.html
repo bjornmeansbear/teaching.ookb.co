@@ -192,23 +192,24 @@ layout : default
         </div>
   
         <div class="row">
-          <ul class=" col-xs-12 col-sm-6 col-md-6 col-lg-4 column-list ">
+          <ul class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 column-list ">
             <h3>Outline</h3>
             {{# outline }}
               <li> {{ . }} </li>
             {{/ outline }}
+              &mdash;
               <li><a href="{{urls.media}}/demo/aeshapesdoc.pdf">AE Shapes</a></li>
               <li><a href="{{urls.media}}/demo/aeshapesdemo.zip">AE Shapes Demo Files</a></li>
           </ul>
     
-          <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 column-list ">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-3 column-list ">
             <h3>Examples</h3>
             {{# courses.find_by_name.gd3/calendar/wk5examples }}
               {{{ content }}}
             {{/ courses.find_by_name.gd3/calendar/wk5examples }}
           </div>
   
-          <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 column-list ">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-3 column-list ">
             <h3>Homework</h3>
             {{# courses.find_by_name.gd3/calendar/wk5homework }}
               {{{ content }}}
