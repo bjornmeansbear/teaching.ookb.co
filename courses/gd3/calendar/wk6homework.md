@@ -1,0 +1,2 @@
+- [Animated Shapes Project](/projects/2013-10-02-animated-shapes)
+- _FOR NEXT WEEK:_ Bring final animations for critique.
