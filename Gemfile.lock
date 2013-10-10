@@ -9,7 +9,7 @@ GEM
     psych (1.3.4)
     rack (1.5.2)
     redcarpet (2.3.0)
-    ruhoh (2.2)
+    ruhoh (2.5)
       directory_watcher (~> 1.4.0)
       mustache (~> 0.99)
       nokogiri (~> 1.5)
