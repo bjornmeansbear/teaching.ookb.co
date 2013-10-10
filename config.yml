@@ -71,6 +71,13 @@ projects:
   paginator:
     enable: false
 
+quotes:
+  summary_lines: 1
+  rss:
+    enable: false
+  paginator:
+    enable: false
+
 # Enable the asset pipeline to process stylesheets and javascripts using sass, coffeescript, etc.
 # The asset pipeline supports live preview + bundling/minification on compile.
 # Sprockets is used for the ruby version: https://github.com/sstephenson/sprockets#readme
