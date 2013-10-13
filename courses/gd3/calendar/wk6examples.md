@@ -8,3 +8,6 @@
 - [Flickr Commons](http://www.flickr.com/commons/)
 - [ClipArt ETC](http://etc.usf.edu/clipart/)
 - [Sustainability Readings](http://library.thesustainabilitist.com)
+
+### Awesome Shape Video:
+- [Sonar](https://vimeo.com/5324878)
