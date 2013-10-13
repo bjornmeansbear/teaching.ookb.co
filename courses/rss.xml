@@ -1,0 +1,813 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>teaching.ookb.co</title>
+    <description>teaching.ookb.co</description>
+    <link>http://teaching.ookb.co</link>
+    <pubDate>2013-10-13</pubDate>
+    <item>
+      <title>Additional Course Info</title>
+      <link>http://teaching.ookb.co/courses/gd3/additions</link>
+      <description>&lt;p&gt;Design is increasingly living in all places and mediums simultaneously and we Graphic Designers must be aware of and ready for the conceptual and technological implications that come along with this. The goals of this class are to try and clarify and explain these implications; cover the broader concepts of time and motion and their connection to all facets of a design practice; and begin to introduce software, tricks, and techniques for creating motion design.&lt;/p&gt;
+
+&lt;p&gt;This course travels broadly but shallowly. I will (hopefully) pique your interests on many things, but we do not have enough time to delve into any of them very intensely. There are too many interesting things to try and get to, so more than 2 or 3 weeks cannot be spent on any one thing. Intense practice and study will have to be at each of your own impetus. &lt;/p&gt;
+
+&lt;p&gt;Photoshop, Illustrator, and After Effects will be our main tools &#x2014; but flipbooks, HTML5/JS/CSS3, Processing as well as some other applications and processes will be discussed. We&#x2019;ll look at both historic and contemporary examples of designers using film, animation, and temporal tools and methods in their work will be referenced to help frame our discussions and projects. &lt;/p&gt;
+
+&lt;p&gt;Motion Graphics are still Graphic Design. You do not have to think of this class as covering something else. While we are learning things about Animated Gifs or After Effects or Relativity we are still learning about form, narrative, typography, etc. Do not let the fact that we&#x2019;ll be using potentially new mediums and ideas upset the design principles you have already learned.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Americans with Disabilities Act</title>
+      <link>http://teaching.ookb.co/courses/ada</link>
+      <description>&lt;p&gt;Any student who may need an accommodation based on the potential impact of a disability should contact the Learning Resource Center at 410-225-2416, in Bunting 458, to establish eligibility and coordinate reasonable accommodations. Contact the instructor privately to discuss specific needs. For additional information please refer to: &lt;a href="http://www.mica.edu/LRC"&gt;http://www.mica.edu/LRC&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Attendance Policy</title>
+      <link>http://teaching.ookb.co/courses/attendance</link>
+      <description>&lt;p&gt;Unless otherwise indicated by the instructor, students are expected to attend all meetings of each class in which they are enrolled. They are expected to be ready to start work at the opening of class and to remain for the entire class session.&lt;/p&gt;
+
+&lt;p&gt;Irregular attendance or habitual tardiness usually leads to lower grades and, ultimately, to probation or dismissal. Although an instructor&amp;#39;s discretion is clearly involved, unexcused absence from as few as three classes will result in a failing grade.&lt;/p&gt;
+
+&lt;p&gt;In the case of extended illness or other legitimate absences that may keep the student from attending a class for more than three meetings, students must contact the Student Development Specialist in the Division of Student Affairs so that instructors can be notified.&lt;/p&gt;
+
+&lt;p&gt;IF YOU MISS MORE THAN THREE CLASSES THEN YOU DO NOT PASS THIS COURSE. This isn&#x2019;t my decision, it is MICA policy across the board &#x2014; if you miss 4 class sessions you get withdrawn from the course, this means you don&#x2019;t get credit for it.
+If you miss a class, check the course website. I will be posting info on what we discussed and files or readings you might need. If you have additional questions contact me immediately; please don&#x2019;t wait until the next week. You will still be expected to present or be prepared for the following class after any absence.
+It is also important you show up to class on time and prepared. We&#x2019;ve got a lot to cover and it sets the whole class behind when any of you shows up late. However, being late &#x2014;even 2 hours late &#x2014; is favorable to not coming at all.
+Since I am teaching all 3 sessions of GD3 this fall, you could potentially make up a missed class by attending another section that week. If you have a legitimate reason for needing to miss a class, please take advantage of this and let me know in advance if possible.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Calendar</title>
+      <link>http://teaching.ookb.co/courses/gd3/calendar</link>
+      <description>&lt;p&gt;Fall 2013&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Catalog Description</title>
+      <link>http://teaching.ookb.co/courses/gd3/description</link>
+      <description>&lt;p&gt;Students actively engage motion graphics as strategic medium for experimentation, idea generation, problem solving and communication. Motion and interactivity are studied in the context of aesthetic, cultural, historical and critical issues. Students learn essential design processes and techniques in their exploration of time-based media both as a tool and as a medium for evolving designers. &lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Contact Information / Office Hours</title>
+      <link>http://teaching.ookb.co/courses/officehours</link>
+      <description>&lt;p&gt;Kristian Bjornard / &lt;a href="mailto:kbjornard@mica.edu"&gt;kbjornard@mica.edu&lt;/a&gt;&lt;br&gt;
+Office: 410-225-4271 / Cell: 507-301-8402&lt;br&gt;
+Tuesdays 2&#x2013;4pm  &lt;/p&gt;
+
+&lt;p&gt;I&#x2019;ll probably be around more than just those hours on Tuesday Mornings and Afternoons during the whole semester. I&#x2019;ll also generally be around Wed, Thurs, and Friday afternoons until 5 or so after my morning classes.&lt;/p&gt;
+
+&lt;p&gt;It&#x2019;s best if you can email me and let me know you&#x2019;d like to talk so students don&#x2019;t show up at the same time and have to wait &#x2014; but please feel free to stop by and ask me questions or voice your concerns whenever you see that I&#x2019;m in my office.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Design-a-Mations</title>
+      <link>http://teaching.ookb.co/courses/gd3/designamation</link>
+      <description>&lt;div class="course-header"&gt;
+  &lt;h1&gt;Design-a-Mations&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;!-- designamations --&gt;
+&lt;div class="designamations"&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/catherine-stuckrath.gif" alt=""/&gt;
+    &lt;p&gt;by Catherine Stuckrath&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/daniella-ma.gif" alt=""/&gt;
+    &lt;p&gt;by Daniella Ma&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/david-hunt.gif" alt=""/&gt;
+    &lt;p&gt;by David Hunt&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/estell-kline.gif" alt=""/&gt;
+    &lt;p&gt;by Estell Kline&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/fumi-omori.gif" alt=""/&gt;
+    &lt;p&gt;by Fumi Omori&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/fumi-omori2.gif" alt=""/&gt;
+    &lt;p&gt;by Fumi Omori&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/hesuh-park.gif" alt=""/&gt;
+    &lt;p&gt;by Hesuh Park&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/jen-doyle.gif" alt=""/&gt;
+    &lt;p&gt;by Jen Doyle&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/jennifer-byun.gif" alt=""/&gt;
+    &lt;p&gt;by Jennifer Byun&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/jessica-dickey.gif" alt=""/&gt;
+    &lt;p&gt;by Jessica Dickey&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/julia-rivera.gif" alt=""/&gt;
+    &lt;p&gt;by Julia Rivera&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/junnie-shah.gif" alt=""/&gt;
+    &lt;p&gt;by Junnie Shah&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/kimberly-meistrell.gif" alt=""/&gt;
+    &lt;p&gt;by Kim Meistrell&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/leslie-chung.gif" alt=""/&gt;
+    &lt;p&gt;by Leslie Chung&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/lily-clark.gif" alt=""/&gt;
+    &lt;p&gt;by Lily Clark&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/melanie-cheston.gif" alt=""/&gt;
+    &lt;p&gt;by Melanie Cheston&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/roberta-choi.gif" alt=""/&gt;
+    &lt;p&gt;by Roberta Choi&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/seowan-chang.gif" alt=""/&gt;
+    &lt;p&gt;by Seowan Chang&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/taylor-yoder.gif" alt=""/&gt;
+    &lt;p&gt;by Taylor Yoder&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec1/tristan-scow.gif" alt=""/&gt;
+    &lt;p&gt;by Tristan Scow&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/alex-bailey.gif" alt=""/&gt;
+    &lt;p&gt;by Alex Bailey&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/anna-bitskaya.gif" alt=""/&gt;
+    &lt;p&gt;by Anna Bitskaya&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/dianna-vento.gif" alt=""/&gt;
+    &lt;p&gt;by Dianna Vento&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/emily-berger.gif" alt=""/&gt;
+    &lt;p&gt;by Emily Berger&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/emily-tai.gif" alt=""/&gt;
+    &lt;p&gt;by Emily Tai&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/felipe-collazo.gif" alt=""/&gt;
+    &lt;p&gt;by Felipe Collazo&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/hye-jeon.gif" alt=""/&gt;
+    &lt;p&gt;by Hye Jeon&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/isabel-harris.gif" alt=""/&gt;
+    &lt;p&gt;by Isabel Harris&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/jeu-eun-lee.gif" alt=""/&gt;
+    &lt;p&gt;by Jeu Eun Lee&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/katie-mazikins-1.gif" alt=""/&gt;
+    &lt;p&gt;by Katie Mazikins&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/katie-mazikins-2.gif" alt=""/&gt;
+    &lt;p&gt;by Katie Mazikins&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/kevin-zweerink.gif" alt=""/&gt;
+    &lt;p&gt;by Kevin Zweerink&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/kit-tee.gif" alt=""/&gt;
+    &lt;p&gt;by Kit Tee&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/mandy-shen.gif" alt=""/&gt;
+    &lt;p&gt;by Mandy Shen&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/marilyn-elizabeth-peterson.gif" alt=""/&gt;
+    &lt;p&gt;by Marilyn Elizabeth Peterson&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/prescott-foland.gif" alt=""/&gt;
+    &lt;p&gt;by Prescott Foland&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/virginia-yu.gif" alt=""/&gt;
+    &lt;p&gt;by Virginia Yu&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec2/yuka-doyoma.gif" alt=""/&gt;
+    &lt;p&gt;by Yuka Doyoma&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/alayna-citrin.gif" alt=""/&gt;
+    &lt;p&gt;by Alayna Citrin&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/amy-hushen.gif" alt=""/&gt;
+    &lt;p&gt;by Amy Hushen&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/christina-kwiek.gif" alt=""/&gt;
+    &lt;p&gt;by Christina Kwiek&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/crystal-dimeler.gif" alt=""/&gt;
+    &lt;p&gt;by Crystal Dimeler&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/emilia-argon.gif" alt=""/&gt;
+    &lt;p&gt;by Emilia Argon&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/hennie-yeh.gif" alt=""/&gt;
+    &lt;p&gt;by Hennie Yeh&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/hilary-ament.gif" alt=""/&gt;
+    &lt;p&gt;by Hilary Ament&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/katherine-lee.gif" alt=""/&gt;
+    &lt;p&gt;by Katherine Lee&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/leslie-xia.gif" alt=""/&gt;
+    &lt;p&gt;by Leslie Xia&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/lydia-bickal.gif" alt=""/&gt;
+    &lt;p&gt;by Lydia Bickal&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/margarita-korobskaya.gif" alt=""/&gt;
+    &lt;p&gt;by Margarita Korobskaya&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/montana-bowman.gif" alt=""/&gt;
+    &lt;p&gt;by Montana Bowman&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/nicolas-kk.gif" alt=""/&gt;
+    &lt;p&gt;by Nicolas KK&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/presley-gaviria.gif" alt=""/&gt;
+    &lt;p&gt;by Presley Gaviria&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/renan-machado.gif" alt=""/&gt;
+    &lt;p&gt;by Renan Machado&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/sharon-duke.gif" alt=""/&gt;
+    &lt;p&gt;by Sharon Duke&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="designamation"&gt;
+    &lt;img src="/assets/media/designamation/wk1sec3/zak-bickel.gif" alt=""/&gt;
+    &lt;p&gt;by Zak Bickel&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+ 
+
+
+
+</description>
+    </item>
+    <item>
+      <title>Environmental Health and Safety (EHS)</title>
+      <link>http://teaching.ookb.co/courses/health-safety</link>
+      <description>&lt;p&gt;It is the responsibility of faculty and students to follow health and safety guidelines relevant to their individual activities, processes, and to review MICA&#x2019;s Emergency Action Plan and attend EHS training. It is each faculty member&#x2019;s responsibility to coordinate with the EHS Office to ensure that all risks associated with their class activities are identified and to assure that their respective classroom procedures mirror the EHS and Academic Department guidelines. Each of these policies and procedures must be followed by all students and faculty. Most importantly, faculty are to act in accordance with all safety compliance, state and federal, as employees of this college and are expected to act as examples of how to create art in a way to minimize risk, and reduce harm to themselves and the environment. Faculty must identify and require appropriate personal protective equipment for each art making process, for each student, in all of their classes, when applicable. Students are required to purchase personal protection equipment appropriate for their major. Those students who do not have the proper personal protection equipment will not be permitted to attend class until safe measures and personal protection are in place.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Glossary</title>
+      <link>http://teaching.ookb.co/courses/gd3/glossary</link>
+      <description>&lt;div class="row course-header col-lg-12"&gt;
+  &lt;h1&gt;Glossary&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;div class="row"&gt;
+
+  &lt;!-- glossary  --&gt;
+  &lt;article class="glossary col-md-12"&gt;
+    &lt;div class="row"&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/a/animatic"&gt;Animatic&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;Using keyframes from a storyboard and editing and displaying them in sequence with a rough dialogue and/or rough sound track to test whether the sound and images are working effectively together; A rough animated storyboard used to give some idea about the timing of a sequence. Typically for production purposes only.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/a/animation"&gt;Animation&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;Sequences of still images to create the optical illusion of movement.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/a/anticipation"&gt;Anticipation&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;something expected (as on the basis of a norm); or the act of predicting&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/a/aspect-ratio"&gt;Aspect Ratio&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;the mathematical fraction detailing the relationship between width and hone-third of a piece (e.g. 4:3, 16:9, etc.). Old TVs and Computer Monitors are usually about 4:3&#x2014;a 1024 x 768 monitor is exactly 4:3. Newer &#x201C;Widescreen&#x201D; formats will be a higher ration, 16:9 being a standard american film widescreen format. A common widescreen computer monitor ratio is 8:5.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/b/blocking"&gt;Blocking&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;putting in basic timing and poses to communicate where one is going with an animated scene&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/b/breaking-down-a-shot"&gt;Breaking Down a Shot&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;carefully explaining, step by step, what happens in a scene &#x2014; part of storyboarding (or reverse storyboarding)&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/c/classical-mechanics"&gt;Classical Mechanics&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;One of the two major sub-fields of mechanics, which is concerned with the set of physical laws mathematically describing the motions of bodies under the action of a system of forces. Basically, Classical Mechanics describes everyday motion and forces&#x2014;running, jumping, falling, crashing cars, launching rockets, etc.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/c/closure"&gt;Closure&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;Observing the parts but perceiving the whole. It is your brain completing a picture (or scene, or environment, etc.) for you, even though you have only some of the parts &#x2026;  Completing that which is incomplete based on past experience.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/d/deep-time"&gt;Deep Time&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;the idea of Geological Time; time scales not easily graspable through terms of human lifetimes, or even the span of human history&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/e/exaggeration"&gt;Exaggeration&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;representing something as far better or worse than it really is (or far greater, smaller, longer, shorter, faster, slower, farther, nearer &#x2026; whatever)&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/f/frame-by-frame"&gt;Frame-by-Frame&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;Animation style where every single frame is created on its own. This would be traditional animation, stop-motion, clay-mation, flipbooks, etc.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/f/frame-rate"&gt;Frame-Rate&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;The number of frames displayed per second for a given animation. This is typically labelled as FPS &#x2014;&#xA0;as in Frames-per-second. About 30 FPS (actually 29.97 fps) for normal American TV. For stop-motion or frame-by-frame animation you need at least 12 FPS to make any motion seem semi-smooth.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/f/frame"&gt;Frame&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;The smallest unit of animation&#x2014;a single still image or other item.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/i/interpolation"&gt;Interpolation&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;a message that is introduced or inserted &#x2014; often a viewer does this themselves into something you&#x2019;ve created&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/k/keyframe"&gt;Keyframe&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;The first + last frames of each short action sequence.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/m/motion"&gt;Motion&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;A Change over Time.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/n/narrative"&gt;Narrative&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;an acount; a tale; a story&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/n/newtons-laws"&gt;Newton&#x2019;s Laws&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;The three laws that form the basis for Classical Mechanics. They enable the prediction of the path of any object from a grain of sand to a planet:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;A body will remain at rest or move with a constant velocity unless acted upon by an outside force.&lt;/li&gt;
+&lt;li&gt;The acceleration of a body is proportional to the applied force. This is expressed by the universal formula: Force = mass &#xD7; acceleration.&lt;/li&gt;
+&lt;li&gt;For every action there is an equal and opposite reaction.&lt;/li&gt;
+&lt;/ol&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/p/pacing"&gt;Pacing&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;Speed of action or events.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/p/persistence-of-vision"&gt;Persistence of Vision&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;The phenomenon of the eye by which an afterimage is thought to persist for approximately one twenty-fifth of a second on the retina. A Newton disc takes advantage of this principle, as do most animation techniques.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/r/rhythm"&gt;Rhythm&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;pattern of changes in pace and tension&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/s/science"&gt;Science&lt;/a&gt;&lt;/h2&gt;
+        &lt;ul&gt;
+&lt;li&gt;is, in its broadest sense, any systematic knowledge-base or prescriptive practice that is capable of resulting in a correct prediction, or reliably-predictable type of outcome.&lt;/li&gt;
+&lt;li&gt;The systematic study of humans and their environment based on the deductions and inferences which can be made, and the general laws which can be formulated, from reproducible observations and measurements of events and parameters within the universe.&lt;/li&gt;
+&lt;li&gt;skill: ability to produce solutions in some problem domain&lt;/li&gt;
+&lt;li&gt;a particular branch of scientific knowledge&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/s/secondary-action"&gt;Secondary Action&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;An action that results directly from another action. Secondary actions are important in heightening interest and adding a realistic complexity to the animation.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/s/staging"&gt;Staging&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;selecting, designing, adapting to, or modifying the performance space; the look of the performance; the result of this process, in other words the spectacle that a play presents in performance, its visual detail. (for GD purposes &#x201C;performance&#x201D; refers to the animations and content contained in the motion graphic itself)&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/s/suspension-of-disbelief"&gt;Suspension of Disbelief&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;&lt;a href="http://en.wikipedia.org/wiki/Suspension_of_disbelief"&gt;Suspension of disbelief&lt;/a&gt; or &#x201C;willing suspension of disbelief&#x201D; is a formula for justifying the use of fantastic or non-realistic elements in literature. It was put forth in English by the poet and aesthetic philosopher Samuel Taylor Coleridge, who suggested that if a writer could infuse a &amp;quot;human interest and a semblance of truth&amp;quot; into a fantastic tale, the reader would suspend judgement concerning the implausibility of the narrative. The phrase &amp;quot;suspension of disbelief&amp;quot; came to be used more loosely in the later 20th century, often used to imply that the onus was on the reader, rather than the writer, to achieve it. It might be used to refer to the willingness of the audience to overlook the limitations of a medium, so that these do not interfere with the acceptance of those premises. These fictional premises may also lend to the engagement of the mind and perhaps proposition of thoughts, ideas, art and theories.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/t/temporal"&gt;Temporal&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;of, pertaining to, limited by, or generally dealing with time&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/t/timeline"&gt;Timeline&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;A map of some period of Time &#x2026;&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/t/tween"&gt;Tween&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;&lt;em&gt;(short for In-Betweens)&lt;/em&gt;&lt;br&gt;
+Frames that fill the gaps between keyframes.&lt;/p&gt;
+
+      &lt;/section&gt;
+      &lt;section class="col-md-4 col-lg-3"&gt;
+        &lt;h2&gt;&lt;a href="/glossary/t/tweening"&gt;Tweening&lt;/a&gt;&lt;/h2&gt;
+        &lt;p&gt;This typically refers to automatically generating the paths or frames inbetween keyframes. This is what most motion software does for you &#x2014;&#xA0;AfterFX, Flash, even Photoshops animation tool allows for this. &lt;/p&gt;
+
+      &lt;/section&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+ 
+
+  &lt;article class="additions"&gt;
+    &lt;div class="row"&gt;
+      &lt;h2&gt;Additional Links and Resources&lt;/h2&gt;
+      &lt;p&gt;&lt;a href="http://www.evl.uic.edu/ralph/508S99/contents.html"&gt;Principles of Animation&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href="http://cla.calpoly.edu/~smarx/courses/Vocabulary.html"&gt;Basic Film Vocabulary&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+
+&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Grades</title>
+      <link>http://teaching.ookb.co/courses/grades</link>
+      <description>&lt;p&gt;A+ A A- Superior&lt;br&gt;
+B+ B B- Above Average&lt;br&gt;
+C+ C C- Average&lt;br&gt;
+D+ D D- Below Average&lt;br&gt;
+E Failure  &lt;/p&gt;
+
+&lt;p&gt;Plus or minus may be used. However, for purposes of obtaining a quality point average, each grade category is assigned the following quality points:&lt;/p&gt;
+
+&lt;p&gt;A = 4&lt;br&gt;
+B = 3&lt;br&gt;
+C = 2&lt;br&gt;
+D = 1&lt;br&gt;
+E = 0  &lt;/p&gt;
+
+&lt;p&gt;(For more information see the Statement of Academic Standards in the Student Handbook.)&lt;/p&gt;
+
+&lt;p&gt;One grade will be awarded per project unless otherwise noted &#x2014; though some projects will have multiple components. Each grade will evaluate process, execution, and presentation. Final grades for the semester will be an average of all project grades, completion of reading assignments, attendance, plus a final evaluation of quality of resolve and follow-through in a student&#x2019;s work, visual experimentation, growth of skills, and class participation &amp;amp; preparedness throughout the semester.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Class participation is paramount &amp;amp; should show marked progress in the student&#x2019;s ability to talk about design intelligently &amp;amp; constructively.&lt;/li&gt;
+&lt;li&gt;Punctuality &amp;amp; participation to in-progress &amp;amp; final critiques will have an impact on the grade for each project.&lt;/li&gt;
+&lt;li&gt;Grades for late projects will be lowered one letter grade for each class period that they are late.&lt;/li&gt;
+&lt;li&gt;Work lost due to technological problems will be considered late. It is important to get in the habit of backing up &amp;amp; duplicating files. Technical trouble is not a valid excuse for missing a deadline &#x2014; neither academically or professionally. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://www.robertchristgau.com/xg/bk-cg70/grades.php"&gt;Robert Christgau used a clever grading scale when analyzing albums&lt;/a&gt;. Think about these things when you are completing your work &#x2014;&#xA0;design can be measured according to similar criteria.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An A+ record is an organically conceived masterpiece that repays prolonged listening with new excitement and insight. It is unlikely to be marred by more than one merely ordinary cut.&lt;/li&gt;
+&lt;li&gt;An A is a great record both of whose sides offer enduring pleasure and surprise. You should own it.&lt;/li&gt;
+&lt;li&gt;An A- is a very good record. If one of its sides doesn&amp;#39;t provide intense and consistent satisfaction, then both include several cuts that do.&lt;/li&gt;
+&lt;li&gt;A B+ is a good record, at least one of whose sides can be played with lasting interest and the other of which includes at least one enjoyable cut.&lt;/li&gt;
+&lt;li&gt;A B is an admirable effort that aficionados of the style or artist will probably find quite listenable.&lt;/li&gt;
+&lt;li&gt;A B- is a competent or mildly interesting record that will usually feature at least three worthwhile cuts.&lt;/li&gt;
+&lt;li&gt;A C+ is a not disreputable performance, most likely a failed experiment or a pleasant piece of hackwork.&lt;/li&gt;
+&lt;li&gt;A C is a record of clear professionalism or barely discernible inspiration, but not both.&lt;/li&gt;
+&lt;li&gt;A C- is a regrettably successful exploitation or a basically honest but quite incompetent stab at something more.&lt;/li&gt;
+&lt;li&gt;A D+ is an appalling piece of pimpwork or a thoroughly botched token of sincerity.&lt;/li&gt;
+&lt;li&gt;It is impossible to understand why anyone would buy a D record.&lt;/li&gt;
+&lt;li&gt;It is impossible to understand why anyone would release a D- record.&lt;/li&gt;
+&lt;li&gt;It is impossible to understand why anyone would cut an E+ record.&lt;/li&gt;
+&lt;li&gt;E records are frequently cited as proof that there is no God.&lt;/li&gt;
+&lt;li&gt;An E- record is an organically conceived masterpiece that repays repeated listening with a sense of horror in the face of the void. It is unlikely to be marred by one listenable cut.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Christgau&amp;#39;s Record Guide: Rock Albums of the &amp;#39;70s, 1980&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Graphic Design 3</title>
+      <link>http://teaching.ookb.co/courses/gd3/syllabus</link>
+      <description/>
+    </item>
+    <item>
+      <title>Graphic Design 3</title>
+      <link>http://teaching.ookb.co/courses/gd3</link>
+      <description>&lt;div class="row course-header remove-bottom"&gt;
+  &lt;h1 class="col-lg-12"&gt;Graphic Design 3&lt;/h1&gt;
+  &lt;h2 class="col-lg-12"&gt;Time + Motion + Graphic Design&lt;/h2&gt;
+  &lt;div class="col-lg-12 add-top border-top"&gt;
+    &lt;div class="row"&gt;
+      &lt;p class="col-md-3"&gt;Fall 2013, Brown 304&lt;/p&gt;
+      &lt;p class="col-md-3"&gt;Wednesdays, 8:30am&#x2013;2pm&lt;/p&gt;
+      &lt;p class="col-md-3"&gt;Thursdays, 9am&#x2013;3pm&lt;/p&gt;
+      &lt;p class="col-md-3"&gt;Fridays, 9am&#x2013;3pm&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="row remove-top"&gt;
+
+  &lt;div class="block yellow text-center condensed col-sm-6 col-md-6"&gt;&lt;a href="/courses/gd3/syllabus"&gt;Syllabus&lt;/a&gt;&lt;/div&gt;
+
+  &lt;div class="block green text-center condensed col-sm-6 col-md-6"&gt;&lt;a href="/courses/gd3/calendar"&gt;Calendar&lt;/a&gt;&lt;/div&gt;
+
+  &lt;div class="block orange text-center condensed col-sm-6 col-md-6"&gt;&lt;a href="/courses/gd3/readinglist"&gt;Readings&lt;/a&gt;&lt;/div&gt;
+
+  &lt;div class="block blue text-center condensed col-sm-6 col-md-6"&gt;&lt;a href="/courses/gd3/projectlist"&gt;Projects&lt;/a&gt;&lt;/div&gt;
+
+  &lt;div class="block red text-center condensed col-sm-6 col-md-6"&gt;&lt;a href="/courses/gd3/glossary"&gt;Glossary&lt;/a&gt;&lt;/div&gt;
+
+  &lt;div class="block purple text-center condensed col-sm-6 col-md-6"&gt;&lt;a href="/courses/gd3/designamation"&gt;DesignAMation&lt;/a&gt;&lt;/div&gt;
+
+&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Learning Outcomes</title>
+      <link>http://teaching.ookb.co/courses/gd3/learning-outcomes</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Students will demonstrate skill in producing work with standard tools and techniques for time-based media and motion graphics.&lt;/li&gt;
+&lt;li&gt;Students will identify fundamental principles of design for time based media such as sequencing, transitioning, pacing, timing and rhythm&lt;/li&gt;
+&lt;li&gt;Students will demonstrate strategic thinking about motion and its role in storytelling &lt;/li&gt;
+&lt;li&gt;Students will experiment with formal and conceptual fundamentals for the design of motion graphics&lt;/li&gt;
+&lt;li&gt;Students will incorporate the language of motion as a design principle &lt;/li&gt;
+&lt;li&gt;Students will develop a working process for the design of motion graphics&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Materials/Supplies</title>
+      <link>http://teaching.ookb.co/courses/gd3/supplies</link>
+      <description>&lt;h4 id="toc_0"&gt;You need the following:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a &lt;a href="http://www.vimeo.com"&gt;Vimeo&lt;/a&gt; Acct.&lt;/li&gt;
+&lt;li&gt;a way to move your files around&lt;/li&gt;
+&lt;li&gt;These two books: &lt;a href="/readings/graphicdesignnewbasics"&gt;&lt;em&gt;Graphic Design the New Basics&lt;/em&gt;&lt;/a&gt; and &lt;a href="/readings/understandingcomics"&gt;&lt;em&gt;Understanding Comics&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Access to a camera of some kind&lt;/li&gt;
+&lt;li&gt;Access to at least Photoshop, Illustrator, and After Effects&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Plagiarism</title>
+      <link>http://teaching.ookb.co/courses/plagiarism</link>
+      <description>&lt;p&gt;Each discipline within the arts has specific and appropriate means for students to cite or acknowledge sources and the ideas and material of others used in their own work. Students have the responsibility to become familiar with such processes and to carefully follow their use in developing original work.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Policy&lt;/strong&gt;&lt;br&gt;
+MICA will not tolerate plagiarism, which is defined as claiming authorship of, or using someone else&amp;#39;s ideas or work without proper acknowledgment. Without proper attribution, a student may NOT replicate another&amp;#39;s work, paraphrase another&amp;#39;s ideas, or appropriate images in a manner that violates the specific rules against plagiarism in the student&amp;#39;s department. In addition, students may not submit the same work for credit in more than one course without the explicit approval of the all of the instructors of the courses involved.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Consequences&lt;/strong&gt;&lt;br&gt;
+When an instructor has evidence that a student has plagiarized work submitted for course credit, the instructor will confront the student and impose penalties that may include failing the course. In the case of a serious violation or repeated infractions from the same student, the instructor will report the infractions to the department chair. Depending on the circumstances of the case, the department chair may then report the student to the Office of Academic Affairs, which may choose to impose further penalties, including suspension or expulsion.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Appeal Process&lt;/strong&gt;&lt;br&gt;
+Students who are penalized by an instructor or department for committing plagiarism have the right to appeal the charge and penalties that ensue. Within three weeks of institutional action, the student must submit a letter of appeal to the department chairperson of the course for which actions were taken. The chairperson will assign three members of the relevant department to serve on a review panel. The panel will meet with the student an  the instructor of record and will review all relevant and available materials. The panel will determine whether or not to confirm the charge and penalties. The findings of the panel are final. The panel will notify the instructor, the chairperson, the student, and the Office of Academic Affairs of their findings and any recommendations for change in penalties.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://teaching.ookb.co/courses/gd3/projectlist</link>
+      <description>&lt;div class="row course-header col-lg-12"&gt;
+  &lt;h1&gt;Projects&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;div class="row"&gt;
+
+  &lt;!-- Projects  --&gt;
+  &lt;article class="projects col-md-12"&gt;
+    &lt;section&gt;
+      &lt;h2&gt;&lt;a href="/projects/2013-09-11-animated-frames"&gt;01. Animated Frames&lt;/a&gt;&lt;/h2&gt;
+      &lt;div class="summary ellipsis"&gt;
+&lt;p&gt;The purpose of this project is to give you some fundamentals of &amp;ldquo;Frame-by-frame&amp;rdquo; or traditional animation, and then how you can use that in a design context. The main objective is for you to produce a frame-by-frame animation of at least 100 frames. Stylistically it can be whatever you choose. Hopefully, you will begin to understand some alternate methods of animation and the complexities contained within each.&lt;/p&gt;
+
+&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;h2&gt;&lt;a href="/projects/2013-10-02-animated-shapes"&gt;02. Animated Shapes&lt;/a&gt;&lt;/h2&gt;
+      &lt;div class="summary ellipsis"&gt;
+&lt;p&gt;Using only shape layers, the shape tool and plain, formal elements, please make a short animation set to music. Pick a piece of (preferably) instrumental music. Make what you consider to be a &amp;ldquo;Motion Graphic&amp;rdquo; with the skills we've learned so far in After Effects that shows us what the music &amp;ldquo;looks like&amp;rdquo; with your formal and motion choices. If necessary, a jpg or video footage may be used as a background - but strive to use just formal elements. Consider pacing, rhythm, and how formal decisions relate to temporal ones.&lt;/p&gt;
+
+&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;h2&gt;&lt;a href="/projects/2013-10-16-animated-word"&gt;03. Animated Word&lt;/a&gt;&lt;/h2&gt;
+      &lt;div class="summary ellipsis"&gt;
+&lt;p&gt;This project is about using time and motion as emotive and descriptive forces. How does one make the design, layout, and animation of a thing define it?&lt;/p&gt;
+
+&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;h2&gt;&lt;a href="/projects/2013-11-06-animated-poster"&gt;04. Animated Poster&lt;/a&gt;&lt;/h2&gt;
+      &lt;div class="summary"&gt;&lt;p&gt;TK&lt;/p&gt;&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;h2&gt;&lt;a href="/projects/2013-11-13-animated-identity"&gt;05. Animated Identity&lt;/a&gt;&lt;/h2&gt;
+      &lt;div class="summary ellipsis"&gt;
+&lt;p&gt;With more and more content moving to web, touch, + video arenas, brands + logos no longer need to remain static. This project requires you to pick a company or product (or even yourself) that would benefit from a contemporary, motion-based re-branding. If you don't have any good ideas for a product or company, just pick the class, GD3. As part of this choice, you must be able to describe &amp;ldquo;why&amp;rdquo; adding motion to this identity better represents the chosen brand. You also need to be clear how this can potentially be expanded to include product line expansion or business growth&amp;hellip;&lt;/p&gt;
+
+&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;h2&gt;&lt;a href="/projects/2013-11-21-design-a-mation"&gt;06. Design-a-Mations&lt;/a&gt;&lt;/h2&gt;
+      &lt;div class="summary"&gt;&lt;p&gt;Ongoing over the term. By the last day of class please have made (at least) 8 short animations that deal with aspects of design that you enjoy&amp;hellip; This means they can be formal explorations, actually try to tackle a subject, whatever. As you send them in, I'll populate our &amp;ldquo;Design-a-Mation&amp;rdquo; page with them.&lt;/p&gt;&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;h2&gt;&lt;a href="/projects/2013-11-22-tmgd-essay"&gt;07. Time and Motion and Graphic Design: the essay&lt;/a&gt;&lt;/h2&gt;
+      &lt;div class="summary ellipsis"&gt;
+&lt;p&gt;Please explain what you think describes what &amp;ldquo;Time + Motion&amp;rdquo; mean in relation to Graphic Design. We&amp;rsquo;ve spend a lot of time over the term talking about this, but I want to make sure that you all really think about it on your own; as well as think about how you might explain it to someone else.&lt;/p&gt;
+
+&lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/article&gt;
+ 
+
+&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://teaching.ookb.co/courses/gd3/projects</link>
+      <description>
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-09-11-animated-frames"&gt;01. Animated Frames&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-10-02-animated-shapes"&gt;02. Animated Shapes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-10-16-animated-word"&gt;03. Animated Word&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-11-06-animated-poster"&gt;04. Animated Poster&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-11-13-animated-identity"&gt;05. Animated Identity&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-11-21-design-a-mation"&gt;06. Design-a-Mations&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-11-22-tmgd-essay"&gt;07. Time and Motion and Graphic Design: the essay&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+ 
+
+</description>
+    </item>
+    <item>
+      <title>Required Reading</title>
+      <link>http://teaching.ookb.co/courses/gd3/required-reading</link>
+      <description>
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="/readings/futuristmanifesto"&gt;The Futurist Manifesto&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/readings/graphicdesignnewbasics"&gt;Graphic Design The New Basics&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/readings/paragraphsonconceptualart"&gt;Paragraphs on Conceptual Art&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/readings/shapeofdesign"&gt;The Shape of Design&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/readings/spacetimeproblems"&gt;Space-Time Problems&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/readings/understandingcomics"&gt;Understanding Comics&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+ 
+
+</description>
+    </item>
+    <item>
+      <title>Required Readings</title>
+      <link>http://teaching.ookb.co/courses/gd3/readinglist</link>
+      <description>&lt;h3 id="toc_0"&gt;&lt;em&gt;Graphic Design the New Basics&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="http://www.amazon.com/gp/product/1568987021/ref=as_li_ss_il?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1568987021&amp;linkCode=as2&amp;tag=soumacdre-20"&gt;&lt;img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=1568987021&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=soumacdre-20" &gt;&lt;/a&gt;&lt;img src="http://ir-na.amazon-adsystem.com/e/ir?t=soumacdre-20&amp;l=as2&amp;o=1&amp;a=1568987021" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;&lt;/p&gt;
+
+&lt;p&gt;by Ellen Lupton and Jennifer Cole Phillips  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://teaching.ookb.co/assets/media/gd-newbasics-tandm.pdf"&gt;Pg 214, Time and Motion&lt;/a&gt; (there is a PDF here for you to read now)&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Pg 156 Modularity&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Pg 232 Rules and Randomness&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="toc_1"&gt;&lt;em&gt;Understanding Comics&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="http://www.amazon.com/gp/product/006097625X/ref=as_li_ss_il?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=006097625X&amp;linkCode=as2&amp;tag=soumacdre-20"&gt;&lt;img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=006097625X&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=soumacdre-20" &gt;&lt;/a&gt;&lt;img src="http://ir-na.amazon-adsystem.com/e/ir?t=soumacdre-20&amp;l=as2&amp;o=1&amp;a=006097625X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;&lt;/p&gt;
+
+&lt;p&gt;by Scott McCloud  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Chapter 1, Setting the Record Straight&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Chapter 3, Blood in the Gutter&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/assets/media/readingresponses/rr01-understandingcomics-ch1-ch3.pdf"&gt;Reading Response for Ch1 &amp;amp; Ch3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chapter 4, Time Frames&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Chapter 6, Show and Tell&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="toc_2"&gt;&lt;em&gt;The Shape of Design&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;by Frank Chimero&lt;br&gt;
+Chapter 7, Stories and Voids - &lt;a href="http://read.shapeofdesignbook.com/chapter07.html"&gt;http://read.shapeofdesignbook.com/chapter07.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="toc_3"&gt;&lt;em&gt;The Futurist Manifesto&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;by Filippo Tommaso Marinetti&lt;br&gt;
+(also, this: &lt;a href="https://medium.com/who-needs-art/4d1c59130030"&gt;https://medium.com/who-needs-art/4d1c59130030&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h3 id="toc_4"&gt;&lt;em&gt;Space-Time Problems&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;by L&#xE1;szl&#xF3; Moholy-Nagy&lt;/p&gt;
+
+&lt;h3 id="toc_5"&gt;&lt;em&gt;Paragraphs on Conceptual Art&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;by Sol Lewitt&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>_GD3thoughts</title>
+      <link>http://teaching.ookb.co/courses/gd3/_GD3thoughts</link>
+      <description>&lt;p&gt;This class is an overview and is super basic. You need to spend a lot of time with this stuff on your own outside of class to really start to &#x201C;get it.&#x201D; The 16 weeks we spend in here is not enough to make any of you experts&#x2026; However, don&amp;#39;t be discouraged if you cannot get something or do not know how to make something&#x2026; Just keep trying! Just play around, just make!&lt;/p&gt;
+
+&lt;p&gt;When you find readings that you like, you should read either the rest of that book, or more from that author, or whatever&#x2026; that&#x2019;s part of learning to learn&#x2026;&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Projects&lt;/h2&gt;
+
+&lt;h3 id="toc_1"&gt;Inclass&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;animated gif&lt;/li&gt;
+&lt;li&gt;simple stop motion&lt;/li&gt;
+&lt;li&gt;demo projects; please post these each class&#x2026;&lt;/li&gt;
+&lt;li&gt;Storyboard?&lt;/li&gt;
+&lt;li&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="toc_2"&gt;On your own&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;10 animated gifs over the course of the term (the 1 in class doesn&amp;#39;t count!)&lt;/li&gt;
+&lt;li&gt;Stop Motion project&lt;/li&gt;
+&lt;li&gt;Animated shapes&lt;/li&gt;
+&lt;li&gt;Animated Word video and book&lt;/li&gt;
+&lt;li&gt;Animated Identity&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Time &amp;amp; Motion &amp;amp; Graphic Design essay; you must write 1000 words AND design the format you deliver this to me in&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A way to trick them into reading more of the assigned books?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;textless narrative of one of the chapters???&lt;/p&gt;
+
+&lt;p&gt;+=+=+=+=+=+=+=+=+=+=+=+=+&lt;/p&gt;
+
+&lt;p&gt;Things to think about:
+- Any better/more readings?
+- What about bringing animation to the web? should we at least talk about that one or two days?
+- Where does the relativity talk fit in?
+- Discuss &#x201C;time&#x201D; as a design tool in more detail; same goes with motion&#x2026;
+- What does motion look like when it is static? (if motion is change over time, does there then literally have to be some sort of change?)
+- Better overview of historic art &amp;amp; design movements that have captured this content or dealt with these ideas in some way &#x2026; or as some aspect of the works/movements&#x2026;
+- Temporal understanding in the context of completing a project?&lt;/p&gt;
+
+&lt;p&gt;+=+=+=+=+=+=+=+=+=+=+=+=+&lt;/p&gt;
+
+&lt;p&gt;Other project ideas:
+some sort of timeline project?
+    - timeline/info graphic?
+    - look up skill share noun project icon timeline thingy&#x2026;&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
