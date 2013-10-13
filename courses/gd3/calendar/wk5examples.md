@@ -1,4 +1,0 @@
-- [10 Awesomely Tasteful Animated GIFs](http://www.wired.com/design/2013/09/the-rise-of-subtle-tasteful-and-commissioned-animated-gif-illustrations/?viewall=true)
-- [PBS OffBook: Animated Gifs](http://www.youtube.com/watch?v=vuxKb5mxM8g)
-- [Cinemagraphs](http://cinemagraphs.com)
-- [MORK](https://vimeo.com/40006163)
