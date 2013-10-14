@@ -1,9 +1,9 @@
 --- 
 layout: project
-projectorder: 06
+projectorder: 05
 tags: 
   - gd3
-title: "06. Design-a-Mations"
+title: "05. Design-a-Mations"
 requirements: 
   - "Animated GIF or JPEG sequence"
   - "480x320 px"

@@ -1,9 +1,9 @@
 --- 
 layout: project
-projectorder: 07
+projectorder: 06
 tags: 
   - gd3
-title: "07. Time and Motion and Graphic Design: the essay"
+title: "06. Time and Motion and Graphic Design: the essay"
 requirements: 
   - "minimum 1000 words"
   - "maximum 2000 words"

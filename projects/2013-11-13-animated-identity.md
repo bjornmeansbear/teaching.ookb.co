@@ -1,9 +1,9 @@
 --- 
 layout: project
-projectorder: 05
+projectorder: 04
 tags: 
   - gd3
-title: "05. Animated Identity"
+title: "04. Animated Identity"
 requirements: 
   - "a Kit-of-parts"
   - "Animation that either generates the logo, explains the system, or IS the logo"

@@ -285,8 +285,13 @@ article.calendar section:last-child {
   padding-bottom: 0;
 }
 
+article.calendar section.past {
+  padding: 0 0 10px;
+}
+
 article.calendar .past h2 {
   cursor: pointer;
+  font-size: 1.5em;
 }
 
 article.calendar .past h2:hover {
