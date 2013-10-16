@@ -24,17 +24,20 @@ by Scott McCloud
 - [Reading Response for Ch1 & Ch3]({{urls.media}}/readingresponses/rr01-understandingcomics-ch1-ch3.pdf)
 - Chapter 4, Time Frames  
 - Chapter 6, Show and Tell  
+- [Reading Response for Ch4 & Ch6]({{urls.media}}/readingresponses/rr02-understandingcomics-ch4-ch6.pdf)
+
 
 ### _The Shape of Design_  
 by Frank Chimero  
-Chapter 7, Stories and Voids - http://read.shapeofdesignbook.com/chapter07.html
+Chapter 7, Stories and Voids - http://read.shapeofdesignbook.com/chapter07.html  
+[Reading Response for Stories and Voids]({{urls.media}}/readingresponses/rr03-storiesandvoids.pdf)
+
+### _Space-Time Problems_  
+by László Moholy-Nagy
 
 ### _The Futurist Manifesto_  
 by Filippo Tommaso Marinetti  
 (also, this: https://medium.com/who-needs-art/4d1c59130030)
-
-### _Space-Time Problems_  
-by László Moholy-Nagy
 
 ### _Paragraphs on Conceptual Art_  
 by Sol Lewitt

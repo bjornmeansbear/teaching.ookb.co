@@ -272,6 +272,9 @@ layout : default
             {{# outline }}
               <li> {{ . }} </li>
             {{/ outline }}
+              <li>Another resource for free instrumental tracks: <a href="http://www.angelfire.com/indie/postfoetus/geotic.html">Geotic</a></li>
+              <li><a href="{{urls.media}}/projects/animatedwordsheet.pdf">Animated Word Project Sheet</a></li>
+              <li><a href="{{urls.media}}/readingresponses/rr03-storiesandvoids.pdf">Stories and Voids Project sheet</a></li>
           </ul>
         
           <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-3 column-list ">
@@ -303,12 +306,15 @@ layout : default
           <p class="col-md-4">{{ sec3 }}</p>
         </div>
   
-        {{# outline }}
-          <ul>
-            <li> {{ . }} </li>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><p class="lead"><strong><em>Fall break does not effect our schedule, we still have class!</em></strong></p></div>
+          <ul class="col-xs-12 col-sm-6 col-md-6 col-lg-6 column-list ">
+            <h3>Outline</h3>
+            {{# outline }}
+              <li> {{ . }} </li>
+            {{/ outline }}
           </ul>
-        {{/ outline }}
-        
+        </div>          
       </section>
       {{/ courses.find_by_name.gd3/calendar/wk8 }}
       
