@@ -27,3 +27,4 @@
 
 ### Generally Cool
 - [Constellaction](https://vimeo.com/76479685) - Thanks Nicolas.
+- [Type Rider](http://www.fastcodesign.com/3019584/typerider-is-the-ultimate-video-game-about-typography#6) - Thanks Anna
