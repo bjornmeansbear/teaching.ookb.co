@@ -4,11 +4,11 @@ sec1: 2013-10-30
 sec2: 2013-10-31
 sec3: 2013-11-01
 outline:
-  - "Animated Word Books and Videos to be turned in"
-  - "Discuss next project"
-  - "More demos?"
-  - "Lecture?"
-  - "Readings?"
+  - "A Little Art History"
+  - "Discuss the reading"
+  - "3D Space (Lights, Camera, Action)"
+  - "Look at each other's word progress"
+  - "Export AE Frames to Images"
 examples:
   - "TK"
 reading: 

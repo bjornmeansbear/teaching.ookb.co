@@ -1,3 +1,5 @@
+# Graphic Design 3.
+
 This class is an overview and is super basic. You need to spend a lot of time with this stuff on your own outside of class to really start to “get it.” The 16 weeks we spend in here is not enough to make any of you experts… However, don't be discouraged if you cannot get something or do not know how to make something… Just keep trying! Just play around, just make!
 
 When you find readings that you like, you should read either the rest of that book, or more from that author, or whatever… that’s part of learning to learn…
@@ -8,7 +10,6 @@ When you find readings that you like, you should read either the rest of that bo
 - simple stop motion
 - demo projects; please post these each class…
 - Storyboard?
-- ?
 
 ### On your own
 - 10 animated gifs over the course of the term (the 1 in class doesn't count!)
@@ -21,8 +22,6 @@ When you find readings that you like, you should read either the rest of that bo
 - A way to trick them into reading more of the assigned books?
 
 textless narrative of one of the chapters???
-
-
 
 +=+=+=+=+=+=+=+=+=+=+=+=+
 
