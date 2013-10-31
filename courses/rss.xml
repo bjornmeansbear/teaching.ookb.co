@@ -4,7 +4,7 @@
     <title>teaching.ookb.co</title>
     <description>teaching.ookb.co</description>
     <link>http://teaching.ookb.co</link>
-    <pubDate>2013-10-23</pubDate>
+    <pubDate>2013-10-30</pubDate>
     <item>
       <title>Additional Course Info</title>
       <link>http://teaching.ookb.co/courses/gd3/additions</link>
@@ -619,22 +619,6 @@ Students who are penalized by an instructor or department for committing plagiar
     </item>
     <item>
       <title>Projects</title>
-      <link>http://teaching.ookb.co/courses/gd3/projects</link>
-      <description>
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href="/projects/2013-09-11-animated-frames"&gt;01. Animated Frames&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/projects/2013-10-02-animated-shapes"&gt;02. Animated Shapes&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/projects/2013-10-16-animated-word"&gt;03. Animated Word&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/projects/2013-11-13-animated-identity"&gt;04. Animated Identity&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/projects/2013-11-21-design-a-mation"&gt;05. Design-a-Mations&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/projects/2013-11-22-tmgd-essay"&gt;06. Time and Motion and Graphic Design: the essay&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
- 
-
-</description>
-    </item>
-    <item>
-      <title>Projects</title>
       <link>http://teaching.ookb.co/courses/gd3/projectlist</link>
       <description>&lt;div class="row course-header col-lg-12"&gt;
   &lt;h1&gt;Projects&lt;/h1&gt;
@@ -687,6 +671,22 @@ Students who are penalized by an instructor or department for committing plagiar
  
 
 &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://teaching.ookb.co/courses/gd3/projects</link>
+      <description>
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-09-11-animated-frames"&gt;01. Animated Frames&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-10-02-animated-shapes"&gt;02. Animated Shapes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-10-16-animated-word"&gt;03. Animated Word&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-11-13-animated-identity"&gt;04. Animated Identity&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-11-21-design-a-mation"&gt;05. Design-a-Mations&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/projects/2013-11-22-tmgd-essay"&gt;06. Time and Motion and Graphic Design: the essay&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+ 
+
+</description>
     </item>
     <item>
       <title>Required Reading</title>
