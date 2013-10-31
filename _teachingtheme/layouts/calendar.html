@@ -258,7 +258,7 @@ layout : default
       
       <!-- Wk7 -->
       {{# courses.find_by_name.gd3/calendar/wk7 }}
-      <section class="week" id="wk07">
+      <section class="week past" id="wk07">
         <h2>{{ title }}</h2>
         <div class="row dates">
           <p class="col-md-4">{{ sec1 }}</p>
@@ -299,7 +299,7 @@ layout : default
       
       <!-- Wk8 -->
       {{# courses.find_by_name.gd3/calendar/wk8 }}
-      <section class="week" id="wk08">
+      <section class="week past" id="wk08">
         <h2>{{ title }}</h2>
         <div class="row dates">
           <p class="col-md-4">{{ sec1 }}</p>
@@ -343,13 +343,28 @@ layout : default
           <p class="col-md-4">{{ sec2 }}</p>
           <p class="col-md-4">{{ sec3 }}</p>
         </div>
+
+        <div class="row">
   
-        {{# outline }}
-          <ul>
-            <li> {{ . }} </li>
+          <ul class="col-xs-12 col-sm-6 col-md-4 col-lg-4 column-list ">
+            <h3>Outline</h3>
+            {{# outline }}
+              <li> {{ . }} </li>
+            {{/ outline }}
           </ul>
-        {{/ outline }}
-        
+          
+          <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 column-list ">
+            {{# courses.find_by_name.gd3/calendar/wk9demo }}
+              {{{ content }}}
+            {{/ courses.find_by_name.gd3/calendar/wk9demo }}
+          </div>
+  
+          <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 column-list ">
+            {{# courses.find_by_name.gd3/calendar/wk9homework }}
+              {{{ content }}}
+            {{/ courses.find_by_name.gd3/calendar/wk9homework }}
+          </div>
+        </div>
       </section>
       {{/ courses.find_by_name.gd3/calendar/wk9 }}
       
