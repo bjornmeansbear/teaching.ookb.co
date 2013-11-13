@@ -371,7 +371,7 @@ layout : default
       
       <!-- Wk10 -->
       {{# courses.find_by_name.gd3/calendar/wk10 }}
-      <section class="week" id="wk10">
+      <section class="week past" id="wk10">
         <h2>{{ title }}</h2>
         <div class="row dates">
           <p class="col-md-4">{{ sec1 }}</p>
@@ -414,12 +414,28 @@ layout : default
           <p class="col-md-4">{{ sec3 }}</p>
         </div>
   
-        {{# outline }}
-          <ul>
-            <li> {{ . }} </li>
+        <div class="row">
+  
+          <ul class="col-xs-12 col-sm-6 col-md-4 col-lg-4 column-list ">
+            <h3>Outline</h3>
+            {{# outline }}
+              <li> {{ . }} </li>
+            {{/ outline }}
           </ul>
-        {{/ outline }}
-        
+          
+          <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 column-list ">
+            {{# courses.find_by_name.gd3/calendar/wk11examples }}
+              {{{ content }}}
+            {{/ courses.find_by_name.gd3/calendar/wk11examples }}
+          </div>
+  
+          <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 column-list ">
+            {{# courses.find_by_name.gd3/calendar/wk11homework }}
+              {{{ content }}}
+            {{/ courses.find_by_name.gd3/calendar/wk11homework }}
+          </div>
+        </div>
+
       </section>
       {{/ courses.find_by_name.gd3/calendar/wk11 }}
       
