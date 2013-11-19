@@ -8,12 +8,8 @@ $(".scroll").click(function(event){
 });
 
 $(document).ready(function() {
-  var diw   =  $('.designamation img').width();
-  var ratio = (diw*(320/480));
-  $('.designamation').height(ratio);
-
+  $('.designamations p img').parent().addClass('imagewrap');
   $('.calendar .week.past .row').hide();
-  
   $('.calendar .week.past h2').click(function(event){
     event.preventDefault();
     //$('html,body').animate({scrollTop:$(this.hash).offset().top-52}, 800);
@@ -22,9 +18,15 @@ $(document).ready(function() {
 
 });
 
-$(window).resize(function() {
-  var diw   =  $('.designamation img').width();
+$(window).load(function() {
+  var diw   =  $('.designamations img').width();
   var ratio = (diw*(320/480));
-  $('.designamation').height(ratio);
+  $('.designamations p').height(ratio);
+});
+
+$(window).resize(function() {
+  var diw   =  $('.designamations img').width();
+  var ratio = (diw*(320/480));
+  $('.designamations p').height(ratio);
 });
 

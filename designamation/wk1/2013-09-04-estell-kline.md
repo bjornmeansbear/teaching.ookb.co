@@ -10,5 +10,4 @@ image: "designamation/wk1sec1/estell-kline.gif"
 ---
 
 <img src="{{urls.media}}/{{ image }}" alt="{{ title }}"/>
-by {{ student }}
 

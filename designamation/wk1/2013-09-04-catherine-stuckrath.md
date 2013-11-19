@@ -10,5 +10,3 @@ image: "designamation/wk1sec1/catherine-stuckrath.gif"
 ---
 
 <img src="{{urls.media}}/{{ image }}" alt="{{ title }}"/>
-by {{ student }}
-

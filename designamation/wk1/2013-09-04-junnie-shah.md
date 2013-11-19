@@ -10,5 +10,4 @@ image: "designamation/wk1sec1/junnie-shah.gif"
 ---
 
 <img src="{{urls.media}}/{{ image }}" alt="{{ title }}"/>
-by {{ student }}
 

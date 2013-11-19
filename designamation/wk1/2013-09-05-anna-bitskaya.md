@@ -10,5 +10,5 @@ image: "designamation/wk1sec2/anna-bitskaya.gif"
 ---
 
 <img src="{{urls.media}}/{{ image }}" alt="{{ title }}"/>
-by {{ student }}
+
 

@@ -10,5 +10,3 @@ image: "designamation/wk1sec3/zak-bickel.gif"
 ---
 
 <img src="{{urls.media}}/{{ image }}" alt="{{ title }}"/>
-by {{ student }}
-

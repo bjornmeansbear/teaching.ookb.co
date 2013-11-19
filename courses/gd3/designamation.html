@@ -11,13 +11,7 @@ title: "Design-a-Mations"
 {{# designamation.tags.gd3 }}
 <div class="designamations">
   {{# designamation?to_designamation }}
-  <div class="designamation">
-    <img src="{{urls.media}}/{{ image }}" alt="{{ title }}"/>
-    <p>by {{ student }}</p>
-  </div>
+    {{{ content }}}
   {{/ designamation?to_designamation }}
 </div>
 {{/ designamation.tags.gd3 }} 
-
-
-

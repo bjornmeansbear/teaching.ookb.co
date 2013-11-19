@@ -10,5 +10,5 @@ image: "designamation/wk1sec2/prescott-foland.gif"
 ---
 
 <img src="{{urls.media}}/{{ image }}" alt="{{ title }}"/>
-by {{ student }}
+
 

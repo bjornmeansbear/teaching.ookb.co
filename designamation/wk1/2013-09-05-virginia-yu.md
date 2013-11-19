@@ -10,5 +10,5 @@ image: "designamation/wk1sec2/virginia-yu.gif"
 ---
 
 <img src="{{urls.media}}/{{ image }}" alt="{{ title }}"/>
-by {{ student }}
+
 

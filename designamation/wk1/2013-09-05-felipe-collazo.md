@@ -10,5 +10,4 @@ image: "designamation/wk1sec2/felipe-collazo.gif"
 ---
 
 <img src="{{urls.media}}/{{ image }}" alt="{{ title }}"/>
-by {{ student }}
 
