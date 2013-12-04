@@ -441,7 +441,7 @@ layout : default
       
       <!-- Wk12 -->
       {{# courses.find_by_name.gd3/calendar/wk12 }}
-      <section class="week" id="wk12">
+      <section class="week past" id="wk12">
         <h2>{{ title }}</h2>
         <div class="row dates">
           <p class="col-md-4">{{ sec1 }}</p>
@@ -476,16 +476,13 @@ layout : default
   
       <!-- Wk13 -->
       {{# courses.find_by_name.gd3/calendar/wk13 }}
-      <section class="week" id="wk13">
+      <section class="week past" id="wk13">
         <h2>{{ title }}</h2>
         <div class="row dates">
           <p class="col-md-4">{{ sec1 }}</p>
           <p class="col-md-4">{{ sec2 }}</p>
           <p class="col-md-4">{{ sec3 }}</p>
         </div>
-        
-        <h4>No Class</h4>
-                
       </section>
       {{/ courses.find_by_name.gd3/calendar/wk13 }}
   
@@ -499,12 +496,28 @@ layout : default
           <p class="col-md-4">{{ sec3 }}</p>
         </div>
   
-        {{# outline }}
-          <ul>
-            <li> {{ . }} </li>
+        <div class="row">
+  
+          <ul class="col-xs-12 col-sm-6 col-md-4 col-lg-4 column-list ">
+            <h3>Outline</h3>
+            {{# outline }}
+              <li> {{ . }} </li>
+            {{/ outline }}
           </ul>
-        {{/ outline }}
-        
+          
+          <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 column-list ">
+            {{# courses.find_by_name.gd3/calendar/wk14examples }}
+              {{{ content }}}
+            {{/ courses.find_by_name.gd3/calendar/wk14examples }}
+          </div>
+  
+          <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 column-list ">
+            {{# courses.find_by_name.gd3/calendar/wk14homework }}
+              {{{ content }}}
+            {{/ courses.find_by_name.gd3/calendar/wk14homework }}
+          </div>
+        </div>
+
       </section>
       {{/ courses.find_by_name.gd3/calendar/wk14 }}
   
