@@ -67,7 +67,7 @@
       This assignment is due February 3rd (2014-02-03) at the start of class.
       </code></pre>
       
-      <section class="toggle closed">
+      <section class="toggle past">
         <h3>Part1</h3>
         <div class="due small">Due <date>2014-02-10</date></div>
         <div class="content">
@@ -90,7 +90,7 @@
         </div>
       </section>
 
-      <section class="toggle open">
+      <section class="toggle current">
         <h3>Part2</h3>
         <div class="due small">Due <date>2014-02-17</date></div>
         <p>TK</p>
@@ -171,11 +171,12 @@
 
     <script>
       $(document).ready(function() {
-        $('.closed .content').hide();
-        $('.toggle h3').click(function() {
-          $(this).parent().child('.content').toggleSlide();
-        });
+        $('.past .content').hide();
       });
+
+      $("section.toggle h3").click(function () {
+        $(this).parent().children('.content').toggle();
+      });    
     </script>
 
     <!-- okay, so this is the main template -->
