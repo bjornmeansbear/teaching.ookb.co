@@ -67,24 +67,33 @@
       This assignment is due February 3rd (2014-02-03) at the start of class.
       </code></pre>
       
-      <section>
+      <section class="toggle closed">
         <h3>Part1</h3>
-        <p>Choose the "worst" package you are redesigning. Investigate to the best of your ability the greater eco-system that your product is a part of. This first week's work is basically a research project. Find out as much as possible as you can about your product and the customers for that product. Next week we'll talk about how what you've found out influences your next steps. Bring an image of the product you're re-designing, and be prepared to explain what you've found out about your product.</p>
+        <div class="due small">Due <date>2014-02-10</date></div>
+        <div class="content">
+          <p>Choose the "worst" package you are redesigning. Investigate to the best of your ability the greater eco-system that your product is a part of. This first week's work is basically a research project. Find out as much as possible as you can about your product and the customers for that product. Next week we'll talk about how what you've found out influences your next steps. Bring an image of the product you're re-designing, and be prepared to explain what you've found out about your product.</p>
+  
+          <ul>
+            <li>How/Where does it get produced?</li>
+            <li>How does it get to the store?</li>
+            <li>How is it presented in the store?</li>
+            <li>How is it sold?</li>
+            <li>How do customers interact with it in the store and at home?</li>
+            <li>What happens to the packaging once the customer gets the item home and un-packed?</li>
+            <li>What do other companies that sell this same product do?</li>
+            <li>Are there a variety of existing ways to make, transport, sell and package this product?</li>
+            <li>If the product is part of a greater brand of products, how does it fit into the general brand story?</li>
+            <li>How does this packaging design play into the "needs" vs. "wants" conversation?</li>
+          </ul>
+  
+          <p>Sidenote: you are all designers. As someone interested in design, and wanting to learn about design, everything you do becomes an opportunity for an additional design project. Treat this research as a design project… you're going to use this to solve a problem, but is there something you can do with your research — the way you format it, the way you collect it, whatever — that can be “designed” too? perhaps this helps you investigate or analyze… anyway, just something else to think about.</p>
+        </div>
+      </section>
 
-        <ul>
-          <li>How/Where does it get produced?</li>
-          <li>How does it get to the store?</li>
-          <li>How is it presented in the store?</li>
-          <li>How is it sold?</li>
-          <li>How do customers interact with it in the store and at home?</li>
-          <li>What happens to the packaging once the customer gets the item home and un-packed?</li>
-          <li>What do other companies that sell this same product do?</li>
-          <li>Are there a variety of existing ways to make, transport, sell and package this product?</li>
-          <li>If the product is part of a greater brand of products, how does it fit into the general brand story?</li>
-          <li>How does this packaging design play into the "needs" vs. "wants" conversation?</li>
-        </ul>
-
-        <p>Sidenote: you are all designers. As someone interested in design, and wanting to learn about design, everything you do becomes an opportunity for an additional design project. Treat this research as a design project… you're going to use this to solve a problem, but is there something you can do with your research — the way you format it, the way you collect it, whatever — that can be “designed” too? perhaps this helps you investigate or analyze… anyway, just something else to think about.</p>
+      <section class="toggle open">
+        <h3>Part2</h3>
+        <div class="due small">Due <date>2014-02-17</date></div>
+        <p>TK</p>
       </section>
       
     </div>
@@ -153,12 +162,22 @@
   
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script src='/assets/javascripts/bootstrap-cd4d2bd0232733e89138fa7be0c67e42.js'></script>
-<script src='/assets/javascripts/affix-44ee0c1c74596eb10fb8ef6bb0fb6a16.js'></script>
-<script src='/assets/javascripts/dropdown-50337f143239fd2f7297a617faf81782.js'></script>
-<script src='/assets/javascripts/scrollspy-4aa487bdbfc40e20d8b931b09693a627.js'></script>
-<script src='/assets/javascripts/jquery.cycle2-e8875f2cda972efee744bd52853b956f.js'></script>
-<script src='/assets/javascripts/teaching-9e60a79ce7f12d923e8e8c21b5541bdf.js'></script>
+    <script src='/assets/javascripts/bootstrap-cd4d2bd0232733e89138fa7be0c67e42.js'></script>
+    <script src='/assets/javascripts/affix-44ee0c1c74596eb10fb8ef6bb0fb6a16.js'></script>
+    <script src='/assets/javascripts/dropdown-50337f143239fd2f7297a617faf81782.js'></script>
+    <script src='/assets/javascripts/scrollspy-4aa487bdbfc40e20d8b931b09693a627.js'></script>
+    <script src='/assets/javascripts/jquery.cycle2-e8875f2cda972efee744bd52853b956f.js'></script>
+    <script src='/assets/javascripts/teaching-9e60a79ce7f12d923e8e8c21b5541bdf.js'></script>
+
+    <script>
+      $(document).ready(function() {
+        $('.closed .content').hide();
+        $('.toggle h3').click(function() {
+          $(this).parent().child('.content').toggleSlide();
+        });
+      });
+    </script>
+
     <!-- okay, so this is the main template -->
   </body>
 </html>
