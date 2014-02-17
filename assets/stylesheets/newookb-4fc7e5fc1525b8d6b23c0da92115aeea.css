@@ -380,6 +380,15 @@ article.calendar .week .column-list > ul {
   text-transform: uppercase;
 }
 
+.project .sidebar h3.add-top {
+  margin-top: 2.5em;
+}
+
+.project .sidebar h3.border-top {
+  border-color: rgba(96,103,103,1);
+  padding-top: 1.5em;
+}
+
 .project pre {
   background-color: rgba(236,64,121,.66);
   border: none;
