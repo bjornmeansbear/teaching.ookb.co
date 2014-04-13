@@ -126,20 +126,20 @@
         $(".content.result p").text(randomContent);
         //$(".level.result p").text(randomLevel);
 
+        var tallest = -1;
+        $('.deliveredresults .result').each(function() {
+          topheight = topheight > $(this).height() ? topheight : $(this).height();
+        });
+        $('.deliveredresults .result').each(function() {
+          $(this).height(topheight);
+        });
+
       });
       
       $('.cooker').click(function() {
         document.location.reload(true);
       });
       
-      var tallest = -1;
-      $('.deliveredresults .result').each(function() {
-        topheight = topheight > $(this).height() ? topheight : $(this).height();
-      });
-      $('.deliveredresults .result').each(function() {
-        $(this).height(topheight);
-      });
-  
      
     </script>
 
