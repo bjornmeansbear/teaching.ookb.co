@@ -16,7 +16,7 @@
   <link href='/assets/stylesheets/newookb-4fc7e5fc1525b8d6b23c0da92115aeea.css' type='text/css' rel='stylesheet' media='all'>
   </head>
 
-  <body data-spy="scroll" data-target="#scrollspy-nav" class="">
+  <body data-spy="scroll" data-target="#scrollspy-nav" class="package-cooker">
   
     <!-- Header/Nav!
     ================================================== -->
@@ -46,7 +46,7 @@
           
       <!-- Current class content -->
       <div class="row remove-top">
-        <div class="purple text-center condensed col-xs-12"><h2>Package Cooker</h2></div>
+        <div class="purple text-center condensed col-xs-12 cooker"><h1>Package Cooker</h1></div>
       </div>
 
       <div class="row">
@@ -54,6 +54,10 @@
         <div class="yellow text-center col-xs-12 col-sm-6 col-md-3 structre"><h4>Structure</h4><p>blah</p></div>
         <div class="green text-center col-xs-12 col-sm-6 col-md-3 contents"><h4>Contents</h4><p>blah</p></div>
         <div class="blue text-center col-xs-12 col-sm-6 col-md-3 level"><h4>Consumer Level</h4><p>blah</p></div>
+      </div>
+
+      <div class="row">
+        <div class="text-center col-xs-12 col-sm-6 col-md-3 cooker">New Constraints</div>
       </div>
 
     </div> <!-- /container -->
@@ -103,6 +107,26 @@
     <script>
       $('.dropdown-toggle').dropdown()
     </script>
-    
+
+    <script>
+      $.getJSON('cooker.json', function(data) { 
+          
+        var randomMaterial  = data.materials[Math.floor(Math.random()*data.materials.length)];
+        var randomStructure = data.structures[Math.floor(Math.random()*data.structures.length)];
+        var randomContent   = data.contents[Math.floor(Math.random()*data.contents.length)];
+        var randomLevel     = data.levels[Math.floor(Math.random()*data.levels.length)];
+
+        $("#oblique_strategies p").text(randomStrategy.strategy);
+        $("#oblique_strategies p").text(randomStrategy.strategy);
+        $("#oblique_strategies p").text(randomStrategy.strategy);
+        $("#oblique_strategies p").text(randomStrategy.strategy);
+
+      });
+      
+      $('.cooker').click(function() {
+        document.location.reload(true);
+      });
+    </script>
+
   </body>
 </html>
