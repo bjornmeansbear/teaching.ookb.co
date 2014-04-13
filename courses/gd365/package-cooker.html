@@ -49,7 +49,7 @@
         <div class="purple text-center condensed col-xs-12 cooker"><h1>Package Cooker</h1></div>
       </div>
 
-      <div class="row">
+      <div class="row deliveredresults">
         <div class="red text-center col-xs-12 col-sm-6 col-md-4 material result"><h4>Material</h4><p>blah</p></div>
         <div class="yellow text-center col-xs-12 col-sm-6 col-md-4 structure result"><h4>Structure</h4><p>blah</p></div>
         <div class="green text-center col-xs-12 col-sm-6 col-md-4 content result"><h4>Contents</h4><p>blah</p></div>
@@ -131,6 +131,16 @@
       $('.cooker').click(function() {
         document.location.reload(true);
       });
+      
+      var tallest = -1;
+      $('.deliveredresults .result').each(function() {
+        topheight = topheight > $(this).height() ? topheight : $(this).height();
+      });
+      $('.deliveredresults .result').each(function() {
+        $(this).height(topheight);
+      });
+  
+     
     </script>
 
   </body>
