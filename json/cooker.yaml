@@ -8,7 +8,6 @@
     - "metal"
     - "wood"
     - "composite"
-    - "Nothing"
     - "cork"
     - "foam"
 
@@ -37,7 +36,6 @@
     - "canning can"
     - "crate"
     - "hinged-lid tin"
-    - "Nothing"
 
   levels:
     - "high brow (luxury)"

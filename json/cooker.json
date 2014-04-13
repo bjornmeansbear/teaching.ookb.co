@@ -8,7 +8,6 @@
         "metal",
         "wood",
         "composite",
-        "Nothing",
         "cork",
         "foam"
     ],
@@ -36,8 +35,7 @@
         "beverage can",
         "canning can",
         "crate",
-        "hinged-lid tin",
-        "Nothing"
+        "hinged-lid tin"
     ],
     "contents": [
         "milk",
