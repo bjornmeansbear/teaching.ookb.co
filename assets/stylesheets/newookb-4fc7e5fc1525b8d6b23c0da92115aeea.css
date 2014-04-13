@@ -417,7 +417,8 @@ article.calendar .week .column-list > ul {
 }
 
 .result {
-    padding: 2em
+    padding: 2em;
+    min-height: 212px;
 }
 
 .result h4 {
