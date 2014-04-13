@@ -10,6 +10,7 @@
     "composite", 
     "Nothing", 
     "cork"
+    "foam", 
   ], 
   "structures": [
     "folding carton", 
@@ -35,7 +36,6 @@
     "beverage can", 
     "canning can", 
     "crate", 
-    "foam", 
     "hinged-lid tin", 
     "Nothing"
   ], 
