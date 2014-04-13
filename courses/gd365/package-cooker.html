@@ -96,7 +96,7 @@
     </footer>
   
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src='/assets/javascripts/bootstrap-cd4d2bd0232733e89138fa7be0c67e42.js'></script>
     <script src='/assets/javascripts/affix-44ee0c1c74596eb10fb8ef6bb0fb6a16.js'></script>
     <script src='/assets/javascripts/dropdown-50337f143239fd2f7297a617faf81782.js'></script>
@@ -109,7 +109,7 @@
     </script>
 
     <script>
-      $.getJSON('http://teaching.ookb.co/json/cooker.json', function(data) { 
+      $.getJSON('/json/cooker.json', function(data) { 
           
         var randomMaterial  = data.materials[Math.floor(Math.random()*data.materials.length)];
         var randomStructure = data.structures[Math.floor(Math.random()*data.structures.length)];
