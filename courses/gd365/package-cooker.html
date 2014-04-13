@@ -114,17 +114,14 @@
         var randomMaterial  = data.materials[Math.floor(Math.random()*data.materials.length)];
         var randomStructure = data.structures[Math.floor(Math.random()*data.structures.length)];
         var randomContent   = data.contents[Math.floor(Math.random()*data.contents.length)];
-        var randomLevel     = data.levels[Math.floor(Math.random()*data.levels.length)];
 
         console.log(randomMaterial);
         console.log(randomStructure);
         console.log(randomContent);
-        console.log(randomLevel);
 
         $(".material.result p").text(randomMaterial);
         $(".structure.result p").text(randomStructure);
         $(".content.result p").text(randomContent);
-        //$(".level.result p").text(randomLevel);
 
       });
       
