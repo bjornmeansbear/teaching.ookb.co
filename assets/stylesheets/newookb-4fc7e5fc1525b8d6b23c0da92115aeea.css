@@ -422,10 +422,11 @@ article.calendar .week .column-list > ul {
 }
 
 .result h4 {
-    font-weight: bold;
+    font-weight: 800;
     text-transform: uppercase;
     border-bottom: 1px solid;
-    padding-bottom: .33em
+    padding-bottom: .33em;
+    letter-spacing: 1px;
 }
 
 .result p {
