@@ -8,6 +8,8 @@
     - "metal"
     - "wood"
     - "composite"
+    - "Nothing"
+    - "cork"
 
   structures:
     - "folding carton"
@@ -35,6 +37,7 @@
     - "crate"
     - "foam"
     - "hinged-lid tin"
+    - "Nothing"
 
   level:
     - "high brow (luxury)"
@@ -44,7 +47,22 @@
   contents:
     - "milk"
     - "cereal"
+    - "adobe creative suite"
+    - "t-shirt"
+    - "dress shirt"
+    - "playing cards"
+    - "broom"
+    - "sweater"
     - "jeans"
+    - "frying pan"
+    - "toothbrush"
+    - "scissors"
+    - "chips"
+    - "pencil"
+    - "artkit"
+    - "salt"
+    - "rice"
+    - "pens"
     - "wine"
     - "apples"
     - "water"
@@ -69,3 +87,13 @@
     - "Paint"
     - "lip balm"
     - "wrist watch"
+    - "Starbust"
+    - "Macaron"
+    - "Bed Sheets"
+    - "Nothing"
+    - "ebook"
+    - "laptop"
+    - "tablet"
+    - "music album"
+    - "coffee"
+    

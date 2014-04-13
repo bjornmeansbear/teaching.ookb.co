@@ -7,7 +7,9 @@
     "glass", 
     "metal", 
     "wood", 
-    "composite"
+    "composite", 
+    "Nothing", 
+    "cork"
   ], 
   "structures": [
     "folding carton", 
@@ -34,12 +36,28 @@
     "canning can", 
     "crate", 
     "foam", 
-    "hinged-lid tin"
+    "hinged-lid tin", 
+    "Nothing"
   ], 
   "contents": [
     "milk", 
     "cereal", 
+    "adobe creative suite", 
+    "t-shirt", 
+    "dress shirt", 
+    "playing cards", 
+    "broom", 
+    "sweater", 
     "jeans", 
+    "frying pan", 
+    "toothbrush", 
+    "scissors", 
+    "chips", 
+    "pencil", 
+    "artkit", 
+    "salt", 
+    "rice", 
+    "pens", 
     "wine", 
     "apples", 
     "water", 
@@ -63,9 +81,18 @@
     "dress shoes", 
     "Paint", 
     "lip balm", 
-    "wrist watch"
+    "wrist watch", 
+    "Starbust", 
+    "Macaron", 
+    "Bed Sheets", 
+    "Nothing", 
+    "ebook", 
+    "laptop", 
+    "tablet", 
+    "music album", 
+    "coffee"
   ], 
-  "levels": [
+  "level": [
     "high brow (luxury)", 
     "mid brow (middle of the road)", 
     "low brow (mass-market)"
