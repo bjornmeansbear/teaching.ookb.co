@@ -109,7 +109,7 @@
     </script>
 
     <script>
-      $.getJSON('../json/cooker.json', function(data) { 
+      $.getJSON('/json/cooker.json', function(data) { 
           
         var randomMaterial  = data.materials[Math.floor(Math.random()*data.materials.length)];
         var randomStructure = data.structures[Math.floor(Math.random()*data.structures.length)];
