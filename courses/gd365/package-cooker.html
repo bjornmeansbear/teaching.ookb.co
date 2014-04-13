@@ -57,7 +57,7 @@
       </div>
 
       <div class="row">
-        <div class="text-center col-xs-12 col-sm-6 col-md-3 cooker">New Constraints</div>
+        <div class="text-center col-xs-12 cooker">New Constraints</div>
       </div>
 
     </div> <!-- /container -->
@@ -115,6 +115,12 @@
         var randomStructure = data.structures[Math.floor(Math.random()*data.structures.length)];
         var randomContent   = data.contents[Math.floor(Math.random()*data.contents.length)];
         var randomLevel     = data.levels[Math.floor(Math.random()*data.levels.length)];
+
+        console.log(randomMaterial.item);
+        console.log(randomStructure.item);
+        console.log(randomContent.item);
+        console.log(randomLevel.item);
+
 
         $(".material p").text(randomMaterial);
         $(".structure p").text(randomStructure);
