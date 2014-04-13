@@ -410,6 +410,9 @@ article.calendar .week .column-list > ul {
 /*=============================================================*/
 
 .cooker { margin: 0; padding: 0; }
+.cooker:hover {
+  cursor: pointer;
+}
 .cooker h1, .cooker p.newcooker {
   margin: 0;
   padding: 1em;
