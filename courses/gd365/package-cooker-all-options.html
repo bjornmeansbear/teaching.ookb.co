@@ -127,6 +127,11 @@
         $(".content.result p").text(randomContent);
         $(".level.result p span").text(randomLevel);
 
+        $.each(data.materials, function(index,value) {
+          console.log(value);
+          $('#materials').append('<li><p>' + value + '</p></li>');
+        });
+        
       });
       
       $('.cooker').click(function() {
