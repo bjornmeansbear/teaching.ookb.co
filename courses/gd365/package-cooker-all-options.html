@@ -110,29 +110,10 @@
     <script src='/assets/javascripts/scrollspy-4aa487bdbfc40e20d8b931b09693a627.js'></script>
     <script src='/assets/javascripts/jquery.cycle2-e8875f2cda972efee744bd52853b956f.js'></script>
     <script src='/assets/javascripts/teaching-9e60a79ce7f12d923e8e8c21b5541bdf.js'></script>
-    <!-- okay, so this is the main template -->
-    <script>
-      $('.dropdown-toggle').dropdown()
-    </script>
 
     <script>
       $.getJSON('/json/cooker.json', function(data) { 
           
-        var randomMaterial  = data.materials[Math.floor(Math.random()*data.materials.length)];
-        var randomStructure = data.structures[Math.floor(Math.random()*data.structures.length)];
-        var randomContent   = data.contents[Math.floor(Math.random()*data.contents.length)];
-        var randomLevel     = data.levels[Math.floor(Math.random()*data.levels.length)];
-
-        console.log(randomMaterial);
-        console.log(randomStructure);
-        console.log(randomContent);
-        console.log(randomLevel);
-
-        $(".material.result p").text(randomMaterial);
-        $(".structure.result p").text(randomStructure);
-        $(".content.result p").text(randomContent);
-        $(".level.result p span").text(randomLevel);
-
         $.each(data.materials, function(index,value) {
           console.log(value);
           $('#materials').append('<li><p>' + value + '</p></li>');
