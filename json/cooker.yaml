@@ -8,8 +8,6 @@
     - "metal"
     - "wood"
     - "composite"
-    - "cork"
-    - "foam"
 
   structures:
     - "folding carton"
