@@ -49,16 +49,22 @@
         <div class="text-center col-xs-12 cooker"><h1>Package Cooker Variables Full lists</h1></div>
       </div>
 
-      <div class="row deliveredresults">
-        <div class="red text-center col-xs-12 col-sm-6 col-md-4 material result">
+      <div class="row deliveredresults add-bottom">
+        <div class="red col-xs-12 col-sm-6 col-md-4 material result">
           <h4>Material</h4>
           <ul id="materials">
           </ul>
         </div>
-        <div class="yellow text-center col-xs-12 col-sm-6 col-md-4 structure result"><h4>Structure</h4><p>Tube</p></div>
-        <div class="green text-center col-xs-12 col-sm-6 col-md-4 content result"><h4>Contents</h4><p>Milk</p></div>
-        <div class="clearfix hidden-xs"></div>
-        <div class="blue text-center col-xs-12 level result variant"><p><em>Variant</em> &mdash; <strong>Consumer Level:</strong> <span>Middle-brow</span></p></div>
+        <div class="yellow col-xs-12 col-sm-6 col-md-4 structure result">
+          <h4>Structure</h4>
+          <ul id="structures">
+          </ul>
+        </div>
+        <div class="green col-xs-12 col-sm-6 col-md-4 content result">
+          <h4>Contents</h4>
+          <ul id="contents">
+          </ul>
+        </div>
       </div>
 
     </div> <!-- /container -->
@@ -130,6 +136,14 @@
         $.each(data.materials, function(index,value) {
           console.log(value);
           $('#materials').append('<li><p>' + value + '</p></li>');
+        });
+        $.each(data.structures, function(index,value) {
+          console.log(value);
+          $('#structures').append('<li><p>' + value + '</p></li>');
+        });
+        $.each(data.contents, function(index,value) {
+          console.log(value);
+          $('#contents').append('<li><p>' + value + '</p></li>');
         });
         
       });
