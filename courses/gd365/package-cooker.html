@@ -53,7 +53,7 @@
         <div class="red text-center col-xs-12 col-sm-6 col-md-4 material result"><h4>Material</h4><p>Paperboard</p></div>
         <div class="yellow text-center col-xs-12 col-sm-6 col-md-4 structure result"><h4>Structure</h4><p>Tube</p></div>
         <div class="green text-center col-xs-12 col-sm-6 col-md-4 content result"><h4>Contents</h4><p>Milk</p></div>
-<!--         <div class="blue text-center col-xs-12 col-sm-6 col-md-3 level result"><h4>Consumer Level</h4><p>blah</p></div> -->
+        <div class="blue text-center col-xs-12 level result variant"><p>Variant: <strong>Consumer Level:</strong> <span>Middle-brow</span></p></div>
       </div>
 
       <div class="row">
@@ -119,10 +119,12 @@
         console.log(randomMaterial);
         console.log(randomStructure);
         console.log(randomContent);
+        console.log(randomLevel);
 
         $(".material.result p").text(randomMaterial);
         $(".structure.result p").text(randomStructure);
         $(".content.result p").text(randomContent);
+        $(".level.result p span").text(randomLevel);
 
       });
       
