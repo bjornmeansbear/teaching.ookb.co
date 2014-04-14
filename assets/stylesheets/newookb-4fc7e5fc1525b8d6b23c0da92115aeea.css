@@ -426,8 +426,6 @@ article.calendar .week .column-list > ul {
 
 .result.variant { min-height: 116px; }
 
-min-height: 212px;
-
 .result h4 {
     font-weight: 800;
     text-transform: uppercase;
@@ -442,6 +440,10 @@ min-height: 212px;
 }
 
 .result.variant p { font-size: 1.75em; }
+
+.package-cooker-all .result { min-height: 1600px; padding: 0; }
+.package-cooker-all .result p { font-size: 1.111em }
+
 
 /*=============================================================*/
 /*=============================================================*/
