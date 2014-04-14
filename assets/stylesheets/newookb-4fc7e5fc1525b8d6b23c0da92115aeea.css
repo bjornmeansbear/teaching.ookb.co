@@ -441,7 +441,7 @@ article.calendar .week .column-list > ul {
 
 .result.variant p { font-size: 1.75em; }
 
-.package-cooker-all .result { min-height: 1600px; padding: 0; }
+.package-cooker-all .result { min-height: 1600px; padding: .5em; }
 .package-cooker-all .result p { font-size: 1.111em }
 
 
