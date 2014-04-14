@@ -444,6 +444,10 @@ article.calendar .week .column-list > ul {
 .package-cooker-all .result { min-height: 1800px; padding: .5em; }
 .package-cooker-all .result p { font-size: 1.111em }
 
+.package-cooker .rules {
+  margin-bottom: -40px;
+  padding-bottom: 60px;
+}
 
 /*=============================================================*/
 /*=============================================================*/
