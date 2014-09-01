@@ -162,7 +162,7 @@ a {
 
 a:hover,
 .navbar a.brand:hover,
-ul.nav a:hover { 
+ul.nav a:hover {
   background: rgba(236,64,121,1);
   color: white;
   text-decoration: none;
@@ -179,7 +179,7 @@ a:link {
 }
 
 #scrollspy-nav {
-  border-top: 1px solid rgba(236,64,121,1); 
+  border-top: 1px solid rgba(236,64,121,1);
 }
 
 #scrollspy-nav ul.sidenav li > a,
@@ -188,7 +188,7 @@ a:link {
 }
 
 #scrollspy-nav ul.sidenav li > h6 {
-  border-bottom: 1px solid rgba(236,64,121,1); 
+  border-bottom: 1px solid rgba(236,64,121,1);
   margin: 15px 0 0 0;
   font-weight: 700;
   text-transform: uppercase;
@@ -357,7 +357,7 @@ article.calendar .week .column-list > ul {
   margin: 0;
   float:left;
   overflow: hidden;
-  max-height: 
+  max-height:
 }
 
 .designamations img {

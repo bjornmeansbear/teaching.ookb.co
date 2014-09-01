@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
+.pt-mono {
+  font-family: 'PT Mono', Menlo, Monaco, Monospace;
+}
+.add-top {
+  margin-top: 4em;
+}
+.add-bottom {
+  margin-bottom: 4em;
+}
+.remove-top {
+  margin-top: 0;
+}
+.remove-bottom {
+  margin-bottom: 0;
+}
+/******/
+/******/
+html,
+body {
+  background: white;
+  color: black;
+  font-family: 'PT Mono', Menlo, Monaco, Monospace;
+  /**/
+  border: 0px solid transparent;
+  margin: 0;
+  font-weight: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'PT Mono', Menlo, Monaco, Monospace;
+  font-weight: normal;
+}
+header {
+  background: black;
+  border-bottom: none;
+  margin: 0 !important;
+}
+/* MAIN TOP NAV STYLES                                   */
+/* ===================================================== */
+.navbar a.brand,
+.navbar ul.nav a {
+  color: white;
+}
+.nav .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+.nav a:hover .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
