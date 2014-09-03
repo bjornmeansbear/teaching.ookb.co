@@ -83,6 +83,7 @@ footer {
 
 .add-top       { margin-top: 15px; }
 .add-bottom    { margin-bottom: 15px; }
+.add-bottom-6x { margin-bottom: 90px; }
 .remove-top    { margin-top: 0; }
 .remove-bottom { margin-bottom: 0; }
 .course-header.remove-bottom { margin-bottom: 0; }
