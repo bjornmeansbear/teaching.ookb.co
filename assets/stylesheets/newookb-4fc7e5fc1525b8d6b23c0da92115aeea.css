@@ -399,8 +399,11 @@ article.calendar .week .column-list > ul {
   border: none;
   margin-bottom: 2em;
   margin-left: -10px;
+  font-size: 120%;
 }
-
+.project pre code {
+  color: white;
+}
 .project .sidebar ol {
   padding-left: 1.22em;
 }
