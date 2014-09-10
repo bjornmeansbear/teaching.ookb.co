@@ -127,12 +127,12 @@
     </script>
 
     <script>
-
       $(document).ready(function() {
         $('#wk1').load('wk1.html');
-        $('#wk2').load('wk2.html');
+        $('#wk2').load('wk2.html', function() {
+          $('#lovehate').load('love-hate-gd3.html');
+        });
       });
-
     </script>
 
   </body>
