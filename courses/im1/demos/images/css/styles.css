@@ -55,3 +55,11 @@ article.fat {
 .columns .left, .columns .right { width: 200px; }
 
 .columns .center { margin-left: 230px; margin-right: 230px; }
+
+/* »»»»»»»»»»»»»»»»»»»»» */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
