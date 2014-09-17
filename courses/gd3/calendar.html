@@ -67,6 +67,10 @@
 
         <article class="col-xs-12">
 
+          <div id="wk3" class="toggle">
+            <date>2014-09-17</date>
+          </div>
+
           <div id="wk2" class="toggle">
             <date>2014-09-10</date>
           </div>
@@ -128,11 +132,42 @@
 
     <script>
       $(document).ready(function() {
-        $('#wk1').load('wk1.html');
-        $('#wk2').load('wk2.html', function() {
-          $('#lovehate').load('love-hate-gd3.html');
-        });
+
+        var loadCalendar = function() {
+          $('#wk1').load('wk1.html');
+          $('#wk2').load('wk2.html', function() {
+            $('#lovehate').load('love-hate-gd3.html');
+          });
+          $('#wk3').load('wk3.html', function() {
+            affectCalendar();
+          });
+          $('#wk4').load('wk4.html');
+          $('#wk5').load('wk5.html');
+          $('#wk6').load('wk6.html');
+          $('#wk7').load('wk7.html');
+          $('#wk8').load('wk8.html');
+          $('#wk9').load('wk9.html');
+          $('#wk10').load('wk10.html');
+          $('#wk11').load('wk11.html');
+          $('#wk12').load('wk12.html');
+          $('#wk13').load('wk13.html');
+          $('#wk14').load('wk14.html');
+          $('#wk15').load('wk15.html');
+          $('#wk16').load('wk16.html');
+        };
+
+        var affectCalendar = function() {
+          $('.past .slide').hide();
+          $('.future').hide();
+          $('.toggle h2').click(function() {
+            $(this).siblings('.slide').slideToggle();
+          });
+        };
+
+        loadCalendar();
+
       });
+
     </script>
 
   </body>
