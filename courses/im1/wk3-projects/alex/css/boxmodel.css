@@ -1,0 +1,11 @@
+
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+main, img {
+    float: right;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    padding: 20px;
+}

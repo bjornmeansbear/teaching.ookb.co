@@ -1,0 +1,111 @@
+div {
+	border-radius: 5px;
+}
+
+#photo {
+	float:left;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+#create {
+	float:right;
+	text-align: center;
+	margin-right: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+#profile {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	
+}
+
+#experience {
+
+	text-align:left;
+	margin-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#skills {
+
+	text-align:left;
+	margin-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+#education {
+
+	text-align:left;
+	margin-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+li {
+
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+ul {
+	font-family: Verdana;
+	font-size: 12px;
+	list-style-type: none;
+}
+
+img {
+	border: #696969;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul a {
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+.clear {
+    display: block;
+    clear:both;
+}
+
+.left {
+background: red;
+float: left;
+width 30%;
+height: 1200px;
+}
+
+main {
+    width: 60%
+    margin: 0 auto;
+}
+
+h2 {
+ border-bottom: 1px solid #aaa;
+}
+
+footer {
+
+Background: blue; 
+color: white;
+
+}

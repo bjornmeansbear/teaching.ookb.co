@@ -1,0 +1,144 @@
+
+/* body {
+    background-image:       url("https://dl.dropboxusercontent.com/u/16283954/interactivemedia/img/Screen%20Shot%202014-09-22%20at%2010.49.32%20PM.png");
+    background-repeat: no-repeat;
+    background-size: 110%;
+} */
+
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* #bgimg {
+    width: 1200px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+    
+    
+}
+
+#bgimg img {
+    width: 100%;
+    position: relative;
+    
+} */
+
+#title {
+    float: left;
+    margin-top: 155px;
+    margin-left: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: white;
+    position: relative;
+    
+    font-family: "times new roman";
+    font-style: italic;
+    font-size: 10pt;
+    z-index: 4;
+    
+}
+
+#photo {
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 250px;
+    position:absolute;
+    z-index: 5;
+    
+}
+
+#photo img {
+    height: 100%;
+    position: absolute;
+}
+
+#bio {
+    float: left;
+    width: 475px;
+    margin-left: 75px;
+    margin-top: 200px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    background: white;
+    position: absolute;
+    z-index: 1;
+    font-family: "times new roman";
+    font-size: 9pt;
+}
+    
+#friends {
+    float: right;
+    width: 175px;
+    
+    margin-top: 35px;
+  
+    position: relative;
+    z-index: 3;
+
+    
+    
+}
+
+
+#friends h2 {
+    
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "andale mono";
+    font-size: 10pt;
+    background-color: white;
+    z-index: 2;
+
+    
+}
+
+#friends ul {
+    list-style-type: none;
+    margin-top: -12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 7pt;
+    font-family: "andale mono", sans-serif;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: white;
+    z-index: 1;
+}
+
+#social {
+    background-color: white;
+    width: 145px;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "andale mono", sans-serif;
+    font-size: 7pt;
+    
+}
+
+#social h3 {
+    font-family: "andale mono";
+    font-size: 10pt;
+    margin-bottom: 2px;
+    margin-top: 12px;
+}
+    
+
+
+
+
+    
+    
+    

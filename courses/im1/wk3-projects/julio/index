@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html>
+	<head>
+    	<title> Box model CSS </title>     
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+    
+    <body>
+        <main> 
+        <div id="heading"></div>
+        <h1>Pitaya</h1>
+        <img src="img/dragon-fruit.jpg" alt="dragon fruit">
+            
+        </div>
+            
+        <p>A pitaya /pɨˈtaɪ.ə/ or pitahaya /ˌpɪtəˈhaɪ.ə/ is the fruit of several cactus species. "Pitaya" usually refers to fruit of the genus Stenocereus, while "Pitahaya" or "Dragon fruit" always refers to fruit of the genus Hylocereus.</p>
+
+<p>High Life ennui PBR&B pug letterpress mumblecore. Organic chillwave freegan, pour-over viral cred Wes Anderson lomo banh mi Echo Park yr authentic actually. Pickled irony post-ironic beard, disrupt ugh Marfa umami organic 90's Neutra. Salvia fap Thundercats, keytar American Apparel post-ironic Tumblr Neutra single-origin coffee High Life banjo Intelligentsia Brooklyn polaroid Bushwick. American Apparel food truck wolf, lomo chia crucifix butcher raw denim. Austin sustainable bitters fingerstache YOLO. Shabby chic aesthetic meggings pour-over chia.</p>
+
+<p>Small batch Truffaut brunch, twee try-hard hashtag semiotics normcore Carles. Sriracha vinyl dreamcatcher fixie master cleanse. You probably haven't heard of them Carles mumblecore Echo Park cliche, Williamsburg letterpress. 3 wolf moon cardigan readymade fixie whatever. Bushwick pork belly flannel sartorial art party beard polaroid banh mi, locavore Truffaut cliche Blue Bottle sustainable letterpress viral. Kogi fap mustache put a bird on it next level Truffaut, synth paleo Echo Park stumptown try-hard cray pug ennui. Butcher High Life scenester, post-ironic yr DIY XOXO gluten-free fingerstache craft beer farm-to-table meggings typewriter Carles bitters.</p>
+        
+    
+        </main>
+        
+    </body> 
+
+
+
+</html>

@@ -1,0 +1,73 @@
+a{
+    font-family: 'RiseStarHand'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 19px;
+    margin:100px 25px 50px 150px;
+}
+h1{
+    font-family: 'RiseStarHand'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 36px;
+    margin:100px 25px 50px 150px;
+}
+p{
+    font-family: 'RiseStarHand'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 13px;
+    margin:100px 25px 50px 150px;
+}
+h2{
+    font-family: 'RiseStarHand'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 9px;
+    margin:100px 25px 50px 150px;
+}
+nav{
+	background: none;
+	border: none;
+	padding:none;
+}	
+	
+a{
+		color:gray;
+		text-decoration:no line-through;
+}
+h1{
+		color:gray;
+		text-decoration:no line-through;
+}
+p{
+		color:gray;
+		text-decoration:no line-through;
+}
+a:hover{}
+a:active{}
+a:link{}
+a:visited{}
+a:focus {
+	color:white;
+		text-decoration:line-through;
+}
+	
+ul{
+	padding:10;
+		list-style:lower-greek;
+		text-align: left;
+}
+
+li{
+	display:flex;
+}
+
+/* styles anchor tags only inside of list items*/
+li a {
+	display:left;
+	padding:1em;
+}
+body { 
+	background: transparent;
+}

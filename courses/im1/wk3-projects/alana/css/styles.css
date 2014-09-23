@@ -1,0 +1,60 @@
+/* THIS IS A STYLE SHEET FOR COLUMNS*/
+/* HOW TO WRITE A STYLE SHEET: general > specific*/
+* {
+    background:#09002C;
+    text-align: center;
+    font-family: "andale mono";
+    font-size-adjust: auto;
+    color: white
+}
+
+/* writing "artical *{" can be used to have a rule or set of rules apply to the whole article*/
+
+h1{
+    color: white;
+    text-align: center
+}
+
+h2{
+    font-family: "andale mono" 
+}
+
+h3 {
+    font-size: 16px; 
+    font-family: "arial"
+}
+
+ul {
+    color: white;
+    float: center;
+    padding: 0;
+    text-align: center;
+    font-size: 14px
+}
+a:link {
+    color:white;
+}
+a: visited {
+    color: red;
+}
+
+li {
+    display: inline-block
+}
+li a {
+    display: block;
+    padding: 10px
+}
+
+img {
+    float: center;
+    margin: 50px,50px,50px,50px;
+    max-width: 50%
+}
+
+p{
+    color:white;
+    float:right;
+    font-size: 14px;
+    font-family: "andale mono"
+}

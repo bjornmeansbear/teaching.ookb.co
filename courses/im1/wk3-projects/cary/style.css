@@ -1,0 +1,135 @@
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+main img {
+    float:left;
+    margin-right:2em;
+    margin-bottom:2em;
+    width: 500px;
+}
+
+div img{
+    width: 200px;
+    float:right;
+}
+
+nav {
+    background-image:linear-gradient(white, transparent);
+    color: #FFFFFF;
+    padding: 10px 120px 40px 90px;
+}
+
+nav ul{
+    text-align: right;
+    float:left;
+    width:500px;
+}
+
+li {
+    color: #FFFFFF;
+    font-family: arial;
+    font-weight: 300;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+    text-align: right;
+}
+
+a {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+body {
+    background: cornflowerblue;
+    padding: 20px;
+}
+
+li: body {
+    font-family: "courier new";
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h1 {
+    font-family: "courier new";
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: "courier new";
+    font-weight: 700;
+}
+
+p {
+    font-family: arial;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+nav h1{
+    font-size:100px;
+}
+
+/* styles anchor tags only insideof list items. We're adding this here because all padding of the Nav menu options are only to the left and right of the text. doing this (below) gives it space above and below */
+li a {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+h4, h5, h6 {
+    border-radius: 4px;
+    box-sizing: border-box !important;
+    height:100px;
+    margin:0px;
+    padding: 20px;
+    /* whatever */
+    text-align: center;
+    font-family: "courier new";
+    color: cornflowerblue;
+}
+
+h4 {
+    float:left;
+    background: white;
+    width:100px;
+}
+
+h5 {
+    float:right;
+    width: 300px;
+}
+
+h6 {
+    background: cornflowerblue;
+    margin:0 329px 0 120px;
+}
+
+
+a:active,
+a:hover {
+    color: black;
+}
+a:focus {
+}
+
+.right {
+    float:right;
+}
+
+.clear {
+    clear:both;
+    display:block;
+}

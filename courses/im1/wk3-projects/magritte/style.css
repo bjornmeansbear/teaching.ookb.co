@@ -1,0 +1,101 @@
+
+body {
+    background-color: white;
+    
+}
+
+
+a {
+    font-family: "impact", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration:none;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    background: black ;
+}
+
+
+a:hover {
+    color: yellow;
+    text-decoration:none;
+} 
+
+
+li {
+    display: inline-block;
+}
+    
+
+li a {
+    display: block;
+    padding: .4em;
+}
+
+
+
+h1 {
+    text-align: left;
+    color: black;
+    font-family: "impact", sans-serif;
+    font-size: 400%;
+    padding: none;
+    border: none;
+}
+
+
+
+main img {
+    max-width:100%;
+    float: left;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+main h1 {
+    text-align: left;
+    color: black;
+    font-family: "impact", sans-serif;
+    font-size: 200%;
+    padding: none;
+    margin-top: 3em;
+    margin-right: 2em;
+    border: none;
+}
+
+
+
+main h2 a {
+    font-family: "impact", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-decoration:none;
+    margin-left: 1em;
+}
+
+
+
+main div img {
+    max-width:100%;
+    margin-right: 8em;
+    margin-left: 8em;
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+p {
+    font-family: "arial", sans-serif;
+    font-size: 13px;
+}
+
+
