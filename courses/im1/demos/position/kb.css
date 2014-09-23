@@ -30,7 +30,7 @@ div.yellow {
 .white.bottom { bottom:12px; }
 .white.left   {   left:12px; }
 
-a.white {
+.white {
   display: block;
   height: 36px;
   overflow: hidden;
@@ -40,6 +40,7 @@ a.white {
 p {
   overflow: hidden;
   text-indent: -9999999px;
+  margin: 0;
 }
 
 h1 {
