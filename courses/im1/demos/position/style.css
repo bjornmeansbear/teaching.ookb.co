@@ -1,4 +1,3 @@
-* {z-index: 1}
 
 body, .grey {
   background-color: rgba(132,132,120,1);
@@ -22,5 +21,4 @@ body, .grey {
 
 .white {
   background-color: white;
-  z-index: 99;
 }

@@ -1,15 +1,28 @@
-.top, .right, .bottom, .left { position: absolute; }
+* { z-index: 1; }
+
+.top,
+.right,
+.bottom,
+.left {
+  position: absolute;
+}
 
 .top    {    top:0; }
 .right  {  right:0; }
 .bottom { bottom:0; }
 .left   {   left:0; }
 
-div.red, div.green, div.blue, div.yellow {
-  display: block;
+div.red,
+div.green,
+div.blue,
+div.yellow {
   height: 144px;
   overflow: hidden;
   width: 144px;
+}
+
+.white {
+  z-index: 99;
 }
 
 .white.top    {    top:12px; }
@@ -36,12 +49,4 @@ h1 {
   margin-left:-300px;
   text-align: center;
   width:600px;
-}
-
-* {
-transition: background-color 500ms;
--moz-transition: background-color 500ms; /* Firefox  */
--webkit-transition: background-color 500ms; /* Safari and Chrome */
--o-transition: background-color 500ms; /* Opera */
--ms-transition: background-color 500ms; /* IE */
 }
