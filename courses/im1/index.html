@@ -65,7 +65,6 @@
       </div>
 
       <div class="row">
-        <p><a href="http://dev.w3.org/html5/html-author/charref">Awesome HTML Entity reference</a></p>
         <article class="col-xs-12" id="thisweek">
 
         </article>
@@ -115,7 +114,9 @@
 
     <script>
       $(document).ready(function() {
-        $('#thisweek').load('wk3.html');
+        $('#thisweek').load('wk4.html', function() {
+          $('#longscroll').load('longscroll.html');
+        });
       });
     </script>
 

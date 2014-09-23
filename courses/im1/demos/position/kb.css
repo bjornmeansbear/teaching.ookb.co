@@ -1,0 +1,47 @@
+.top, .right, .bottom, .left { position: absolute; }
+
+.top    {    top:0; }
+.right  {  right:0; }
+.bottom { bottom:0; }
+.left   {   left:0; }
+
+div.red, div.green, div.blue, div.yellow {
+  display: block;
+  height: 144px;
+  overflow: hidden;
+  width: 144px;
+}
+
+.white.top    {    top:12px; }
+.white.right  {  right:12px; }
+.white.bottom { bottom:12px; }
+.white.left   {   left:12px; }
+
+a.white {
+  display: block;
+  height: 36px;
+  overflow: hidden;
+  width: 36px;
+}
+
+p {
+  overflow: hidden;
+  text-indent: -9999999px;
+}
+
+h1 {
+  position: absolute;
+  top: 45%;
+  left:50%;
+  margin-left:-300px;
+  text-align: center;
+  width:600px;
+}
+
+* {
+transition: background-color 500ms;
+-moz-transition: background-color 500ms; /* Firefox  */
+-webkit-transition: background-color 500ms; /* Safari and Chrome */
+-o-transition: background-color 500ms; /* Opera */
+-ms-transition: background-color 500ms; /* IE */
+}
