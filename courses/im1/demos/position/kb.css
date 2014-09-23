@@ -38,9 +38,11 @@ div.yellow {
 }
 
 p {
+  text-indent: 100%;
+  white-space: nowrap;
   overflow: hidden;
-  text-indent: -9999999px;
   margin: 0;
+  padding: 0;
 }
 
 h1 {
