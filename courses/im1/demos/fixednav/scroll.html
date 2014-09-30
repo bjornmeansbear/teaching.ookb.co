@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Another, more fancy Fixed Nav Long Scroll Demo</title>
+
+    <!-- Le styles -->
+    <link href="scroll.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header class="windowheight">
+      <img src="mwood.jpg" />
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#top">Top!</a></li>
+        <li><a href="#one">Example One</a></li>
+        <li><a href="#two">Example Two</a></li>
+        <li><a href="#three">Example Three</a></li>
+        <li><a href="#four">Example Four</a></li>
+      </ul>
+    </nav>
+
+    <div id="top" class="windowheight"></div>
+
+    <article id="one" class="windowheight">
+      <section>
+       <h1>First Article Title</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+    </article>
+
+    <article id="two" class="windowheight">
+      <section>
+       <h1>Second Article Title</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+    </article>
+
+    <article id="three" class="windowheight">
+      <section>
+       <h1>Third and last Article Title</h1>
+       <img src="http://farm9.staticflickr.com/8387/8627248283_c052f7e5c2_n.jpg" width="320" height="320" alt="Im not sure what this is, but the packaging is amazing">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+    </article>
+
+    <div id="showme">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <footer >
+      <img src="labcolor.jpg" />
+    </footer>
+
+    <article id="four" class="windowheight" style="background:transparent;">&nbsp;</article>
+
+  </body>
+
+  <script src="jquery-1.9.1.js"></script>
+  <script>
+    $(window).scroll(function(){
+      var s = $(window).scrollTop();
+      $('footer').height(s);
+
+      var sl = $(window).height() + s;
+      var dh = $(document).height();
+
+      if( sl >= dh ) {
+
+         $('#showme').addClass('shown').fadeIn("fast");
+
+      }
+      else if ( sl <= dh && $('#showme').hasClass('shown') ) {
+          $('#showme').removeClass('shown').fadeOut("fast");
+      }
+
+    });
+
+    // scroll to content when you click on the logo. - retrieved from http://www.sycha.com/jquery-smooth-scrolling-internal-anchor-links
+    $("nav a").click(function(event){
+      event.preventDefault();
+      $('html,body').animate({scrollTop:$(this.hash).offset().top}, 700);
+    });
+
+    $(document).ready(function() {
+      var wh = $(window).height();
+      $(".windowheight").css("height", wh + "px");
+    });
+
+    $(window).resize(function() {
+      var wh = $(window).height();
+      $(".windowheight").css("height", wh + "px");
+    });
+
+  </script>
+
+</html>

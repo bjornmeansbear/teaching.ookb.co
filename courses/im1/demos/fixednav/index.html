@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fixed Nav Long Scroll Demo</title>
+
+    <!-- Le styles -->
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+
+  <body id="home">
+
+    <!-- THIS IS OUR FIXED HEADER/NAV -->
+    <header>
+      <h1><a class="brand" href="#home">Demoing Links</a></h1>
+      <nav>
+        <ul class="nav">
+          <li><a class="scroll" href="#one">One</a></li>
+          <li><a class="scroll" href="#two">Two</a></li>
+          <li><a class="scroll" href="#three">Three</a></li>
+          <li><a class="scroll" href="#four">Four</a></li>
+          <li><a class="scroll" href="#five">Five</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- /HEADER/NAV -->
+
+    <!-- body stuff -->
+    <main>
+      <div id="one">
+        <h1 class="left">Piece Number One</h1>
+        <p class="right">Banjo Etsy Bushwick, shabby chic ethical heirloom Marfa drinking vinegar put a bird on it gentrify Portland Williamsburg wolf Tonx. Intelligentsia cred PBR Pinterest. Polaroid art party 3 wolf moon chillwave, American Apparel plaid authentic. Messenger bag XOXO tattooed pork belly, kale chips Williamsburg occupy. Typewriter American Apparel aesthetic cornhole, Neutra mustache craft beer irony lomo ennui polaroid. Irony literally twee ethical, occupy pork belly locavore gluten-free Kickstarter biodiesel Helvetica leggings quinoa paleo photo booth. Trust fund PBR&B food truck Odd Future photo booth swag. Seitan Truffaut Vice, American Apparel VHS chia craft beer cray XOXO keffiyeh. Tattooed pork belly deep v, kitsch slow-carb fashion axe Carles High Life. Squid chambray single-origin coffee 90's PBR ennui. Tousled keffiyeh food truck polaroid. Art party artisan keytar beard. Actually ugh swag hella Echo Park authentic. Brunch hoodie 90's, pop-up bicycle rights Brooklyn DIY.</p>
+        <br class="clear"/>
+      </div> <!-- /container -->
+
+      <div id="two">
+        <h1 class="left">Something two</h1>
+        <p class="right">Gentrify cliche High Life, seitan shabby chic kitsch put a bird on it food truck street art scenester Marfa pop-up. Fanny pack Portland Vice forage, aesthetic Helvetica Marfa. Beard gastropub YOLO chillwave. XOXO freegan photo booth cray, typewriter gastropub artisan salvia yr Echo Park. Williamsburg Vice kitsch cliche, fingerstache meggings tattooed wolf selvage salvia. Scenester Williamsburg pickled, plaid 90's normcore Pinterest four loko Pitchfork. Try-hard deep v you probably haven't heard of them Bushwick fingerstache.</p>
+        <br class="clear"/>
+      </div> <!-- /container -->
+
+      <div id="three">
+        <h1 class="left">Another thing Third</h1>
+        <p class="right">Viral roof party you probably haven't heard of them 90's sartorial fixie. Fingerstache food truck bicycle rights, wayfarers cray American Apparel Neutra Echo Park freegan actually VHS ugh Wes Anderson. 90's Pitchfork iPhone vinyl ennui twee pop-up Intelligentsia, literally selfies freegan butcher artisan leggings. Street art ugh actually quinoa, viral Pitchfork flexitarian stumptown 8-bit Brooklyn Odd Future farm-to-table. Forage letterpress kale chips, gastropub brunch put a bird on it whatever PBR&B bespoke pop-up biodiesel scenester distillery viral mustache. Narwhal street art letterpress cray paleo photo booth. +1 skateboard distillery quinoa, Cosby sweater mlkshk you probably haven't heard of them drinking vinegar farm-to-table locavore.</p>
+        <br class="clear"/>
+      </div> <!-- /container -->
+
+      <div id="four">
+          <h1 class="left">Some Images Fourth</h1>
+
+          <div class="right">
+            <ul class="manyimages">
+              <li><img src="http://farm9.staticflickr.com/8387/8627248283_e391e75aca_o.jpg" /></li>
+              <li><img src="http://farm9.staticflickr.com/8245/8626332162_726e75d814_o.jpg" /></li>
+              <li><img src="http://farm9.staticflickr.com/8262/8624424909_1451cd932b_o.jpg" /></li>
+              <li><img src="http://farm9.staticflickr.com/8245/8626332162_726e75d814_o.jpg" /></li>
+              <li><img src="http://farm9.staticflickr.com/8262/8624424909_1451cd932b_o.jpg" /></li>
+              <li><img src="http://farm9.staticflickr.com/8387/8627248283_e391e75aca_o.jpg" /></li>
+            </ul>
+            <br class="clear"/>
+          </div>
+        <br class="clear"/>
+      </div> <!-- /container -->
+
+      <div id="five">
+        <h1 class="left">And a last Paragraph Fifth</h1>
+        <p class="right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <br class="clear"/>
+      </div> <!-- /container -->
+    </main>
+
+    <footer>
+      <p>© copyright 2014 awesome-sauce demonstration.</p>
+    </footer>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script>
+      $("header nav a.scroll").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 700);
+      });
+   </script>
+
+  </body>
+</html>
