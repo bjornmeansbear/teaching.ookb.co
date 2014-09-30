@@ -41,9 +41,7 @@
                 <li><a href="/courses/im1/">Main</a></li>
                 <li><a href="/courses/im1/syllabus.html">Syllabus</a></li>
                 <li><a href="/courses/im1/calendar.html">Calendar</a></li>
-<!--                 <li><a href="/courses/im1/readinglist.html">Readings</a></li> -->
                 <li><a href="/courses/im1/projects.html">Projects</a></li>
-<!--                 <li><a href="/courses/in1/glossary.html">Glossary</a></li> -->
               </ul>
             </li>
           </ul>
@@ -135,9 +133,11 @@
         $('#wk3').load('wk3.html');
         $('#wk4').load('wk4.html', function() {
           $('#personalaboutpages').load('aboutpages.html');
-          $('#longscroll').load('longscroll.html');
+          $('.longscroll').load('longscroll.html');
         });
-        $('#wk5').load('wk5.html');
+        $('#wk5').load('wk5.html', function() {
+          $('.longscroll').load('longscroll.html');
+        });
         $('#wk6').load('wk6.html');
         $('#wk7').load('wk7.html');
         $('#wk8').load('wk8.html');
