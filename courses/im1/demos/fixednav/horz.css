@@ -58,11 +58,11 @@ main, footer {
 main > div {
   position: absolute;
   top: 0;
-  width: 960px;
-  padding-top: 150px;
+  width: 1400px;
+  padding: 150px 240px;
 }
 #one {
-  left: 240px;
+  left: 0;
 }
 
 #two {
@@ -79,8 +79,6 @@ main > div {
 
 #five {
   left: 5600px;
-  padding-right: 40px;
-  width: 1000px;
 }
 
 .left {
