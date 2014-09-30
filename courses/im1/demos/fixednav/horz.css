@@ -1,0 +1,103 @@
+/* CUSTOM STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
+.clear {
+  display: block;
+  clear:both;
+}
+
+body {
+  background:red;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  background: black;
+  color: white;
+  position: fixed;
+  left: 20px;
+  top:20px;
+  font-size: 16px !important;
+  z-index: 9999;
+}
+
+header h1 {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  color: white;
+  display: block;
+  padding: 20px;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+header   a:hover {
+  background: white;
+  color: black;
+}
+
+/************/
+
+main, footer {
+  margin-left: 240px;
+}
+
+main > div {
+  position: absolute;
+  top: 0;
+  width: 960px;
+  padding-top: 150px;
+}
+#one {
+  left: 240px;
+}
+
+#two {
+  left: 1400px;
+}
+
+#three {
+  left: 2800px;
+}
+
+#four {
+  left: 4200px;
+}
+
+#five {
+  left: 5600px;
+  padding-right: 40px;
+  width: 1000px;
+}
+
+.left {
+  float: left;
+  width: 40%;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.right {
+  float: right;
+  width: 60%;
+  margin: 0;
+  padding: 0 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 30px;
+}
