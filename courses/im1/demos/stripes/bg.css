@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, Verdana, Sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.stripe {
+    background-repeat: no-repeat;
+    background-position:  center center;
+    background-size: cover;
+    height:10vh;
+    margin: 0;
+    padding: 1px;
+    position: relative;
+    margin: 1vh 0;
+    /**/
+    transition: all 500ms ease;
+    opacity:.1;
+}
+
+.stripe:hover {
+    height: 80vh;
+    opacity:1;
+}
+
+#one {
+    background-image: url(https://unsplash.it/1000/602/?random);
+}
+
+#two {
+    background-image: url(https://unsplash.it/1000/605/?random);
+}
+
+#three {
+    background-image: url(https://unsplash.it/1000/601/?random);
+}
+
+#four {
+    background-image: url(https://unsplash.it/1004/602/?random);
+}
+
+#five {
+    background-image: url(https://unsplash.it/1000/600/?random);
+}
+
+#six {
+    background-image: url(https://unsplash.it/1010/602/?random);
+}
+
+#seven {
+    background-image: url(https://unsplash.it/1001/601/?random);
+}
+
+#eight {
+    background-image: url(https://unsplash.it/1000/607/?random);
+}
+
+#nine {
+    background-image: url(https://unsplash.it/1005/601/?random);
+}
+
+#ten {
+    background-image: url(https://unsplash.it/1007/602/?random);
+}
+
+#eleven {
+    background-image: url(https://unsplash.it/1000/605/?random);
+}
+
+#twelve {
+    background-image: url(https://unsplash.it/1008/602/?random);
+}
+
+#thirteen {
+    background-image: url(https://unsplash.it/1002/601/?random);
+}
+
+.container {
+    display:none;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 600px;
+}
+
+.stripe:hover .container {
+    display: block;
+}
+
+.container * {
+    background: rgba(255,255,255,.66);
+    margin: 2.5%;
+}
+
+.container h1 {
+  margin: 0;
+  width: 33vw;
+}
+
+.container p {display:none;}    
+
+.clear { clear: both; }
