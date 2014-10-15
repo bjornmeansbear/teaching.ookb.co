@@ -14,7 +14,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-header {
+#fixed-top {
   background: black;
   color: white;
   position: fixed;
@@ -24,24 +24,24 @@ header {
   font-size: 16px !important;
 }
 
-header h1 {
+#fixed-top h1 {
   float: left;
   font-size: 1em;
   margin: 0;
   padding: 0;
 }
 
-header nav ul {
+#fixed-top nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-header nav ul li {
+#fixed-top nav ul li {
   display: inline-block;
 }
 
-header a {
+#fixed-top a {
   color: white;
   display: block;
   padding: 20px;
@@ -49,7 +49,7 @@ header a {
   text-decoration: none;
 }
 
-header   a:hover {
+#fixed-top a:hover {
   background: white;
   color: black;
 }
