@@ -1,0 +1,155 @@
+/* Colors 
+      pink: rgba(236,64,121,1)
+ dark grey: rgba(96,103,103,1)
+light gray: rgba(132,132,120,1)
+    yellow: rgba(175,171,104,1)
+dark brown: rgba(47,41,38,1)
+     green: rgba(140,165,115,1)
+      blue: rgba(157,178,176,1)
+    purple: rgba(174,139,164,1)
+       red: rgba(169,87,86,1)
+    orange: rgba(195,115,99,1)
+*/
+
+/******/
+
+/* 1. BASIC CONSTANTS */
+/*=========================================*/
+/*=========================================*/
+
+.left   { float: left; }
+.right  { float: right; }
+.clear  { display: block; clear:both; }
+
+/*Clearfix*/
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* 2. Typography Stuff */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,300,600);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic);
+
+body, .opensans {font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
+
+.gentium { font-family: 'Gentium Book Basic', serif; }
+
+.playfair { font-family: 'Playfair Display', serif;}
+
+/* 3. General Layout Things */
+/*=========================================*/
+/*=========================================*/
+
+* {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+
+html {height:100%;width:100%;}
+
+/** TEXT ONLY ÒPOSTERÓ **/
+#textonly {
+  background: rgba(47,41,38,1);
+  color: rgba(236,64,121,1);
+  font-size: 100px; 
+  font-weight: 700; 
+  line-height: 100px;
+  text-transform: uppercase; 
+  height: 100%;
+  width: 100%;
+  }
+#textonly .gentium { text-transform: capitalize; text-indent: -100px;}
+
+#textonly article {
+  top: -250px;
+  left: 100px;
+  transform:rotate(-22.5deg);
+  -ms-transform:rotate(-22.5deg); /* IE 9 */
+  -moz-transform:rotate(-22.5deg); /* Firefox */
+  -webkit-transform:rotate(-22.5deg); /* Safari and Chrome */
+  -o-transform:rotate(-22.5deg); /* Opera */
+}
+
+article span.white { color: white; }
+
+p.two {margin-left: 100px;}
+p.three {margin-left: -210px;}
+p.four {margin-left: -50px;}
+p.five {margin-left: 100px;}
+
+/** With Image Poster **/
+
+#image {
+  background: rgba(169,87,86,1);
+  background: linear-gradient(270deg, rgba(169,87,86,1) 66%, rgba(195,115,99,1));
+  background-image: -webkit-linear-gradient(270deg, rgba(169,87,86,1) 66%, rgba(195,115,99,1));  /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+  background-image: -moz-linear-gradient(270deg, rgba(169,87,86,1) 66%, rgba(195,115,99,1));  /* Firefox 3.6+ */
+  background-image: -ms-linear-gradient(270deg, rgba(169,87,86,1) 66%, rgba(195,115,99,1));  /* IE 10+ */
+  background-image: -o-linear-gradient(270deg, rgba(169,87,86,1) 66%, rgba(195,115,99,1));  /* Opera 11.10+ */
+  color: white;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#image h1 {
+  font-size: 120px;
+  left:-10px;
+  top: 160px;
+  font-weight: 900; 
+  font-style: italic;
+  }
+  
+#image h2 {
+  margin-bottom: 2em;
+}
+
+#image article {
+  top: 70px;
+  left: 600px;
+  width: 400px;
+  font-weight: 400;
+}
+
+#image h2, #image article {
+  color: rgba(47,41,38,1);
+}
+
+figure.sust {
+  display: block;
+  background: transparent url(sustbooks1.jpg) center -200px no-repeat;
+  background-size: cover;
+  height:195px;
+  width: 100%;
+  /**/
+  position: fixed;
+  top:0;
+  left:0;
+}

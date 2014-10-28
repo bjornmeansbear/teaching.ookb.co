@@ -1,0 +1,63 @@
+/* Colors 
+      pink: rgba(236,64,121,1)
+ dark grey: rgba(96,103,103,1)
+light gray: rgba(132,132,120,1)
+    yellow: rgba(175,171,104,1)
+dark brown: rgba(47,41,38,1)
+     green: rgba(140,165,115,1)
+      blue: rgba(157,178,176,1)
+    purple: rgba(174,139,164,1)
+       red: rgba(169,87,86,1)
+    orange: rgba(195,115,99,1)
+*/
+
+/******/
+
+/* 1. BASIC CONSTANTS */
+/*=========================================*/
+/*=========================================*/
+
+.left   { float: left; }
+.right  { float: right; }
+.clear  { display: block; clear:both; }
+
+/*Clearfix*/
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* 2. Typography Stuff */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,300,600);
+
+body {font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
+
+/* 3. General Layout Things */
+/*=========================================*/
+/*=========================================*/
+
+/** TEXT ONLY ÒPOSTERÓ **/
+
+/** With Image Poster **/

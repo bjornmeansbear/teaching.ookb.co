@@ -112,7 +112,9 @@
 
     <script>
       $(document).ready(function() {
-        $('#thisweek').load('wk9.html');
+        $('#thisweek').load('wk9.html', function() {
+          $('.webposter').load('webposter.html');
+        });
       });
     </script>
 
