@@ -19,23 +19,6 @@
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-  <!-- YOU CAN IGNORE EVERYTHING ABOVE HERE -->
-
-
-
-  <!-- WRITE and EDIT YOUR STYLES HERE
-	================================================== -->
-  <style type="text/css">
-    .class {
-      }
-    
-    #id {
-      }
-      
-    tag {
-      }
-      
-  </style>
 
 </head>
 
@@ -46,12 +29,12 @@
 	<!-- Primary Page Layout
 	================================================== -->
 	<div class="container">
-		
+
 		<header class="fullwidth columns add-top add-bottom">
 			<h1 class="remove-bottom">CSS3 Transformations + Transitions</h1>
 			<h5>A quick, simple exploration of a few things now possible with just CSS3</h5>
 		</header>
-		
+
 		<hr />
 
     <section class="clearfix">
@@ -78,7 +61,7 @@
   		    <li><a href="http://matthewlein.com/ceaser/">Ceaser</a> CSS3 Easing Generator</li>
   			</ul>
   		</article>
-  		
+
     </section>
 
 		<hr />
@@ -96,38 +79,38 @@
         	-o-transition: all 1s ease-in-out;
         	-ms-transition: all 1s ease-in-out;
           }
-        
+
         .stretch {
           width:100px;
           height:100px;
           background:#606767;
           }
-        
+
         .stretch:hover {
           width: 340px;
-          }    
-        
+          }
+
         .tall {
           width:100px;
           height:100px;
           background:#606767;
           }
-        
+
         .tall:hover {
           height: 340px;
-          }    
-        
+          }
+
         .bg:hover {
           background: #EC4079;
           }
-          
+
         .round {
           width:100px;
           height:100px;
           background-color:#C5C065;
           text-align:center;
           }
-        
+
         .round:hover {
           -webkit-border-radius:50px;
           -moz-border-radius:50px;
@@ -141,16 +124,16 @@
           border: 0;
           text-align:center;
           }
-        
+
         .triangle:hover {
           width:0;
           height:0;
           background-color:transparent;
 	        border-left: 75px solid transparent;
-	        border-right: 75px solid transparent; 
+	        border-right: 75px solid transparent;
           border-bottom:100px solid #8CA573;
           }
-          
+
       </style>
 
   		<article class="six columns">
@@ -175,7 +158,7 @@
 		<hr />
 
     <section class="clearfix ">
-    
+
       <article class="eight columns">
         <h3>A Quick Note</h3>
         <p>I have all of the code in this file written out like this:</p>
@@ -200,11 +183,11 @@
   		<article class="four columns add-bottom offset-by-four">
   			<div class="round trans"></div>
   		</article>
-    
+
   		<article class="four columns add-top offset-by-four">
   			<div class="triangle trans"></div>
   		</article>
-    
+
     </section>
 
 		<hr />
@@ -217,18 +200,18 @@
           font-size: 3em;
           margin: .5em 0 1em;
           }
-          
+
         span.trans {
-          border-bottom: 1px solid #C5C065; 
+          border-bottom: 1px solid #C5C065;
           padding-bottom: 1px;
-          }    
-    
-        span.trans:hover { border-bottom-color: white; }    
-    
+          }
+
+        span.trans:hover { border-bottom-color: white; }
+
         .grow:hover {font-size: 5em;}
-        
+
         .color:hover {color:#8CA573;}
-        
+
         .slide {
           position: relative;
           left:0;
@@ -239,12 +222,12 @@
         	-ms-transition: left 500ms ease-in;
           /* timing functions from Ceaser - http://matthewlein.com/ceaser/ */
           transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750);
-          -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
-          -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
-          -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
-          -ms-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
+          -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750);
+          -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750);
+          -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750);
+          -ms-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750);
           }
-          
+
         .slide:hover {left:900px;}
       </style>
 
@@ -258,7 +241,7 @@
     </section>
 
 		<hr />
-		
+
     <section class="clearfix">
 
       <h2 class="fullwidth columns">Transformations</h2>
@@ -272,21 +255,21 @@
           background:#C5C065;
           }
         .skew {
-        	transform:skew(35deg);	
+        	transform:skew(35deg);
           -webkit-transform: skew(35deg);
           -moz-transform: skew(35deg);
           -o-transform: skew(35deg);
           -ms-transform: skew(35deg);
           }
         .scale {
-        	transform:scale(1,0.5);	
+        	transform:scale(1,0.5);
           -webkit-transform: scale(1,0.5);
           -moz-transform: scale(1,0.5);
           -o-transform: scale(1,0.5);
           -ms-transform: scale(1,0.5);
           }
         .rotate {
-        	transform:rotate(45deg);	
+        	transform:rotate(45deg);
           -webkit-transform: rotate(45deg);
           -moz-transform: rotate(45deg));
           -o-transform: rotate(45deg);
@@ -305,7 +288,7 @@
           -moz-transform: skew(30deg) scale(1.1,1.1) rotate(40deg) translate(10px, 20px);
           -o-transform: skew(30deg) scale(1.1,1.1) rotate(40deg) translate(10px, 20px);
           -ms-transform: skew(30deg) scale(1.1,1.1) rotate(40deg) translate(10px, 20px);
-          } 
+          }
       </style>
 
   		<article class="two columns">
@@ -336,7 +319,7 @@
   			<h3>Basic transformations</h3>
   			<p>This is a little more complicated, each kind of transformation has it's own commands, but you can combine multiples and group several transformations onto one item. Each transformations options can be found on the W3C pages. Detailed instructions and help await you there.</p>
   		</article>
-  		
+
     </section>
 
 		<hr />
@@ -353,21 +336,21 @@
           background:#606767;
           }
         .trans.skewed:hover {
-        	transform:skew(70deg);	
+        	transform:skew(70deg);
           -webkit-transform: skew(70deg);
           -moz-transform: skew(70deg);
           -o-transform: skew(70deg);
           -ms-transform: skew(70deg);
           }
         .trans.scaled:hover {
-        	transform:scale(2,4);	
+        	transform:scale(2,4);
           -webkit-transform: scale(2,4);
           -moz-transform: scale(2,4);
           -o-transform: scale(2,4);
           -ms-transform: scale(2,4);
           }
         .trans.rotated:hover {
-        	transform:rotate(540deg);	
+        	transform:rotate(540deg);
           -webkit-transform: rotate(540deg);
           -moz-transform: rotate(540deg));
           -o-transform: rotate(540deg);
@@ -437,11 +420,11 @@
         .section5 span.trans {
           display: inline-block;
           border-bottom: 1px solid #C5C065;
-          }    
+          }
         .section5 span.trans:hover {
           border-bottom: 1px solid white;
-          }    
-             
+          }
+
         .control:hover {
           color:#EC4079;
         	transform:translate(10px, 10px) scale(2,2) rotate(720deg);
@@ -449,26 +432,26 @@
           -moz-transform:translate(10px, 10px) scale(2,2) rotate(720deg);
           -o-transform:translate(10px, 10px) scale(2,2) rotate(720deg);
           -ms-transform:translate(10px, 10px) scale(2,2) rotate(720deg);
-          
-          }  
-            
+
+          }
+
         .wind {
           /* timing functions from Ceaser - http://matthewlein.com/ceaser/ */
           transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750);
-          -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
-          -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
-          -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
-          -ms-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
+          -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750);
+          -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750);
+          -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750);
+          -ms-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750);
           }
-          
+
         .wind:hover {
-          transform:skew(-70deg) translate(40px, 0) ;	
+          transform:skew(-70deg) translate(40px, 0) ;
           -webkit-transform: skew(-70deg) translate(40px, 0) ;
           -moz-transform: skew(-70deg) translate(40px, 0) ;
           -o-transform: skew(-70deg) translate(40px, 0) ;
           -ms-transform: skew(-70deg) translate(40px, 0) ;
           }
-          
+
         .slide:hover {left:900px;}
       </style>
 
@@ -486,14 +469,14 @@
       <p>Kristian Bjornard / Tuesdays, 4pm-10pm Br305 / kbjornard@mica.edu / 410-709-8402</p>
       <p>Motion Graphics: <a href="http://mograph.ookb.co">mograph.ookb.co</a> | Personal: <a href="http://kristian.bjornard.com">kristian.bjornard.com</a></p>
     </footer>
-    
+
 	</div>
 	<!-- /container -->
 
 	<!-- JS
 	================================================== -->
   <!-- when we get this far, this is where the JS files will go -->
-  
+
 <!-- End Document
 ================================================== -->
 </body>
