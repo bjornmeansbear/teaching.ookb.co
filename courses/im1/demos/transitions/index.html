@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>CSS3 Transformation + Transition Demo</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/custom.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+  <!-- YOU CAN IGNORE EVERYTHING ABOVE HERE -->
+
+
+
+  <!-- WRITE and EDIT YOUR STYLES HERE
+	================================================== -->
+  <style type="text/css">
+    .class {
+      }
+    
+    #id {
+      }
+      
+    tag {
+      }
+      
+  </style>
+
+</head>
+
+<!-- Actual Page Contents start here
+================================================== -->
+<body>
+
+	<!-- Primary Page Layout
+	================================================== -->
+	<div class="container">
+		
+		<header class="fullwidth columns add-top add-bottom">
+			<h1 class="remove-bottom">CSS3 Transformations + Transitions</h1>
+			<h5>A quick, simple exploration of a few things now possible with just CSS3</h5>
+		</header>
+		
+		<hr />
+
+    <section class="clearfix">
+
+      <h2 class="fullwidth columns">Reference</h2>
+
+  		<article class="one-half columns">
+  			<h3>Specs, Commands, Etc.</h3>
+  			<ul>
+  		    <li><a href="http://www.w3schools.com/css3/css3_transitions.asp">W3C CSS3 Transitions Listing</a></li>
+  		    <li><a href="http://www.w3schools.com/css3/css3_2dtransforms.asp">W3C CSS3 2D Transformations Listing</a></li>
+  		    <li><a href="http://www.w3schools.com/cssref/default.asp">W3C CSS Properties</a> Updated with All CSS3 options</li>
+  		    <li><a href="http://css3.bradshawenterprises.com/">Using CSS3 Transitions, Transforms and Animation</a></li>
+  		    <li><p>The W3C sites have some pretty good dynamic tutorials that let you play with code, directly see its effect, then copy it and paste it into your docs, I highly recommend playing with them.</p></li>
+  			</ul>
+  		</article>
+
+  		<article class="one-half columns">
+  			<h3>CSS3 Code Builders/Generators</h3>
+  			<ul>
+  		    <li><a href="http://css3maker.com/css3-transition.html">CSS 3.0 Maker</a></li>
+  		    <li><a href="http://westciv.com/tools/transforms/index.html">CSS3 Transforms</a> (and more)</li>
+  		    <li><a href="http://css3generator.com/">CSS3 Generator</a></li>
+  		    <li><a href="http://matthewlein.com/ceaser/">Ceaser</a> CSS3 Easing Generator</li>
+  			</ul>
+  		</article>
+  		
+    </section>
+
+		<hr />
+
+    <section class="clearfix">
+
+      <h2 class="fullwidth columns">Transitions</h2>
+
+      <!-- section 1 styles -->
+      <style type="text/css">
+        .trans {
+        	transition: all 1s ease-in-out;
+        	-moz-transition: all 1s ease-in-out;
+        	-webkit-transition: all 1s ease-in-out;
+        	-o-transition: all 1s ease-in-out;
+        	-ms-transition: all 1s ease-in-out;
+          }
+        
+        .stretch {
+          width:100px;
+          height:100px;
+          background:#606767;
+          }
+        
+        .stretch:hover {
+          width: 340px;
+          }    
+        
+        .tall {
+          width:100px;
+          height:100px;
+          background:#606767;
+          }
+        
+        .tall:hover {
+          height: 340px;
+          }    
+        
+        .bg:hover {
+          background: #EC4079;
+          }
+          
+        .round {
+          width:100px;
+          height:100px;
+          background-color:#C5C065;
+          text-align:center;
+          }
+        
+        .round:hover {
+          -webkit-border-radius:50px;
+          -moz-border-radius:50px;
+          border-radius:50px;
+          }
+
+        .triangle {
+          width:100px;
+          height:100px;
+          background-color:#8CA573;
+          border: 0;
+          text-align:center;
+          }
+        
+        .triangle:hover {
+          width:0;
+          height:0;
+          background-color:transparent;
+	        border-left: 75px solid transparent;
+	        border-right: 75px solid transparent; 
+          border-bottom:100px solid #8CA573;
+          }
+          
+      </style>
+
+  		<article class="six columns">
+  			<div class="stretch trans"></div>
+  		</article>
+
+  		<article class="two columns">
+  			<div class="tall trans"></div>
+  		</article>
+
+  		<article class="one-quarter columns">
+  			<div class="bg stretch tall trans"></div>
+  		</article>
+
+  		<article class="one-quarter columns">
+  			<h3>Basic transitions</h3>
+  			<p>By assigning a semi-global property of "transition all," if we just set a property: color, height, width, etc.; and then alter it in the :hover state of that object, any browser that understands transitions will do its best to render a smooth change between those things.</p>
+  		</article>
+
+    </section>
+
+		<hr />
+
+    <section class="clearfix ">
+    
+      <article class="eight columns">
+        <h3>A Quick Note</h3>
+        <p>I have all of the code in this file written out like this:</p>
+        <code>
+        tag {<br/>
+        	transition: all 1s ease-in-out;<br/>
+        	-moz-transition: all 1s ease-in-out;<br/>
+        	-webkit-transition: all 1s ease-in-out;<br/>
+        	-o-transition: all 1s ease-in-out;<br/>
+        	-ms-transition: all 1s ease-in-out;<br/>
+          }
+        </code><br/><br/>
+        <p>but you can leave out everything but the -webkit part if you know you'll only be looking at it in Chrome or Safari, or just keep the -moz part if you know you'll just be using Firefox. Like this:</p>
+        <code>
+        tag {<br/>
+        	-moz-transition: all 1s ease-in-out;<br/>
+        	-webkit-transition: all 1s ease-in-out;<br/>
+          }
+        </code>
+      </article>
+
+  		<article class="four columns add-bottom offset-by-four">
+  			<div class="round trans"></div>
+  		</article>
+    
+  		<article class="four columns add-top offset-by-four">
+  			<div class="triangle trans"></div>
+  		</article>
+    
+    </section>
+
+		<hr />
+
+    <section class="clearfix">
+
+      <!-- section 2 styles -->
+      <style type="text/css">
+        .gianttype {
+          font-size: 3em;
+          margin: .5em 0 1em;
+          }
+          
+        span.trans {
+          border-bottom: 1px solid #C5C065; 
+          padding-bottom: 1px;
+          }    
+    
+        span.trans:hover { border-bottom-color: white; }    
+    
+        .grow:hover {font-size: 5em;}
+        
+        .color:hover {color:#8CA573;}
+        
+        .slide {
+          position: relative;
+          left:0;
+        	transition: left 500ms ease-in;
+        	-moz-transition: left 500ms ease-in;
+        	-webkit-transition: left 500ms ease-in;
+        	-o-transition: left 500ms ease-in;
+        	-ms-transition: left 500ms ease-in;
+          /* timing functions from Ceaser - http://matthewlein.com/ceaser/ */
+          transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750);
+          -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
+          -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
+          -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
+          -ms-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
+          }
+          
+        .slide:hover {left:900px;}
+      </style>
+
+  		<article class="fullwidth columns">
+  			<h3>It works on Text too</h3>
+  			<p class="gianttype">See Spot <span class="grow trans">grow</span></p>
+  			<p class="gianttype"><span class="color trans">See Jane suddenly change color</span></p>
+  			<p class="gianttype">See <span class="slide trans">Jack get blown away</span> by the wind</span></p>
+  		</article>
+
+    </section>
+
+		<hr />
+		
+    <section class="clearfix">
+
+      <h2 class="fullwidth columns">Transformations</h2>
+
+      <!-- section 3 styles -->
+      <style type="text/css">
+        /* Transformation demo styles */
+        div.two {
+          width:100px;
+          height:100px;
+          background:#C5C065;
+          }
+        .skew {
+        	transform:skew(35deg);	
+          -webkit-transform: skew(35deg);
+          -moz-transform: skew(35deg);
+          -o-transform: skew(35deg);
+          -ms-transform: skew(35deg);
+          }
+        .scale {
+        	transform:scale(1,0.5);	
+          -webkit-transform: scale(1,0.5);
+          -moz-transform: scale(1,0.5);
+          -o-transform: scale(1,0.5);
+          -ms-transform: scale(1,0.5);
+          }
+        .rotate {
+        	transform:rotate(45deg);	
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg));
+          -o-transform: rotate(45deg);
+          -ms-transform:rotate(45deg);
+          }
+        .translate {
+        	transform:translate(40px, -20px);
+          -webkit-transform: translate(40px, -20px);
+          -moz-transform: translate(40px, -20px);
+          -o-transform:translate(40px, -20px);
+          -ms-transform: translate(40px, -20px);
+          }
+        .rotate-skew-scale-translate {
+        	transform:skew(30deg) scale(1.1,1.1) rotate(40deg) translate(10px, 20px);
+          -webkit-transform: skew(30deg) scale(1.1,1.1) rotate(40deg) translate(10px, 20px);
+          -moz-transform: skew(30deg) scale(1.1,1.1) rotate(40deg) translate(10px, 20px);
+          -o-transform: skew(30deg) scale(1.1,1.1) rotate(40deg) translate(10px, 20px);
+          -ms-transform: skew(30deg) scale(1.1,1.1) rotate(40deg) translate(10px, 20px);
+          } 
+      </style>
+
+  		<article class="two columns">
+  			<div class="two">This is Live HTML Text</div>
+  		</article>
+
+  		<article class="two columns">
+  			<div class="two skew">This is Live HTML Text</div>
+  		</article>
+
+  		<article class="two columns">
+  			<div class="two scale">This is Live HTML Text</div>
+  		</article>
+
+  		<article class="two columns">
+  			<div class="two rotate">This is Live HTML Text</div>
+  		</article>
+
+  		<article class="two columns">
+  			<div class="two translate">This is Live HTML Text</div>
+  		</article>
+
+  		<article class="two columns">
+  			<div class="two rotate-skew-scale-translate">This is Live HTML Text</div>
+  		</article>
+
+  		<article class="one-quarter columns">
+  			<h3>Basic transformations</h3>
+  			<p>This is a little more complicated, each kind of transformation has it's own commands, but you can combine multiples and group several transformations onto one item. Each transformations options can be found on the W3C pages. Detailed instructions and help await you there.</p>
+  		</article>
+  		
+    </section>
+
+		<hr />
+
+    <section class="clearfix">
+
+      <!-- section 4 styles -->
+      <h2 class="fullwidth columns">Combined</h2>
+
+      <style type="text/css">
+        div.two.trans {
+          width:100px;
+          height:100px;
+          background:#606767;
+          }
+        .trans.skewed:hover {
+        	transform:skew(70deg);	
+          -webkit-transform: skew(70deg);
+          -moz-transform: skew(70deg);
+          -o-transform: skew(70deg);
+          -ms-transform: skew(70deg);
+          }
+        .trans.scaled:hover {
+        	transform:scale(2,4);	
+          -webkit-transform: scale(2,4);
+          -moz-transform: scale(2,4);
+          -o-transform: scale(2,4);
+          -ms-transform: scale(2,4);
+          }
+        .trans.rotated:hover {
+        	transform:rotate(540deg);	
+          -webkit-transform: rotate(540deg);
+          -moz-transform: rotate(540deg));
+          -o-transform: rotate(540deg);
+          -ms-transform:rotate(540deg);
+          }
+        .trans.scaled-rotated:hover {
+        	transform:scale(2,2) rotate(270deg);
+          -webkit-transform:scale(2,2) rotate(270deg);
+          -moz-transform:scale(2,2) rotate(270deg);
+          -o-transform:scale(2,2) rotate(270deg);
+          -ms-transform:scale(2,2) rotate(270deg);
+          }
+        .trans.translated:hover {
+        	transform:translate(540px, -100px);
+          -webkit-transform: translate(540px, -100px);
+          -moz-transform: translate(540px, -100px);
+          -o-transform:translate(540px, -100px);
+          -ms-transform: translate(540px, -100px);
+          }
+        .trans.translated-scaled-rotated:hover {
+          background:#EC4079;
+        	transform:translate(410px, -100px) scale(2,2) rotate(270deg);
+          -webkit-transform:translate(410px, -100px) scale(2,2) rotate(270deg);
+          -moz-transform:translate(410px, -100px) scale(2,2) rotate(270deg);
+          -o-transform:translate(410px, -100px) scale(2,2) rotate(270deg);
+          -ms-transform:translate(410px, -100px) scale(2,2) rotate(270deg);
+          }
+      </style>
+
+  		<article class="three columns">
+  			<div class="two trans skewed"></div>
+  		</article>
+
+  		<article class="three columns">
+  			<div class="two trans rotated"></div>
+  		</article>
+
+  		<article class="three columns">
+  			<div class="two trans scaled"></div>
+  		</article>
+
+  		<article class="three columns">
+  			<div class="two trans scaled-rotated"></div>
+  		</article>
+
+  		<article class="one-quarter columns">
+  			<h3>Combining Them</h3>
+  			<p>The Great part about these new techniques is that they can be combined — using transitions on the elements, and then putting the transformations on the hover states in the style sheet, allows you to animate the scaling, skewing, etc.</p>
+  		</article>
+
+  		<article class="three columns minus-top">
+  			<div class="two trans translated"></div>
+  		</article>
+
+  		<article class="three columns minus-top">
+  			<div class="two trans translated-scaled-rotated"></div>
+  		</article>
+
+    </section>
+
+		<hr />
+
+    <section class="section5 clearfix">
+
+      <!-- section 5 styles -->
+      <style type="text/css">
+        .section5 span.trans {
+          display: inline-block;
+          border-bottom: 1px solid #C5C065;
+          }    
+        .section5 span.trans:hover {
+          border-bottom: 1px solid white;
+          }    
+             
+        .control:hover {
+          color:#EC4079;
+        	transform:translate(10px, 10px) scale(2,2) rotate(720deg);
+          -webkit-transform:translate(10px, 10px) scale(2,2) rotate(720deg);
+          -moz-transform:translate(10px, 10px) scale(2,2) rotate(720deg);
+          -o-transform:translate(10px, 10px) scale(2,2) rotate(720deg);
+          -ms-transform:translate(10px, 10px) scale(2,2) rotate(720deg);
+          
+          }  
+            
+        .wind {
+          /* timing functions from Ceaser - http://matthewlein.com/ceaser/ */
+          transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750);
+          -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
+          -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
+          -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
+          -ms-transition-timing-function: cubic-bezier(1.000, 0.000, 0.750, 0.750); 
+          }
+          
+        .wind:hover {
+          transform:skew(-70deg) translate(40px, 0) ;	
+          -webkit-transform: skew(-70deg) translate(40px, 0) ;
+          -moz-transform: skew(-70deg) translate(40px, 0) ;
+          -o-transform: skew(-70deg) translate(40px, 0) ;
+          -ms-transform: skew(-70deg) translate(40px, 0) ;
+          }
+          
+        .slide:hover {left:900px;}
+      </style>
+
+  		<article class="fullwidth columns">
+  			<h3>It works on Text too</h3><h5>(But only if you make the text display as block or inline-block objects)</h5>
+  			<p class="gianttype"><span class="control trans">See Jane suddenly lose control (and change color)</span></p>
+  			<p class="gianttype">See <span class="wind trans">Jack get blown over</span> by the wind</span></p>
+  		</article>
+
+    </section>
+
+		<hr />
+
+    <footer class="fullwidth columns add-top add-bottom">
+      <p>Kristian Bjornard / Tuesdays, 4pm-10pm Br305 / kbjornard@mica.edu / 410-709-8402</p>
+      <p>Motion Graphics: <a href="http://mograph.ookb.co">mograph.ookb.co</a> | Personal: <a href="http://kristian.bjornard.com">kristian.bjornard.com</a></p>
+    </footer>
+    
+	</div>
+	<!-- /container -->
+
+	<!-- JS
+	================================================== -->
+  <!-- when we get this far, this is where the JS files will go -->
+  
+<!-- End Document
+================================================== -->
+</body>
+</html>

@@ -1,0 +1,135 @@
+
+body {
+  border-top: 10px solid #848478;
+}
+
+.add-top {
+  margin-top: 40px;
+}
+
+.minus-top {
+  margin-top: -40px;
+}
+
+a { 
+  color: black;
+  text-decoration: none;
+  background: rgba(132,132,120,.1);  
+  border-bottom: 1px solid #EC4079;
+  padding: 1px 2px 1px 2px;
+  /**/
+  -webkit-transition: background;
+  -webkit-transition-duration: 500ms;
+  }
+a:hover { 
+  color: white;
+  background: #EC4079;
+  }
+
+a:link {
+  -webkit-tap-highlight-color: #FF5E99;
+}
+
+::selection {
+background: #EC4079;
+color: white;
+text-shadow: none;
+}
+
+/**/
+
+/* TYPOGRAPHY STUFF */
+/* @Font-Face */
+/* Gentium */
+@font-face {
+  font-family: 'Gentium Book Basic';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Gentium Book Basic Italic'), local('GentiumBookBasic-Italic'), url('http://themes.googleusercontent.com/static/fonts/gentiumbookbasic/v3/qHqW2lwKO8-uTfIkh8FsUW9ZVGYl7-DCiNGjac5stJT3rGVtsTkPsbDajuO5ueQw.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gentium Book Basic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gentium Book Basic'), local('GentiumBookBasic'), url('http://themes.googleusercontent.com/static/fonts/gentiumbookbasic/v3/IRFxB2matTxrjZt6a3FUnq6Rv-X66d7QWAwIQQ5u8Sc.woff') format('woff');
+}
+/*Open Sans*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('http://themes.googleusercontent.com/static/fonts/opensans/v6/EInbV5DfGHOiMmvb1Xr-hqRDOzjiPcYnFooOUGCOsRk.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff') format('woff');
+}
+
+body, p, a {
+  font-family: "gentium book basic", georgia, "times new roman", times, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+h1  {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 800 !important;
+}
+
+h2,h3,h4,h5,h6,code {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 400 !important;
+}
+
+article h3  {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 800 !important;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* /END TYPOGRAPHY */
+
+
+section {
+  padding: 20px 0 18px; 
+}
+
+section.toggle:hover {
+  background: rgba(132,132,120,.05);
+}
+
+section.toggle h2:hover, 
+.expand-collapse span:hover {
+  color: #848478;
+}
+
+.toggle h2, .expand-collapse span {
+  cursor: pointer;
+}
