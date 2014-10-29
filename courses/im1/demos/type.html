@@ -20,64 +20,26 @@
                 height: 100%;
                 width:100%;
             }
-            
+
             html {
                 background: url('https://unsplash.imgix.net/uploads/1412825195419af52b492/8bc72ed7?q=75&fm=jpg&s=4f35827a6dc766d393fc51fce493d85d') center center no-repeat;
                 background-size: cover;
             }
-            
+
             body {
                -webkit-animation: colorshift 100s infinite;
             }
-            
-            h1 {
-                -webkit-transform: rotate(0);
-                color:white;
-                position: absolute;
-                top:40%;
-                left:52%;
-                font-size: 400%;
-                width:200px;
-                text-indent: -100px;
-                opacity:0;
-                -webkit-transition: opacity 500ms, color 2s, -webkit-transform 1s;
-            }
-            
-            h1:hover {
-                opacity: 1;
-                -webkit-transform: rotate(33deg);
-                color:red;
-            }
-            
-            header {
-                position: fixed;
-                top:0;
-                right:0;
-                left:0;
-                height: 20px;
-                background: black;
-                overflow: hidden;
-                -webkit-transition:height 500ms;
-            }
-            
-            header:hover {
-                height:3em;
-            }
-            header p {
-                color:white;
-            margin-top: 20px;
-            }
-            
+
             .liney {
                 border:50px solid yellow;
                 width: 300px;
             }
-            
+
             .blocky {
                 background: yellow;
                 width: 300px;
             }
-            
+
             #b .liney,
             #r .liney {
                 height: 300px;
@@ -88,14 +50,14 @@
                 border-top-right-radius: 150px;
                 border-bottom-right-radius: 150px;
             }
-            
+
             #b .liney {
                 position: fixed;
                 top: 50px;
                 left: 50px;
            }
 
-            
+
             #b .blocky {
                 height: 300px;
                 width: 325px;
@@ -105,12 +67,12 @@
                 border-top-right-radius: 150px;
                 border-bottom-right-radius: 150px;
             }
-            
+
             #j .liney {
-                height: 550px;
+                height: 650px;
                 position: fixed;
                 top: 50px;
-                left: 375px;
+                left: 175px;
                 border-left: none;
                 border-top: none;
                 border-bottom-right-radius: 150px;
@@ -120,22 +82,22 @@
                 height: 550px;
                 position: fixed;
                 top: 50px;
-                left: 725px;
+                left: 525px;
                 border-radius: 150px;
             }
             #o .blocky {
                 height: 250px;
                 position: fixed;
                 top: 50px;
-                left: 725px;
+                left: 525px;
                 border-top-left-radius: 150px;
                 border-top-right-radius: 150px;
             }
-            
+
             #r .liney {
                 position: fixed;
                 top: 50px;
-                left: 1050px;
+                left: 875px;
             }
 
             #r .blocky {
@@ -143,60 +105,59 @@
                 height: 300px;
                 position: fixed;
                 top: 300px;
-                left: 1050px;
+                left: 875px;
                 border-bottom: 300px solid yellow;
                 border-right: 200px solid transparent;
             }
-            
+
             #n .liney {
                 height: 550px;
                 position: fixed;
                 top: 50px;
-                left:1675px;
+                left:1500px;
                 width:50px;
                 border: none;
                 border-left: 50px solid yellow;
             }
-            
+
             #n .blocky {
                 background: transparent;
                 width: 325px;
                 height: 550px;
                 position: fixed;
                 top: 50px;
-                left: 1400px;
+                left: 1225px;
                 border-bottom: 550px solid yellow;
                 border-right: 325px solid transparent;
             }
-            
+
         </style>
     </head>
     <body>
-        <header>
-            <p>here's some header content</p>
-        </header>
-        
-        <h1>What a Beautiful Sunset!</h1>
-        
+
         <section id="b" class="letter">
             <div class="liney"></div>
             <div class="blocky"></div>
         </section>
+
         <section id="j" class="letter">
             <div class="liney"></div>
         </section>
+
         <section id="o" class="letter">
             <div class="liney"></div>
             <div class="blocky"></div>
         </section>
+
         <section id="r" class="letter">
             <div class="liney"></div>
             <div class="blocky"></div>
         </section>
+
         <section id="n" class="letter">
             <div class="liney"></div>
             <div class="blocky"></div>
         </section>
-        
+
     </body>
 </html>
