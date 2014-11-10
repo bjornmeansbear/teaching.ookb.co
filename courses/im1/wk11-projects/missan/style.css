@@ -1,0 +1,554 @@
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
+
+h1,h2 { font-weight: normal; }
+header h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: rgba(255,242,0,1);
+    font-size: 35px;
+    margin-left: 6vw;
+    margin-top: 15vh;
+    padding: 0;
+    position: fixed;
+}
+
+header h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    font-size: 112px;
+    margin-left: 6vw;
+    margin-top: 12vh;
+    padding: 0;
+    position: fixed;
+    z-index: -100;
+}
+
+#one {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 72vh;
+    margin-left: 70vw;
+    font-family: 'PT Mono';
+}
+
+#circle1 {
+    text-align: center;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(255,242,0,1);
+    position: absolute;
+    margin-left:-40px;
+}
+
+@-webkit-keyframes spark {
+    0%,100% {opacity:0;}
+    65% {opacity: 0;}
+    75% {opacity: 1;}
+    80% {opacity: 0;}
+    85% {opacity: 1;}
+    90% {opacity: 1;}
+}
+@keyframes spark {
+    0%,100% {opacity:0;}
+    65% {opacity: 0;}
+    75% {opacity: 1;}
+    80% {opacity: 0;}
+    85% {opacity: 1;}
+    90% {opacity: 1;}
+}
+
+#spark {
+    -webkit-animation: spark 2s infinite;
+    animation: spark 2s infinite;
+}
+
+@-webkit-keyframes tilt {
+    0%,100%{right:-100px;}
+    90%{right:50px;}
+    95%{right:50px;}
+}
+@keyframes tilt {
+    0%,100%{right:-100px;}
+    90%{right:50px;}
+    95%{right:50px;}
+}
+
+#feesh {
+    display:none;
+}
+
+#one:hover #feesh {
+    display:block;
+}
+
+#outlet {
+    top: -100px;
+    margin-left: -200px;
+    position:relative;
+    -webkit-animation: tilt 2s infinite;
+    animation: tilt 2s infinite;
+}
+
+#outlet1 {
+   background:  lightgrey;
+   height: 5px;
+   width: 60px;
+   position: absolute;
+   top: 0px;
+   left:0px;
+   z-index: 100;
+}
+
+#outlet2 {
+   background:  lightgrey;
+   height: 5px;
+   width: 60px;
+   position: absolute;
+   top: 50px;
+   left: 0px;
+   z-index: 100;
+}
+
+#outlet3 {
+   background: black;
+   height: 70px;
+   width: 40px;
+   position: absolute;
+   top: -7px;
+   left:60px;
+   z-index: 100;
+}
+
+#outlet4 {
+   background: black;
+   height: 8px;
+   width: 600px;
+   position: absolute;
+   top: 25px;
+   left:100px;
+   z-index: 100;
+}
+
+#square {
+    background: black;
+    height: 90px;
+    width: 60px;
+    position: absolute;
+    top: -118px;
+    left:-280px;
+    z-index: -100;
+}
+
+#circleplug {
+    background: white;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+    top: -110px;
+    left:-260px;
+    z-index: -100;
+}
+
+#circleplug2 {
+    background: white;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left:-260px;
+    z-index: -100;
+}
+
+#spark1 {
+    width: 0;
+    height: 0;
+    border-top: 70px solid yellow;
+    border-right: 20px solid transparent;
+    position: absolute;
+    top: -170px;
+    left:-250px;
+    z-index: -100;
+}
+
+#spark2 {
+    width: 0;
+    height: 0;
+    border-top: 30px solid yellow;
+    border-left: 60px solid transparent;
+    position: absolute;
+    top: -170px;
+    left:-300px;
+    z-index: -100;
+}
+
+#spark3 {
+    width: 0;
+    height: 0;
+    border-bottom: 70px solid yellow;
+    border-right: 20px solid transparent;
+    position: absolute;
+    top: -237px;
+    left:-298px;
+    z-index: -100;
+}
+
+#spark4 {
+    width: 0;
+    height: 0;
+    border-top: 70px solid yellow;
+    border-right: 20px solid transparent;
+    position: absolute;
+    top: 5px;
+    left:-200px;
+    z-index: -100;
+}
+
+#spark5 {
+    width: 0;
+    height: 0;
+    border-top: 30px solid yellow;
+    border-left: 60px solid transparent;
+    position: absolute;
+    top: 6px;
+    left:-250px;
+    z-index: -100;
+}
+
+#spark6 {
+    width: 0;
+    height: 0;
+    border-bottom: 54px solid yellow;
+    border-right: 20px solid transparent;
+    position: absolute;
+    top: -47px;
+    left:-250px;
+    z-index: -100;
+
+}
+
+#two {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 77vh;
+    margin-left: 70vw;
+    font-family: 'PT Mono';
+}
+
+@-webkit-keyframes speechbubble {
+    0%,100% {opacity:0;}
+    10% {opacity: 0;}
+    50% {opacity: 1;}
+    75% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes speechbubble {
+    0%,100% {opacity:0;}
+    10% {opacity: 0;}
+    50% {opacity: 1;}
+    75% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#speechbubble {
+    -webkit-animation: speechbubble 2s infinite;
+    animation: speechbubble 2s infinite;
+}
+
+#expression {
+    display:none;
+}
+
+#two:hover #expression {
+    display:block;
+}
+
+#circle2 {
+    text-align: center;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(255,242,0,1);
+    position: absolute;
+    margin-left:-40px;
+    padding:0;
+}
+
+
+#face {
+    background: black;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: -180px;
+    left:-330px;
+    z-index: -100;
+    padding:0;
+}
+
+#eyeright {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 30px solid white;
+    position: absolute;
+    top: -160px;
+    left:-274px;
+    z-index: 300;
+    padding:0;
+}
+
+#eyeleft {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-right:30px solid white;
+    position: absolute;
+    top: -160px;
+    left:-303px;
+    z-index: 300;
+    padding:0;
+}
+
+#pupil {
+    background: black;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    position: absolute;
+    top: -160px;
+    left:-288px;
+    z-index: 1000;
+    padding:0;
+}
+
+
+#mouth {
+    width: 0;
+    height: 0;
+    border-top: 28px solid transparent;
+    border-bottom: 28px solid transparent;
+    border-right:70px solid white;
+    position: absolute;
+    top: -135px;
+    left:-273px;
+    z-index: 300;
+    padding:0;
+}
+
+#bubble {
+    background: rgba(255,242,0,1);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -264px;
+    left:-170px;
+    z-index: -100;
+    padding:0;
+}
+
+#point {
+    width: 0;
+    height: 0;
+    border-top: 38px solid transparent;
+    border-bottom: 28px solid transparent;
+    border-right:80px solid rgba(255,242,0,1);
+    position: absolute;
+    top: -200px;
+    left:-200px;
+    z-index: 300;
+    padding:0;
+}
+
+
+#three {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 82vh;
+    margin-left: 70vw;
+    font-family: 'PT Mono';
+}
+
+#canvas {
+display:none;
+}
+
+#three:hover #canvas {
+    display:block;
+}
+
+#circle3 {
+    text-align: center;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(255,242,0,1);
+    position: absolute;
+    margin-left:-40px;
+
+}
+
+#squareface {
+    background: black;
+    height: 100px;
+    width: 160px;
+    position: absolute;
+    top: -195px;
+    left:-297px;
+    z-index: -100;
+}
+
+#eyeright1 {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 30px solid white;
+    position: absolute;
+    top: -135px;
+    left:-174px;
+    z-index: 300;
+    padding:0;
+}
+
+#eyeleft1 {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-right:30px solid white;
+    position: absolute;
+    top: -135px;
+    left:-204px;
+    z-index: 300;
+    padding:0;
+}
+
+#eyeright2 {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 30px solid white;
+    position: absolute;
+    top: -135px;
+    left:-260px;
+    z-index: 300;
+    padding:0;
+}
+
+#eyeleft2 {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-right:30px solid white;
+    position: absolute;
+    top: -135px;
+    left:-290px;
+    z-index: 300;
+    padding:0;
+}
+
+#pupil1 {
+    background: black;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    position: absolute;
+    top: -136px;
+    left:-276px;
+    z-index: 10000;
+}
+
+#pupil2 {
+    background: black;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    position: absolute;
+    top: -136px;
+    left:-188px;
+    z-index: 10000;
+}
+
+#skull {
+    background: black;
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -270px;
+    left:-297px;
+    z-index: -100;
+}
+
+@-webkit-keyframes spin {
+  0%   { -webkit-transform: rotate(-180deg) translate(0px, 0px);}
+  100% { -webkit-transform: rotate(180deg) translate(0px, 0px);}
+}
+@keyframes spin {
+  0%   { transform: rotate(-180deg) translate(0px, 0px);}
+  100% { transform: rotate(180deg) translate(0px, 0px);}
+}
+
+#circleidea {
+    -webkit-animation: spin 2s infinite;
+    animation: spin 2s infinite;
+}
+
+#squareidea {
+    -webkit-animation: spin 2s infinite;
+    animation: spin 2s infinite;
+}
+
+#traingleidea {
+    -webkit-animation: spin 2s infinite;
+    animation: spin 2s infinite;
+}
+
+#circleidea {
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-bottom: 45px solid rgba(255,242,0,1);
+    position: absolute;
+    top: -210px;
+    left:-280px;
+    z-index: 1000;
+}
+
+#squareidea {
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-bottom: 45px solid rgba(255,242,0,1);
+    position: absolute;
+    top: -210px;
+    left:-200px;
+    z-index: 1000;
+}
+
+#traingleidea {
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-bottom: 45px solid rgba(255,242,0,1);
+    position: absolute;
+    top: -260px;
+    left:-240px;
+    z-index: 100000;
+}
+

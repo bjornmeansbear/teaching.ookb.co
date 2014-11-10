@@ -1,0 +1,630 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+             *{box-sizing:border-box; margin:0;padding: 0;}
+            
+                 @-webkit-keyframes spinner1{
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+            
+            @-webkit-keyframes spinner2{
+                0% {
+                    transform: rotate(360deg);
+                }
+                100% {
+                    transform: rotate(0deg);
+                }
+            }
+            
+                  @-webkit-keyframes spinner3{
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+            
+            @-webkit-keyframes spinner4{
+                0% {
+                    transform: rotate(360deg);
+                }
+                100% {
+                    transform: rotate(0deg);
+                }
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+             @-webkit-keyframes bimao{
+                0%,75% {
+                    transform: rotateY(15deg);
+                }
+                75%,0% {
+                    transform: rotate(0deg);
+                }
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            @-webkit-keyframes dots{
+                0%,100% {
+                    color: black;
+                }
+                50% {
+                    color: white;
+                }
+            }
+            
+            
+            
+            
+            #spinner1{
+                height: 300px;
+                width: 300px;
+                color: rgba(180,57,57,1);
+                position: absolute;
+                top: 25%;
+                left: 5%;
+                -webkit-animation-name: spinner1; 
+                -webkit-animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite ;
+                -webkit-animation-duration: 4s;
+            }
+            
+             #spinner2{
+                height: 300px;
+                width: 300px;
+                color: rgba(180,57,57,1);
+                position: absolute;
+                top: 25%;
+                left: 5%;
+                position: absolute;
+                -webkit-animation-name: spinner2; 
+                -webkit-animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite ;
+                -webkit-animation-duration: 4s;
+              
+            }
+            
+            .f { transform: rotateY(180deg); }
+            
+             #spinner3{
+                height: 300px;
+                width: 300px;
+                color: rgba(180,57,57,1);
+                position: absolute;
+                top: 25%;
+                right: 5%;
+                -webkit-animation-name: spinner3; 
+                -webkit-animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite ;
+                -webkit-animation-duration: 4s;
+            }
+            
+             #spinner4{
+                height: 300px;
+                width: 300px;
+                color: rgba(180,57,57,1);
+                position: absolute;
+                top: 25%;
+                right: 5%;
+                transform: rotateY(180deg);
+                position: absolute;
+                -webkit-animation-name: spinner4; 
+                -webkit-animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite ;
+                -webkit-animation-duration: 4s;
+                 
+            }
+            
+            #spinner{
+                transform: rotateY(180deg);
+                height:100vh ;
+                width: 100vw;
+                position: absolute;
+            }
+            
+            body{
+                background: white;
+            }
+            
+            
+            
+            .s{
+                height: 150px;
+                width: 75px;
+                border-right: solid 37.5px;
+                border-top-right-radius: 75px;
+                border-bottom-right-radius: 75px;
+                position: absolute;
+            
+            }
+            
+            .s.one{
+                top: 0;
+                left: 150px;
+            }
+            
+            .s.two{
+                transform: rotate(90deg);
+                top: 107.5px;
+                left: 187.5px;
+            }
+            
+            .s.three{
+                transform: rotate(180deg);
+                top:150px;
+                left: 75px;
+            }
+            
+            .s.four{
+                transform: rotate(270deg);
+                top:37.5px;
+                left: 37.5px;
+            }
+            
+            
+            
+            
+            .quare {
+	           width: 9px; 
+	           height: 800px; 
+                background: white;
+                float: left;
+                
+}
+            
+            .quarer  {
+	           width: 6px; 
+	           height: 800px; 
+                background: black;
+                float: left;
+            }
+                
+                
+                .quareyou {
+	           width: 9px; 
+	           height: 800px; 
+                background: white;
+                float: right;
+                
+}
+            
+             .quareryou  {
+	           width: 6px; 
+	           height: 800px; 
+                background: black;
+                float: right;
+                
+}
+            
+            .quare2 {
+	           width: 9px; 
+	           height: 180px; 
+                background: white;
+                float: left;
+
+}
+            
+            .quare3 {
+	           width: 6px; 
+	           height: 180px; 
+                background: black;
+                float: left;
+
+}
+          
+            
+            
+            .clear { clear: both; display: block; }
+            
+            #nose{
+                color: black;
+                font-size: 100px;
+                border-right: 50%;
+                border-top: 50%;
+            }
+            .you{
+                transform: rotateY(-180deg);
+                left: 50%;
+                top: 50%;
+                position: absolute;
+                
+            }
+            
+            .zuo{
+                right: 50%;
+                top:50%;
+                position: absolute;
+            }
+            
+         
+            .shang{
+                transform: rotate(90deg);
+                bottom: 20%;
+                left: 50%;
+                right: 50%;
+                position: absolute;
+                color: rgba(180,57,57,1);
+                font-size: 150px;
+            }
+            
+            
+            #mouth{
+               
+                font-size: 10px;
+                
+                font-style: normal;
+            }
+            
+          
+            
+            #mouth:hover p {
+                cursor: pointer;
+            }
+            #mouth:hover .shang {
+                color: blue;
+                transform: rotate(270deg);
+                position: absolute
+            }
+            
+            #text{
+                color: gray;
+                font-size: 20px;
+                font-family: Brushstroke, fantasy;
+            }
+            
+            .juzi1{
+                position: absolute;
+                bottom: 100px;
+                left: 110px;
+                -webkit-animation-name: dots; 
+                -webkit-animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite ;
+                -webkit-animation-duration: 4s;
+            }
+            
+            .juzi2{
+                position: absolute;
+                bottom: 100px;
+                right: 110px;
+                 -webkit-animation-name: dots; 
+                -webkit-animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite ;
+                -webkit-animation-duration: 4s;
+            }
+
+            #nose p{
+                transition: all 500ms;
+            }
+            #nose:hover p{
+                cursor: pointer;
+            }
+            #nose:hover .zuo {
+                transform: rotate(15deg);
+                position: absolute;
+                -webkit-animation-name: bimao; 
+                -webkit-animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite ;
+                -webkit-animation-duration: .1s;
+            }
+                
+            #nose:hover .you {
+                transform: rotate(15deg);
+                position: absolute;
+                -webkit-animation-name: bimao; 
+                -webkit-animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite ;
+                -webkit-animation-duration: .2s;
+            }
+            
+            
+            
+            .circle {
+                width:10px;
+                height:100px;
+                border-radius:50px;
+                background:linear-gradient(to bottom, red);
+                color: red;
+                position: absolute;
+            }
+            
+            #redface {
+                color: red;
+                width: 10px;
+                height: 10px;
+                position: absolute;
+            }
+                
+            
+
+            
+            
+
+            
+            
+            
+        
+        </style>
+    </head>
+    
+    <body>
+        <div id="spinner1">
+            <div class="s one"></div>
+            <div class="s two"></div>
+            <div class="s three"></div>
+            <div class="s four"></div>
+        </div>
+        
+        <div id="spinner2">
+            <div class="f">
+                <div class="s one"></div>
+                <div class="s two"></div>
+                <div class="s three"></div>
+                <div class="s four"></div>
+            </div>
+        </div>
+        
+        <div id="spinner3">
+            <div class="s one"></div>
+            <div class="s two"></div>
+            <div class="s three"></div>
+            <div class="s four"></div>
+        </div>
+        
+        <div id="spinner4">
+            <div class="f">
+                <div class="s one"></div>
+                <div class="s two"></div>
+                <div class="s three"></div>
+                <div class="s four"></div>
+            </div>
+        </div>
+        
+        
+        <div id="hair">
+            <div class="quare"></div>
+            <div class="quarer"></div>
+            <div class="quare"></div>
+            <div class="quarer"></div>
+            <div class="quare"></div>
+            <div class="quarer"></div>
+            <div class="quare"></div>
+            <div class="quarer"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div><div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+            <div class="quare2"></div>
+            <div class="quare3"></div>
+           
+            
+            <div class="quareyou"></div>
+            <div class="quareryou"></div>
+            <div class="quareyou"></div>
+            <div class="quareryou"></div>
+            <div class="quareyou"></div>
+            <div class="quareryou"></div>
+            <div class="quareyou"></div>
+            <div class="quareryou"></div>
+           
+            
+          
+   
+            <div class="clear"></div>
+            
+        </div>
+        
+        <div id="nose">
+            <p class="zuo">’</p>
+            <p class="you">’</p>
+        
+        </div>
+        
+        <div id="mouth">
+           <p class="shang">(</p>            
+            
+        </div>
+        
+        <div id="text">
+            <p class="juzi1">I LOVE INTERECTIVE MEDIA.</p>
+            <p class="juzi2">Learning HTML and CSS is easy.</p>
+        </div>
+        
+        <div id="redface">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        
+        
+    </body>
+
+</html>
