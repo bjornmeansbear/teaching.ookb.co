@@ -1,0 +1,239 @@
+@import url('http://fonts.googleapis.com/css?family=Cabin:400,500,700');
+
+body {
+    -webkit-animation: colorshift 20s infinite
+}
+
+div{
+    display: block;
+}
+.firstnametext{
+    margin-top: 0px;
+}
+.firstname1{
+    transition: all ease-in-out;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 220px;
+    height: 220px;
+    background-color: rgba(150,200,100,1);
+    position: absolute;
+    float: left;
+    display: inline;
+    -webkit-animation:shapeshift 1s infinite, move1 4s infinite, rotate 1s infinite;
+}
+
+.firstname2{
+    transition: all 1s ease-in-out;
+    margin-top:440px;
+    margin-left: 230px;
+    width: 220px;
+    height: 220px;
+    background-color: rgba(200,230,100,1);
+    position: absolute;
+    float: left;
+    display: inline;
+    -webkit-animation:shapeshift 2s infinite, move2 3s infinite;
+}
+
+.firstname3{
+    transition: all 1s ease-in-out;
+    margin-top:0px;
+    margin-left: 450px;
+    width: 220px;
+    height: 220px;
+    background-color: rgba(210,260,100,1);
+    position: absolute;
+    float: left;
+    display: inline;
+    -webkit-animation:shapeshift 3s infinite, move3 2s infinite;
+}
+
+.firstname4{
+    transition: all 1s ease-in-out;
+    margin-top:440px;
+    margin-left: 670px;
+    width: 220px;
+    height: 220px;
+    background-color: rgba(230,230,80,1);
+    position: absolute;
+    float: left;
+    display: inline;
+     -webkit-animation:shapeshift 1s infinite, move4 3s infinite;
+}
+
+.firstname5{
+    transition: all 1s ease-in-out;
+    margin-top:200px;
+    margin-left: 900px;
+    width: 220px;
+    height: 220px;
+    background-color: rgba(250,220,80,1);
+    position: absolute;
+    float: left;
+    display: inline;
+    -webkit-animation:shapeshift 2s infinite, move5 4s infinite, rotate 4s infinite;
+}
+
+.letters{
+    position: relative;
+    top: 20vh;
+    color: rgba(255,255,255,1);
+    font-family: "cabin";
+    font-size:150px;
+    -webkit-animation:wiggle 2s infinite
+}
+
+.letters:hover{
+    color:rgba(200,10,150,1);
+}
+
+.letter1 {
+    transition: all 1s ease-in-out;
+    display: inline-block;
+    z-index:1;
+    position: absolute;
+    margin-left: 30vh;
+}
+
+.letter1:hover{
+    -webkit-animation:rotate 1s infinite
+}
+
+.letter2{
+    transition: all 1s ease-in-out;
+    display: inline-block;
+    z-index:1;
+    position: absolute;
+    margin-left: 55vh;
+
+}
+
+.letter2:hover{
+    -webkit-animation:enlarge 1s infinite
+}
+
+.letter3{
+    transition: all 5s ease-in-out;
+    display: inline-block;
+    z-index:1;
+    position: absolute;
+    margin-left: 80vh;
+}
+
+.letter3:hover{
+    font-family: impact;
+    transition: all 5s ease-in-out;
+}
+
+.letter4{
+    transition: all 1s ease-in-out;
+    display: inline-block;
+    z-index:1;
+    position: absolute;
+    margin-left: 105vh;
+}
+
+.letter4:hover{
+    -webkit-animation: enlarge2 4s infinite, rotate 2s infinite;
+}
+
+.letter5{
+    transition: all 1s ease-in-out;
+    display: inline-block;
+    z-index:1;
+    position: absolute;
+    margin-left: 130vh;
+}
+
+.letter5:hover{
+    opacity: 0;
+}
+
+.ferguson p{
+    position: absolute;
+    top:30vh;
+    left: 50vh;
+    right: 50vh;
+    color: rgba(255,255,255,1);
+    font-family: "cabin";
+    font-size:150px;
+    -webkit-animation: enlarge3 4s infinite;
+}
+
+@-webkit-keyframes colorshift {
+    0%, 100%{
+        background-color: rgba(15,100,150,.5);
+            }
+    33%{
+        background-color: rgba(50,100,200,.5);
+            }
+    66%{
+        background-color: rgba(100,70,200,.5);
+            }
+}
+@-webkit-keyframes rotate {
+    0% {-webkit-transform:rotate(0deg)}
+    100% {-webkit-transform:rotate(360deg)}
+}
+
+@-webkit-keyframes shapeshift {
+    0% {border-radius:0px;}
+    50% {border-radius:150px}
+}
+@-webkit-keyframes move1 {
+    0%{-webkit-transform:translate(0px,0px)}
+    50%{-webkit-transform:translate(600px,600px)}
+    100%{-webkit-transform:translate(0px,0px)}
+}
+@-webkit-keyframes move2 {
+    0%{-webkit-transform:translate(0px,0px)}
+    50%{-webkit-transform:translate(-900px,-900px)}
+    100%{-webkit-transform:translate(0px,0px)}
+}
+@-webkit-keyframes move3 {
+    0%{-webkit-transform:translate(0px,0px)}
+    50%{-webkit-transform:translate(-600px,600px)}
+    100%{-webkit-transform:translate(0px,0px)}
+}
+@-webkit-keyframes move4 {
+    0%{-webkit-transform:translate(0px,0px)}
+    50%{-webkit-transform:translate(500px,-800px)}
+    100%{-webkit-transform:translate(0px,0px)}
+}
+@-webkit-keyframes move5 {
+    0%{-webkit-transform:translate(0px,0px)}
+    50%{-webkit-transform:translate(-850px,200px)}
+    100%{-webkit-transform:translate(0px,0px)}
+}
+@-webkit-keyframes enlarge {
+    0%{-webkit-transform:scaleX(1);}
+    100%{-webkit-transform:scaleX(300);}
+}
+@-webkit-keyframes enlarge2 {
+    0%{-webkit-transform:scaleY(1)}
+    50%{-webkit-transform:scaleY(5)}
+    100%{-webkite-transform:scaleY(0)}
+}
+@-webkit-keyframes enlarge3 {
+    0%{-webkit-transform:scale(1,1)}
+    50%{-webkit-transform:scale(1.2,1.2)}
+    100%{-webkit-transform:scale(1,1)}
+}
+@-webkit-keyframes triangle {
+    0%{border-left:0px; border-bottom: 0 border-right:0px}
+    50%{border-left:5px; border-right 5px}
+    100%{border-left:0px; border-right:0px}
+}
+@-webkit-keyframes littlemove {
+    0%{-webkit-transform:translate (0px,0px)}
+    25%{-webkit-transform:translate(400px,50px)}
+    50%{-webkit-transform:translate(200px,200px)}
+    75%{-webkit-transform:translate(50px,50px)}
+    100%{-webkit-transform:translate(0px,0px)}
+}
+@-webkit-keyframes wiggle {
+    0%{-webkit-transform:rotate(10deg)}
+    50%{-webkit-transform:rotate(-10deg)}
+    100%{-webkit-transform:rotate(10deg)}
+}
