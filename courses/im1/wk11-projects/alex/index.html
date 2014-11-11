@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Poster</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="skeleton/stylesheets/skeleton.css">
+</head>
+
+<body>
+
+	
+	<div class="floralwhole"></div>
+	
+	<!-- LINKS -->
+	
+	<a href="#" class="one" onclick="overlay(modal1)" name="one">one</a> 
+	<a href="#" class="two" onclick="overlay(modal2)" name="two">two</a> 
+	<a href="#" class="three" onclick="overlay(modal3)" name="three">three</a> 
+	<a href="#" class="four" name="four">four</a>
+	<a href="#" class="five" name="five">five</a>
+	
+	
+	<!-- LOGO -->
+	
+	<div class="logo">
+	<h1>AMR</h1>
+	<p>Alexander M. Reynolds</p>
+	</div>
+	
+	<!-- FLORAL QUADRANTS --> 	
+	
+	<div class="floraltopleft"></div>
+	<div class="floraltopright"></div>
+	<div class="floralbottomright"></div>
+	<div class="floralbottomleft"></div>
+	
+	
+	<!-- MODAL DIVS -->
+	
+	<div class="modalclick" id="modal1"> <h4>Only A Beat Dog Will Holler.</h4></div>
+	<div class="modalclick" id="modal2"> <h4>He seems unevenly yolked.</h4></div>
+	<div class="modalclick" id="modal3"> <h4>We will call him loaf. It suits him.</h4></div>
+
+	<script>
+	
+	function overlay() {
+	el = document.getElementById("modal2");
+	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+}
+	</script>
+	
+	<script>
+
+	function overlay() {
+	el = document.getElementById("modal2");
+	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+}
+
+	</script>
+	<script>
+	function overlay() {
+	el = document.getElementById("modal3");
+	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+}
+
+	</script>
+
+	
+	<!--
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="zoomooz/jquery.zoomooz.min.js"></script> 
+-->
+	
+</body>
+
+</html>
