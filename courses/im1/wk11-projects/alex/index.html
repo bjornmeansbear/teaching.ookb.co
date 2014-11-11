@@ -13,12 +13,11 @@
 
 	<!-- LINKS -->
 
-	<a href="#" class="one" onclick="overlay(modal1)" name="one">one</a>
-	<a href="#" class="two" onclick="overlay(modal2)" name="two">two</a>
-	<a href="#" class="three" onclick="overlay(modal3)" name="three">three</a>
-	<a href="#" class="four" name="four">four</a>
-	<a href="#" class="five" name="five">five</a>
-
+	<a href="#" class="one" onclick="overlay1()" name="one">one</a>
+	<a href="#" class="two" onclick="overlay2()" name="two">two</a>
+	<a href="#" class="three" onclick="overlay3()" name="three">three</a>
+	<a href="#" class="four" onclick="overlay4()" name="four">four</a>
+	<a href="" class="five" name="five">back</a>
 
 	<!-- LOGO -->
 
@@ -40,34 +39,39 @@
 	<div class="modalclick" id="modal1"> <h4>Only A Beat Dog Will Holler.</h4></div>
 	<div class="modalclick" id="modal2"> <h4>He seems unevenly yolked.</h4></div>
 	<div class="modalclick" id="modal3"> <h4>We will call him loaf. It suits him.</h4></div>
+	<div class="modalclick" id="modal4"> <h4>Love won't make you shit.</h4></div>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
-	<script>
-
-	function overlay() {
-	el = document.getElementById("modal2");
-	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
-}
-	</script>
 
 	<script>
 
-	function overlay() {
-	el = document.getElementById("modal2");
-	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+
+	function overlay1() {
+	el = document.getElementById("modal1");
+	el.style.visibility = (el.style.visibility == "hidden") ? "hidden" : "visible";
 }
 
-	</script>
-	<script>
-	function overlay() {
+	function overlay2 () {
+
+	el = document.getElementById("modal2");
+	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+
+	}
+
+	function overlay3 () {
+
 	el = document.getElementById("modal3");
 	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
-}
+
+	}
+
+	function overlay4 () {
+
+	el = document.getElementById("modal4");
+	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+
+	}
 
 	</script>
-
-
 
 </body>
 

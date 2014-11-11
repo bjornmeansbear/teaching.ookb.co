@@ -345,7 +345,35 @@ a.five {
 	z-index: 1;
 }
 
+#modal1 {
+z-index: 5;	
+	
+}
 
+#modal2 {
+z-index: 5;	
+	
+}
+
+#modal3 {
+z-index: 5;	
+	
+}
+
+#modal4 {
+z-index: 5;	
+	
+}
+
+#modal5 {
+z-index: 5;	
+	
+}
+
+#modal6 {
+z-index: 5;
+	
+}
 
 @-webkit-keyframes floralrotate {
   from {
@@ -406,24 +434,31 @@ a.five {
 	background-size: cover;
 	
 	
-	-webkit-animation: modalfade 5s;
-    -webkit-animation-timing-function: ease-in;
-	-moz-animation: modalfade 5s;
-	-moz-animation-timing-function: ease-in;
+	-webkit-animation: modalfade 10s;
+	-webkit-animation: modalfade; 
+	
+	-moz-animation: modalfade 10s;
+	
+	
+
 	
 }
+
+
 
 
 @-webkit-keyframes modalfade {
  
 	from { opacity: 0; }
     to   { opacity: 1; }
+   
  
 }
+
 
 @-moz-keyframes modalfade {
     from { opacity: 0; }
     to   { opacity: 1; }
+  
 }
-
 
