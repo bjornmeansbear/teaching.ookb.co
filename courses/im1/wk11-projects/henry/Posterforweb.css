@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+* {
+margin: 0;
+padding: 0;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+    background-image: url(Posterforweb.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.lines {
+	postion: absolute;
+	left: 0;
+	top: 10px;
+}
+
+.line1 {
+	width: 4vw;
+	height: 1px;
+	background: white;
+}
+
+
+.line2 {
+	width: 8vw;
+	height: 1px;
+	background: white;
+}
+
+.space {
+	width: 10px;
+	height: 2vh;
+}
+
+.Ben {
+	color: red;
+	position:fixed;
+	left:30%;
+	top:20%;
+	text-align:center;
+	font-size: 12vw;
+	font-family: 'Oswald', sans-serif;
+	opacity: .7;
+	pointer-events: none;
+	font-weight:700;
+}
+
+.Tedx {
+	color: red;
+	position:fixed;
+	right:3%;
+	bottom:4%;
+	text-align:center;
+	font-size: 3vw;
+	font-family: 'Oswald', sans-serif;
+	opacity: .7;
+	pointer-events: none;
+	font-weight:700;
+}
+
+.Discription {
+	color: red;
+	position:fixed;
+	left:3%;
+	top:4%;
+	text-align:center;
+	font-size: .9vw;
+	font-family: 'Oswald', sans-serif;
+	opacity: .7;
+	pointer-events: none;
+	width: 17vw;
+	text-align:justify;
+	font-weight:300;
+}
+
+.Time {
+	color: red;
+	position:fixed;
+	right:10.5%;
+	top:4%;
+	text-align:center;
+	font-size: .9vw;
+	font-family: 'Oswald', sans-serif;
+	opacity: .7;
+	pointer-events: none;
+	width: 25vw;
+	text-align: right;
+	font-weight:400;
+}
+
+
+

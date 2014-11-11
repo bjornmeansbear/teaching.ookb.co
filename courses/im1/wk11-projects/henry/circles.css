@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+.leftsideofA {
+	width: 0;
+	height: 0;
+	margin:2px;
+	border-bottom: 100px solid white;
+	border-left: 70px solid transparent;
+	float:left;
+	position:relative;
+}
+
+.rightsideofA {
+	width: 25px;
+	height: 100px;
+	margin:2px;
+	background: white;
+	float:left;
+	position:relative;
+}
+
+.space {
+	width: 25px;
+	height: 100px;
+	margin:2px;
+	background: white;
+	opacity: .0;
+	float:left;
+	position:relative;
+}
+
+.spacesmall {
+	width: 15px;
+	height: 100px;
+	margin:2px;
+	background: white;
+	opacity: .0;
+	float:left;
+	position:relative;
+}
+
+.B {
+	float:left;
+}
+
+.leftB {
+	float:left;
+}
+
+.toppartofB {
+	width: 0;
+	height: 0;
+	margin:2px;
+	border-top: 49px solid transparent;
+	border-left: 40px solid white;
+	position:relative;
+}
+
+.bottompartofB {
+	width: 50px;
+	height: 49px;
+	margin:2px;
+	background: white;
+    -webkit-border-radius: 0 90px 90px 0;
+	position:relative;
+}
+
+.C {
+	width: 75px;
+	height: 100px;
+	margin:2px;
+	background: white;
+    -webkit-border-radius: 90px 0 0 90px;
+	position:relative;
+	float:left;
+
+}
+
+.circle {
+	width: 500px;
+	height: 500px;
+	background: blue;
+	-moz-border-radius: 250px;
+	-webkit-border-radius: 250px;
+	border-radius: 250px;
+	left: 25%;
+	top: 25%;
+	position:absolute;
+}
+
+@-webkit-keyframes orbit {
+	from {
+		-webkit-transform:rotate(0deg);}
+	to {
+		-webkit-transform:rotate(360deg);
+	}
+}
+
+@-webkit-keyframes reverseorbit {
+	from {
+		-webkit-transform:rotate(360deg);}
+	to {
+		-webkit-transform:rotate(0deg);
+	}
+}
+
+.smallcircle {
+	width: 20px;
+	height: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:red;
+
+	/* Chrome still requires the -webkit- prefix */
+	-webkit-animation:orbit 5s linear infinite;
+	animation:orbit 5s linear infinite;
+}
+
+.smallcircle2 {
+	width: 20px;
+	height: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: yellow;
+
+	/* Chrome still requires the -webkit- prefix */
+	-webkit-animation:orbit 4s linear infinite;
+	animation:orbit 4s linear infinite;
+}
+
+.smallcircle3 {
+	width: 20px;
+	height: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: blue;
+
+	/* Chrome still requires the -webkit- prefix */
+	-webkit-animation:orbit 8s linear infinite;
+	animation:orbit 8s linear infinite;
+}
+
+.largecircle {
+	width: 20px;
+	height: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: red;
+
+	/* Chrome still requires the -webkit- prefix */
+	-webkit-animation:reverseorbit 5s linear infinite;
+	animation:reverseorbit 5s linear infinite;
+}
+
+
+.largecircle2 {
+	width: 20px;
+	height: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: yellow;
+
+	/* Chrome still requires the -webkit- prefix */
+	-webkit-animation:reverseorbit 7s linear infinite;
+	animation:reverseorbit 7s linear infinite;
+}
+
+.largecircle3 {
+	width: 20px;
+	height: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: blue;
+
+	/* Chrome still requires the -webkit- prefix */
+	-webkit-animation:reverseorbit 10s linear infinite;
+	animation:reverseorbit 10s linear infinite;
+}
+
+.container{
+	width: 700px;
+	height: 700px;
+	margin: 0 auto;
+	position:relative;
+}
+
+.design{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	size: 30px;
+	z-index:999;
+	position:relative;
+	size: 40px;
+	letter-spacing:1px;
+}
+
+.clear {
+    clear: both;
+}
