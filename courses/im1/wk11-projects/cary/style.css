@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes colorshift {
+    0%, 100% {
+        background-image: url(img/bkg1.jpg);
+    }
+    66% {
+        background-image: url(img/bkg2.jpg);
+    }
+}
+
+@-webkit-keyframes rotational {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@font-face{
+	font-family: 'FFF TUSJ';
+	src: url('fonts/FFF_Tusj-webfont.eot');
+	src: url('fonts/FFF_Tusj-webfont.eot') format('eot'),
+	     url('fonts/FFF_Tusj-webfont.woff') format('woff'),
+	     url('fonts/FFF_Tusj-webfont.ttf') format('truetype'),
+	     url('fonts/FFF_Tusj-webfont.svg') format('svg');
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+
+body {
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-animation: colorshift 10s infinite;
+}
+
+h1  {
+    font-family: 'Codystar', cursive;
+    color:white;
+    -webkit-transform: rotate(90deg);
+    position:absolute;
+    top: 8%;
+    left:8%;
+    font-size:400%;
+    width:200px;
+    text-indent: -100px;
+    opacity:1;
+    -webkit-transition: all 500ms;
+    z-index: 10;
+    margin-left:100px;
+}
+
+h3  {
+    font-family: 'Codystar', cursive;
+    color:white;
+    -webkit-transform: rotate(90deg);
+    position:absolute;
+    top: 8%;
+    left:8%;
+    font-size:400%;
+    width:200px;
+    text-indent: -100px;
+    opacity:1;
+}
+
+.left {
+    width:20vw;
+    bottom:0;
+    right:0;
+    position:fixed;
+}
+
+.inner {
+    margin: 0px 170px 0px 200px;
+    padding:80px 0px;
+}
+
+.stars li img {
+    opacity:1;
+    -webkit-animation: rotational 29s infinite;
+    -webkit-animation-timing-function: linear;
+    background: transparent;
+}
+
+ul.stars {
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:fixed;
+    float:right;
+    padding: 130px 0px 0px 590px;
+}
+
+ul.stars li{
+    float: right;
+    width:30%;
+    margin: 1.5%;
+}
+
+h2 {
+    font-family: "fff tusj";
+    color:rgba(249,101,113,.9);
+    font-size:300px;
+    margin-left:33%;
+    padding-top:80px;
+    position:fixed;
+}
+
+h1:hover {
+    opacity:1;
+    -webkit-transform: rotate(-.1deg);
+}
+
+aside {
+    background: transparent;
+    color:white;
+    position:fixed;
+    left:21%;
+    margin-top:36vh;
+    opacity:.8;
+}
+
+aside ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+aside ul li {
+    display:inline;
+}
+
+aside a {
+    display:block;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "courier new";
+}
+
+aside h1 {
+    float:left;
+    margin:0;
+}
+
+.inner {
+    margin: 0px 0px 0px 200px;
+    padding: 80px 0px;
+    height:100vh;
+}
+
+.clear {
+    clear:both;
+}
+
+.right {
+    float:right;
+    padding: 0 15px;
+    right:10%;
+}
+
+p {
+    font-family: 'Codystar', cursive;
+    color:white;
+    font-size: 140px;
+    float:left;
+}
+
+<!---------------SCROLLING CONTENT---------->
+
+div#zero {
+    height:100vh;
+    width:60%;
+    padding: 100px 0px;
+}
+
+div#one {
+    width:100vw;
+    padding: 0 50px 200px 0;
+    height:100vh;
+}
+
+div#two {
+    width:100vw;
+    padding: 0 0 200px 0;
+    height:100vh;
+}
+
+div#three {
+    width:100vw;
+    padding: 0 0 200px 0;
+    height:100vh;
+}
+
+div#four {
+    width:100vw;
+    padding: 0 0 200px 0;
+    height:100vh;
+}
+
+div#five {
+    width:100vw;
+    padding: 0 0 200px 0;
+    height:100vh;
+}
+
+div#six {
+    width:100vw;
+    padding: 0 0 200px 0;
+    height:100vh;
+}
