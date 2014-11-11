@@ -1,0 +1,334 @@
+    *{box-sizing: border-box;}    
+        html {
+        background:black;
+        }
+    
+       .dshape {
+       position:absolute;       
+       margin-top:100px;
+       left:80px;
+	   height: 200px;
+       width: 200px;
+       border:75px solid red;
+       -webkit-transition: all 4s;
+
+       }
+
+        .dshape:hover {
+        border-top-right-radius: 800px;
+        border-bottom-right-radius: 800px;
+        
+        }
+
+        .ishape {
+        position:absolute;
+        margin-top: 100px;
+        left:300px;
+        height:200px;
+        width:90px;
+        background: red;
+        -webkit-transition: all 2s linear;
+        }
+
+        .ishape:hover {
+        -webkit-transform: rotateX(120deg);
+        height: 100px;
+        }
+        
+        .icircle {
+        position: absolute;
+        margin-top:190px;
+        left: 300px;
+        width: 90px;
+        height: 90px;
+        background: red;
+	    border-radius: 50px;
+        -webkit-transition: all 2s linear;
+        }
+        
+        .icircle:hover {
+        -webkit-transform: translate(0px,-100px);
+        }
+
+        .sshapetop {
+        position: absolute;
+        margin-top: 103px;
+        left:415px;
+        height: 100px;
+        width: 100px;
+        background: red;
+        -webkit-transition: all 10s;
+        transform:rotate(540deg);
+
+        }
+
+        .sshapetop:hover {
+        transform:rotate(0deg);
+        border: 30px solid red;
+        border-right:none;    
+        border-top-left-radius: 500px;
+        border-bottom-left-radius: 500px;
+        border: 30px solid black;
+        }
+
+        .sshapebot {
+        position: absolute;
+        margin-top: 200px;
+        left:460px;
+        height: 100px;
+        width: 100px;
+        background: red;
+        -webkit-transform: rotate(-180deg);
+        -webkit-transition: all 1s;
+        }
+
+        .sshapebot:hover {
+        transform:rotate(540deg);
+        border-top-left-radius: 500px;
+        border-bottom-left-radius: 500px;
+        border: 30px solid black;
+        border-right:none;
+        background:
+        }
+
+        .cshape {
+        position: absolute;
+        margin-top: 105px;
+        left:580px;
+        height: 200px;
+        width: 115px;
+        -webkit-transition: all 3s;
+        border-right:none;
+        background:red;
+        }
+
+        .cshape:hover {
+        -webkit-transition: all 1s ease-in-out;
+        border-radius: 50px;
+        border-top-left-radius: 500px;
+        border-bottom-left-radius: 500px;
+        border: 30px solid green;
+        }
+
+         .oshape {
+        position: absolute;
+        margin-top: 105px;
+        left:720px;
+        height: 200px;
+        width: 200px;
+        -webkit-transition: all 3s;
+        background:red;
+        }
+
+        .oshape:hover {
+        -webkit-transition: all 1s ease-in-out;
+        border-radius: 50px;
+        border: 50px solid yellow;
+        }
+        
+        .thank {
+        -webkit-transform: rotate(-90deg);  
+        font-family: droid-sans-mono bold;
+        position: absolute;
+        left:240px;
+        top: 790px;
+        padding: 50px;
+        color: transparent;
+        text-shadow: 0 0 5px rgba(233,9,9,0.5);        
+        font-size: 25px;
+        width: 100px;
+        text-indent: -100px;
+        }
+        
+        .you {
+        -webkit-transform: rotate(-90deg);
+        font-family: droid-sans-mono bold;
+        position: absolute;
+        left:275px;
+        top: 790px;
+        padding: 50px;
+        color: transparent;
+        text-shadow: 0 0 5px rgba(233,9,9,0.5);  
+        font-size: 25px;
+        width: 100px;
+        text-indent: -100px;
+        }
+            
+        .four {
+        -webkit-transform: rotate(-90deg);
+        font-family: droid-sans-mono bold;
+        position: absolute;
+        left:275px;
+        top: 715px;
+        padding: 50px;
+        color: transparent;
+        text-shadow: 0 0 5px rgba(233,9,9,0.5);  
+        font-size: 25px;
+        width: 100px;
+        text-indent: -100px;
+        }
+
+        .smo {
+        -webkit-transform: rotate(-90deg);
+        -webkit-animation-name: spin;
+        -webkit-animation-duration: 10000ms;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        font-family: droid-sans-mono;
+        position: absolute;
+        left:400px;
+        top: 700px;
+        padding: 50px;
+        color: transparent;
+        text-shadow: 0 0 5px rgba(225,225,225,0.5); 
+        font-size: 115px;
+        width: 100px;
+        text-indent: -100px;
+        margin-bottom: 300px;
+        }
+
+        @-webkit-keyframes spin {
+        0% { transform: rotatex(-90deg); }
+        100% { transform: rotatex(-360deg); }
+        }
+        
+        
+        .king {
+        -webkit-transform: rotate(-90deg);
+        -webkit-animation-name: spin;
+        -webkit-animation-duration: 10000ms;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;    
+        font-family: droid-sans-mono;
+        position: absolute;
+        left:770px;
+        top: 700px;
+        padding: 50px;
+        color: transparent;
+        text-shadow: 0 0 5px rgba(205, 133, 63,0.5); 
+        font-size: 115px;
+        width: 100px;
+        text-indent: -100px;
+        margin-bottom: 300px;
+        }
+
+        .nickq {
+        font-family: droid-sans-mono;
+        position: absolute;
+        left:425px;
+        top: 400px;
+        padding: 50px;
+        color: grey;
+        font-size: 15px;
+        width: 100%;
+        text-indent: -100px;
+        }
+
+        .cigsmpic {
+        position: absolute;
+        left:260px;
+        top: 560px;
+        padding: 50px
+        text-indent: -100px;
+        }
+
+        .discoverers {
+        font-family: georgia;
+        position: absolute;
+        left:200px;
+        top: 1100px;
+        padding: 50px;
+        color: Grey;
+        font-size: 90px;
+        width: 200px;
+        text-indent: -100px;
+        margin-bottom: 300px;
+        animation-duration: 400ms;
+        animation-name: blink;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        -webkit-animation: blink 5s infinite linear;    
+        }
+
+        @-webkit-keyframes blink {
+        from { color: green; }
+        to { color: white; }
+        }
+
+        .disqoute {
+        -webkit-animation: txt-animation1 3s infinite ease-in-out;
+        font-family: droid-sans-mono;
+        position: absolute;
+        left:225px;
+        top: 1400px;
+        padding: 50px;
+        color: grey;
+        font-size: 20px;
+        width: 100%;
+        text-indent: -100px;
+        }
+        
+        @-webkit-keyframes txt-animation1 {
+        0%, 20% {opacity: 0;}
+        60%  {opacity: 0.8;}
+        100% {opacity: 1;}
+        }
+        
+
+         .shippic {
+        position: absolute;
+        left:300px;
+        top: 1560px;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+        -webkit-transition: all 4s;
+        }
+        
+        .shippic:hover {
+        -webkit-transform: translate(-75px,-200px);
+        }
+
+        .calendarpic {
+        margin-left:300px;
+        margin-top: 1500px;
+        width: 200px;
+        height: 200px;
+        -webkit-transition: all 4s linear;
+        }
+        
+        .calendarpic:hover {
+        -webkit-transform: scale(2,4);
+        }
+
+        .circlepic {
+        -webkit-animation: squash 10s ease 1s 10 alternate;
+        position: absolute;
+        left:665px;
+        top: 1590px;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+        -webkit-transition: all 4s;
+        }
+        
+        @-webkit-keyframes squash {
+        0% { -webkit-transform: scaleY(3.0); }
+        50% { -webkit-transform: translateY(-300px) scaleY(1.0);}
+        100% { -webkit-transform: scaleY(3.0); }
+        }
+    
+        .ovalpic {
+        -webkit-animation: ball-x 2.5s;    
+        position: absolute;
+        left:900px;
+        top:1590px;
+        padding: 50px;
+        width: 200px;
+        height: 200px;
+       -webkit-transition: all 3s;
+        }
+        
+        .ovalpic:hover {
+        transform:rotate(540deg);   
+        }    
