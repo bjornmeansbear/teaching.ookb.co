@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <style>
+            * { box-sizing: border-box; }
+
+            html,body {
+              margin: 0;
+              padding: 0;
+              height: 100%;
+              width:100%;
+            }
+
+            body {
+              background: #f06;
+              background: linear-gradient(45deg, #f06, yellow);
+              background-attachment: fixed;
+              min-height: 100%;
+            }
+
+            .letter {
+              position: relative;
+              width: 300px;
+              height: 550px;
+              margin: 25px;
+              float:left;
+              opacity: .5;
+            }
+
+            #j { margin-left: -200px; }
+
+            .liney, .blocky {
+              position: absolute;
+              width: 300px;
+              height: 300px;
+              top:0;
+              left:0;
+            }
+
+            .liney {
+              border:50px solid yellow;
+            }
+
+            .blocky {
+              background: yellow;
+            }
+
+            #b .liney,
+            #r .liney {
+              border-left: none;
+              border-top-right-radius: 150px;
+              border-bottom-right-radius: 150px;
+            }
+
+            #b .blocky {
+              width: 325px;
+              top: 250px;;
+              border-top-right-radius: 150px;
+              border-bottom-right-radius: 150px;
+            }
+
+            #j .liney {
+              height: 650px;
+              border-left: none;
+              border-top: none;
+              border-bottom-right-radius: 225px;
+            }
+
+            #o .liney {
+              height: 550px;
+              border-radius: 150px;
+            }
+
+            #o .blocky {
+              height: 300px;
+              top: inherit;
+              bottom: 0;
+              border-bottom-left-radius: 150px;
+              border-bottom-right-radius: 150px;
+            }
+
+            #r .blocky {
+              background: transparent;
+              height: 300px;
+              top:250px;;
+              border-bottom: 300px solid yellow;
+              border-right: 165px solid transparent;
+              z-index: 99;
+            }
+
+            #n .liney,
+            #a .liney {
+              height: 550px;
+              width:50px;
+              border: none;
+              border-left: 50px solid yellow;
+            }
+
+            #n .liney {
+              left: inherit;
+              right: 0;
+            }
+
+            #n .blocky {
+              background: transparent;
+              height: 550px;
+              border-bottom: 550px solid yellow;
+              border-right: 300px solid transparent;
+            }
+
+            #a .liney.one {
+              transform: skew(-12.5deg,0);
+              left:60px;
+            }
+            #a .liney.two {
+              transform: skew(12.5deg,0);
+              left:190px;
+            }
+
+            #a .blocky {
+              bottom: 0;
+              top:inherit;
+              background: transparent;
+              border-bottom: 300px solid yellow;
+              border-right: 100px solid transparent;
+              border-left: 100px solid transparent;
+            }
+
+            #d .liney {
+              height: 550px;
+              border-top-right-radius: 200px;
+              border-bottom-right-radius: 200px;
+              border-left: 0;
+            }
+
+            #d .blocky {
+              background: transparent;
+              height: 550px;
+              border-bottom: 550px solid yellow;
+              border-right: 300px solid transparent;
+              border-bottom-right-radius: 200px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <section id="b" class="letter">
+            <div class="liney"></div>
+            <div class="blocky"></div>
+        </section>
+
+        <section id="j" class="letter">
+            <div class="liney"></div>
+        </section>
+
+        <section id="o" class="letter">
+            <div class="liney"></div>
+            <div class="blocky"></div>
+        </section>
+
+        <section id="r" class="letter">
+            <div class="liney"></div>
+            <div class="blocky"></div>
+        </section>
+
+        <section id="n" class="letter">
+            <div class="liney"></div>
+            <div class="blocky"></div>
+        </section>
+
+        <section id="a" class="letter">
+            <div class="liney one"></div>
+            <div class="liney two"></div>
+            <div class="blocky"></div>
+        </section>
+
+        <section id="r" class="letter">
+            <div class="liney"></div>
+            <div class="blocky"></div>
+        </section>
+
+        <section id="d" class="letter">
+            <div class="liney"></div>
+            <div class="blocky"></div>
+        </section>
+
+    </body>
+</html>
