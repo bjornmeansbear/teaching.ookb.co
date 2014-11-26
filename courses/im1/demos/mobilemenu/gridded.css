@@ -10,6 +10,15 @@ body {
     font-family: helvetica, arial, sans-serif;
     padding-bottom: 60px;
     background: rgba(40,160,80,.1);
+    color: darkgreen;
+}
+
+h1 {
+  color: forestgreen;
+  font-size: 3em;
+  text-shadow: 0px 1px 3px rgba(144,238,144,1);
+  margin-top: .75em;
+  margin-bottom: .125em;
 }
 
 header {
@@ -30,7 +39,7 @@ header ul {
     position: absolute;
     bottom: 0;
     width: 100%;
-    
+
 }
 
 header ul li {
@@ -83,6 +92,23 @@ header button.toggle:active span {
     background: lightgreen;
 }
 
+article,
+footer {
+    padding: 10px;
+}
+
+article {
+    border-bottom: 1px solid darkgreen;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+}
+
+article p,
+footer small {
+  display: block;
+  max-width: 50em;
+}
+
 ul.imagelist {
     list-style: none;
     padding: 0 5px;
@@ -103,6 +129,12 @@ ul.imagelist li.thumb {
 
 li.thumb img {
     width: 100%;
+}
+
+footer {
+  border-top: 1px solid darkgreen;
+  padding-top: 25px;
+  margin-top: 25px;
 }
 
 /* 480px and larger */
@@ -132,52 +164,57 @@ li.thumb img {
         padding: 5px;
         transition: all 400ms;
     }
-    
+
     li.thumb:hover .caption {
         opacity: 1;
     }
 }
-/* end 700px and larger */    
+/* end 700px and larger */
 
 @media (min-width: 768px) {
     header {
         background: lightgreen;
     }
-    
+
     header ul {
         display: block;
         position: static;
     }
-    
+
     header button.toggle { display: none; }
-    
+
     header {
         top:0;
         bottom:initial;
         border: none;
         border-bottom: 1px solid darkgreen;
     }
-    
+
     header nav ul {
         list-style: none;
         padding: 0;
         margin: 0;
         border: none;
     }
-    
+
     header nav ul li {
         float: left;
         border: none;
     }
-    
+
     header nav ul li a {
         padding: 15px;
     }
-    
+
     ul.imagelist {
+        padding-top: 10px;
+        margin: 0;
+    }
+
+    article {
         padding-top: 50px;
     }
-    
+
 }
 
 /* 960px and larger */
@@ -186,20 +223,20 @@ li.thumb img {
         width: calc(100% / 4);
     }
 }
-/* end 960px and larger */   
-    
+/* end 960px and larger */
+
 /* 1200px and larger */
 @media (min-width: 1200px) {
     ul.imagelist li.thumb {
         width: calc(100% / 5);
     }
 }
-/* end 1200px and larger */   
-    
+/* end 1200px and larger */
+
 /* 1500px and larger */
 @media (min-width: 1500px) {
     ul.imagelist li.thumb {
         width: calc(100% / 6);
     }
 }
-/* end 1500px and larger */   
+/* end 1500px and larger */
