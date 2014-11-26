@@ -1,0 +1,148 @@
+<!-- doctype html -->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Responsive Gridded Images</title>
+        
+        <link href="gridded.css" rel="stylesheet">
+        
+    </head>
+
+    <body>
+    
+        <header>
+            <nav>
+
+                <ul>
+                    <li><a href="#">First object</a></li>
+                    <li><a href="#">Second Thing</a></li>
+                    <li><a href="#">A Third Item</a></li>
+                </ul>
+
+                <button class="toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            
+            </nav>
+        </header>
+        
+        <main>
+            <ul class="imagelist">
+                <li class="thumb">
+                    <img src="https://unsplash.it/300/200?image=110">
+                    <div class="caption">
+                        <h2>Image Title</h2>
+                        <p>Some Image text. Lorem Ipsum Dolor sit amet.</p>
+                    </div>
+                </li>
+                <li class="thumb">
+                    <img src="https://unsplash.it/300/200?image=100">
+                    <div class="caption">
+                        <h2>Image Title</h2>
+                        <p>Some Image text. Lorem Ipsum Dolor sit amet.</p>
+                    </div>
+                </li>
+                <li class="thumb">
+                    <img src="https://unsplash.it/300/200?image=90">
+                    <div class="caption">
+                        <h2>Image Title</h2>
+                        <p>Some Image text. Lorem Ipsum Dolor sit amet.</p>
+                    </div>
+                </li>
+                <li class="thumb">
+                    <img src="https://unsplash.it/300/200?image=80">
+                    <div class="caption">
+                        <h2>Image Title</h2>
+                        <p>Some Image text. Lorem Ipsum Dolor sit amet.</p>
+                    </div>
+                </li>
+                <li class="thumb">
+                    <img src="https://unsplash.it/300/200?image=70">
+                    <div class="caption">
+                        <h2>Image Title</h2>
+                        <p>Some Image text. Lorem Ipsum Dolor sit amet.</p>
+                    </div>
+                </li>
+                <li class="thumb">
+                    <img src="https://unsplash.it/300/200?image=60">
+                    <div class="caption">
+                        <h2>Image Title</h2>
+                        <p>Some Image text. Lorem Ipsum Dolor sit amet.</p>
+                    </div>
+                </li>
+                <li class="thumb">
+                    <img src="https://unsplash.it/300/200?image=50">
+                    <div class="caption">
+                        <h2>Image Title</h2>
+                        <p>Some Image text. Lorem Ipsum Dolor sit amet.</p>
+                    </div>
+                </li>
+                <li class="thumb">
+                    <img src="https://unsplash.it/300/200?image=10">
+                    <div class="caption">
+                        <h2>Image Title</h2>
+                        <p>Some Image text. Lorem Ipsum Dolor sit amet.</p>
+                    </div>
+                </li>
+                <li class="thumb">
+                    <img src="https://unsplash.it/300/200?image=0">
+                    <div class="caption">
+                        <h2>Image Title</h2>
+                        <p>Some Image text. Lorem Ipsum Dolor sit amet.</p>
+                    </div>
+                </li>
+                <li class="thumb">
+                    <img src="https://unsplash.it/300/200?image=20">
+                    <div class="caption">
+                        <h2>Image Title</h2>
+                        <p>Some Image text. Lorem Ipsum Dolor sit amet.</p>
+                    </div>
+                </li>
+                <li class="thumb">
+                    <img src="https://unsplash.it/300/200?image=30">
+                    <div class="caption">
+                        <h2>Image Title</h2>
+                        <p>Some Image text. Lorem Ipsum Dolor sit amet.</p>
+                    </div>
+                </li>
+                <li class="thumb">
+                    <img src="https://unsplash.it/300/200?image=40">
+                    <div class="caption">
+                        <h2>Image Title</h2>
+                        <p>Some Image text. Lorem Ipsum Dolor sit amet.</p>
+                    </div>
+                </li>
+            </ul>
+        </main>
+        
+        <!-- Javascript is included down here to make pages load faster -->
+        <script src="jquery-2.1.1.min.js"></script>
+        
+        <script>
+            $(document).ready(function() {
+                $('button.toggle').click(function() {
+                    $('header ul').slideToggle();
+                });
+            });
+
+            $(window).resize(function() {
+                ww = $(window).width();
+                
+                if (ww > 768) {
+                    $('header ul').show();
+                } else {
+                    $('header ul').hide();
+                };
+                
+            });
+        </script>
+        
+    </body>
+    
+</html>
+
