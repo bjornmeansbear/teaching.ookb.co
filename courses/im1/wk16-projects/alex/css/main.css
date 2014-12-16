@@ -1,0 +1,392 @@
+* {
+	
+	box-sizing: border-box;
+	
+}
+
+@-moz-keyframes tealpink {
+  0%   { background-color: #00A99D;}
+  25%  { background-color: #ED1E79;}
+  50%  { background-color: #00A99D;}
+  75%  { background-color: #ED1E79;}
+  100% { background-color: #00A99D;}
+ 
+ }
+
+
+html {
+	-moz-animation: tealpink 35s infinite;	
+	
+}
+
+body {
+	
+	
+	
+	
+}
+
+
+
+
+header {
+	
+	font-family: "montserrat", sans-serif;
+	margin-top: 50px;	
+	z-index: 99999;
+}
+
+.firstnavigation {
+	position: fixed;	
+}
+
+header
+.firstnavigation
+li {
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+	letter-spacing: 1px;	
+	
+}
+
+header
+.firstnavigation
+li
+a {
+	
+	text-decoration: none;
+	z-index: 99999;
+}
+
+/* Fixed Navigation Link Styles */
+
+/* unvisited link */
+header
+a:link {
+    color: white;
+}
+
+/* visited link */
+header
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+header
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+header
+a:active {
+    color: yellow;
+}
+
+header
+ul#cssmenu
+.active a {
+	
+	color: yellow;
+}
+
+
+/* Fixed Navigation Link Styles End */
+
+/* Logo Styling */
+.logo {	
+	margin-left: auto;
+	margin-right: auto;
+	height: 420px;
+	width: 300px;	
+}
+.logobox {
+	border: 6px solid white;
+	padding-top: 40px;	
+	color: white;
+	width: 300px;
+	height: 390px;
+	font-family: "otama.ep", "didot", serif;	
+}
+.logobox
+li {	
+	list-style-type: none;
+	font-size: 90px;
+	line-height: 95px;
+	letter-spacing: 7px;	
+}
+.logofooter {	
+	width: 300px;
+	height: 50px;
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-family: "montserrat", "helvetica", sans-serif;
+	text-align: center;	
+}	
+.logobox
+li {
+	
+	list-style-type: none;
+	font-size: 90px;
+	line-height: 95px;
+	letter-spacing: 7px;	
+}
+.logofooter {	
+	width: 300px;
+	height: 50px;
+	color: white;
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-family: "montserrat", "helvetica", sans-serif;
+	text-align: center;
+	
+}
+
+main
+ul {	
+	text-align: center;	
+}
+
+
+header
+.firstnavigation
+li {
+	
+
+	list-style-type: none;
+	letter-spacing: 1px;
+	
+	
+}
+
+
+/* unvisited link */
+header
+a:link {
+    color: white;
+}
+
+/* visited link */
+header
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+header
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+header
+a:active {
+    color: white;
+}
+
+/* footer */
+
+footer {
+		top: 20px;	
+	display: block;
+}
+
+
+footer,
+.socialnavigation
+ {
+
+	top: 30px;
+	
+}
+
+
+footer
+.socialnavigation
+li {
+	
+	display: inline-block;
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow: hidden;
+	
+}
+
+footer
+.socialnavigation
+li 
+a {
+	
+	height: 30px;
+	width: 30px;
+	
+}
+
+#first {
+
+	
+	
+}
+#content {
+	
+	position: absolute;
+	top: 0;
+	left: 1800px;
+	width: auto;
+	z-index: -1;
+	
+}
+
+#content
+td {
+	
+	border-bottom: transparent;
+	width: auto;
+}
+
+.section
+h2 {
+	font-family: "montserrat", sans-serif;
+	color: white;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.section
+p {
+	width: 220px;	
+}
+
+.section
+article {
+	
+	width: 400px;
+	
+}
+
+.section {
+	
+	color: white;
+	width: 3000px;
+	height: 100%;
+	top: 25px;
+	right: 0;
+	margin-left: 500px;
+}
+#first {
+	
+
+	
+}	
+#second{
+	padding-right: 1000px; 
+	padding-left: 500px;
+}
+
+#third {
+	
+	width: 3500px;
+	padding-right: 2000px;	
+	padding-left: 500px;
+}
+#fourth {
+	
+	width: 3500px;
+	padding-right: 2000px;	
+	padding-left: 500px;
+}
+#fifth {
+	
+	width: 3500px;
+	padding-right: 2000px;	
+	padding-left: 500px;
+}
+
+
+#third
+ul  {
+	width: 2500px;
+	height: auto;
+}
+
+#third
+li {
+	
+	display: inline;
+	height: auto;
+	width: auto;
+	
+}
+
+#fourth
+ul  {
+	width: 2500px;
+	height: auto;
+}
+
+#fourth
+li {
+	
+	display: inline;
+	height: auto;
+	width: auto;	
+}
+
+#fifth
+ul  {
+	width: 2500px;
+	height: auto;
+}
+
+#fifth
+li {
+	
+	display: inline;
+	height: auto;
+	width: auto;	
+}
+
+#fifth
+article {
+	
+
+	
+}
+
+#sixth
+article {
+	
+	padding-top: 100px;
+	
+}
+
+
+
+/* footer end */
+
+/* Larger than tablet */
+@media (min-width: 750px) and (max-width: 1024px) {	
+	
+	
+	
+	
+	
+}	 /* query end */
+
+@media (max-width: 550px) {
+	
+		
+	
+	
+} /* query end */
+
+

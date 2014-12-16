@@ -1,0 +1,192 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,700,900,400,200);
+
+*{box-sizing: border-box;}
+
+
+/*-------- flip --------*/ 
+
+@-webkit-keyframes flip {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+            transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+            transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+
+  50% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+            transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+            transform: perspective(400px) scale3d(.95, .95, .95);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+
+  100% {
+    -webkit-transform: perspective(400px);
+            transform: perspective(400px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+}
+
+@keyframes flip {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+            transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+            transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+
+  50% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+            transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+            transform: perspective(400px) scale3d(.95, .95, .95);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+
+  100% {
+    -webkit-transform: perspective(400px);
+            transform: perspective(400px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+}
+
+/*-------- flip ends--------*/
+
+
+
+body {
+ font-family: 'Raleway', sans-serif;
+ width: 100%;
+ margin: 0;
+ overflow-x: hidden;
+
+}
+
+header img{
+width: 100%;
+position: fixed;
+}
+
+nav {
+  background: white;
+  position: fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  width:160px;
+  padding-top: 10px;
+  padding-left: 0;
+  z-index:0;
+}
+
+.title {
+ color:#40545d; 
+ border-style: solid;
+ border-width: 9px;
+ margin: 0 10px 0 10px;
+ padding-left: 15px;
+ font-size: 40px;
+ font-weight: 900;
+ line-height: 10px;
+}
+
+.projectname{
+ position: fixed;
+ color:white;
+ font-size: 10px;
+ padding-left:190px;
+ bottom: 0;
+ font-weight: 200;
+ line-height: 5px;
+}
+
+nav ul {
+ padding-left: 20px;
+}
+
+nav ul li {
+ display: inline-block;
+}
+
+nav ul li:hover{
+-webkit-animation: flip 0.5s;
+
+}
+
+nav ul li a {
+  display: block;
+  color:#40545d;
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav ul li a:hover {
+color: #9baeb2;
+}
+
+article {
+    padding: 260px;
+    min-height: 1000px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article section{
+  background: white;
+  width: 1000px;
+  margin: 0;
+  padding: 60px;
+  opacity: .8;
+  color: #40545d;
+  border-radius: 20px;
+  position: relative;
+  font-weight: 200;
+}
+
+#theicecity {
+    background-image:url(backgroundimage%20copy.jpg);    
+}
+#history{
+    background-image:url(backgroundimage2.jpg);
+}
+#food{
+    background-image: url(IMG_6009.jpg);
+}
+#photos{
+    background-image: url(001ec949faf1142c977e3e.jpg)
+}
+
+.center {
+text-decoration: none;
+color:#40545d;
+}
+

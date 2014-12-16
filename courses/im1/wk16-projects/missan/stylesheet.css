@@ -1,0 +1,270 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,900,400italic);
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+header {
+    z-index: 999;
+    background: rgba(201,221,175,1);
+    position: fixed;
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.plane {
+    height: 80px;
+    width: 80px;
+    padding: 0;
+    margin: 2px;
+    float: left;
+}
+
+header ul {
+    list-style: none;
+    margin-top: : 5px;
+    margin-left: 10px;
+    padding: 0;
+    color: rgba(201,221,175,1);
+    float: left;
+ 
+}
+
+header ul li {
+    display: inline-block;
+    float: right;
+    color: white;
+    font-family: "playfair display", sans-serif;
+    font-weight: 900;
+    font-size: 19px;
+    margin:0;
+    padding:0;
+
+}
+
+header a {
+    color: white;
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header ul a:hover {
+    color: rgba(201,221,175,1);
+    text-decoration: none;
+}
+
+header h1 {
+    float: left;
+    margin-left: 22px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding: 0;
+    font-size: 35px;
+    font-family: "playfair display", serif;
+    font-weight: 900;
+}
+
+
+
+body { 
+    margin:0;
+    padding:0;
+    
+}
+
+
+#home {
+    padding:0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    background-size: cover;
+    background-position: center center;
+}
+
+.steps {
+    margin: 0;
+    padding-top: 40vh;
+    padding-left: 40vh;
+    text-align: left;
+    font-size: 55px;
+    line-height: .9;
+    color: rgba(201,221,175,1);
+    font-family: "playfair display", serif;
+    font-weight: 900;
+}
+#home img{
+    max-width: 30%;
+    margin-left: 50vw;
+}
+
+#one {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.girl {
+    position: relative;
+}
+
+.girl img {
+    width: 25%;
+    z-index: 200;
+    position: absolute;
+    padding-top: 100px;
+    left: 75%;
+}
+
+
+.container {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+.row {
+    padding-top: 250px;
+    color: lightgrey;
+    margin-left: -12px;
+    margin-right: -12px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.row h1 {
+    font-family: "playfair display", serif;
+    font-weight: 900;
+    line-height: .9;
+    color: grey;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+[class*='col-'] {
+    float: left;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-1       { width: calc(100% / 12 * 4);}
+.col-2       { 
+              width: calc(100% / 12 * 4);
+              padding-top: 60px;
+             }
+
+#two {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+ 
+.learn {
+    margin: 0 auto;
+    text-align: left;
+    font-size: 55px;
+    line-height: .9;
+    color: rgba(201,221,175,1);
+    font-family: "playfair display", serif;
+    font-weight: 900;
+    width: 60vw;
+    padding-top: 40vh;
+    z-index: 1;
+}
+
+
+#three {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+
+
+.cycle-slideshow {
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.slide img {
+    width: 600px;
+    position: center;
+}
+
+.slideshow-wrapper {
+    top: 120px;
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    position: center;
+    position: relative;
+}
+
+.controls {
+    color: rgba(201,221,175,1);
+    display: block;
+    line-height: 400px;
+    height: 400px;
+    font-size:4em;
+    padding: 20px;
+    opacity: 1;
+    transition: all 400ms;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    z-index: 9999;
+}
+
+.slide p {
+    font-size: 12px;
+    color: red;
+    font-family: "playfair display", serif;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    background: rgba(201,221,175,1); 
+    color: white; 
+    padding: 10px 20px; 
+    display: none;
+    width: 100%;
+    height: 77px;
+}
+     
+.slideshow-wrapper:hover p {
+    display: block;
+} 
+
+#prev {
+   left:0;
+   bottom: 130px;
+}
+
+#next {
+    right:0;
+    bottom: 130px;
+}
+
+.slideshow-wrapper:hover a {
+    display: block;
+}

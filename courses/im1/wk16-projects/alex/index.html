@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Alexander Reynolds</title>
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css">
+	<link rel="stylesheet" href="css/blueimp-gallery.css">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<div id="first" class="main container row">
+	<header>
+		<ul id="cssmenu" class="nav firstnavigation container row" title="main navigation">
+			<li><a class="scroll" href="#first">Home</a></li>
+			<li><a class="scroll" href="#second">About</a></li>
+			<li><a class="scroll" href="#third">Gallery</a></li>
+			<li><a class="scroll" href="#fourth">CV</a></li>
+			<li><a class="scroll" href="#fifth">News</a></li>
+			<li><a class="scroll" href="#sixth">Contact</a></li>
+		</ul> <!-- nav list end -->
+	</header>
+
+	<main class="container row">
+		<div class="logo container" title="logo">
+			<div class="logobox row">
+				<ul class="logoboxname">
+					<li>ALE</li>
+					<li>XAN</li>
+					<li>DER</li>
+				</ul>
+			</div> <!-- logobox end -->
+		<div class="logofooter">
+		<p>Reynolds</p>
+		</div> <!-- logofooter end -->
+		</div> <!-- logo end -->
+		
+		
+
+	
+	<footer class="lastfooter container row" title="first page footer">
+	
+	
+			
+			<ul class="socialnavigation four columns offset-by-nine column" title="social navigation">
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Tumblr</a></li>
+				<li><a href="#">Instagram</a></li>
+			</ul>
+			
+	</footer>
+	</main>	
+	
+	
+	</div> <!-- first end -->
+	
+	<table id="content" class="">
+	<tr>
+		
+		<td>
+		<div class="section container" id="second">
+
+			<h2>About</h2>
+			<strong>Bio</strong>
+			<p>Born in 1993 in Dayton, Ohio. Alexander is an undergrad at the Maryland Institute College of Art soon to complete his BFA in Painting.</p>
+		<!-- <img src="https://unsplash.it/300/200" alt="me"> -->
+		<strong>Statement</strong>
+		<article>Alexander's most recent works investigate the narratives and ranges of emotions that can potentially be experienced during the confines of a romantic affair.
+These issues are expressed through (but not limited to) large oil paintings and drawings.
+These medium allows him to have complete control of how the image is constructed and how the content is perceived, which leaves a lot of room for ambiguity and androgyny.
+The landscape is used a metaphor to set the stage for these emotionally charged situations while the figures are enveloped within it. These paintings are created so personal nostalgic events can be re-experienced in a more beautiful way regardless of how untruthful or exaggerated the image ultimately is. </article> 
+		
+		
+		
+			
+		</div> <!-- second section end -->
+		</td>
+		
+		<td>
+		<div class="section container" id="third">
+			<h2>Work</h2>
+			<strong>Paintings</strong> 
+			<ul>
+			<li><img src="https://unsplash.it/600/400" alt="me"></li>
+			<li><img src="https://unsplash.it/600/400" alt="me"></li>
+			<li><img src="https://unsplash.it/600/400" alt="me"></li>
+			</ul>
+		</div> <!-- third section end -->
+		</td>
+		
+		<td>
+		<div class="section container" id="fourth">
+			<h2>Work</h2>
+			<strong>Drawings</strong>
+			<ul>
+			<li><img src="https://unsplash.it/600/400" alt="me"></li>
+			<li><img src="https://unsplash.it/600/400" alt="me"></li>
+			<li><img src="https://unsplash.it/600/400" alt="me"></li>
+			</ul>	
+		</div> <!-- fourth section end -->
+		</td>
+		
+		<td>
+		<div class="section container" id="fifth">
+			<h2>Work</h2>
+			<strong>Design</strong>
+			<ul>
+			<li><img src="https://unsplash.it/600/400" alt="me"></li>
+			<li><img src="https://unsplash.it/600/400" alt="me"></li>
+			<li><img src="https://unsplash.it/600/400" alt="me"></li>
+			</ul>
+			
+		</div> <!-- fifth section end -->
+		</td>
+
+		<td>
+		<div class="section container" id="sixth">
+			<h2>Contact</h2>
+			<strong>via email or phone</strong>
+			<p>Interested in purchasing artwork or hiring me?</p>
+			
+			<article class="offset-by-four column">
+			<strong>937-829-2389</strong><br>
+			<strong>areynolds@mica.edu</strong>
+			</article>
+		</div> <!-- sixth section end -->
+		</td>
+		
+	</tr>
+		
+	</table>
+	
+	<!-- slow scroll -->
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script>
+      $("header a.scroll").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollLeft:$(this.hash).offset().left}, 700);
+      });
+   </script>
+   <!-- slow scroll -->
+   
+   <!--  highlight active a tag -->
+   		<script>
+   		
+   		$(document).ready(function() {
+    $("#cssmenu li").on("click", function() {
+        $("ul#cssmenu li").removeClass("active");
+        $(this).addClass("active");
+    });
+});
+   		</script>
+   <!--  highlight active a tag -->
+	
+	
+	<!-- horizontal scrolling -->
+	<script src="js/blueimp-gallery.min.js"></script>
+	<script src="js/blueimp-gallery-fullscreen.js"></script>
+	<!-- slideshow javascript -->
+
+	<!-- slideshow javascript end -->
+</body>
+
+</html>

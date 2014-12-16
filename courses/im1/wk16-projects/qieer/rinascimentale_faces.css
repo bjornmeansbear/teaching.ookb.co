@@ -1,0 +1,164 @@
+body{
+    margin:0;
+    z-index: 1000;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* this trick for vertical centering comes from:
+   http://css-tricks.com/centering-in-the-unknown/ */
+
+/* This parent can be any width and height */
+#left {
+    position: relative;
+    width: 70%;
+    height: 100vh;
+    text-align: center;
+    background: lightgray;
+}
+
+/* The ghost, nudged to maintain perfect centering */
+#left:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* The element to be centered, can
+   also be of any width and height */
+.v-center {
+    display: inline-block;
+    vertical-align: middle;
+    width: 869px;
+}
+/* /end vertical centering trick */
+
+.ss-wrap {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slideshow-wrapper-0 {
+    height: 327px;
+}
+
+.slideshow-wrapper-1 {
+    height: 217px;
+}
+
+.slideshow-wrapper-2 {
+    height: 182px;
+}
+
+.controls {
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+    line-height: 30px;
+    top: 50%;
+    padding: 0 1%;
+    transition: all 400ms;
+    z-index: 100;
+}
+
+.slideshow-wrapper .slide {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    display: block;
+}
+
+.slideshow-wrapper .slide::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: .25%;
+}
+
+/* The element to be centered, can
+   also be of any width and height */
+.slideshow-wrapper .slide img {
+    width: 99%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.controls:hover {
+    opacity: .5;
+}
+
+#prev0 {
+    left: 0;
+    z-index: 100;
+}
+
+#next0 {
+    right: 0;
+    z-index: 100;
+}
+
+
+#prev1 {
+    left: 0;
+    z-index: 100;
+}
+
+#next1 {
+    right: 0;
+    z-index: 100;
+}
+
+
+
+#prev2 {
+    left: 0;
+    z-index: 100;
+}
+
+#next2 {
+    right: 0;
+    z-index: 100;
+}
+
+h2,h6 {
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    font-weight: 100;
+    color: gray;
+}
+
+#right-wrapper {
+    background: white;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    z-index: 999;
+}
+
+.text {
+    max-width: 300px;
+    text-align: center;
+    margin: 50vh auto 0;
+}
+
+
+
+
+
+
+
+
+

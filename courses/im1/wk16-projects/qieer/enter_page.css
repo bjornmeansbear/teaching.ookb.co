@@ -1,0 +1,59 @@
+* { box-sizing:border-box; margin:0; padding:0; }
+
+.lefttop  {
+    display: block;
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    background-image: url(images/lefttop.png); 
+    background-repeat: no-repeat; 
+    background-position: right bottom;
+    background-size: contain;
+}
+
+.righttop {
+    display: block;
+    height: 50vh;
+    width: 50vw;
+    float: right;
+    background-image: url(images/righttop.png); 
+    background-repeat: no-repeat; 
+    background-position: left bottom; 
+    background-size: contain;
+}
+
+.leftbottom {
+    display: block;
+    height: 50vh;
+    width: 50vw;  position: absolute;
+    bottom: 0;
+    background-image: url(images/leftbottom.png
+    ); 
+    background-repeat: no-repeat; 
+    background-position: right top; 
+    background-size: contain;
+}
+
+.rightbottom {
+    display: block;
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/rightbottom.png); 
+    background-repeat: no-repeat; 
+    background-position: left top; 
+    background-size: contain;
+}
+
+h2 {
+    font-size: 1em;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    font-weight: 100;
+    color: gray;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    
+}

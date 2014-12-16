@@ -1,0 +1,910 @@
+@charset "UTF-8";
+/* CSS Document */
+.leftstroke {
+	background-color:#903;
+	width:25px;
+	height:125px;
+	position:absolute;
+	/*left:200px;*/
+	-webkit-transform: skew(-20deg);
+    -webkit-animation-name: Aanimationone;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+    
+}
+
+.rightstroke {
+	background-color:#903;
+	width:31.25px;
+	height:125px;
+	position:absolute;
+	/*left:255px;*/
+	-webkit-transform: skew(20deg);
+    -webkit-animation-name: Aanimationtwo;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running    
+}
+
+.middlestroke {
+	background-color:#903;
+	width:50px;
+	height:12.5px;
+	position:absolute;
+	/*left:215px;
+	top:85px;*/
+    -webkit-animation-name: Aanimationthree;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running   
+}
+
+.leftstrokeshadowbottom {
+	background-color:#999;
+	width:25px;
+	height:7.5px;
+	position:absolute;
+	/*left:187.5px;
+	top:132.5px;*/
+	-webkit-transform: skew(70deg);
+    z-index: -1;
+    -webkit-animation-name: Aanimationfour;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running 
+}
+
+.leftstrokeshadowright {
+	background-color:#999;
+	width:22.5px;
+	height:125px;
+	position:absolute;
+	/*left:222px;
+	top:15px;*/
+	-webkit-transform:rotate(20deg);
+	z-index:-1;
+    -webkit-animation-name: Aanimationfive;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running 
+}
+
+.middlestrokeshadowbottom {
+	background-color:#999;
+	width:50px;
+	height:12.5px;
+	position:absolute;
+	/*left:218px;
+	top:97px;*/
+	-webkit-transform:skew(20deg);
+	z-index:-1;
+    -webkit-animation-name: Aanimationsix;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running 
+}
+
+.rightstrokeshadowbottom {
+	background-color:#999;
+	width:31.25px;
+	height:7.5px;
+	position:absolute;
+	/*left:288px;
+	top:133px;*/
+	-webkit-transform: skew(70deg);
+    -webkit-animation-name: Aanimationseven;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running 
+}
+
+.rightstrokeshadowtop {
+	background-color:#999;
+	width:31.25px;
+	height:7.5px;
+	position:absolute;
+	/*left:243px;*/
+	-webkit-transform: skew(70deg);
+	z-index:-1;
+    -webkit-animation-name: Aanimationeight;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running 
+}
+
+.rightstrokeshadowright {
+	background-color:#999;
+	width:31.25px;
+	height:125px;
+	position:absolute;
+	/*left: 275px;
+	top: 15px;*/
+	-webkit-transform: skew(20deg);
+	z-index:-1;
+    -webkit-animation-name: Aanimationnine;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running 
+}
+
+.circle {
+	width: 95px;
+    height: 53px; 
+    background-color: #903;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom: 0;
+    position: absolute;
+    /*left: 40px*/
+    -webkit-animation-name: circleanimationone;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+
+.circle2 {
+	width: 105px;
+    height: 73px;
+    background-color: #903;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom: 0;
+    position: absolute;
+    /*left: 40px;
+    top: 60px;*/
+    -webkit-animation-name: circleanimationtwo;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.circle3 {
+	width: 41px;
+    height: 33px;
+    background-color: white;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom: 0;
+    position: absolute;
+    /*top: 19px;
+    left: 66px;*/
+    -webkit-animation-name: circleanimationthree;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.circle4 {
+	width: 49px;
+    height: 51px;
+    background-color: white;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom: 0;
+    position: absolute;
+    /*top: 68px;
+    left: 66px;*/
+    -webkit-animation-name: circleanimationfour;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.circle5 {
+	width: 95px;
+    height: 53px; 
+    background-color: #999;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom: 0;
+    position: absolute;
+    /*left: 61px;
+    top:16px;*/
+    z-index: -1;
+    -webkit-animation-name: circleanimationfive;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+
+.circle6 {
+	width: 105px;
+    height: 73px;
+    background-color: #999;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom: 0;
+    position: absolute;
+    /*left: 61px;
+    top: 67px*/
+    z-index: -1;
+    -webkit-animation-name: circleanimationsix;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.circle7 {
+	background-color:#999;
+	width:22.5px;
+	height:33px;
+	position:absolute;
+	/*left:66px;
+	top:19px;*/
+    -webkit-animation-name: circleanimationseven;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+
+.circle8 {
+	background-color:#999;
+	width:22.5px;
+	height:51px;
+	position:absolute;
+    /*left:66px;
+	top:68px;*/
+    -webkit-animation-name: circleanimationeight;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.circle9 {
+	background-color:#999;
+	width:25px;
+	height:7.5px;
+	position:absolute;
+	/*left:50.5px;
+	top:132.5px;*/
+	-webkit-transform: skew(70deg);
+    z-index: -1;
+    -webkit-animation-name: circleanimationnine;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.circle10 {
+	background-color:#999;
+	width:31.25px;
+	height:7.5px;
+	position:absolute;
+	/*left:94px;
+    top: 9px;*/
+	-webkit-transform: skew(70deg);
+	z-index:-1;
+    -webkit-animation-name: circleanimationten;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.circle11 {
+    width: 21px;
+    height: 17px;
+    background-color: #999;
+    border-top-right-radius: 50px;
+    border-bottom: 0;
+    position: absolute;
+    /*top: 19px;
+    left: 86.2px;*/
+    -webkit-animation-name: circleanimationeleven;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.circle12 {
+    width: 18.5px;
+    height: 11px;
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-bottom: 0;
+    position: absolute;
+    /*top: 25px;
+    left: 88.5px;*/
+    -webkit-animation-name: circleanimationtwelve;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.circle13 {
+    width: 29px;
+    height: 26px;
+    background-color: #999;
+    border-top-right-radius: 50px;
+    border-bottom: 0;
+    position: absolute;
+    /*top: 68px;
+    left: 86.2px;*/
+    -webkit-animation-name: circleanimationthirteen;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.circle14 {
+    width: 26.5px;
+    height: 21px;
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-bottom: 0;
+    position: absolute;
+    /*top: 74px;
+    left: 88.5px;*/
+    -webkit-animation-name: circleanimationfourteen;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.M {
+	background-color:#903;
+	width:18.5px;
+	height:125px;
+	position:absolute;
+	/*left:345px;*/
+    -webkit-animation-name: Manimationone;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.M2 {
+	background-color:#903;
+	width:31.25px;
+	height:125px;
+	position:absolute;
+	/*left:375px;*/
+	-webkit-transform: skew(20deg);
+    -webkit-animation-name: Manimationtwo;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.M3 {
+	background-color:#903;
+	width:31.25px;
+	height:125px;
+	position:absolute;
+	/*left:465px;*/
+    -webkit-animation-name: Manimationthree;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.M4 {
+	background-color:#903;
+	width:18.5px;
+	height:125px;
+	position:absolute;
+	/*left:433px;*/
+	-webkit-transform: skew(-20deg);
+    -webkit-animation-name: Manimationfour;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.M5 {
+	background-color:#999;
+	width:19px;
+	height:7.5px;
+	position:absolute;
+	/*left:354.5px;
+	top:132.5px;*/
+	-webkit-transform: skew(70deg);
+    z-index: -1;
+    -webkit-animation-name: Manimationfive;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.M6 {
+	background-color:#999;
+	width:31.25px;
+	height:7.5px;
+	position:absolute;
+	/*left:474.5px;
+	top:132.5px;*/
+	-webkit-transform: skew(70deg);
+    z-index: -1;
+    -webkit-animation-name: Manimationsix;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.M7 {
+	background-color:#999;
+	width:31.25px;
+	height:7.5px;
+	position:absolute;
+	/*left:407.5px;
+	top:132.5px;*/
+	-webkit-transform: skew(70deg);
+    z-index: -1;
+    -webkit-animation-name: Manimationseven;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.M8 {
+	background-color:#999;
+	width:19.25px;
+	height:125px;
+	position:absolute;
+	/*left: 363.5px;
+	top: 15px;*/
+	z-index:-1;
+    -webkit-animation-name: Manimationeight;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.M9 {
+	background-color:#999;
+	width:19.25px;
+	height:125px;
+	position:absolute;
+	/*left: 495.5px;
+	top: 15px;*/
+	z-index:-1;
+    -webkit-animation-name: Manimationnine;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+
+.M10 {
+	background-color:#999;
+	width:31.25px;
+	height:125px;
+	position:absolute;
+	/*left: 440px;
+	top: 15px;*/
+	-webkit-transform: skew(-20deg);
+	z-index:-1;
+    -webkit-animation-name: Manimationten;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.M11 {
+	background-color:#999;
+	width:31.25px;
+	height:125px;
+	position:absolute;
+	/*left: 395px;
+	top: 15px;*/
+	-webkit-transform: skew(20deg);
+	z-index:-1;
+    -webkit-animation-name: Manimationeleven;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.M12 {
+    background-color:#999;
+	width:31.25px;
+	height:7.5px;
+	position:absolute;
+	/*left:474px;*/
+	-webkit-transform: skew(70deg);
+	z-index:-1;
+    -webkit-animation-name: Manimationtwelve;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.M13 {
+    background-color:#999;
+	width:31.25px;
+	height:7.5px;
+	position:absolute;
+	/*left:363px;*/
+	-webkit-transform: skew(70deg);
+	z-index:-1;
+    -webkit-animation-name: Manimationthirteen;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running
+    
+}
+
+
+/*
+@-webkit-keyframes loop {
+		0%,100% {
+			-webkit-transform:rotate(360deg)
+		}
+		50% {
+			-webkit-transform:rotate(0deg)
+		}
+}
+
+main {
+	-webkit-animation: loop 10s infinite;
+	position:absolute;
+	top:50%;
+	left:50%;
+}
+*/
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes circleanimationone {
+    0%   {left:1000px; top:723px;}
+    40%  {left: 40px; top:10px;}
+    60%  {left: 40px; top:10px;}
+    100% {left:1000px; top:723px;}
+}
+
+@-webkit-keyframes circleanimationtwo {
+    0%   {left:340px; top:490px;}
+    40%  {left: 40px;top: 60px;}
+    60%  {left: 40px;top: 60px;}
+    100% {left:340px; top:490px;}
+}
+
+@-webkit-keyframes circleanimationthree {
+    0%   {left:1000px; top:200px;}
+    40%  {left: 66px;top: 19px;}
+    60%  {left: 66px;top: 19px;}
+    100% {left:1000px; top:200px;}
+}
+
+@-webkit-keyframes circleanimationfour {
+    0%   {left:30px; top:700px;}
+    40%  {left: 66px;top: 68px;}
+    60%  {left: 66px;top: 68px;}
+    100% {left:30px; top:700px;}
+}
+
+@-webkit-keyframes circleanimationfive {
+    0%   {left:0px; top:250px;}
+    40%  {left: 61px;top: 16px;}
+    60%  {left: 61px;top: 16px;}
+    100% {left:0px; top:250px;}
+}
+
+@-webkit-keyframes circleanimationsix {
+    0%   {left:1200px; top:600px;}
+    40%  {left: 61px;top: 67px;}
+    60%  {left: 61px;top: 67px;}
+    100% {left:1200px; top:600px;}
+}
+
+@-webkit-keyframes circleanimationseven {
+    0%   {left:1400px; top:0px;}
+    40%  {left: 66px;top: 19px;}
+    60%  {left: 66px;top: 19px;}
+    100% {left:1400px; top:0px;}
+}
+
+@-webkit-keyframes circleanimationeight {
+    0%   {left:1400px; top:900px;}
+    40%  {left: 66px;top: 68px;}
+    60%  {left: 66px;top: 68px;}
+    100% {left:1400px; top:900px;}
+}
+
+@-webkit-keyframes circleanimationnine {
+    0%   {left:780px; top:400px;}
+    40%  {left: 50.5px;top: 132.5px;}
+    60%  {left: 50.5px;top: 132.5px;}
+    100% {left:780px; top:400px;}
+}
+
+@-webkit-keyframes circleanimationten {
+    0%   {left:500px; top:700px;}
+    40%  {left: 94px;top: 10px;}
+    60%  {left: 94px;top: 10px;}
+    100% {left:500px; top:700px;}
+}
+
+@-webkit-keyframes circleanimationeleven {
+    0%   {left:870px; top:540px;}
+    40%  {left: 86.2px;top: 19px;}
+    60%  {left: 86.2px;top: 19px;}
+    100% {left:870px; top:540px;}
+}
+
+@-webkit-keyframes circleanimationtwelve {
+    0%   {left:200px; top:700px;}
+    40%  {left:88.5px;top:25px;}
+    60%  {left:88.5px;top:25px;}
+    100% {left:200px; top:700px;}
+}
+
+@-webkit-keyframes circleanimationthirteen {
+    0%   {left:350px; top:400px;}
+    40%  {left:86.2px;top:68px;}
+    60%  {left:86.2px;top:68px;}
+    100% {left:350px; top:400px;}
+}
+
+@-webkit-keyframes circleanimationfourteen {
+    0%   {left:850px; top:600px;}
+    40%  {left:88.5px;top:74px;}
+    60%  {left:88.5px;top:74px;}
+    100% {left:850px; top:600px;}
+}
+
+@-webkit-keyframes Manimationone {
+    0%   {left:950px; top:300px;}
+    40%  {left:345px;top:10px;}
+    60%  {left:345px;top:10px;}
+    100% {left:950px; top:300px;}
+}
+
+@-webkit-keyframes Manimationtwo {
+    0%   {left:150px; top:600px;}
+    40%  {left:375px;top:10px;}
+    60%  {left:375px;top:10px;}
+    100% {left:150px; top:600px;}
+}
+
+@-webkit-keyframes Manimationthree {
+    0%   {left:950px; top:100px;}
+    40%  {left:465px;top:10px;}
+    60%  {left:465px;top:10px;}
+    100% {left:950px; top:100px;}
+}
+
+@-webkit-keyframes Manimationfour {
+    0%   {left:50px; top:500px;}
+    40%  {left:433px;top:10px;}
+    60%  {left:433px;top:10px;}
+    100% {left:50px; top:500px;}
+}
+
+@-webkit-keyframes Manimationfive {
+    0%   {left:600px; top:600px;}
+    40%  {left:354.5px;top:132.5px;}
+    60%  {left:354.5px;top:132.5px;}
+    100% {left:600px; top:600px;}
+}
+
+@-webkit-keyframes Manimationsix {
+    0%   {left:800px; top:200px;}
+    40%  {left:474.5px;top:132.5px;}
+    60%  {left:474.5px;top:132.5px;}
+    100% {left:800px; top:200px;}
+}
+
+@-webkit-keyframes Manimationseven {
+    0%   {left:200px; top:800px;}
+    40%  {left:407.5px;top:132.5px;}
+    60%  {left:407.5px;top:132.5px;}
+    100% {left:200px; top:800px;}
+}
+
+@-webkit-keyframes Manimationeight {
+    0%   {left:400px; top:750px;}
+    40%  {left:363.5px;top:15px;}
+    60%  {left:363.5px;top:15px;}
+    100% {left:400px; top:750px;}
+}
+
+@-webkit-keyframes Manimationnine {
+    0%   {left:300px; top:850px;}
+    40%  {left:495.5px;top:15px;}
+    60%  {left:495.5px;top:15px;}
+    100% {left:300px; top:850px;}
+}
+
+@-webkit-keyframes Manimationten {
+    0%   {left:700px; top:850px;}
+    40%  {left:440px;top:15px;}
+    60%  {left:440px;top:15px;}
+    100% {left:700px; top:850px;}
+}
+
+@-webkit-keyframes Manimationeleven {
+    0%   {left:700px; top:700px;}
+    40%  {left:395px;top:15px;}
+    60%  {left:395px;top:15px;}
+    100% {left:700px; top:700px;}
+}
+
+@-webkit-keyframes Manimationtwelve {
+    0%   {left:800px; top:950px;}
+    40%  {left:474px;top:10px;}
+    60%  {left:474px;top:10px;}
+    100% {left:800px; top:950px;}
+}
+
+@-webkit-keyframes Manimationthirteen {
+    0%   {left:100px; top:950px;}
+    40%  {left:363px;top:10px;}
+    60%  {left:363px;top:10px;}
+    100% {left:100px; top:950px;}
+}
+
+@-webkit-keyframes Aanimationone {
+    0%   {left:800px; top:50px;}
+    40%  {left:200px;top:10px;}
+    60%  {left:200px;top:10px;}
+    100% {left:800px; top:50px;}
+}
+
+@-webkit-keyframes Aanimationtwo {
+    0%   {left:250px; top:550px;}
+    40%  {left:255px;top:10px;}
+    60%  {left:255px;top:10px;}
+    100% {left:250px; top:550px;}
+}
+
+@-webkit-keyframes Aanimationthree {
+    0%   {left:350px; top:650px;}
+    40%  {left:215px;top:85px;}
+    60%  {left:215px;top:85px;}
+    100% {left:350px; top:650px;}
+}
+
+@-webkit-keyframes Aanimationfour {
+    0%   {left:850px; top:400px;}
+    40%  {left:187.5px;top:132.5px;}
+    60%  {left:187.5px;top:132.5px;}
+    100% {left:850px; top:400px;}
+}
+
+@-webkit-keyframes Aanimationfive {
+    0%   {left:150px; top:750px;}
+    40%  {left:222px;top:15px;}
+    60%  {left:222px;top:15px;}
+    100% {left:150px; top:750px;}
+}
+
+@-webkit-keyframes Aanimationsix {
+    0%   {left:950px; top:650px;}
+    40%  {left:218px;top:97px;}
+    60%  {left:218px;top:97px;}
+    100% {left:950px; top:650px;}
+}
+
+@-webkit-keyframes Aanimationseven {
+    0%   {left:450px; top:650px;}
+    40%  {left:288px;top:133px;}
+    60%  {left:288px;top:133px;}
+    100% {left:450px; top:650px;}
+}
+
+@-webkit-keyframes Aanimationeight {
+    0%   {left:750px; top:650px;}
+    40%  {left:243px;top:10px;}
+    60%  {left:243px;top:10px;}
+    100% {left:750px; top:650px;}
+}
+
+@-webkit-keyframes Aanimationnine {
+    0%   {left:750px; top:850px;}
+    40%  {left:275px;top:15px;}
+    60%  {left:275px;top:15px;}
+    100% {left:750px; top:850px;}
+}
+
+

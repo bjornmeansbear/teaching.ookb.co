@@ -1,0 +1,75 @@
+*{box-sizing: border-box;}
+
+@font-face {
+    font-family: DD Jarde;
+    src: url(fonts/DD Jarde.otf);
+    font-weight:400;
+}
+
+html{
+	font-family: sans-serif,  DD Jarde;
+	color:rgba(80,80,100,1);
+	font-size:1.2rem;
+	line-height:2.4rem;
+}
+
+a{color:rgba(80,80,100,1);}
+
+a:hover{text-decoration: none;}
+
+ul{padding:0;list-style: none;}
+
+header,
+main,
+footer{width:auto;margin:1em;}
+
+#center{
+	width:100%;
+}
+
+#left{
+	width:100%;
+	margin:20px 0 10px 0;
+	margin-left:0;
+}
+
+#right{
+	width:100%;
+	margin:20px 0 10px 0;
+	margin-right:0;
+}	
+
+#cover{
+	width:100%;
+	margin:20px 0 10px 0;
+	margin-left:0;
+}
+
+@media (min-width: 720px) {
+	
+header,
+main,
+footer{width:700px;margin:1em auto;}
+
+#center{
+	width:100%;
+}
+
+#right{
+	width:300px;
+	margin:10px 20px;
+	margin-right:-150px;
+	float:right;
+}
+#left{
+	width:300px;
+	margin:10px 20px;
+	margin-left:-150px;
+	float:left;
+}
+#cover{
+	width:1000px;
+	margin-left:-150px;
+}
+
+}

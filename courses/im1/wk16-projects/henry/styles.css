@@ -1,0 +1,225 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+
+/*Clearfix*/
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+* {box-sizing:border-box;}
+
+.border {
+    border-color: #CCC;
+    border-width: thin;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+    
+
+.container {
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header {
+    margin-top: 30px;
+}
+
+/* 2. Column Widths */
+/*=========================================*/
+/*=========================================*/
+
+.columns {
+	float: left;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.col-1 { width: calc(100% / 12 *1); }
+
+.col-2 { width: calc(100% / 12 * 2); }
+
+.col-3 { width: calc(100% / 12 * 3); }
+
+.col-4 { width: calc(100% / 12 * 4); }
+
+.col-5 { width: calc(100% / 12 * 5); }
+
+.col-6 { width: calc(100% / 12 * 6); }
+
+.col-7 { width: calc(100% / 12 * 7); }
+
+.col-8 { width: calc(100% / 12 * 8); }
+
+.col-9 { width: calc(100% / 12 * 9); }
+
+.col-10 { width: calc(100% / 12 * 10); }
+
+.col-11 { width: calc(100% / 12 * 11); }
+
+.col-12 { width: 100%; }
+
+/* 3. Offsets */
+/*=========================================*/
+/*=========================================*/
+
+.col-offset-1 { margin-left: calc(100% / 12 * 1); }
+
+.col-offset-2 { margin-left: calc(100% / 12 * 2); }
+
+.col-offset-3 { margin-left: calc(100% / 12 * 3); }
+
+.col-offset-4 { margin-left: calc(100% / 12 * 4); }
+
+.col-offset-5 { margin-left: calc(100% / 12 * 5); }
+
+.col-offset-6 { margin-left: calc(100% / 12 * 6); }
+
+.col-offset-7 { margin-left: calc(100% / 12 * 7); }
+
+.col-offset-8 { margin-left: calc(100% / 12 * 8); }
+
+.col-offset-9 { margin-left: calc(100% / 12 * 9); }
+
+.col-offset-10 { margin-left: calc(100% / 12 * 10); }
+
+.col-offset-11 { margin-left: calc(100% / 12 * 11); }
+
+.col-offset-12 { margin-left: 100%; }
+
+
+.textright {
+    text-align: right;
+    color: #CCC;
+    font-family: 'Brevier Viennese', serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.66;
+}
+
+.textrightheader {
+    text-align: right;
+    color: #CCC;
+    font-family: 'Brevier Viennese', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.66;
+}
+
+.text {
+    color: #CCC;
+    font-family: 'Brevier Viennese', serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.66;
+}
+
+.textcopyright {
+    color: #CCC;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    width: auto;
+    height: auto;
+    margin: 80px 0 0 10px;
+    float: right;
+}
+
+.noun {
+    color: transparent;
+    border-bottom: 2px solid #CCC;
+    text-decoration: none;
+    position: relative;
+}
+
+.noun:hover{
+    color:rgba(0, 173, 204, 1);
+}
+
+.noun::after {
+    content: 'noun';
+    color:#CCC;
+    font-size: .44em;
+    position: absolute;
+    bottom: -1.5em;
+    left: 0;
+}
+
+.nounnone {
+    color: transparent;
+    border-bottom: 2px solid #CCC;
+    text-decoration: none;
+    position: relative;
+}
+
+.nounnone:hover{
+    color:rgba #CCC;
+}
+
+.noun::after {
+    content: 'noun';
+    color:#CCC;
+    font-size: .44em;
+    position: absolute;
+    bottom: -1.5em;
+    left: 0;
+}
+
+.link {
+    color:rgba(0, 173, 204, 1);
+    text-decoration: none;
+}
+
+
+.verb {
+    color: transparent;
+    border-bottom: 2px solid #CCC;
+    text-decoration: none;
+    position: relative;
+}
+
+.verb:hover{
+    color:rgba(0, 173, 204, 1);
+}
+
+.verb::after {
+    content: 'verb';
+    color:#CCC;
+    font-size: .44em;
+    position: absolute;
+    bottom: -1.5em;
+    left: 0;
+}
