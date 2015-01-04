@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0051)http://www.jackielittmandesign.com/alice/part4.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" href="http://www.jackielittmandesign.com/alice/css/basic.css">
+<link rel="stylesheet" href="http://www.jackielittmandesign.com/alice/css/page4.css">
+<link href="./part4_files/css" rel="stylesheet" type="text/css">
+<title>Alice’s Adventures :: Part 4</title>
+</head>
+
+<body data-pinterest-extension-installed="cr1.35">
+
+<img src="./part4_files/alicewalking.png" id="alice">
+<div id="wall"></div>
+
+<div class="chandeliers">
+<div id="abs1"><div class="ch"></div></div>
+<div id="abs2"><div class="ch"></div></div>
+<div id="abs3"><div class="ch"></div></div>
+</div>
+
+<div class="frame"><div class="story">Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. 
+
+</div></div>
+<div id="rabbit"><img src="./part4_files/rabbit-hopblue.gif" width="220px"></div>
+<a href="http://www.jackielittmandesign.com/alice/part4.html#end" class="ease"><div class="arrow"></div></a>
+<div class="rabbithole"></div>
+<div id="end"></div>
+
+<a href="http://www.jackielittmandesign.com/alice/part5.html"><div class="next"></div></a>
+
+<div class="ground"></div>
+<img src="./part4_files/falling5bg.png" id="pattern1">
+<img src="./part4_files/falling5bg.png" id="pattern2">
+<img src="./part4_files/falling5bg.png" id="pattern3">
+<img src="./part4_files/falling5bg.png" id="pattern4">
+<img src="./part4_files/falling5bg.png" id="pattern5">
+<img src="./part4_files/falling5bg.png" id="pattern6">
+
+<div class="pagenumber">4</div>
+<a href="http://www.jackielittmandesign.com/alice/part3.html"><div class="pageback">Back</div></a>
+
+<script src="./part4_files/jquery-latest.js"></script>
+<script type="text/javascript" src="./part4_files/jquery.jrumble.1.3.min.js"></script>
+<script src="./part4_files/jquery-ui.js"></script>
+
+<script type="text/javascript" language="javascript">
+
+$('.ch').click(function(event){
+	$(this).css('-webkit-animation','mychandelier 4s ease');
+	$(this).css('-moz-animation','mychandelier 4s ease');
+	$(this).css('animation','mychandelier 4s ease');
+});
+
+var $element = $('.ch').bind('webkitAnimationEnd', function(){
+    this.style.webkitAnimationName = '';
+});
+
+$('.ch').click(function(){
+    $(this).css('webkitAnimationName', 'mychandelier');
+    // you'll probably want to preventDefault here.
+});
+
+$('.ease').click(function(event){
+	event.preventDefault();
+	$('html,body').animate({scrollLeft:$(this.hash).offset().left}, 5700);
+	});
+
+
+$("#alice").click(function () {
+      $(this).effect("shake", { distance:5 }, { times:3 }, 300);
+});
+
+$("#rabbit").click(function () {
+      $("#rabbit img").effect("bounce", { times:1}, 300);
+});
+
+</script>
+
+
+
+</body></html>

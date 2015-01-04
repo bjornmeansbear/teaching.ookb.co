@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0051)http://www.jackielittmandesign.com/alice/part5.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" href="http://www.jackielittmandesign.com/alice/css/basic.css">
+<link rel="stylesheet" href="http://www.jackielittmandesign.com/alice/css/page5.css">
+<link href="./part5_files/css" rel="stylesheet" type="text/css">
+<title>Alice’s Adventures :: Part 5</title>
+</head>
+
+<body data-pinterest-extension-installed="cr1.35">
+<div class="wall"></div>
+
+<img src="./part5_files/aliceclose2.png" id="alice">
+<div class="frame"><div class="story"> She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall.There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again.
+</div></div>
+
+<div class="locked" id="door1"></div>
+<div class="locked" id="door2"></div>
+<div class="locked" id="door3"></div>
+<div class="locked" id="door4"></div>
+<div class="locked" id="door5"></div>
+<div class="locked" id="door6"></div>
+<div id="table"><a href="http://www.jackielittmandesign.com/alice/part6.html"><div class="next"></div></a></div>
+<div class="locked" id="door7"></div>
+<div class="locked" id="door8"></div>
+<div class="locked" id="door9"></div>
+
+<a href="http://www.jackielittmandesign.com/alice/part5.html#door6" class="ease arrow"></a>
+
+<div class="pagenumber">5</div>
+<a href="http://www.jackielittmandesign.com/alice/part4.html"><div class="pageback">Back</div></a>
+
+<script src="./part5_files/jquery-latest.js"></script>
+<script type="text/javascript" src="./part5_files/jquery.jrumble.1.3.min.js"></script>
+
+<script type="text/javascript" language="javascript">
+
+// Initialize jRumble on Selector
+$('.locked').jrumble();
+$('.locked').bind({
+'mousedown': function(){
+	$(this).trigger('startRumble');
+},
+'mouseup': function(){
+	$(this).trigger('stopRumble');
+}
+});
+
+$('#table').click(function() {
+  $('#curtain').slideToggle('slow', function() {
+    // Animation complete.
+  });
+});
+
+$('#table').click(function() {
+  $('.next').css('opacity','1')
+});
+
+$('.ease').click(function(event){
+	event.preventDefault();
+	$('html,body').animate({scrollLeft:$(this.hash).offset().left}, 2700);
+	});
+
+
+</script>
+
+
+
+</body></html>

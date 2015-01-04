@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0051)http://www.jackielittmandesign.com/alice/part7.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" href="http://www.jackielittmandesign.com/alice/css/basic.css">
+<link rel="stylesheet" href="http://www.jackielittmandesign.com/alice/css/page7.css">
+<link href="./part7_files/css" rel="stylesheet" type="text/css">
+<title>Alice’s Adventures :: Part 7</title>
+</head>
+
+<body data-pinterest-extension-installed="cr1.35">
+
+<img src="./part7_files/aliceclose2.png" id="alice">
+<div class="wall"></div>
+
+
+<div class="frame"><div class="story">But, alas! either the locks were too large, or the key was too small, but at any rate it would not open any of them. </div></div>
+
+<div class="locked" id="door1"></div>
+<div class="locked" id="door2"></div>
+<div class="locked" id="door3"></div>
+<div class="locked" id="door4"></div>
+<div class="locked" id="door5"></div>
+<div id="table" class="locked"></div>
+<div class="locked" id="door6"></div>
+<div class="frame" id="frame2"><div class="story">
+However, on the second time round, she came upon a low curtain she had not noticed before, and behind it was a little door about fifteen inches high: she tried the little golden key in the lock, and to her great delight it fitted!
+</div></div>
+<div id="unlocked"><a href="http://www.jackielittmandesign.com/alice/part8.html"><div class="next" style="display: none;"></div></a></div>
+<div class="locked" id="door7"></div>
+<div class="locked" id="door8"></div>
+<div class="locked" id="door9"></div>
+
+<img id="curtainrod" src="./part7_files/curtainrod.png">
+<div id="curtain"></div>
+
+<a href="http://www.jackielittmandesign.com/alice/part7.html#mid" class="arrow ease"></a>
+<div id="mid"></div>
+
+<div class="pagenumber">7</div>
+<a href="http://www.jackielittmandesign.com/alice/part6.html"><div class="pageback">Back</div></a>
+
+<script src="./part7_files/jquery-latest.js"></script>
+<script type="text/javascript" src="./part7_files/jquery.jrumble.1.3.min.js"></script>
+
+<script type="text/javascript" language="javascript">
+
+// Initialize jRumble on Selector
+$('.locked').jrumble();
+$('.locked').bind({
+'mousedown': function(){
+	$(this).trigger('startRumble');
+},
+'mouseup': function(){
+	$(this).trigger('stopRumble');
+}
+});
+
+$('#curtain').click(function() {
+   $(this).animate({width: 'hide'}, 700);
+    // Animation complete.
+  });
+
+
+$(document).ready(function(){
+	$('.next').hide();
+$('#unlocked').click(function() {
+  $('#unlocked').css('background-image','url(images/page7/smalldoor.gif)');
+  $('.next').delay(700).fadeIn(400);
+});
+});
+
+$('.ease').click(function(event){
+	event.preventDefault();
+	$('html,body').animate({scrollLeft:$(this.hash).offset().left}, 2700);
+	});
+	
+
+
+
+</script>
+
+
+
+</body></html>

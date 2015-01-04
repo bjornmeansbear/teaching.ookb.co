@@ -1,0 +1,470 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+a:link, a:visited, a:active{
+	color: inherit;
+	text-decoration: none;
+}
+
+h1{
+	font-family: 'open sans', sans-serif;
+	font-size: 120px;
+	font-weight: 700;
+	color: #333;
+	line-height: 100px;
+	letter-spacing: -3px;
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	font-family: 'open sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 0.8em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+i{
+	color: #3EB1DE;
+}
+
+.container{
+	width: 100%;
+	margin: 0;
+	position: relative;
+}
+
+.content{
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+
+p > img{
+	display: block;
+	border: 0;
+	margin: 0 auto;
+	
+}
+
+p{
+	font-family: 'Droid Serif', serif;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 1.8em;
+	padding: 30px 0;
+	color: #444;
+}
+
+.blockquote{
+	display: block;
+	width: 500px;
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Droid Serif', serif;
+	font-size: 18px;
+	font-style: italic;
+	letter-spacing: 0.5px;
+	line-height: 1.5em;
+}
+
+/* ---------------------------------------------------- nav */
+
+.container > ul{
+	display: block;
+	list-style: none;
+	position: fixed;
+	right: 50px;
+	top: 40%;
+	padding: 0;
+	margin: 0;
+	z-index: 99999;
+}
+
+.container > ul li a{
+	display: block;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	background: #3EB1DE;
+	line-height: 1px;
+	border: 3px solid rgba(255,255,255,0.8);
+	margin: 10px;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.container > ul li a:hover{
+	cursor: pointer;
+	border: 3px solid rgba(62,177,222,0.5);
+	background: #fff;
+}
+
+.container > ul li a:hover .tooltip{
+	opacity: 1;
+}
+
+#nav .current a{
+	border: 3px solid rgba(62,177,222,0.5);
+	background: #fff;
+}
+
+.container ul li .tooltip{
+	opacity: 0;
+	position: fixed;
+	right: 80px;
+	text-align: right;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	color: rgba(0,0,0,0.4);
+	padding: 5px;
+	font-size: 12px;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+/* ---------------------------------------------------- end nav */
+
+/* ---------------------------------------------------- main */
+
+.main{
+	width: 100%;
+	height: 100%;
+	height: 100vh;
+	padding: 50px;
+	background: #3EB1DE;
+	font-size: 14px;
+}
+
+.main h1{
+	color: #fff;
+}
+
+.main h2{
+	margin-top: 100px;
+}
+
+/* ---------------------------------------------------- end main */
+/* ---------------------------------------------------- intro */
+
+.intro{
+	width: 100%;
+	padding: 50px;
+	font-size: 14px;
+}
+
+.intro p b{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #3EB1DE;
+	text-transform: uppercase;
+	letter-spacing: 0;
+}
+
+/* ---------------------------------------------------- end intro */
+/* ---------------------------------------------------- laws */
+
+.laws{
+	width: 100%;
+	padding: 50px;
+	font-size: 14px;
+}
+
+.laws h1{
+	font-size: 90px;
+	line-height: 75px;
+	color: #444;
+}
+
+.laws b{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	color: #3EB1DE;
+}
+
+.laws i{
+	border-bottom: 1px solid #3EB1DE;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.laws i:hover{
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	cursor: default;
+}
+
+.laws a img{
+	display: none;
+	position: absolute;
+	top: 70px;
+	left: -10px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 5px solid #f0f0f0;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.3);
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.laws a:hover img{
+	display: block;
+	cursor: default
+}
+
+.laws .law{
+	display: block;
+	margin: 0;
+	margin-top: -30px;
+	background: #f0f0f0;
+	font-family: 'Droid Serif', serif;
+	font-weight: 700;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 1.5em;
+	letter-spacing: 0;
+	color: #444;
+	padding: 20px 30px;
+	border: 1px solid #f0f0f0;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.laws .law:hover{
+	background: #fff;
+	color: #3EB1DE;
+	border: 1px solid #3EB1DE;
+}
+
+/* ---------------------------------------------------- end laws */
+/* ---------------------------------------------------- implied */
+
+.implied{
+	width: 100%;
+	padding: 50px;
+	font-size: 14px;
+	background: #3Eb1DE;
+}
+
+.implied h1{
+	font-size: 90px;
+	line-height: 75px;
+	color: #fff;
+	margin-top: 50px;
+}
+
+.implied p{
+	color: #fff;
+}
+
+.implied i{
+	color: #ddd;
+	border-bottom: 1px solid #ddd;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.implied i:hover{
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.implied p b{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	color: #ddd;
+}
+
+.implied p a{
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.implied p a:hover{
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.implied a:hover img{
+	display: block;
+	cursor: default;
+}
+
+.implied a img{
+	display: none;
+	position: absolute;
+	border: 5px solid #f0f0f0;
+	-webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.3);
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.implied .one{
+	top: 500px;
+	left: -10px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.implied .two{
+	top: 400px;
+	left: 120px;
+	width: 236px;
+	height: 357px;
+
+}
+
+/* ---------------------------------------------------- end implied */
+/* ---------------------------------------------------- subjective */
+
+.subjective{
+	width: 100%;
+	padding: 50px;
+	font-size: 14px;
+}
+
+.subjective h1{
+	font-size: 90px;
+	line-height: 75px;
+	color: #444;
+	margin-top: 50px;
+}
+
+.subjective i{
+	color: #333;
+}
+
+.subjective p b{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18px;
+	color: #3EB1DE;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	border-bottom: 1px solid #fff;
+}
+
+.subjective a{
+	color: #3EB1DE;
+	font-style: italic;
+	border-bottom: 1px solid #3EB1DE;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.subjective a:hover{
+	color: rgba(62,177,222,0.7);
+}
+
+.subjective a:hover img{
+	display: block;
+	cursor: default;
+}
+
+.subjective a img{
+	display: none;
+	position: absolute;
+	border: 5px solid #f0f0f0;
+	-webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.3);
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.subjective .one{
+	width: 150px;
+	height: 150px;
+	top: 310px;
+	right: 75px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.subjective .two{
+	width: 150px;
+	height: 150px;
+	top: 340px;
+	right: 155px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.subjective .three{
+	width: 150px;
+	height: 150px;
+	top: 120px;
+	right: -10px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+/* ---------------------------------------------------- end subjective */
+/* ---------------------------------------------------- reflect */
+
+.reflect{
+	width: 100%;
+	padding: 50px;
+	font-size: 14px;
+	background: #f0f0f0;
+}
+
+.reflect h1{
+	font-size: 90px;
+	line-height: 75px;
+	color: #444;
+	margin-top: 50px;
+}
+
+/* ---------------------------------------------------- end reflect */
+/* ---------------------------------------------------- footer */
+
+.footer{
+	width: 100%;
+	background: #3EB1DE;
+	padding: 20px 30px;
+	text-align: right;
+	font-family: 'droid serif', serif;
+	font-style: italic;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	color: #fff;
+}
+
+.footer b{
+	font-family: 'open sans', sans-serif;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+/* ---------------------------------------------------- end footer */

@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0051)http://www.jackielittmandesign.com/alice/part1.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" href="http://www.jackielittmandesign.com/alice/css/basic.css">
+<link rel="stylesheet" href="http://www.jackielittmandesign.com/alice/css/page1.css">
+<link href="./part1_files/css" rel="stylesheet" type="text/css">
+<title>Alice’s Adventures :: Part 1</title>
+</head>
+
+<body data-pinterest-extension-installed="cr1.35">
+
+<img src="./part1_files/alicereading.png" id="alice">
+<img src="./part1_files/aliceribbon.gif" id="ribbon">
+<div id="flip"></div>
+<div id="changeflip"></div>
+
+<div class="frame"><div class="story">Alice was beginning to get very tired of sitting on the bank, and of having nothing to do. She was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.</div></div>
+<div><a href="http://www.jackielittmandesign.com/alice/part1.html#end" class="ease"><div class="arrow"></div></a></div>
+<div id="spacer"></div>
+<div id="end"></div>
+
+<div class="grass"></div>
+<img src="./part1_files/flower4.png" id="flower1" class="flower">
+<img src="./part1_files/flower2.png" id="flower2" class="flower">
+<img src="./part1_files/flower4.png" id="flower3" class="flower">
+<img src="./part1_files/flower2.png" id="flower4" class="flower">
+<img src="./part1_files/flower4.png" id="flower5" class="flower">
+
+<div class="knoll"></div>
+<div class="waterstill"></div>
+<div class="watermove"></div>
+<div id="waterbutton"></div>
+<!--<img src="images/page1/ducks1.png" id="ducks"/>-->
+
+<div id="changetree"></div>
+<div id="tree" style="width: 741px; height: 850px;">
+		<img src="./part1_files/tree1.png" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 4; opacity: 1;"> 
+        <img src="./part1_files/tree5.png" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 2; opacity: 0;">  
+		<img src="./part1_files/tree2.png" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 1; opacity: 0;">
+</div>
+
+<!--<div id="baretree">
+		<img src="images/page1/tree3.png"/> 
+</div>-->
+
+<a href="http://www.jackielittmandesign.com/alice/part2.html"><div id="next"></div></a>
+
+<div id="bunny"><img src="./part1_files/bunny.png"></div>
+
+<div class="pagenumber">1</div>
+<a href="http://www.jackielittmandesign.com/alice/index.html"><div class="pageback">Back</div></a>
+
+<script src="./part1_files/jquery-latest.js"></script>
+<script src="./part1_files/jquery-ui.js"></script>
+<script src="./part1_files/jquery.cycle.all.js"></script>
+
+<script>
+$('.ease').click(function(event){
+	event.preventDefault();
+	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1700);
+	});
+
+$('#tree').cycle({  
+    speed:  10, 
+	timeout: 0, 
+    next:   '#changetree'
+ });
+ 
+$('#waterbutton').click(function(event){
+    $('.waterstill').slideToggle(10);
+ });
+ 
+    
+$('#changeflip').click(function(event){
+	$('#flip').css('-webkit-animation','myflip .3s');
+	$('#flip').css('-moz-animation','myflip .3s');
+	$('#flip').css('animation','myflip .3s');
+});
+
+//webkit anim end
+var $element = $('#flip').bind('webkitAnimationEnd', function(){
+    this.style.webkitAnimationName = '';
+});
+
+$('#button').click(function(){
+    $element.css('webkitAnimationName', 'myflip');
+    // you'll probably want to preventDefault here.
+});
+
+
+$(document).ready(function() { 
+	$("#bunny").click(function () {
+      $("#bunny img").effect("bounce", { times:2}, 500);
+	});
+});
+
+$(document).ready(function() { 
+	$(".flower").click(function () {
+      $(this).hide(300);
+	});
+});
+
+</script>
+
+
+
+</body></html>

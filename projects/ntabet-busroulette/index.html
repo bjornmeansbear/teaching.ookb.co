@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://www.nourtabetplays.com/busroulette/ -->
+<html lang="en" class=" -webkit-"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		 
+		<style media="" data-href="style/style.css">/* === CSS RESET === */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* === End of CSS RESET === */
+
+body {background:url("http://www.nourtabetplays.com/busroulette/style/../background.jpg");color: white;
+	font-size: 20px;font-family: "Terminal Dosis", sans-serif;overflow: hidden;}
+
+.big p{ font-family:"Courier New", Courier, monospace;font-weight:100;line-height:1.5;}
+
+.logo 	{position:relative;margin-top: 50px;margin-left: 30px;width: 98px;height: 93px;z-index: 99999999;}
+		
+h1 {font-size: 55px;font-weight: bold;line-height: 1.5em;
+	text-shadow: 
+		2px 2px 0 transparent,
+		4px 4px 0 #101010;}
+
+h2 {font-size: 30px;font-weight: bold;line-height: 1.5em;text-align:center;
+	text-shadow: 
+		2px 2px 0 transparent,
+		4px 4px 0 #101010;}
+
+a, a:visited {color: white;text-decoration: none;transition: color 0.2s;}
+
+a:hover {color: #AAA;}
+
+a:active {color: lightblue;}
+
+.big {display: block;font-size: 18px;font-weight: bold;margin-bottom: 10px;}
+
+.wrapper div {position: absolute;}
+
+.wrapper {margin-top: -150px;}
+
+.settings, nav {position: fixed;z-index: 9999999;bottom: 30px;}
+
+.settings {right: 0;padding: 10px 20px;}
+
+.settings a {border: none;}
+
+nav {left: 20px;border-radius: 0 10px 0 0;}
+
+nav li {float: left;margin-right: 15px;}
+
+nav a {display: block;text-align: center;transition: 0.25s;}
+
+
+.home a:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../buttons/home_active.png");background-repeat:no-repeat;}
+.story a:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../buttons/the_story_active.png");background-repeat:no-repeat;}
+.routes a:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../buttons/routes_active.png");background-repeat:no-repeat;}
+.sketches a:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../buttons/sketches_active.png");background-repeat:no-repeat;}
+.gallery1 a:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../buttons/gallery1_active.png");background-repeat:no-repeat;}
+.gallery2 a:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../buttons/gallery2_active.png");background-repeat:no-repeat;}
+.sounds a:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../buttons/sounds_active.png");background-repeat:no-repeat;}
+.blog a:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../buttons/blog_active.png");background-repeat:no-repeat;}
+
+
+.sp-canvas {display: none;}
+
+.arrow {position: relative;display: inline-block;color:#CF3;}
+
+.demo { width: 800px;font-size: 30px;text-align: center;font-weight: bold;}
+
+.demo .arrow {font-size: 20px;-webkit-animation: point-down 0.5s alternate infinite;}
+
+.description {top: 540px;left: 110px;width: 640px;}
+
+.syntax {top: 1300px;left: 270px;width: 900px;}
+
+.scrollbar {top: 1540px;left: 1600px;width: 700px;}
+
+.rotations {left: 2185px;top: 660px;width: 460px;transform: rotate(-90deg) translateY(2.5em);}
+
+.rotations .upside-down {font-size: 42px;text-align: right;transform: rotate(180deg) translateY(3em);}
+
+.source {left: 2200px;top: -800px;width: 400px;transform: rotate(90deg) translateX(50px);}
+
+.source p {color:#999;}
+
+.follow {width: 475px;left: 1100px;top: -950px;transform: rotate(90deg) translateX(50px);}
+
+.follow a {border-bottom: medium dotted #CF3;}
+
+.follow .big {font-size: 40px;}
+
+.highlight {-webkit-animation: highlight 0.2s alternate 6 ;}
+
+ 		 .R91	{margin-left: 138px; margin-top: 0px; z-index:11; position:relative;}
+		 .R13	{margin-left: 130px; margin-top: 155px; z-index:10; position:relative;  }
+		 .R27	{margin-left: 50px; margin-top: -13px; z-index:9; position:relative;  }
+		 .R44_1	{margin-left: 137px; margin-top: 215px; z-index:8; position:relative; }
+		 .R11	{margin-left: 0px; margin-top: 90px; z-index:7; position:relative;  }
+		 .R3	{margin-left: 10px; margin-top: 286px; z-index:1; position:relative;  }
+		 .R44_2	{margin-left: 123px; margin-top: 320px; z-index:3; position:relative;  }
+		 .R19	{margin-left: 71px; margin-top: 349px; z-index:2; position:relative;  }
+		 .R22	{margin-left: 170px; margin-top: 380px; z-index:4; position:relative; }
+		 .R10	{margin-left: 224px; margin-top: 400px; z-index:6; position:relative;  }
+		 .R7	{margin-left: 260px; margin-top: 430px; z-index:5; position:relative;  }
+
+
+		.R91:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../routes/route_91.png"); background-repeat:no-repeat;}		 
+		.R13:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../routes/route_13.png");background-repeat:no-repeat;} 
+		.R27:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../routes/route_27.png");background-repeat:no-repeat;} 
+		.R44_1:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../routes/route_44_1.png");background-repeat:no-repeat;} 
+		.R11:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../routes/route_11.png");background-repeat:no-repeat;} 
+		.R3:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../routes/route_3.png");background-repeat:no-repeat;} 
+		.R44_2:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../routes/route_44_2.png");background-repeat:no-repeat;} 
+		.R19:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../routes/route_19.png");background-repeat:no-repeat;} 
+		.R22:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../routes/route_22.png");background-repeat:no-repeat;} 
+		.R10:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../routes/route_10.png");background-repeat:no-repeat;} 
+		.R7:hover {background-image:url("http://www.nourtabetplays.com/busroulette/style/../routes/route_7.png");background-repeat:no-repeat;} 	
+
+.nodisplay {display: none;}	
+
+.block {display: block;	margin-top: 200px; margin-left: -250px; position:absolute;}
+.block2 {display: block;	margin-top: 130px; margin-left: 70px; position:absolute;}
+
+.photos1 { margin-top: -100px;}
+
+.sketchbook {width: 900px;margin-left: -250px;margin-top: -230px;}
+
+.bus_list {margin-left: 0px; border:}
+.luz {margin-left: 100px; } 
+.waiting {margin-left: 200px; } 
+.stillwaiting {margin-left:300px;} 
+.silver {margin-left:400px; } 
+.woman_and_daughter {margin-left:500px;} 
+.seismograph {margin-left:600px;} 
+
+
+.photo_documentation_oldman {margin-left:-100px; z-index:13; position:absolute; overflow:hidden;}
+.photo_documentation_sticker2 {margin-left:67px; z-index:13; position:absolute; overflow:hidden;}
+.photo_documentation_crazy_woman {margin-left:234px; z-index:13; position:absolute; overflow:hidden;}
+.photo_documentation_ravens_man {margin-left:69px; z-index:13; position:absolute; overflow:hidden;}
+.photo_documentation_sticker {margin-left:236px; z-index:13; position:absolute; overflow:hidden;}
+.photo_documentation_make_up {margin-left:403px; z-index:13; position:absolute; overflow:hidden;}
+
+
+.figcaption {position: absolute;color: white;font-size:20px;padding: 10px 20px;opacity: 0;width: 119px;
+	height: 200px;text-align:left;}
+	
+.cap-bot .figcaption {left: 0; bottom: -30px;}	
+	
+.cap-bot:hover .figcaption	{bottom: 0px;}
+
+.photo_documentation_oldman:hover .figcaption {opacity: 1; background: #66338b;}
+.photo_documentation_sticker2:hover .figcaption {opacity: 1; background: #27bbe1;}
+.photo_documentation_crazy_woman:hover .figcaption {opacity: 1; background: #94c24f;}
+.photo_documentation_ravens_man:hover .figcaption {opacity: 1; background: #e01784;}
+.photo_documentation_sticker:hover .figcaption {opacity: 1; background: #1a9b4e;}
+.photo_documentation_make_up:hover .figcaption {opacity: 1; background: #ed6e34;}
+
+
+.bus_ambient{ margin-left: -200px; margin-top: -200px;}
+.MTA_operator {margin-left: -200px; margin-top: -100px;}
+.ravens_chat{margin-left: 400px; margin-top: -200px; width: 300px;}
+.ravens_chat_game{margin-left: 400px; margin-top: 0px;}
+.ravens_chat_poetry{margin-left: 400px; margin-top: -100px;width: 300px;}
+.complaining_women{margin-left: -200px; margin-top: 0px;}
+ 
+               
+
+
+@-webkit-keyframes point-down {
+	from {
+		top: 0;
+	}
+	to {
+		top: 5px;
+	}
+}
+
+@-webkit-keyframes highlight {
+	to {
+		background: lightblue;
+	}
+}
+</style> 
+		<style media="" data-href="style/scrollpath.css">/* =========================================
+  	Scroll bar styles for jQuery Scroll Path
+  	      (http://joelb.me/scrollpath)
+   ========================================= */
+
+.sp-scroll-bar {
+	position: fixed;
+	z-index: 9999;
+	right: 0;
+	top: 5%;
+	width: 10px;
+	height: 90%;
+	border-radius: 5px;
+}
+
+.sp-scroll-bar:hover {
+	background: white;
+	background: rgba(255,255,255, 0.1);
+}
+
+.sp-scroll-bar .sp-scroll-handle {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	border-radius: inherit;
+	background: gray;
+	background: rgba(0,0,0,0.7);
+}
+
+.sp-scroll-bar .sp-scroll-handle:hover {
+	background: black;
+}</style> 
+        <style media="screen" data-href="style/jquery.lightbox-0.5.css">/**
+ * jQuery lightBox plugin
+ * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
+ * and adapted to me for use like a plugin from jQuery.
+ * @name jquery-lightbox-0.5.css
+ * @author Leandro Vieira Pinho - http://leandrovieira.com
+ * @version 0.5
+ * @date April 11, 2008
+ * @category jQuery plugin
+ * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)
+ * @license CCAttribution-ShareAlike 2.5 Brazil - http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US
+ * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
+ */
+#jquery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 49%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev { 
+	left: 0; 
+	float: left;
+}
+#lightbox-nav-btnNext { 
+	right: 0; 
+	float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+	padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+	padding: 0 10px; 
+	color: #666; 
+}
+#lightbox-container-image-data #lightbox-image-details { 
+	width: 70%; 
+	float: left; 
+	text-align: left; 
+}	
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+	display: block; 
+	clear: left; 
+	padding-bottom: 1.0em;	
+}			
+#lightbox-secNav-btnClose {
+	width: 66px; 
+	float: right;
+	padding-bottom: 0.7em;	
+}</style>
+		<link href="./index_files/css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="./index_files/prefixfree.min.js"></script>
+        <script type="text/javascript" src="./index_files/jquery.js"></script>
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<meta name="description" content="The plugin that lets you define custom scroll paths"> 
+		<title>Gambling on Buses</title>
+        
+                <script language="javascript">
+
+function myDisplay(myValue) {document.getElementById("mydisplay").setAttribute("class", myValue);} 
+function myDisplay13(myValue) {document.getElementById("mydisplay13").setAttribute("class", myValue);} 	
+function myDisplay27(myValue) {document.getElementById("mydisplay27").setAttribute("class", myValue);} 	
+function myDisplay44_1(myValue) {document.getElementById("mydisplay44_1").setAttribute("class", myValue);} 	
+function myDisplay11(myValue) {document.getElementById("mydisplay11").setAttribute("class", myValue);} 	
+function myDisplay3(myValue) {document.getElementById("mydisplay3").setAttribute("class", myValue);} 	
+function myDisplay44_2(myValue) {document.getElementById("mydisplay44_2").setAttribute("class", myValue);} 	
+function myDisplay19(myValue) {document.getElementById("mydisplay19").setAttribute("class", myValue);} 	
+function myDisplay22(myValue) {document.getElementById("mydisplay22").setAttribute("class", myValue);} 	
+function myDisplay10(myValue) {document.getElementById("mydisplay10").setAttribute("class", myValue);} 	
+function myDisplay7(myValue) {document.getElementById("mydisplay7").setAttribute("class", myValue);} 	
+
+
+function myDisplaybuslist(myValue) {document.getElementById("mydisplaybuslist").setAttribute("class", myValue);} 	
+function myDisplayluz(myValue) {document.getElementById("mydisplayluz").setAttribute("class", myValue);} 	
+function myDisplaywaiting(myValue) {document.getElementById("mydisplaywaiting").setAttribute("class", myValue);} 	
+function myDisplaystillwaiting(myValue) {document.getElementById("mydisplaystillwaiting").setAttribute("class", myValue);} 	
+function myDisplaywoman_and_daughter(myValue) {document.getElementById("mydisplaywoman_and_daughter").setAttribute("class", myValue);} 	
+function myDisplayseismograph(myValue) {document.getElementById("mydisplayseismograph").setAttribute("class", myValue);} 	
+function myDisplaysilver(myValue) {document.getElementById("mydisplaysilver").setAttribute("class", myValue);} 	
+
+
+</script>
+        
+      
+
+
+        
+	</head>
+	<body data-pinterest-extension-installed="cr1.35"><div class="sp-scroll-bar"><div class="sp-scroll-handle" style="top: 0px;"></div></div>
+    <div class="logo"><a href="http://www.nourtabetplays.com/busroulette/index.html"><img src="./index_files/logo.jpg"></a></div>
+    
+		<nav>
+			<ul>
+				<li><div class="home"><a href="http://www.nourtabetplays.com/busroulette/#start"><img src="./index_files/home.png"></a></div></li>
+				<li><div class="story"><a href="http://www.nourtabetplays.com/busroulette/#description"><img src="./index_files/the_story.png"></a></div></li>
+				<li><div class="routes"><a href="http://www.nourtabetplays.com/busroulette/#syntax"><img src="./index_files/routes.png"></a></div></li>
+				<li><div class="sketches"><a href="http://www.nourtabetplays.com/busroulette/#scrollbar"><img src="./index_files/sketches.png"></a></div></li>
+				<li><div class="gallery1"><a href="http://www.nourtabetplays.com/busroulette/#rotations"><img src="./index_files/gallery1.png"></a></div></li>
+				<li><div class="gallery2"><a href="http://www.nourtabetplays.com/busroulette/#rotations-rotated"><img src="./index_files/gallery2.png"></a></div></li>
+				<li><div class="sounds"><a href="http://www.nourtabetplays.com/busroulette/#source"><img src="./index_files/sounds.png"></a></div></li>
+				<li><div class="blog"><a href="http://www.nourtabetplays.com/busroulette/#follow"><img src="./index_files/blog.png"></a></div></li>
+			</ul>
+		</nav>
+		<div class="settings">
+			<a href="" class="show-path" style="display: none;">Show Path</a>
+		</div>
+		<div class="wrapper" style="position: relative; left: 289px; top: 392.5px;"><canvas class="sp-canvas" width="2640" height="2490" style="position: absolute; z-index: 9998; left: -220px; top: -870px; pointer-events: none; -webkit-user-select: none; -webkit-user-drag: none;"></canvas>
+			<div class="demo">
+				<h1>A day on Baltimore's Buses</h1>
+				<span class="arrow">↓</span>scroll down to ride<span class="arrow">↓</span>
+			</div>
+			
+			<div class="description">
+				<span class="big">
+                
+               <h1> Sunday October 21st, 2012</h1><br>
+<p>One of the first things one does after moving to a new city is try its public transportation.
+
+Baltimore’s system failed me, as much as it failed everyone I know living here.<br><br>
+
+I tried taking the bus few times but the ride was never pleasant. Either the bus would not show up, the driver would see me and not stop, or the passengers made me uncomfortable.<br><br>
+
+I spent the day of October 21st hopping on and off the city buses, starting from north west of the city, all the way to the south east part. I took the first bus at 8:30am and the last one at 4:15pm. One thing I can tell you: it was eccentric.</p>
+                
+                
+                </span>
+			</div>
+
+			<div class="syntax">
+				<span class="big">
+                
+                         <div class="R91"> <a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplay(&#39;block&#39;)" onmouseout="myDisplay(&#39;nodisplay&#39;)">
+                         <img src="./index_files/route_91_inactive.png"></a> </div>
+                        <div id="mydisplay" class="nodisplay"> <img src="./index_files/R91_info.png"></div>
+                                    
+                         <div class="R13"><a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplay13(&#39;block&#39;)" onmouseout="myDisplay13(&#39;nodisplay&#39;)">
+                         <img src="./index_files/route_13_inactive.png"></a></div>
+                         <div id="mydisplay13" class="nodisplay"><img src="./index_files/R13_info.png"></div>
+                                    
+                        <div class="R27"><a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplay27(&#39;block&#39;)" onmouseout="myDisplay27(&#39;nodisplay&#39;)">
+                        <img src="./index_files/route_27_inactive.png"></a></div>
+                        <div id="mydisplay27" class="nodisplay"><img src="./index_files/R27_info.png"></div>
+                        
+                        <div class="R44_1"><a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplay44_1(&#39;block&#39;)" onmouseout="myDisplay44_1(&#39;nodisplay&#39;)">
+                        <img src="./index_files/route_44_1_inactive.png"></a> </div>
+                        <div id="mydisplay44_1" class="nodisplay"><img src="./index_files/R44_1_info.png"></div>
+                        
+                        <div class="R11"><a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplay11(&#39;block&#39;)" onmouseout="myDisplay11(&#39;nodisplay&#39;)">
+                        <img src="./index_files/route_11_inactive.png"></a> </div>
+                        <div id="mydisplay11" class="nodisplay"><img src="./index_files/R11_info.png"></div>
+                                    
+                        <div class="R3"><a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplay3(&#39;block&#39;)" onmouseout="myDisplay3(&#39;nodisplay&#39;)">
+                        <img src="./index_files/route_3_inactive.png"></a></div>
+                        <div id="mydisplay3" class="nodisplay"><img src="./index_files/R3_info.png"></div>
+                                    
+                        <div class="R44_2"><a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplay44_2(&#39;block&#39;)" onmouseout="myDisplay44_2(&#39;nodisplay&#39;)">
+                        <img src="./index_files/route_44_2_inactive.png"></a></div>
+                        <div id="mydisplay44_2" class="nodisplay"><img src="./index_files/R44_2_info.png"></div>
+                                    
+                        <div class="R19"><a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplay19(&#39;block&#39;)" onmouseout="myDisplay19(&#39;nodisplay&#39;)">
+                        <img src="./index_files/route_19_inactive.png"></a> </div>
+                        <div id="mydisplay19" class="nodisplay"><img src="./index_files/R19_info.png"></div>
+                                    
+                        <div class="R22"><a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplay22(&#39;block&#39;)" onmouseout="myDisplay22(&#39;nodisplay&#39;)">
+                        <img src="./index_files/route_22_inactive.png"></a></div>
+                        <div id="mydisplay22" class="nodisplay"><img src="./index_files/R22_info.png"></div>
+                                    
+                         <div class="R10"><a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplay10(&#39;block&#39;)" onmouseout="myDisplay10(&#39;nodisplay&#39;)">
+                         <img src="./index_files/route_10_inactive.png"></a></div>
+                         <div id="mydisplay10" class="nodisplay"><img src="./index_files/R10_info.png"></div>
+                        
+                        <div class="R7"><a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplay7(&#39;block&#39;)" onmouseout="myDisplay7(&#39;nodisplay&#39;)">
+                        <img src="./index_files/route_7_inactive.png"></a></div><div id="mydisplay7" class="nodisplay">
+                        <img src="./index_files/R7_info.png"></div>
+               
+                </span>
+			</div>
+
+			<div class="scrollbar">
+				<span class="big">
+                <div class="sketchbook">
+                <div class="bus_list"> <a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplaybuslist(&#39;block2&#39;)" onmouseout="myDisplaybuslist(&#39;nodisplay&#39;)">
+                        <img src="./index_files/1-bus_list_thumb.png"></a> </div>
+                        <div id="mydisplaybuslist" class="nodisplay"> <img src="./index_files/1-bus_list.png"></div>
+             
+              <div class="luz"> <a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplayluz(&#39;block2&#39;)" onmouseout="myDisplayluz(&#39;nodisplay&#39;)">
+              <img src="./index_files/2-luz_thumb.png"></a></div>
+              <div id="mydisplayluz" class="nodisplay"> <img src="./index_files/2-luz.png"></div>
+
+
+              <div class="waiting"> <a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplaywaiting(&#39;block2&#39;)" onmouseout="myDisplaywaiting(&#39;nodisplay&#39;)">
+              <img src="./index_files/3-waiting_thumb.png"></a>  </div>                      
+              <div id="mydisplaywaiting" class="nodisplay"> <img src="./index_files/3-waiting.png"></div>
+
+              <div class="stillwaiting"> <a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplaystillwaiting(&#39;block2&#39;)" onmouseout="myDisplaystillwaiting(&#39;nodisplay&#39;)">
+              <img src="./index_files/4-stillwaiting_thumb.png"> </a> </div>                      
+              <div id="mydisplaystillwaiting" class="nodisplay"> <img src="./index_files/4-stillwaiting.png"></div>
+
+              <div class="woman_and_daughter"> <a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplaywoman_and_daughter(&#39;block2&#39;)" onmouseout="myDisplaywoman_and_daughter(&#39;nodisplay&#39;)">
+              <img src="./index_files/7-woman_and_daughter_thumb.png"> </a> </div>                     
+               <div id="mydisplaywoman_and_daughter" class="nodisplay"> <img src="./index_files/7-woman_and_daughter.png"></div>
+
+              <div class="seismograph"> <a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplayseismograph(&#39;block2&#39;)" onmouseout="myDisplayseismograph(&#39;nodisplay&#39;)">
+              <img src="./index_files/8-seismograph_thumb.png"> </a> </div>                      
+              <div id="mydisplayseismograph" class="nodisplay"> <img src="./index_files/8-seismograph.png"></div>
+
+              <div class="silver"> <a href="http://www.nourtabetplays.com/busroulette/#" onmouseover="myDisplaysilver(&#39;block2&#39;)" onmouseout="myDisplaysilver(&#39;nodisplay&#39;)">
+              <img src="./index_files/9-silver_thumb.png"> </a>  </div>                     
+              <div id="mydisplaysilver" class="nodisplay"> <img src="./index_files/9-silver.png"></div>
+              </div>
+                </span>
+			</div>
+
+			<div class="rotations">
+				<span class="big">
+                <div class="photos1">
+               
+               <div class="photo_documentation_oldman cap-bot"> <img src="./index_files/old_man.jpg">
+               <div class="figcaption cap-3">Cute old man, dressed for church.</div></div>
+               
+               <div class="photo_documentation_sticker2 cap-bot"><img src="./index_files/sticker2.jpg">
+                <div class="figcaption cap-3">Bus Roulette sticker on bus #19.</div></div>
+               
+               
+               <div class="photo_documentation_crazy_woman cap-bot"> <img src="./index_files/crazy_woman.jpg">
+               <div class="figcaption cap-3">This woman made me dance rap with her.</div></div>
+               </div>
+                
+                </span>
+				
+                <span class="upside-down big">
+                
+                <div class="photos2">
+                 <div class="photo_documentation_ravens_man cap-bot"><img src="./index_files/ravens_man.jpg">
+                 <div class="figcaption cap-3">I talked to this man for some 15 minutes about everything and nothing.</div></div>
+                 <div class="photo_documentation_sticker cap-bot"><img src="./index_files/sticker.jpg">
+                 <div class="figcaption cap-3">Another Bus Roulette sticker on a bus stop sign.</div></div>
+                <div class="photo_documentation_make_up cap-bot"> <img src="./index_files/make_up.jpg">
+                <div class="figcaption cap-3">Bus #10 was intoxicated by this woman's perfume and make up action.</div></div>
+              			</div>
+  </span></div>
+
+			<div class="source">
+				<span class="big"><h2>Some sound memos<br>I recorded.</h2><span>
+                   <div class="bus_ambient">
+               <audio controls=""><source src="audio/R91bus_commotion.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
+                <p>Bus ambient noise</p>
+                </div>
+                
+                <div class="MTA_operator"> 
+				<audio controls=""><source src="audio/R27silent_bus_MTAvoice.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
+                <p>MTA operator</p>
+                </div>
+                
+                <div class="ravens_chat">
+				<p>chat with a disordered<br>
+                man while waiting for<br>
+                bus #3, about</p>
+                </div>
+               
+                
+                <div class="ravens_chat_game">
+               <audio controls=""><source src="audio/W2_man_ravens.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
+				<p>a Ravens game</p><br><img src="./index_files/was_not_happening.png">
+                </div>
+               
+               <div class="ravens_chat_poetry">
+               <audio controls=""><source src="audio/W2_man_writings.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
+				<p>his poetry and books</p>
+                </div>
+                
+                <div class="complaining_women">
+               <audio controls=""><source src="audio/R44_2_woman_on_bus_highkey.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
+				<p>two complaining women</p><br><img src="./index_files/my_favorite.png">
+                </div>
+                
+                
+			</span></span></div>
+
+			<div class="follow">
+				<span class="big"><h2>For the chronological details of my day, visit the 
+                <a href="http://busroulette.wordpress.com/" target="_blank">bus roulette blog.</a><br><br>
+                And for a similar feel of Baltimore's MTA, in a different way, 
+                <a href="http://www.youtube.com/watch?v=7TTsk_H1gSU" target="_blank">watch this.</a></h2> </span>
+			</div>
+		</div>
+	<script type="text/javascript" src="./index_files/jquery-latest.pack.js"></script>
+	<script type="text/javascript" src="./index_files/jquery.easing.js"></script>
+	<script type="text/javascript" src="./index_files/jquery.scrollpath.js"></script>
+	<script type="text/javascript" src="./index_files/demo.js"></script>
+	
+
+</body></html>

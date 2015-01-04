@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0051)http://www.jackielittmandesign.com/alice/part8.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" href="http://www.jackielittmandesign.com/alice/css/basic.css">
+<link rel="stylesheet" href="http://www.jackielittmandesign.com/alice/css/page8.css">
+<link href="./part8_files/css" rel="stylesheet" type="text/css">
+<title>Alice’s Adventures :: Part 8</title>
+</head>
+
+<body data-pinterest-extension-installed="cr1.35">
+
+
+
+<div class="frame"><div class="story">Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw. How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway; ‘and even if my head would go through,’ thought poor Alice, ‘it would be of very little use without my shoulders. Oh, how I wish I could shut up like a telescope! I think I could, if I only know how to begin.’ For, you see, so many out-of-the-way things had happened lately, that Alice had begun to think that very few things indeed were really impossible.</div></div>
+
+<div id="wall"></div>
+
+<div id="door"><img src="./part8_files/door.png"></div>
+<div id="grass"><img src="./part8_files/grass.gif"></div>
+<div id="stems"><img src="./part8_files/stems.png"></div>
+
+<div id="wrapper">
+<div id="mushroombutton"></div><div id="mushroom"></div>
+<div id="pinkflower"><img src="./part8_files/pinkflower.png"></div>
+<div id="orangeflower"><img src="./part8_files/orangeflower.png"></div>
+<div id="flowerbutton"></div>
+<div id="bb1" class="bb"><img src="./part8_files/bb1.png"></div>
+<div id="bb2" class="bb"><img src="./part8_files/bb2.png"></div>
+<div id="bb3" class="bb"><img src="./part8_files/bb3.png"></div>
+<div id="club"><img src="./part8_files/club.png"></div>
+<div id="heart1"><img src="./part8_files/heart1.png"></div>
+<div id="heart2"><img src="./part8_files/heart2.png"></div>
+<a href="http://www.jackielittmandesign.com/alice/part9.html"><div id="next"></div></a>
+</div>
+
+<div class="pagenumber">8</div>
+<a href="http://www.jackielittmandesign.com/alice/part7.html"><div class="pageback">Back</div></a>
+
+<script src="./part8_files/jquery-latest.js"></script>
+<script>
+$('.ease').click(function(event){
+	event.preventDefault();
+	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1700);
+	});
+	
+	
+$('#pinkflower').click(function(event){
+	$('#pinkflower').css('-webkit-animation','myspin .5s');
+	$('#pinkflower').css('-moz-animation','myspin .5s');
+	$('#pinkflower').css('animation','myspin .5s');
+});
+
+var $element = $('#pinkflower').bind('webkitAnimationEnd', function(){
+    this.style.webkitAnimationName = '';
+});
+
+$('#button').click(function(){
+    $element.css('webkitAnimationName', 'myspin');
+    // you'll probably want to preventDefault here.
+});
+
+
+$('#flowerbutton').click(function(event){
+	$('#orangeflower').css('-webkit-animation','myspin2 .5s');
+	$('#orangeflower').css('-moz-animation','myspin2 .5s');
+	$('#orangeflower').css('animation','myspin2 .5s');
+});
+
+var $element = $('#orangeflower').bind('webkitAnimationEnd', function(){
+    this.style.webkitAnimationName = '';
+});
+
+$('#flowerbutton').click(function(){
+    $this.css('webkitAnimationName', 'myspin2');
+    // you'll probably want to preventDefault here.
+});
+
+
+$('#mushroombutton').click(function(event){
+	$('#mushroom').css('-webkit-animation','mymushroom .2s');
+	$('#mushroom').css('-moz-animation','mymushroom .2s');
+	$('#mushroom').css('animation','mymushroom .2s');
+	$('#next').css('visibility','visible');
+	$('#next').css('opacity','1');
+});
+
+var $element = $('#mushroom').bind('webkitAnimationEnd', function(){
+    this.style.webkitAnimationName = '';
+});
+
+$('#button').click(function(){
+    $element.css('webkitAnimationName', 'mymushroom');
+    // you'll probably want to preventDefault here.
+});
+
+$('#bb1, #bb3').click(function(event){
+	$('.bb').css('-webkit-animation','myrock .3s');
+	$('.bb').css('-moz-animation','myrock .3s');
+	$('.bb').css('animation','myrock .3s');
+});
+
+var $element = $('.bb').bind('webkitAnimationEnd', function(){
+    this.style.webkitAnimationName = '';
+});
+
+$('#bb1, #bb3').click(function(){
+    $element.css('webkitAnimationName', 'myrock');
+    // you'll probably want to preventDefault here.
+});
+
+$('#club').click(function(){
+	$(this).hide(200);
+});
+
+$('#heart1').click(function(){
+	$(this).hide(200);
+});
+
+$('#heart2').click(function(){
+	$(this).hide(200);
+});
+	
+</script>
+
+
+
+</body></html>

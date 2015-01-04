@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0051)http://www.jackielittmandesign.com/alice/part9.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" href="http://www.jackielittmandesign.com/alice/css/basic.css">
+<link rel="stylesheet" href="http://www.jackielittmandesign.com/alice/css/page9.css">
+<link href="./part9_files/css" rel="stylesheet" type="text/css">
+<title>Alice’s Adventures :: Part 9</title>
+</head>
+
+<body data-pinterest-extension-installed="cr1.35">
+
+<div class="frame"><div class="story">There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it, ('which certainly was not here before,' said Alice,) and round the neck of the bottle was a paper label, with the words 'DRINK ME' beautifully printed on it in large letters.
+Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off.</div></div>
+
+<div id="bottlewrapper">
+<div id="bottle"></div>
+<div id="liquid" style="display: block;"></div>
+<a href="http://www.jackielittmandesign.com/alice/part10.html"><div class="next"></div></a>
+</div>
+
+<div id="table"></div>
+
+
+<div class="pagenumber">9</div>
+<a href="http://www.jackielittmandesign.com/alice/part8.html"><div class="pageback">Back</div></a>
+
+<script src="./part9_files/jquery-latest.js"></script>
+
+<script>
+
+$(document).ready(function(){
+	$('#liquid').hide();
+	});
+	
+$(window).load(function(){
+	$('#liquid').show();
+	});
+
+$('#bottle').click(function() {
+  $('#liquid').slideToggle('slow', function() {
+    // Animation complete.
+  });
+});
+
+$('#bottle').click(function() {
+  $('.next').css('visibility','visible');
+  $('.next').css('opacity','1');
+});
+
+</script>
+
+
+
+</body></html>
