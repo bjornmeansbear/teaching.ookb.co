@@ -1,0 +1,44 @@
+
+/** These styles are the base styles. Use this top part for phones and things that won't change at all **/
+body {
+  background: red;
+  color: white;
+}
+
+h1, p { font-size: 20px; }
+
+#wrapper {
+  padding: 20px;
+}
+
+/** This is for screens wider than 768px, basically, tablets and small computers **/
+/** you only need to write new styles in these media queries when you want to override or update a style from earlier in the style sheet **/
+@media (min-width: 768px) {
+  body {
+    background: green;
+    color: black;
+  }
+  h1 { font-size: 40px; }
+}
+
+/** This is for screens wider than 996px, smaller laptops and desktops **/
+@media (min-width: 992px) {
+  body {
+    background: blue;
+  }
+  h1 { font-size: 60px; }
+  p { font-size: 30px; }
+
+  #wrapper {
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+/** This is for screens wider than 1200px, larger laptops and desktops **/
+@media (min-width: 1200px) {
+  body {
+    background: wheat;
+  }
+}

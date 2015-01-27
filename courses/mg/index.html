@@ -35,7 +35,7 @@
         <nav class="collapse navbar-collapse" role="navigation">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/courses/gd3/">GD3 <b class="caret"></b></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/courses/gd3/">GD5569 <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="/courses/gd3/">Main</a></li>
                 <li><a href="/courses/gd3/calendar.html">Calendar</a></li>
@@ -65,7 +65,6 @@
 
         <div id="thisweek">
           <h1>This week in M&I...</h1>
-
         </div>
 
       </div> <!-- /container -->
@@ -123,7 +122,15 @@
 
     <script>
       $(document).ready(function() {
-        $('#thisweek').load('wk1.html');
+        $('#thisweek').load('wk2.html');
+
+        $.getJSON('lovehate.json', function(data) {
+          $.each(data.students, function(data) {
+            console.log(this["name"]);
+            $('ul#entries').append('<li class="student"><ul><li><h4>' + this["name"] + '</h4></li><li class="love">Love: <a href="' + this["love.url"] + '">' + this["loveblurb"] + '</a></li><li class="hate">Hate: <a href="' + this["hateurl"] + '">' + this["hateblurb"] + '</a></li><li class="onemore">More: <a href="' + this["onemoreurl"] + '">' + this["onemoreblurb"] + '</a></li></ul></li>');
+          });
+        });
+
       });
     </script>
 
