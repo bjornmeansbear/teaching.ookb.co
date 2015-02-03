@@ -121,15 +121,7 @@
 
     <script>
       $(document).ready(function() {
-        $('#thisweek').load('wk2.html');
-
-        $.getJSON('lovehate.json', function(data) {
-          $.each(data.students, function(data) {
-            console.log(this["name"]);
-            $('ul#entries').append('<li class="student"><ul><li><h4>' + this["name"] + '</h4></li><li class="love">Love: <a href="' + this["loveurl"] + '">' + this["loveblurb"] + '</a></li><li class="hate">Hate: <a href="' + this["hateurl"] + '">' + this["hateblurb"] + '</a></li><li class="onemore">More: <a href="' + this["onemoreurl"] + '">' + this["onemoreblurb"] + '</a></li></ul></li>');
-          });
-        });
-
+        $('#thisweek').load('wk3.html');
       });
     </script>
 
