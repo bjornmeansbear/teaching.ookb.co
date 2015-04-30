@@ -1,0 +1,19 @@
+body,
+article { 
+  padding-top: 100px; 
+}
+
+footer {
+  background: #ccc;
+  margin: 100px 0 0 0;
+  padding: 100px 0;
+}
+
+/** Kristian help above **/
+
+/** reference information for how bootstrap is setup can be found: http://getbootstrap.com/ **/
+
+/** slideshows powered by cycle2 http://jquery.malsup.com/cycle2/ **/
+
+/** Write your styles below here **/
+

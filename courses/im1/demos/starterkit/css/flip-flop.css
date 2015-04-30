@@ -1,0 +1,36 @@
+.flip-flop {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.flip-flop.square {
+  padding-bottom: 100%; /** height/width as a percentage **/
+}
+
+.flip-flop.fourthree {
+  padding-bottom: 75%; /** height/width as a percentage **/
+}
+
+.flip-flop.twothree {
+  padding-bottom: 150%; /** height/width as a percentage **/
+}
+
+.flip-flop img {
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.flip-flop img.hovering {
+  display: none;
+}
+.flip-flop:hover img.initial {
+  display: none;
+}
+.flip-flop:hover img.hovering {
+  display: block;
+}
