@@ -26,14 +26,12 @@
   width: 100%;
   max-width: 100%;
   height: auto;
+  z-index: 1
 }
 
 .flip-flop img.hovering {
-  display: none;
+  z-index: 0
 }
 .flip-flop:hover img.initial {
   display: none;
-}
-.flip-flop:hover img.hovering {
-  display: block;
 }
