@@ -1,0 +1,70 @@
+<!-- doctype html -->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Responsive Gridded Images</title>
+
+        <link href="mobile-menu.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+
+                <ul>
+                    <li><a href="#one">First object</a></li>
+                    <li><a href="#two">Second Thing</a></li>
+                    <li><a href="#three">A Third Item</a></li>
+                </ul>
+
+                <button class="toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </nav>
+        </header>
+
+        <main>
+            <article id="one">
+              <h1>Menu Pattern</h1>
+            </article>
+        </main>
+
+        <footer id="three">
+          <small>This is a general pattern for what to do with navigation menus skinny vs. wide views</small>
+          <p>Nov. 25, 2014 / Updated 2015-06-11</p>
+        </footer>
+
+        <!-- Javascript is included down here to make pages load faster -->
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('button.toggle').click(function() {
+                    $('header ul').slideToggle();
+                });
+            });
+
+            $(window).resize(function() {
+                ww = $(window).width();
+
+                if (ww > 768) {
+                    $('header ul').show();
+                } else {
+                    $('header ul').hide();
+                };
+
+            });
+        </script>
+
+    </body>
+
+</html>
+

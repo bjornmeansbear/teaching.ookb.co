@@ -1,0 +1,17 @@
+/** Slideshow related styles **/
+.ss-stripe {
+  background: gray;
+  padding: 4em 2em 2em;
+}
+
+#ss-wrapper .controls a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#ss-wrapper .controls a:hover {
+  color: lightblue;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -16,6 +16,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/flip-flop.css" rel="stylesheet">
+    <link href="css/slideshow.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -64,23 +65,50 @@
           <div class="col-xs-12 col-sm-6 col-md-8">
             <!-- this is actually pretty cool/smart... -->
             <div class="flip-flop square">
-               <img class="initial" src="images/trial1-1.jpg" />
-               <img class="hovering"   src="images/trial1-2.jpg" />
+               <img src="images/trial1-1.jpg" /><!-- this is the image you want on top -->
+               <img src="images/trial1-2.jpg" /><!-- this is the image you want to show on hover -->
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-5">
-            <div class="flip-flop fourthree">
-               <img class="initial" src="images/trial2-1.jpg" />
-               <img class="hovering"   src="images/trial2-2.jpg" />
+            <div class="flip-flop threefour">
+               <img src="images/trial2-1.jpg" />
+               <img src="images/trial2-2.jpg" />
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="flip-flop twothree">
-               <img class="initial" src="images/trial3-1.jpg" />
-               <img class="hovering"   src="images/trial3-2.jpg" />
+               <img src="images/trial3-1.jpg" />
+               <img src="images/trial3-2.jpg" />
             </div>
           </div>
         </section>
+      </article>
+
+      <article class="container-fluid ss-stripe">
+        <div class="row">
+          
+          <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-5">
+            <div id="ss-wrapper">
+                <!-- slideshow -->
+                <div class="cycle-slideshow flip-flop" 
+                    data-cycle-fx=scrollHorz
+                    data-cycle-timeout=0
+                    data-cycle-prev="#prev"
+                    data-cycle-next="#next"
+                    >
+                    <img src="http://malsup.github.io/images/p1.jpg">
+                    <img src="http://malsup.github.io/images/p2.jpg">
+                    <img src="http://malsup.github.io/images/p3.jpg">
+                    <img src="http://malsup.github.io/images/p4.jpg">
+                </div>
+                <!-- prev/next links -->
+                <div class="controls row">
+                  <p id="prev" class="text-left col-xs-6"><a href="">&lt;&lt; Prev </a></p>
+                  <p id="next" class="text-right col-xs-6"><a href="">Next &gt;&gt; </a></p>
+                </div>
+            </div>
+          </div>
+        </div>
       </article>
       
       <article id="one" class="container">
@@ -152,12 +180,12 @@
           <div class="col-xs-12 col-sm-6 col-md-8">
             <!-- this is actually pretty cool/smart... -->
             <div class="flip-flop square">
-               <img class="initial" src="images/trial1-1.jpg" />
-               <img class="hovering"   src="images/trial1-2.jpg" />
+               <img class="initial"  src="images/trial1-1.jpg" />
+               <img class="hovering" src="images/trial1-2.jpg" />
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-5">
-            <div class="flip-flop fourthree">
+            <div class="flip-flop threefour">
                <img class="initial" src="images/trial2-1.jpg" />
                <img class="hovering"   src="images/trial2-2.jpg" />
             </div>

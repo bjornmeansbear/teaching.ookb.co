@@ -8,17 +8,29 @@
 }
 
 /* wow, this is actually pretty cool/smart */
+/* this is all that should need to be tweaked/edited/add too */
+/* if you need a new "size" of image holder, create a new class matching the method illustrated below. */
+/* padding-bottom: calc(100% * HEIGHT / WIDTH); */
+/* use HTML that looks like this:
+
+    <div class="flip-flop [YOUR RATIO CLASS HERE]">
+       <img class="initial"  src="images/trial1-1.jpg" />
+       <img class="hovering" src="images/trial1-2.jpg" />
+    </div>
+*/
+
 .flip-flop.square {
-  padding-bottom: 100%; /** height/width as a percentage **/
+  padding-bottom: calc(100% * 1 / 1); /** height/width ratio of image as a percentage **/
 }
 
-.flip-flop.fourthree {
-  padding-bottom: 75%; /** height/width as a percentage **/
+.flip-flop.threefour {
+  padding-bottom:  calc(100% * 3 / 4); /** height/width ratio of image as a percentage **/
 }
 
 .flip-flop.twothree {
-  padding-bottom: 150%; /** height/width as a percentage **/
+  padding-bottom:  calc(100% * 3 / 2); /** height/width ratio of image as a percentage **/
 }
+/* end tweaking area */
 
 /* setup the flip-flopping images */
 .flip-flop img {
@@ -29,9 +41,13 @@
   z-index: 1
 }
 
-.flip-flop img.hovering {
+.flip-flop img.hovering,
+.flip-flop img:nth-child(2),
+.flip-flop img:last-of-type {
   z-index: 0
 }
-.flip-flop:hover img.initial {
+.flip-flop:hover img.initial,
+.flip-flop:hover img:nth-child(1),
+.flip-flop:hover img:first-of-type {
   display: none;
 }
