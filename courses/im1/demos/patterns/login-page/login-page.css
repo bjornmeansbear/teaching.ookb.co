@@ -71,3 +71,12 @@ label, input {
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
 }
+
+.alert {
+  font-size: 90%;
+  line-height: 1.618;
+  border-left: .2em solid;
+  padding-left: 1em;
+}
+
+.small { font-size: 66%; }
