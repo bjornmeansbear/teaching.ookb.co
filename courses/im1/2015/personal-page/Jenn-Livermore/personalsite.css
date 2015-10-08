@@ -1,0 +1,42 @@
+        body {background-color:white;}
+        h1
+            {
+            color:#666666;
+            font-family: Trebuchet MS;
+            font-size: 13px;
+            letter-spacing: 5px;
+            margin-left: 99px;
+            margin-top: 20px;
+            }
+        .left
+            {
+            float: left;
+            }
+        p
+            {
+            color:#353D3B;
+            font-family: Trebuchet MS;
+            font-size: 13px;
+            letter-spacing: 1px;
+            line-height: 18px;
+            margin-left: 270px;
+            margin-top: 100px;
+            max-width: 300px;
+            }
+        ul
+            {
+            text-align: right;
+            list-style-type: none;
+            color:#353D3B;
+            font-family: Trebuchet MS;
+            font-size: 13px;
+            letter-spacing: 1px;
+            line-height: 18px;
+            margin-left: 60px;
+            margin-top: -12px;
+            }
+        img
+            {
+            padding-top: 40px;
+            margin-left: 270px;
+            }

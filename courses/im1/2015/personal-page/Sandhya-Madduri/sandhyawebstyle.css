@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+.body {
+    margin: 50;
+    padding: 25;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+aside {
+    width: 20%;
+    height: 200px;
+    background: black;
+    color: white;
+    padding: 30px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.left {
+    float: none;
+    padding: 80px;
+}
+
+.right {
+    float: right;
+    text-decoration-color: white;
+}
+
+
+.header {
+    text-align: left;
+    padding-top: 100px;
+}
+
+.paragraph {
+    color:darkgrey;
+}
+
+.embed {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: block;
+}

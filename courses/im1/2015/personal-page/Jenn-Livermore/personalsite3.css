@@ -1,0 +1,60 @@
+.image-container {
+    background-image: url("https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1962784_10152366197131120_8573349583080014793_n.jpg?oh=929cad032170ab732ad0e838514fbb5a&oe=56A38718");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* comment */
+    position: fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    width: 40%;
+    overflow: hidden;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+}
+
+.wrapper {
+    width: 60%;
+}
+
+.mlrauto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-container {
+    width: 50%;
+}
+
+article p:first-of-type {
+    font-size: 1.25em;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: left;
+    margin-top: 10em;
+    margin-bottom: 2em;
+    letter-spacing: .3em;
+}
+
+ul
+    {
+    text-align: right;
+    list-style-type: none;
+    color:#353D3B;
+    font-size: 1em;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+
+            }
+
+.left
+    {
+    float: left
+    }

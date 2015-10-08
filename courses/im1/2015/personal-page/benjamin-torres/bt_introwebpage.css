@@ -1,0 +1,54 @@
+*{box-sizing: border-box;
+}
+
+body{
+    background-color:bisque;
+}
+
+body h1{
+        text-align:center;
+        color:blue;
+        margin-top: 25px;
+}
+img{
+    padding:3px;
+    border:3px solid #021a40;
+    background-color:#ff0;
+    hieght:100px;
+    width:100px;
+    margin:50;
+    border:20px;
+}
+
+.center{
+    text-align:center;
+    color:blue;
+}
+
+.block {
+    margin: px;
+    width: 100px;
+    height: 100px;
+}
+.red {
+    background-color:red;
+    float:left;
+    margin-left: 150px;
+}
+.green {
+    background-color:green;
+    float:right;
+    margin-right: 150px;
+}
+.blue {
+    background-color:blue;
+    float: left;
+}
+.orange {
+    background-color:orange;
+    float:right;
+}
+
+width{
+    margin-bottom: 50px;
+}

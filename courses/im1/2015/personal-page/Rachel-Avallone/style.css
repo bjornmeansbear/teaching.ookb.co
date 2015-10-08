@@ -1,0 +1,18 @@
+* {
+    background: #7becd8;
+}
+.image {
+    float: left;
+    margin:10px;
+}
+ul {
+    float: center;
+    clear: left;
+}
+h1 {
+    clear: both;
+    color: white;
+}
+p {
+    clear:both;
+}

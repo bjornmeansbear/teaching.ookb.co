@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    background: solid yellow;
+
+}
+body{
+    background-image: url("Comp-1_4.gif");
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width:1000px;
+    margin:11em 0 0 0;
+
+}
+
+
+
+
+.paragraph{
+    position:absolute;
+
+
+
+}
+
+
+.right{
+    float:right;
+    width:20%;
+
+}
+
+.center{
+    float:left;
+    width:50%;
+    margin:0 2em 2em 0;
+
+}
+
+.left{
+    float:left;
+    width:20%;
+    margin:0 2em 0 0;
+
+}
+
+p{
+    font:.8em verdana,sans-serif;
+    font-weight:100;
+    letter-spacing: .7px;
+    line-height:1.4em;
+    font-kerning:1em;
+    color: darkgray;
+}
+
+h3{
+    margin-bottom: 0;
+    font:1.2em monospace;
+    letter-spacing: .3px;
+    line-height:1.3em;
+    font-kerning:1em;
+    color: black;
+}
+ul{
+    margin-top: 2.6em;
+    font:.8em verdana,sans-serif;
+    letter-spacing: .7px;
+    line-height:1.6em;
+    font-kerning:1em;
+    color: greenyellow;
+}
+
+h1{
+    font:2.3em monospace;
+    font-weight:400;
+    color:black;
+    letter-spacing:.2em;
+    line-height: 1em;
+    opacity:1;
+    color:black;
+
+
+
+
+
+
+
+}
+
