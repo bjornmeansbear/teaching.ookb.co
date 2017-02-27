@@ -1,0 +1,129 @@
+/** ******************************************** **/
+/** ******************************************** **/
+/** Design Students: Please Don't Edit this File **/
+/** ******************************************** **/
+/** ******************************************** **/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/** setup! **/
+.block {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.block::after {
+  padding-top: 100%;
+  display: block;
+  content: '';
+}
+
+.block img {
+  width: 100%;
+  height: auto;
+}
+
+.three-quarter.block {
+  width: 75%;
+}
+
+.two-third.block {
+  width: calc(100% / 3 * 2);
+}
+
+.half.block {
+  width: 50%;
+}
+
+.third.block {
+  width: calc(100% / 3);
+}
+
+.quarter.block {
+  width: 25%;
+}
+.one-fifth.block{
+  width: 20%;
+}
+h1, h2, h3, h4, h5, h6, p {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-25%, -50%);
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 0;
+  font-size: 1vw;
+}
+/*font*/
+
+.font-size-50pt{font-size:4.16666666vw;}
+.font-size-72pt{font-size:5.2vw;}
+.font-size-85pt{font-size:7.08333333vw;}
+.font-size-100pt{font-size:8.3333333vw;}
+
+/*square*/
+           
+
+.square-pink-30{
+    width: 28vw;
+    height: 28vw;
+    position: absolute;
+    margin: 2.5vw;
+    border: solid 1vw #ff009a; 
+}
+.square-blue-30{
+    width: 28vw;
+    height: 28vw;
+    position: absolute;
+    margin: 2.5vw;
+    border: solid 1vw #3bb3f9; 
+}
+           
+
+
+
+
+.square-blue-45{
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    margin: 2.5vw;
+    border: solid 1.2vw #3bb3f9;
+}
+.square-pink-45{
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    margin: 2.5vw;
+    border: solid 1.2vw #ff009a;
+}
+.square-yellow-45{
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    margin: 2.5vw;
+    border: solid 1.2vw #ffef35;
+}
+.square-pink-95{
+    width: 95vw;
+    height: 95vw;
+    position: absolute;
+    margin: 2.5vw;
+    border: solid 2.2vw #ff009a;
+}

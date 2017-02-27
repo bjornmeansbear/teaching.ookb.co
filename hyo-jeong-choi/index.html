@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Assignment 1: Lyrical Grid</title>
+
+    <!-- leave this CSS file alone -->
+    <link href="percentages.css" rel="stylesheet" type="text/css" />
+
+    <style>
+      /** some custom colors, etc. You can do this same thing with whatever you need. Delete my starter junk **/
+      /********* color modules **********/
+      .bg-pink               { background-color: rgba(255,0,154,1); 
+      }
+      .bg-brown              { background-color: rgba(047,041,038,1); }
+      .bg-gray               { background-color: rgba(132,132,120,1); }
+      .bg-darkgray           { background-color: rgba(096,103,103,1); }
+      .bg-lightgray          { background-color: rgba(194,211,186,1); }
+      .bg-red                { background-color: rgba(183,080,081,1); }
+      .bg-orange             { background-color: rgba(195,115,099,1); }
+      .bg-yellow             { background-color: rgba(255,239,53,1); 
+      }
+      .bg-green              { background-color: rgba(140,165,115,1); }
+      .bg-blue               { background-color: rgba(59, 179, 249,1); }
+      .bg-purple             { background-color: rgba(174,139,164,1); }
+      .bg-black              { background-color: rgba(000,000,000,1); }
+      .bg-white              { background-color: rgba(255,255,255,1); }
+      .yellow { color: #ffef35; }
+      .blue { color: #3bb3f9; }
+      .pink { color: #ff009a; }
+      
+
+      /** put your custom CSS here, or create and link to your own new css file **/
+      .cover {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .technologic {
+        background-image: url('img/technlogic2.png');
+      }
+      .buy {
+        background-image: url('img/1buy.png');
+      }
+      
+      .use{
+         background-image: url('img/2use.png');
+      }
+      .break {
+        background-image: url('img/3break.png');
+      }
+      .fix {
+        background-image: url('img/4fix.png');
+      }
+      .trash {
+        background-image: url('img/5trash.png');
+      }
+      .change {
+        background-image: url('img/6change.png');
+      }
+      .up-grade1 {
+        background-image: url('img/7up-grade1.png');
+      }
+      .up-grade2 {
+        background-image: url('img/7up-grade2.png');
+      }
+      .charge {
+        background-image: url('img//8charge.png');
+      }
+      .point {
+        background-image: url('img/9point.png');
+      }
+      .zoom {
+        background-image: url('img/10zoom.png');
+      }
+      .press {
+        background-image: url('img/11press.png');
+      }
+      .snap {
+        background-image: url('img/12snap.png');
+      }
+      .work {
+        background-image: url('img/13work.png');
+      }
+      .erase1{
+        background-image: url('img/14erase1.png');
+       }
+      .erase2{
+        background-image: url('img/14erase2.png');
+       }
+      .write{
+        background-image: url('img/15write.png');
+       }
+      .cut{
+        background-image: url('img/16cut.png');
+       }
+      .paste{
+        background-image: url('img/17past.png');
+       }
+      .save{
+        background-image: url('img/18save.png');
+       }
+      .load{
+        background-image: url('img/19load.png');
+       }
+      .check{
+        background-image: url('img/20check.png');
+       }
+      .plug{
+        background-image: url('img/22plug.png');
+       }
+      .play{
+        background-image: url('img/23play.png');
+       }
+      .burn{
+        background-image: url('img/24burn.png');
+       }
+      .rip{
+        background-image: url('img/25rip.png');
+       }
+      .zip{
+        background-image: url('img/28zip.png');
+       }
+      .un-zip{
+        background-image: url('img/29unzip.png');
+       }
+      .lock{
+        background-image: url('img/30lock.png');
+       }
+      .fill{
+        background-image: url('img/31fill.png');
+       }
+      .curl{
+        background-image: url('img/32curl.png');
+       }
+      .find{
+        background-image: url('img/33find.png');
+       }
+      .view{
+        background-image: url('img/34view.png');
+       }
+      .coat{
+        background-image: url('img/35coat.png');
+       }
+      .jam{
+        background-image: url('img/36jam.png');
+       }
+      .unlock{
+        background-image: url('img/37unlock.png');
+       }
+      .surf{
+        background-image: url('img/38surf.png');
+       }
+      .scroll{
+        background-image: url('img/39scroll.png');
+       }
+      .pose{
+        background-image: url('img/40pose.png');
+       }
+      .click{
+        background-image: url('img/41click.png');
+       }
+      .cross{
+        background-image: url('img/42cross.png');
+       }
+      .crack{
+        background-image: url('img/43crack.png');
+       }
+      .twich{
+        background-image: url('img/44twich.png');
+       }
+      .update{
+        background-image: url('img/45update.png');
+       }
+      .name{
+        background-image: url('img/46name.png');
+       }
+      .rate{
+        background-image: url('img/47rate.png');
+       }
+      .tune{
+        background-image: url('img/48tune.png');
+       }
+      .print{
+        background-image: url('img/49print.png');
+       }
+      .scan{
+        background-image: url('img/50scan.png');
+       }
+      .send{
+        background-image: url('img/51send.png');
+       }
+      .fax{
+        background-image: url('img/52fax-.png');
+       }
+      .touch{
+        background-image: url('img/54touch.png');
+       }
+      .bring{
+        background-image: url('img/55bring.png');
+       }
+      .pay{
+        background-image: url('img/56pay.png');
+       }
+      .watch{
+        background-image: url('img/57watch.png');
+       }
+      .turn{
+        background-image: url('img/58turn.png');
+       }
+      .leave{
+        background-image: url('img/59leave.png');
+       }
+      .stop{
+        background-image: url('img/60stop.png');
+       }
+      .format{
+        background-image: url('img/61format.png');
+       }
+    </style>
+
+  </head>
+
+  <body>
+    <!-- this outer most <div> determines the width for everything -->
+    <div class="wrapper">
+      <!-- all these inner divs use the percentages.css file for their height and width /nesting -->
+
+      <!-- this one goes all the way across -->
+      <div class="block technologic cover">
+          <div class="square-pink-95"></div>
+          <p class="font-size-100pt yellow">TECHNOLOGIC</p>
+      </div>
+      
+
+      <!-- this is only half width, plus it contains children... -->
+      <div class="half block">
+        <div class="block buy cover">
+          <div class="square-blue-45"></div>
+          <p class="font-size-85pt yellow">Buy it</p>
+        </div>
+      </div>
+
+      <div class="half block use cover">
+        <p class="font-size-85pt yellow">Use it</p>
+      </div>
+
+      <div class="half block break cover">
+         <p class="font-size-85pt blue">Break it</p>
+      </div>
+      
+      <div class="half block fix cover">
+         <div class="square-yellow-45"></div>
+         <p class="font-size-85pt blue">Fix it</p> 
+      </div>
+      
+      <div class="half block trash cover">
+          <div class="square-yellow-45"></div>
+          <p class="font-size-85pt pink">Trash it</p> 
+      </div>
+      
+      <div class="half block change cover">
+          <p class="font-size-85pt pink">Change it</p> 
+      </div>
+      
+      <div class="half block up-grade1 cover">
+         <p class="font-size-100pt yellow">Mail     -</p> 
+      </div>
+      
+      <div class="half block up-grade2 cover">
+          <p class="font-size-100pt yellow">Up Grade</p>
+      </div>
+      
+      <div class="third block charge cover">
+          <div class="square-pink-30"></div>
+          <p class="font-size-72pt blue">Charge it</p>
+      </div>
+          
+      <div class="third block point cover">
+          <p class="font-size-72pt yellow">Point it</p>
+      </div>
+      
+      <div class="third block zoom cover">
+          <p class="font-size-72pt yellow">Zoom it</p>
+      </div>
+      
+      <div class="third block press cover">
+          <p class="font-size-72pt pink">Press it</p>`
+      </div>
+      
+      <div class="third block snap cover">
+          <div class="square-blue-30"></div>
+          <p class="font-size-72pt yellow">Press it</p>`
+      </div>
+      
+      <div class="third block work cover">
+          <p class="font-size-72pt yellow">Work it</p>`
+      </div>
+      <div class="half block erase1 cover"></div>
+      <div class="half block erase2 cover"></div>
+      <div class="quarter block write cover"></div>
+      <div class="quarter block cut cover"></div>
+      <div class="quarter block paste cover"></div>
+      <div class="quarter block save cover"></div>
+      <div class="quarter block load cover"></div>
+      <div class="quarter block check cover"></div>
+      <div class="quarter block bg-pink"></div>
+      <div class="quarter block bg-pink"></div>
+      <div class="quarter block plug cover"></div>
+      <div class="quarter block play cover"></div>
+      <div class="quarter block burn cover"></div>
+      <div class="quarter block rip cover"></div>
+      <div class="quarter block bg-yellow"></div>
+      <div class="quarter block bg-yellow"></div>
+      <div class="quarter block bg-pink"></div>
+      <div class="quarter block bg-pink"></div>
+      <div class="half block zip cover"></div>
+      <div class="half block un-zip cover"></div>
+      <div class="one-fifth block lock cover"></div>
+      <div class="one-fifth block fill cover"></div>
+      <div class="one-fifth block curl cover"></div>
+      <div class="one-fifth block find cover"></div>
+      <div class="one-fifth block view cover"></div>
+      <div class="one-fifth block coat cover"></div>
+      <div class="one-fifth block jam cover"></div>
+      <div class="one-fifth block unlock cover"></div>
+      <div class="one-fifth block surf cover"></div>
+      <div class="one-fifth block scroll cover"></div>
+      <div class="one-fifth block pose cover"></div>
+      <div class="one-fifth block click cover"></div>
+      <div class="one-fifth block cross cover"></div>
+      <div class="one-fifth block crack cover"></div>
+      <div class="one-fifth block twich cover"></div>
+      <div class="one-fifth block update cover"></div>
+      <div class="one-fifth block name cover"></div>
+      <div class="one-fifth block rate cover"></div>
+      <div class="one-fifth block tune cover"></div>
+      <div class="one-fifth block print cover"></div>
+      
+      
+      
+      
+      
+      
+
+      
+
+   
+
+    </div>
+
+  </body>
+
+</html>
