@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Assignment 1: Lyrical Grid</title>
+
+    <!-- leave this CSS file alone -->
+    <link href="percentages.css" rel="stylesheet" type="text/css" />
+
+    <style>
+
+      /* it will be easiest if you write your styles here */
+        
+        .bg-aliceblue { background-color: aliceblue; }
+        .cover {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center; 
+        }
+        .bg-image13 { 
+         background-image: url("Project1_PhotoRef/13.gif"); 
+          background-repeat: repeat;
+          background-size:150%; 
+          background-position: center;
+        }  
+     
+        .bg-image3 { 
+         background-image: url("Project1_PhotoRef/3.jpg");
+         background-position: center;  
+         background-size:110% ;
+         background-repeat:no-repeat;
+          }
+        
+        .bg-image6 { 
+         background-image: url("Project1_PhotoRef/6.jpg");
+         background-position: center;  
+         background-size:110% ;
+         background-repeat:no-repeat;
+          }
+        
+        .bg-lightgrey { background-color: lightgrey; }
+       
+        .block{ 
+            background-repeat: no-repeat;
+        }
+              
+        
+        .bg-image2{
+            background-image: url("Project1_PhotoRef/2.jpg");        
+            background-size:150%;
+            background-position: center;
+            top:25%;
+            left:25%;
+        }
+        .bg-image12{
+            background-image: url(Project1_PhotoRef/12.gif);
+            background-size:contain;
+            background-position: center;
+
+        }.bg-image8{
+            background-image: url(Project1_PhotoRef/8.jpg);
+            background-position: center;
+        
+        }
+
+        .bg-image4{
+            background-image: url(Project1_PhotoRef/4.gif);
+            background-size:contain;
+
+        }
+
+        .bg-image14{
+            background-image: url(Project1_PhotoRef/14.gif);
+            background-size:contain;
+        }
+
+         .bg-image15{
+            background-image: url(Project1_PhotoRef/15.gif);
+            background-size:contain;
+        }
+        
+        .bg-image9{
+            background-image: url(Project1_PhotoRef/9.jpg);
+            background-size:cover;
+            top:33%
+        }
+        .bg-image9.leftCenter {
+            left: -33%;
+        }
+        .leftCenter, .rightCenter {
+            background-size:200%;
+        }
+
+        .leftCenter {
+            background-position: left center;
+        }
+        .rightCenter {
+            background-position: right center;
+        }
+        .absolute{
+            position: absolute
+        }
+        .relative{
+            position: relative
+        }
+        
+        .absolute_text{
+            position: absolute;
+            bottom:10%;
+            left:-30%;
+        }
+
+        .absolute_text2{
+            position: absolute;
+            top:5%;
+            right:5%;
+            z-index:999;
+        }
+
+        .absolute_text3{
+            position: absolute;
+            top:12%;
+            left:10%;
+            z-index:999;
+        }
+        .absolute_text4{
+            position: absolute;
+            top:25%;
+            right:10%;
+            z-index:999;
+        }
+
+    </style>
+
+  </head>
+
+  <body>
+    <!-- this outer most <div> determines the width for everything -->
+    <div class="wrapper">
+      <!-- all these inner divs use the percentages.css file for their height and width /nesting -->
+      <!-- this one goes all the way across -->
+    
+    <div class="half block relative">
+        <div class="absolute_text2">Love hurts</div>
+        <div class="absolute_text3">But it's the only thing I know<br><br><br>We made these memories for ourselves</div>
+        <div class="half block bg-aliceblue"></div>
+        <div class="half block bg-lightgrey"></div>
+        <div class="quarter block bg-transparent"></div> 
+        <div class="quarter block bg-aliceblue"></div>
+        <div class="quarter block bg-lightgrey"></div>
+        <div class="quarter block bg-image15 leftCenter"></div>
+        <div class="half block bg-image13"></div>
+        <div class="half block bg-image13"></div>
+        <div class="half block bg-image4 leftCenter"></div>
+        <div class="half block bg-image4 rightCenter"></div>
+        <div class="half block bg-image13"></div>
+        <div class="half block bg-image13"></div>
+        <div class="half block bg-lightgrey"></div>
+        <div class="half block bg-lightgrey">
+          <div class="third block bg-image9 leftCenter absolute"></div>          
+          <div class="third block bg-image9 rightCenter absolute"></div>
+
+</div>
+
+        
+       
+ 
+    </div>
+    
+    <div class="half block relative">
+        <div class="absolute_text2">Remember when...</div>
+        <div class="absolute_text4">Times forever frozen still<br><br><br>It is the only thing that makes us feel alive</div>
+        <div class="half block bg-aliceblue"> </div>
+        <div class="half block bg-lightgrey"></div>
+        <div class="quarter block bg-image15 rightCenter"> </div>
+        <div class="quarter block bg-aliceblue"> </div>
+        <div class="quarter block bg-lightgrey"> </div>
+        <div class="quarter block bg-transparent"> </div>
+        
+        <div class="quarter block bg-aliceblue"></div>
+        <div class="quarter block bg-image3"></div>
+        <div class="quarter block bg-aliceblue"></div>
+        <div class="quarter block bg-image3"></div>
+    </div>
+    
+    <div class="half block bg-aliceblue relative">
+        <div class="quarter block bg-image6 "></div>
+        <div class="quarter block bg-transparent"></div>
+        <div class="quarter block bg-image6"></div>
+        <div class="quarter block bg-transparent"></div>
+        <div class="quarter block bg-transparent"></div>
+        <div class="quarter block bg-lightgrey"></div>
+        <div class="quarter block bg-lightgrey"></div>
+        <div class="quarter block bg-lightgrey"></div>
+        <div class="quarter block bg-lightgrey"></div>
+        <div class="quarter block bg-lightgrey"></div>
+        <div class="quarter block bg-lightgrey"></div>
+        <div class="quarter block bg-transparent"></div>
+        <div class="quarter block bg-transparent"></div>
+        <div class="quarter block bg-lightgrey"></div>
+        <div class="quarter block bg-transparent"></div>
+        <div class="quarter block bg-lightgrey"></div>
+        <div class="half block  bg-image2 absolute"></div>
+    </div>
+
+   <div class="half block reletive">
+    
+        <div class="quarter block bg-image12"></div>
+        <div class="quarter block bg-aliceblue"></div>
+        <div class="quarter block bg-image12"></div>
+        <div class="quarter block bg-aliceblue"></div>
+        <div class="half block bg-image14 leftCenter"></div>
+        <div class="half block bg-image14 rightCenter"></div>
+        <div class="absolute_text">Hold on to my hands</div>
+   </div>
+
+   <div class="half block">
+       <div class="block bg-image8 leftCenter" ></div>
+   </div>            
+    
+   <div class="half block">
+       <div class="block bg-image8 rightCenter"></div>
+      
+   </div>
+
+
+
+  </body>
+
+</html>

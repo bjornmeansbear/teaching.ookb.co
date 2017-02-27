@@ -1,0 +1,569 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Assignment 1: Lyrical Grid</title>
+
+    <!-- leave this CSS file alone -->
+    <link href="percentages.css" rel="stylesheet" type="text/css"/>
+
+    <style>
+      /** some custom colors, etc. You can do this same thing with whatever you need. Delete my starter junk **/
+      /********* color modules **********/
+      .bg-blue1              { background-color: rgba(161,189,229,1); }
+      .bg-blue2              { background-color: rgba(106,154,229,1); }
+      .bg-blue3              { background-color: rgba(183,243,249,1); }
+      .bg-blue4              { background-color: rgba(152,244,244,1); }
+        .bg-blue5              { background-color: rgba(66,90,124,1); }
+      .bg-green1             { background-color: rgba(103,201,211,1); }
+      .bg-purple1             { background-color: rgba(224,151,247,1); }
+      .bg-purple2             { background-color: rgba(159,105,237,1); }
+      .bg-pink               { background-color: rgba(247,134,134,1); }
+      .bg-green              { background-color: rgba(140,165,115,1); }
+      .bg-orange               { background-color: rgba(252,192,56,1); }
+      .bg-pink2              { background-color: rgba(247,210,231,1); }
+      .bg-white              { background-color: rgba(255,255,255,1); }
+        .bg-pink3              {background-color:rgba(224,209,222,1);}
+      .bg-transparent         {background-color:transparent}
+        
+        .relative { position: relative; }
+        .absolute { position: absolute; }
+        .quadrant { background-size: 200% 200%;}
+        .image-hover {display: none;top:0;left:0;margin:0;}
+        .image-wrapper:hover .image-hover {display:block}
+        .circle {width:50px; height:50px; border-radius:25px;}
+        .small-square {border-style: solid; border-width:10px; border-color: white}
+        .small-square2 {border-style: solid; border-width:7px; border-color: dimgray}
+
+        .topLeft { background-position: top left; }
+        .topRight { background-position: top right; }
+        .bottomLeft { background-position: bottom left; }
+        .bottomRight { background-position: bottom right; }
+        
+        .text1{
+            position:absolute;
+            font-family:"Gotham Rounded", sans-serif;
+            font-size: 7vw;
+            color:white;
+            z-index:10;
+            text-align:left;
+            top:10%;
+            left:150px;
+        }
+        
+         .text2{
+            position:absolute;
+            font-family:"Gotham Rounded", sans-serif;
+            font-size: 7vw;
+            color:white;
+            z-index:1000;
+            text-align:left;
+            width:800px;
+            top:30%;
+            left:580px 
+        }
+        
+        .text3{
+            position:absolute;
+            font-family:"Gotham Rounded", sans-serif;
+            font-size: 7vw;
+            color:white;
+            z-index:10;
+            text-align:left;
+            top:55%;
+            left:320px 
+        }
+        
+        .text4{
+            position:absolute;
+            font-family:"Gotham Rounded", sans-serif;
+            font-size: 7vw;
+            color:white;
+            z-index:10;
+            text-align:left;
+            width:600px;
+            top:75%;
+            left:350px 
+        }
+        
+         .text5{
+            position:absolute;
+            font-family:"Didot", serif;
+            font-size: 18pt;
+            color:white;
+            z-index:10;
+            text-align:right;
+            width:600px;
+            top:60px;
+            left:-280px 
+        }
+        .text6{
+            position:absolute;
+            font-family:"Didot", serif;
+            font-size: 18pt;
+            color:white;
+            z-index:10;
+            text-align:right;
+            width:600px;
+            top:95px;
+            left:-280px;
+            letter-spacing: 5pt;
+        }
+        
+        .text7{
+            position:absolute;
+            font-family:"Didot", serif;
+            font-size: 18pt;
+            color:gray;
+            z-index:10;
+            text-align:left;
+            width:600px;
+            top:600px;
+            left:430px;
+            
+        }
+        
+      /** put your custom CSS here, or create and link to your own new css file **/
+      .cover {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .image1 {
+        background-image: url('img/ocean1.jpg');
+      }
+      .image2 {
+        background-image: url('img/pineapple.jpg');
+      }
+      .image3 {
+        background-image: url('img/galaxy_1.jpg');
+      }
+      .image4 {
+        background-image: url('img/wheel.gif');
+      }
+      .image5 {
+        background-image: url('img/orange1.jpg');
+      }
+      .image6 {
+        background-image: url('img/orange2.jpg');
+      }
+      .image7 {
+        background-image: url('img/yellow1.jpg');
+      }
+      .image8 {
+        background-image: url('img/yellow2.jpg');
+      }
+      .image9 {
+        background-image: url('img/watermelon.jpg');
+      }
+      .image10 {
+        background-image: url('img/text1.gif');
+      }
+      .image11 {
+        background-image: url('img/rhythm.gif');
+      }
+      .image12 {
+        background-image: url('img/yellow.png');
+      }
+      .image13{
+        background-image: url('img/squiggle1.png');
+      }
+      .image14{
+        background-image:url('img/leaf1.png');
+      }
+      .image15{
+        background-image:url('img/leaf2.png');
+      }
+      .image16{
+        background-image:url('img/circle.png');
+      }
+      .image17{
+         background-image:url('img/island.gif');   
+      }
+      .image18{
+         background-image:url('img/ocean2.jpg');   
+      }
+      .image19{
+         background-image:url('img/drink.jpg');   
+      }
+      .image20{
+         background-image:url('img/sky.jpg');   
+      }
+      .image21{
+         background-image:url('img/beach1.jpg');   
+      }
+      .image22{
+         background-image:url('img/beach2.jpg');   
+      }
+      .image23{
+         background-image:url('img/beach3.jpg');   
+      }
+      .image24{
+         background-image:url(img/gradation.png);
+        }
+      .image25{
+         background-image:url(img/star.gif);
+        }
+        
+    </style>
+
+  </head>
+
+  <body>
+    <!-- this outer most <div> determines the width for everything -->
+    <div class="wrapper">
+      <!-- all these inner divs use the percentages.css file for their height and width /nesting -->
+
+      <!-- this one goes all the way across -->
+      <div class="block image1 cover"></div>
+
+      <!-- this is only half width, plus it contains children... -->
+        <div class="half block">
+            <div class="quarter block bg-transparent relative">
+                <div class="half block image5 cover absolute image-wrapper">
+                    <div class="block image4 cover image-hover"></div>
+                </div>
+                <div class="half block image5 cover absolute image-wrapper">
+                    <div class="block image4 cover image-hover"></div>
+                </div>
+            </div>
+            <div class="quarter block bg-transparent"></div>
+            
+            <div class="quarter block bg-transparent">
+                 <div class="half block image6 cover absolute">
+                    <div class="block image4 cover image-hover"></div>
+                </div>
+                <div class="half block image6 cover absolute">
+                    <div class="block image4 cover image-hover"></div>
+                </div>
+                 <div class="half block image6 cover absolute">
+                    <div class="block image4 cover image-hover"></div>   
+                </div>
+                 <div class="half block image6 cover absolute">
+                    <div class="block image4 cover image-hover"></div>
+                </div>
+            </div>
+            <div class="quarter block bg-transparent"></div>
+            <div class="quarter block bg-transparent"></div>
+            <div class="quarter block bg-transparent">
+                <div class="half block image7 cover absolute image-wrapper">
+                    <div class="block image4 cover image-hover"></div> 
+                </div>
+            </div>
+            <div class="quarter block bg-transparent">
+                <div class="half block bg-transparent"></div>
+            </div>
+            <div class="quarter block bg-transparent">
+                <div class="half block image7 cover absolute image-wrapper">
+                    <div class="block image4 cover image-hover"></div>
+                </div>
+                <div class="half block image7 cover absolute image-wrapper">
+                    <div class="block image4 cover image-hover"></div>
+                </div>
+            </div>
+            
+            <div class="half block bg-transparent">  
+                <div class="quarter block image5 cover absolute image-wrapper">
+                    <div class="block image4 cover image-hover"></div>
+                </div>
+            </div>
+            
+            <div class="half block bg-transparent">
+                <div class="quarter block image6 cover absolute image-wrapper">
+                    <div class="block image4 cover image-hover"></div>
+                </div>
+            </div>
+            </div>
+           
+        </div>
+              
+        <div class="half block bg-transparent">
+            
+            <div class="half block bg-transparent">
+                <div class="half block bg-transparent">
+                    <div class="half block bg-transparent"></div>
+                    <div class="half block bg-transparent"></div>
+                    <div class="half block image6 cover image-wrapper">
+                         <div class="block image4 cover image-hover"></div> 
+                    </div>
+                </div>
+                
+                <div class="half block bg-transparent"></div>
+                <div class="half block bg-transparent">
+                    <div class="half block bg-transparent"></div>
+                    <div class="half block bg-transparent"></div>
+                    <div class="half block bg-transparent"></div>
+                </div>
+                 <div class="quarter block image8 cover">
+                    <div class="block image4 cover image-hover"></div>
+                 </div>
+            </div>
+            
+            <div class="quarter block bg-transparent">
+                <div class="half block bg-transparent"></div>
+                <div class="half block bg-transparent"></div>
+                <div class="half block image5 cover image-wrapper">
+                    <div class="block image4 cover image-hover"></div> 
+                </div>
+            </div>
+            
+            <div class="quarter block bg-transparent">
+                <div class="half block bg-transparent"></div>
+                <div class="half block bg-transparent"></div>
+                <div class="half block image8 cover image-wrapper">
+                    <div class="block image4 cover image-hover"></div> 
+                </div>    
+            </div>
+            
+            <div class="quarter block bg-transparent">
+            <div class="half block bg-transparent"></div>
+                <div class="half block bg-transparent"></div>
+                <div class="half block bg-transparent"></div>
+                <div class="half block bg-transparent"></div>
+            </div>
+            
+            <div class="quarter block bg-transparent">    
+            <div class="half block bg-transparent"></div>
+                <div class="half block bg-transparent"></div>
+                <div class="half block image5 cover">
+                    <div class="block image4 cover image-hover"></div>
+                </div>
+                <div class="half block bg-transparent"></div>
+            </div>
+            
+            <div class="half block transparent">
+                <div class="half block bg-transparent"></div>
+                <div class="quarter block image6 cover">
+                    <div class="block image4 cover image-hover"></div>
+                </div>
+                <div class="half block bg-transparent"></div>
+            </div>
+            
+            <div class="half block bg-transparent">
+                <div class="quarter block image7 cover image-wrapper">
+                    <div class="block image4 cover image-hover">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="half block bg-transparent relative">
+            <div class="half block bg-transparent absolute image2 cover"
+                 style="top: 25%; left: 25%;">
+            </div>
+        </div>     
+       
+
+        <div class="half block image10 cover"></div>
+      
+        <div class="half block image11 cover"></div>
+        
+        <div class="quarter block bg-transparent">
+            <div class="half block bg-transparent"></div>
+            <div class="half block bg-transparent"></div>
+            <div class="half block bg-transparent"></div>
+            <div class="half block image1 topLeft quadrant"></div>
+        </div>
+        
+        <div class="quarter block bg-transparent">
+            <div class="half block bg-transparent"></div>
+            <div class="half block bg-transparent"></div>
+            <div class="half block image1 topRight quadrant"></div>
+            <div class="half block bg-transparent"></div>
+        </div>
+          
+      <div class="quarter block bg-transparent">
+            <div class="half block bg-transparent"></div>
+            <div class="half block image1 bottomLeft quadrant"></div>
+            <div class="half block bg-transparent"></div>
+            <div class="half block bg-brown"></div>
+        </div>
+      
+      <div class="quarter block bg-transparent">
+          <div class="half block image1 bottomRight quadrant"></div>
+            <div class="half block bg-transparent"></div>
+            <div class="half block bg-transparent"></div>
+            <div class="half block bg-transparent"></div>
+        </div>
+      
+      <div class="quarter block bg-purple1 small-square"></div>
+      <div class="quarter block bg-blue4 small-square"></div>
+      <div class="quarter block bg-purple1 small-square"></div>
+      <div class="quarter block bg-blue4 small-square"></div>
+      
+      <div class="block bg-blue3 relative"> 
+        <div class="block text1">
+            Your
+        </div>
+        <div class="block text2">
+        <marquee behavior="alternate"><i>Sweetness</i></marquee>
+        </div> 
+        <div class="block text3">
+            And Your 
+        </div>
+          <div class="block text4">
+        <marquee behavior="alternate"><i>Elegance</i></marquee>
+        </div>
+          
+        <div class="quarter block bg-transparent absolute"
+             style="top:6%; left:45%;">
+            <div class="half block image15 cover absolute"
+             style="top:0%; left:25%; z-index:1;"></div>
+        </div>
+          
+        <div class="quarter block bg-transparent absolute">
+            <div class="half block image14 cover absolute"
+             style="top:110%; left:200%; z-index:1;"></div>
+        </div>
+          
+        <div class="quarter block bg-transparent absolute"
+             style="top:40%; left:45%;">
+            <div class="half block image15 cover absolute"
+                 style="top:20%; left:25%; z-index:1"></div></div>   
+          
+        <div class="half block image16 cover absolute"
+             style="top:5%; left:5%;"></div>
+        <div class="quarter block bg-pink small-square2 absolute"
+             style="top:5%; left:70%;"></div>
+        <div class="quarter block bg-purple2 cover small-square2 absolute"
+             style="top:35%; left:70%;"></div>  
+          
+        <div class="quarter block bg-pink small-square2 absolute"
+             style="top:65%; left:70%;"></div>
+          
+        <div class="half block image12 cover absolute"
+             style="top:30%; left:15%;"></div>
+          
+        <div class="quarter block bg-blue3 absolute"
+             style="top:60%; left:45%;">
+          <div class="half block image14 cover absolute"
+             style="top:18%; left:25%;"></div>
+          <div class="half block image15 cover absolute"
+             style="top:89%; left:25%;"></div></div> 
+        <div class="half block bg-transparent absolute"></div>       
+    </div>
+      
+    <div>
+        <div class="half block image10 cover small-square"></div>
+        <div class="half block bg-transparent">
+            <div class="half block bg-blue2 circle small-square"></div>
+            <div class="block bg-orange circle small-square"></div>
+            <div class="block bg-blue2 circle small-square"></div>
+            <div class="block bg-transparent circle small-square"></div>
+            
+            <div class="half block bg-transparent circle small-square"></div>
+            <div class="half block bg-transparent circle small-square"></div>
+            
+            <div class="half block bg-orange circle small-square"></div>
+            <div class="block bg-blue2 circle small-square"></div>
+            <div class="block bg-blue2 circle small-square"></div>
+            <div class="block bg-transparent circle small-square"></div>
+            
+            <div class="half block bg-transparent circle small-square"></div>
+            <div class="half block bg-transparent circle small-square"></div>
+            
+            <div class="half block bg-blue2 circle small-square"></div>
+            <div class="block bg-blue2 circle small-square"></div>
+            <div class="block bg-orange circle small-square"></div>
+            <div class="block bg-transparent circle small-square"></div>
+            
+            <div class="half block bg-transparent circle small-square"></div>
+            <div class="half block bg-transparent circle small-square"></div>
+            
+            <div class="half block bg-transparent circle small-square">
+            <div class="block bg-transparent circle small-square"></div>
+            <div class="half block bg-transparent circle small-square"></div>
+            <div class="block bg-pink circle small-square"></div>
+            <div class="block bg-pink circle small-square"></div></div>
+            <div class="half block bg-pink circle small-square"></div>
+            
+            <div class="half block bg-transparent circle small-square"></div>
+            <div class="half block bg-transparent circle small-square"></div>
+            
+            <div class="half block bg-blue2 circle small-square"></div>
+            <div class="block bg-orange circle small-square"></div>
+            <div class="block bg-blue2 circle small-square"></div>
+            <div class="block bg-transparent circle small-square"></div>
+            
+            <div class="half block bg-transparent circle small-square"></div>
+            <div class="half block bg-transparent circle small-square"></div>
+            
+            <div class="half block bg-orange circle small-square"></div>
+            <div class="block bg-blue2 circle small-square"></div>
+            <div class="block bg-blue2 circle small-square"></div>
+            <div class="block bg-transparent circle small-square"></div>
+            
+            <div class="half block bg-transparent circle small-square"></div>
+            <div class="half block bg-transparent circle small-square"></div>
+            
+            <div class="half block bg-blue2 circle small-square"></div>
+            <div class="block bg-blue2 circle small-square"></div>
+            <div class="block bg-orange circle small-square"></div>
+            <div class="block bg-transparent circle small-square"></div>
+            
+        </div>
+        
+        <div class="half block bg-transparent relative">
+            <div class="half block image20 cover absolute"
+                        style="top:10%; left:10%; width:100px; length:100px; opacity:0.6;"></div>
+            <div class="half block image1 cover absolute"
+                        style="top:10%; left:40%; width:100px; length:100px;"></div>
+            <div class="half block image23 cover absolute"
+                        style="top:10%; left:70%; width:100px; length:100px;"></div>
+            <div class="half block image18 cover absolute"
+                        style="top:40%; left:10%; width:100px; length:100px; opacity:0.8;"></div>
+            <div class="half block image21 cover absolute"
+                        style="top:40%; left:40%; width:100px; length:100px; opacity:0.7;"></div>
+            <div class="half block image22 cover absolute"
+                        style="top:40%; left:70%; width:100px; length:100px;"></div>
+            <div class="half block image19 cover absolute"
+                        style="top:70%; left:10%; width:100px; length:100px; opacity:0.8;"></div>
+            <div class="half block image9 cover absolute"
+                        style="top:70%; left:40%; width:100px; length:100px; opacity:0.8;"></div>
+            <div class="half block image3 cover absolute"
+                        style="top:70%; left:70%; width:100px; length:100px; opacity:0.7;"></div>
+        </div>
+        </div>
+        
+        <div class="half block image17 cover small-square"></div>
+        
+        <div class="half block bg-pink2">
+            <div class="half block bg-blue1"
+                  style="top:170px; left: 25%;"></div>
+            <div class="quarter block bg-pink"
+                  style="top:260px; left:-90px;"></div>
+            <div class="quarter block image25 cover absolute"
+                     style="top:260px; left:270px;"></div>
+            <div class="text5">
+                I'm spending my time
+                </div>
+                <div class="text6">
+                watching
+                </div>
+                <div class="text7">
+                the ship and the globe
+                </div>
+        </div>
+      
+        <div class="half block image11 cover"></div>
+      
+      
+       
+                
+        
+     
+            
+    
+      
+        
+     
+   
+      
+
+      
+  </body>
+
+</html>
