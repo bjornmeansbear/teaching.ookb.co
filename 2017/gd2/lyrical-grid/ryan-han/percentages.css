@@ -1,0 +1,182 @@
+`/** ******************************************** **/
+/** ******************************************** **/
+/** Design Students: Please Don't Edit this File **/
+/** ******************************************** **/
+/** ******************************************** **/
+
+
+
+
+.color-lightyellow{
+    background-color: lightgoldenrodyellow;
+}
+.color-yellow{
+    background-color: rgba(255, 232, 163, 0.97);
+}
+.color-lime{
+    background-color: lawngreen;
+}
+.color-green{
+    background-color: lime;
+}
+.color-magenta{
+    background-color: magenta;
+    opacity:.8;
+}
+.color-hotpink{
+    background-color: hotpink;
+    opacity:.8;
+}
+.color-white{
+    background-color: white;
+}
+.color-black{
+    background-color: black
+}
+.color-aqua{
+    background-color: aqua;
+}
+.color-lighterblue{
+    background-color: powderblue;
+}
+.color-lightblue{
+    background-color: rgba(124, 190, 228, 0.8);
+}
+.color-oblue{
+    background-color: rgba(124, 190, 228, 0.8);
+    opacity: .4
+}
+.color-blue{
+    background-color: cadetblue;
+}
+.color-aquamarine{
+    background-color: aquamarine;
+}
+.color-corn{
+    background-color: cornflowerblue;
+}
+.color-darkblue{
+    background-color:darkblue;
+    opacity: .8;
+}
+.color-darkslate{
+    background-color: darkslateblue;
+}
+.color-orange{
+    background-color: rgba(255, 204, 36, 1);
+}
+.color-grey{
+    background-color: lightgrey;
+    opacity: .8;
+}
+.grad {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/** setup! **/
+.block {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.block::after {
+  padding-top: 100%;
+  display: block;
+  content: '';
+}
+
+.block img {
+  width: 100%;
+  height: auto;
+}
+
+.three-quarter.block {
+  width: 75%;
+}
+
+.two-third.block {
+  width: calc(100% / 3 * 2);
+}
+
+.half.block {
+  width: 50%;
+}
+
+.third.block {
+  width: calc(100% / 3);
+}
+
+.quarter.block {
+  width: 25%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+p {
+    font-size: 2vw;
+    font-family: avenir, arial, san-serif;
+    color: skyblue;
+    text-align: right;
+    font-weight: bold;
+    
+}
+h1 {
+    font-size: 1.2vw;
+    font-family: arial, san-serif;
+    color: antiquewhite;
+    text-align: right;
+    font-weight: 100;
+    opacity: .8;
+}
+h2 {
+    font-size: 1.3vw;
+    font-family: helvetica, san-serif;
+    color: skyblue;
+    text-align: right;
+    font-weight: 400;
+    opacity: .7;
+}
+h3 {
+    font-size: 1.5vw;
+    font-family: avenir, arial, san-serif;
+    color: skyblue;
+    text-align: center;
+    font-weight: 300;
+}
+a {
+     font-size: 1.3vw;
+    font-family: helvetica, san-serif;
+    color: skyblue;
+    text-align: right;
+    font-weight: 400;
+    opacity: .7;
+}
