@@ -1,0 +1,393 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Lost Star</title>
+
+    <link href="percentages.css" rel="stylesheet" type="text/css" />
+
+    <style>
+    
+      .bg-pink               { background-color: rgba(236,064,121,0.4); }
+      .bg-plum               { background-color: rgba(221,160,221,0.3); }
+      .bg-turquo             { background-color: rgba(64,224,208,0.3); }
+      .bg-darkgray           { background-color: rgba(96,103,103,1); }
+      .bg-lighttea           { background-color: rgba(175,238,238,0.5); }
+      .bg-red                { background-color: rgba(240,128,128,0.4); }
+      .bg-deeppink           { background-color: rgba(255,20,147,0.4);  }
+      .bg-yellow             { background-color: rgba(197,192,101,1); }
+      .bg-green              { background-color: rgba(0,139,139,0.6); }
+      .bg-blue               { background-color: rgba(106,90,205,0.5); }
+      .bg-purple             { background-color: rgba(174,139,164,1); }
+      .bg-black              { background-color: rgba(000,000,000,1); }
+      .bg-white              { background-color: rgba(255,255,255,0.2); }
+      .bg-gold               { background-color: rgba(255,215,0,0.5); }
+      .bg-salmon             { background-color: rgba(255,160,122,0.5);} 
+      .bg-LightBlue	         { background-color: rgba(135,206,250,0.4);} 
+      .bg-trans              { background-color: rgba(248,248,255,0);} 
+      .bg-Maroon	         { background-color: rgba(128,0,0,0.6);}          
+      .bg-teal               { background-color: rgba(0,128,128,1);}   
+      .bg-navy               { background-color: rgba(0,0,128,0.5);}   
+      .bg-fblue              { background-color: rgba(100,149,237,0.2);}  
+      .bg-mgreen             { background-color: rgba(102,205,170,0.7);}  
+        
+ #grad {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(salmon, navy); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(salmon, navy); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(salmon, navy); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(salmon, navy); /* Standard syntax */
+}
+        
+        
+        
+        .circle { border-radius: 50%; }
+        .border-dashed{border:2px dashed white}
+        .transitions hover {width: 300px;}
+        .text color{text-decoration-color: darkturquoise}
+        
+        .absolute{ position: absolute}
+        .relative{position:relative}
+        .center{ text-align: center}
+        .fixed{position:fixed}
+        
+        .cover {
+        background-position: center center;
+        background-repeat: repeat;
+        background-size: cover;
+        }
+      .image1 {
+        background-image: url('https://media.giphy.com/media/7fqAy6Xz6IrG8/giphy.gif') ;
+        }
+      .image2 {
+        background-image: url('http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Decorative-Elements-PNG/Water_Drops_PNG_Picture.png?m=1399672800');
+        }
+      .image3 {
+        background-image: url('https://s-media-cache-ak0.pinimg.com/originals/34/c5/37/34c53759826b9c0b041c84d522cd3699.gif');
+        }
+      .image4 {
+        background-image: url('');
+        }
+      .image5 {
+        background-image: url('http://static.tumblr.com/69d067e5cfd225e6860a831b15484fe2/lseu87n/boJohu7o6/tumblr_static_dge510ii5xs8s8o40wcso0kws.png');
+        }
+      .image6 {
+        background-image: url(https://leonawicz.github.io/mapmate/brdr_10fps_stacking.gif);
+       }
+      .image7 {
+        background-image: url('http://25.media.tumblr.com/tumblr_mdn5d7S8NJ1rkm7myo1_500.gif');
+       }
+      .image8{
+          background-image: url(https://s-media-cache-ak0.pinimg.com/564x/94/2f/84/942f84e005e08733346c987d72e07460.jpg)
+      }
+      .image9{
+          background-image:url(http://blog.websitetemplates.bz/wp-content/uploads/2011/06/7-Walking-human-3d-animated-gif-images.gif)
+        }
+      .image10{
+          background-image:url(https://s-media-cache-ak0.pinimg.com/564x/2a/f6/a9/2af6a947b2178da9d3159a11d47137e2.jpg)
+        }
+      .image11{
+          background-image:url(http://s7.favim.com/orig/150930/cool-gif-holographic-human-Favim.com-3382067.gif)
+        }
+      .image12{
+          background-image:url(http://40.media.tumblr.com/56fbec88221cf4171c012334c8d9f68b/tumblr_no3zja5Sts1uqbgeyo1_1280.png)
+        }
+      .image13{
+          background-image:url(https://lh3.googleusercontent.com/-7kGkxXc5k0Q/VzV0k25CwcI/AAAAAAABI1s/Oy2dY566fUIKRmAtUEeN5mEKy09-ND92w/w800-h800/tumblr_np2uhw5FYo1rte5gyo1_500.gif)
+        }
+        
+      .image14{
+          background-image:url(http://38.media.tumblr.com/30989303b244278454e07c53dd3a47ac/tumblr_nxa257Q6Zh1uzo3myo1_1280.gif)
+        }
+    
+      .showHover {
+            display: none;
+        }
+        
+       .block:hover > .showHover {
+            display: block;
+        }
+        
+    .centered{ position:fixed;
+    top:50%;
+    left:50%;
+        transform:translate(-50%,-50%);}
+        
+        
+        
+ .logo{
+    top:50%;
+    right:50%;
+    bottom:50%;
+    left:50%;
+    z-index:1;
+    transform: translate(-50%,-50%);
+    width: 120px;
+    
+}
+        
+.rw-wrapper{
+	width: 80%;
+	position: relative;
+	margin: 110px auto 0 auto;
+	font-family: 'Hijrnotes PERSONAL USE ONLY';
+	padding: 10px;
+}
+.rw-sentence{
+	margin: 0;
+	text-align: left;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+.rw-sentence span{
+	color: papayawhip;
+	white-space: nowrap;
+	font-size: 200%;
+	font-weight: normal;
+}
+.rw-words{
+	display: inline;
+	text-indent: 10px;
+}
+.rw-words span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 100%;
+	color: darkseagreen;
+}
+.rw-words-1 span{
+	animation: rotateWordsFirst 18s linear infinite 0s;
+}
+.rw-words-2 span{
+	animation: rotateWordsSecond 18s linear infinite 0s;
+}
+.rw-words span:nth-child(2) { 
+	animation-delay: 3s; 
+	color: mediumvioletred;
+}
+.rw-words span:nth-child(3) { 
+	animation-delay: 6s; 
+	color: deepskyblue;	
+}
+.rw-words span:nth-child(4) { 
+	animation-delay: 9s; 
+	color: hotpink;
+}
+.rw-words span:nth-child(5) { 
+	animation-delay: 12s; 
+	color: aquamarine;
+}
+.rw-words span:nth-child(6) {  
+	animation-delay: 15s; 
+	color: mistyrose;
+}
+@keyframes rotateWordsFirst {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+	25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWordsSecond {
+    0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
+    10% { opacity: 0.3; width: 0px; }
+	20% { opacity: 1; width: 100%; }
+    27% { opacity: 0; width: 100%; }
+    100% { opacity: 0; }
+}
+        
+        
+    </style>
+
+
+      
+      </head>
+    
+   
+
+  <body>
+      
+      
+     
+    <!-- this outer most <div> determines the width for everything -->
+    <div class="image">
+        
+   <span style="cursor: url(http://38.media.tumblr.com/30989303b244278454e07c53dd3a47ac/tumblr_nxa257Q6Zh1uzo3myo1_1280.gif)"></span>
+    
+    <img class="fixed logo" src="http://38.media.tumblr.com/30989303b244278454e07c53dd3a47ac/tumblr_nxa257Q6Zh1uzo3myo1_1280.gif">
+      <!-- all these inner divs use the percentages.css file for their height and width /nesting -->
+          
+          <div class="block image10 cover">
+          <div class="quarter block bg-trans"></div>
+          <div class="half block image8 cover circle "></div>
+          <div class="half block bg-trans ">
+          <div class="quarter block bg-trans"></div>
+          <div class="quarter block bg-trans circle">
+          <div class="block bg-plum circle cover">
+               <p class="showHover" style="color:white;font-size:70px;font-family:Hijrnotes PERSONAL USE ONLY;">dream</p></div>
+              <div class=" half block bg-blue circle cover">
+                  </div></div>
+              <div class="half block bg-trans">
+              <div class="quarter block bg-trans"></div>
+              <div class="quarter block bg-pink cover circle">
+                <p class="showHover"style="color:white;font-size:70px;font-family:Hijrnotes PERSONAL USE ONLY;">hunting</p>
+                  </div>
+              <div class="half block bg-trans circle"></div>
+              <div class="half block bg-trans circle"></div>
+              <div class="half block bg-turquo cover circle">
+                  <p class="showHover"style="color:white;font-size:90px;font-family:Hijrnotes PERSONAL USE ONLY">Cupid</p></div></div>
+              <div class="half block bg-salmon cover circle">
+                  <p class="showHover"style="color:white;font-size:30px;font-family:Hijrnotes PERSONAL USE ONLY;">So let's get drunk on our tears </p></div>
+              <div class="quarter block bg-trans">
+              <div class="three quarter block circle bg-green"></div>
+              <div class="half block bg-trans circle"></div>
+              <div class="half block bg-navy cover circle">
+                  <p class="showHover"style="color:white;font-size:50px;font-family:Hijrnotes PERSONAL USE ONLY;">tomorrow</p></div></div>
+              <div class="quarter block bg-trans"></div>
+              <div class="quarter block bg-trans"></div>
+              <div class="quarter block bg-lighttea cover circle">
+                  <p class="showHover"style="color:white;font-size:12px;font-family:Hijrnotes PERSONAL USE ONLY;">light up the dark</p></div></div>
+              <div class="half block bg-trans">
+              <div class="quarter block bg-trans">
+              <div class="half block bg-trans"></div>
+              <div class="half block bg-trans"></div>
+              <div class="half block bg-trans"></div>
+              <div class="half block bg-LightBlue cover circle">
+                <p class="showHover"style="color:white;font-size:180%;font-family:Hijrnotes PERSONAL USE ONLY;">ending </p></div></div>
+              <div class="quarter block bg-trans"></div>
+              <div class="quarter block bg-red cover circle">
+                <p class="showHover"style="color:white;font-size:30px;font-family:Hijrnotes PERSONAL USE ONLY;">call my name </p></div>
+              <div class="quarter block bg-trans circle"></div>
+              <div class="three quarter block bg-trans"></div>
+              <div class="half block bg-fblue cover circle">
+                <p class="showHover"style="color:white;font-size:50px;font-family:Hijrnotes PERSONAL USE ONLY;">a lion kiss a deer </p></div>
+              <div class="half quarter block bg-trans"></div>
+              <div class="three quarter block bg-LightBlue circle">
+                <p class="showHover"style="color:white;font-size:180%;font-family:Hijrnotes PERSONAL USE ONLY;">lost stars</p></div>
+              <div class="half quarter block bg-trans cover circle">
+              <div class="half quarter block bg-LightBlue circle cover">
+                <p class="showHover"style="color:white;font-size:180%;font-family:Hijrnotes PERSONAL USE ONLY;">tears</p></div></div>
+              <div class="quarter block bg-red circle cover">
+                  <p class="showHover"style="color:white;font-size:180%;font-family:Hijrnotes PERSONAL USE ONLY;">Who are we</p></div>
+      <div class="half block rw-wrapper relative" style="top:80% ;left:-80%">
+	<h2 class="rw-sentence">
+		<span>LOST STAR</span>
+		
+		<div class="rw-words rw-words-1">
+			<span>breathtaking moment</span>
+			<span> fantasies </span>
+			<span>incredible magic</span>
+			<span>unseen experiences</span>
+			<span>So let's get drunk on our tears</span>
+			<span>beautiful butterflies</span>
+		</div>
+		<br />
+		<span>with a silent touch of</span>
+		<div class="rw-words rw-words-2">
+			<span>sugar</span>
+			<span>spice</span>
+			<span>colors</span>
+			<span>happiness</span>
+			<span>wonder</span>
+			<span>happiness</span>
+		</div>
+	</h2>
+</div></div>
+            
+     <!--2-->
+                <div class="block image2 cover relative" style="opacity:50%;" >
+                <div class="half block image13 circle cover absolute" style="top:10%;left:25% ">
+                <div class="half block bg-red circle cover">
+                <div class="half block bg- cover "></div></div>
+                <div class="quarter block bg-trans"></div>
+                <div class="half block bg-trans"></div>
+                <div class="quarter block bg-trans"></div>
+                <div class="quarter block bg-trans"></div>
+                <div class="quarter block bg-trans circle"></div>
+                <div class="quarter block bg-red circle">
+                </div></div>
+                <div class="sixteenth block bg-red circle absolute" style="top:60% ;left:47%"></div>
+                <div class="sixteenth block bg-red circle absolute" style="top:65% ;left:47%"></div>
+                <div class="sixteenth block bg-red circle absolute" style="top:70% ;left:47%"></div>
+                <div class="sixteenth block bg-red circle absolute" style="top:75% ;left:47%"></div>
+                <div class="sixteenth block bg-red circle absolute" style="top:80% ;left:47%"></div>
+                <div class="sixteenth block bg-navy circle absolute" style="top:90% ;left:47%"></div>
+                <div class="sixteenth block bg-navy circle absolute" style="top:100% ;left:47%"></div>
+              
+              
+              </div>
+  
+              
+            
+   
+            
+        
+        
+         <!--3-->
+              <div class=" block image11 cover relative">
+              <div class="quarter block bg-salmon circle absolute" style="top:40% ;left:60%"> </div>
+              <div class="quarter block bg-navy circle absolute" style="top:10% ;left:45%"></div>
+              <div class="quarter block bg-mgreen circle absolute" style="top:60% ;left:10%"></div>
+              <div class="sixteenth block bg-navy circle absolute" style="top:80% ;left:47%"></div>
+              <div class="sixteenth block bg-navy circle absolute" style="top:90% ;left:47%"></div>
+              <div class="sixteenth block bg-red circle absolute" style="top:100% ;left:47%"></div>
+              
+              </div>   
+              
+              
+              
+              
+         <!--4-->      
+        <div class=" block bg-trans cover relative">
+        <div class=" circle half block image7 cover absolute" style="top:15%;left:25%;">
+        <div class="eighth block bg-red circle absolute" style="top:100% ;left:45%"></div>
+        <div class="eighth block bg-red circle absolute" style="top:90% ;left:45%"></div>   
+        <div class="eighth block bg-red circle absolute" style="top:80% ;left:45%"></div>   
+        <div class="eighth block bg-red circle absolute" style="top:70% ;left:45%"></div> 
+       </div></div>
+
+        
+         <!--5--> 
+        <div class=" block bg-trans cover relative">
+
+        <div class=" quarter block image1 circle cover absolute" style="top:5%;left:38%;"></div>     
+        <div class=" quarter block bg-fblue circle cover absolute" style="top:5%;left:38%;"></div> 
+        <div class=" quarter block image1 circle cover absolute" style="top:90%;left:38%;"></div>
+        <div class=" quarter block bg-fblue circle cover absolute" style="top:90%;left:38%;"></div>
+        <div class=" half block image6 circle cover absolute" style="top:35%;left:25%;"><p style="color:white;font-size:50px;font-family:Hijrnotes PERSONAL USE ONLY;">Just a boy caught up in dreams and fantasies </p></div></div>
+              
+              
+              
+        <!--6--> 
+        <div class=" block bg-trans cover relative">
+        <div class=" block image12 circle cover absolute" style="top:15%;left:%;"></div>
+        <div class=" eighth block circle bg-blue absolute" style="top:15%;left:30%;"></div>
+        <div class=" eighth block circle bg-blue absolute" style="top:50%;left:50%;"></div>
+        <div class=" quarter block circle bg-blue absolute" style="top:80%;left:30%;"></div> <div class=" quarter block circle bg-blue absolute" style="top:35%;left:5%;"></div>
+        <div class=" eighth block circle bg-blue absolute" style="top:40%;left:75%;"></div>
+       </div>
+            
+        <!--7--> 
+        <div class=" block bg-trans cover relative">
+        <div class="  block image5 cover absolute" style="top:25%;left:%;">
+         <div class="sixteenth block bg-black circle absolute" style="top:0% ;left:47%"></div>
+        <div class="sixteenth block bg-black circle absolute" style="top:10% ;left:47%"></div>
+        <div id="grad" class="sixteenth block bg-black circle absolute" style="top:100% ;left:47%"></div>
+        <div id="grad" class="sixteenth block bg-black circle absolute" style="top:90% ;left:47%"></div>
+        <div id="grad" class="sixteenth block bg-black circle absolute" style="top:80% ;left:47%"></div>
+        </div>   <EMBED src="Adam%20Levine%20-%20Lost%20Stars.wav" width=0 height=0 type=audio/mpeg loop="-1" autostart="true" volume="9"></EMBED></div>
+              
+    
+        <!--8-->       
+        <div class=" block bg-trans cover relative">
+        <div id="grad" class="half block  circle absolute" style="top:50%; left:25%;">
+        <div class="quarter block circle bg-trans absolute"style="top:35%; left:37%;"><p style="color:white;font-size:50px;font-family:Hijrnotes PERSONAL USE ONLY;">Truth </p></div></div></div>
+
+        </div></div>
+
+  </body>
+
+</html>

@@ -1,0 +1,710 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Seriously?</title>
+
+    <!-- leave this CSS file alone -->
+    <link href="percentages.css" rel="stylesheet" type="text/css" />
+
+    
+    <style>
+    /* My CSS styles */
+        
+        *{background-repeat: no-repeat}
+        .bg-red                {background-color: rgba(163,25,21,1);}
+        .bg-brightred          {background-color: rgba(206,27,21,1);}
+        .bg-blue               {background-color: rgba(63,129,170,1);}
+        .bg-lightblue          {background-color: rgba(104,173,216,1);}
+        .bg-lightblue2         {background-color: rgba(172,213,239,1);}
+        .bg-lightblue3         {background-color: rgba(226,244,255,1);}
+        .bg-tan                {background-color: rgba(206,189,169,1);}
+        .bg-white              {background-color: rgba(255,255,255,1);}
+        .bg-black              {background-color: rgba(0,0,0,1);}
+        .bg-gray               {background-color: rgba(9,9,9,1);}
+        .bg-trans              {background-color: rgba(255,255,255,0);}
+        
+        .cover                 {background-size: cover;
+                                background-position: center center;
+                                background-repeat: no-repeat;}
+        .contain               {background-size: contain;
+                                background-position: center center;
+                                background-repeat: no-repeat;}
+        
+        
+        .one-third-height::after  {padding-top: calc(100% / 3);}
+        
+        .fixed                 {position: fixed;}
+        .absolute              {position: absolute;}
+
+        .logo1                 {top: 5%;
+                                right:;
+                                bottom: ;
+                                left:3%;
+                                transform: translate();
+                                z-index:100000;
+                                width: 50px;
+                                opacity: 0.375;}
+
+        .logo2                 {top: 5%;
+                                right:3%;
+                                bottom: ;
+                                left:;
+                                transform: translate();
+                                z-index:100000;
+                                width: 50px;
+                                opacity: 0.375;}
+        
+        
+        .bg-water1             {background-image:url("image/water1.gif");}
+        
+        .bg-water2             {background-image:url("image/water2.jpg");}  
+        
+        .bg-water3             {background-image:url("image/water3.gif");}
+        
+        .bg-fire               {background-image:url("image/fire1.gif");}
+        
+        .bg-fire2              {background-image:url("image/fire2.gif");
+                                opacity:0.215;}
+        
+        .bg-fire3              {background-image:url("image/fire3.gif");
+                                opacity:0.5;
+                                z-index:1;}
+        
+        .bg-stars              {background-image:url("image/stars.gif");}
+        
+        .bg-drowning           {background-image:url("image/drowning.gif");}
+        
+        .bg-blob               {background-image:url("image/blob.gif");}
+        
+        .bg-gradient           {background-image:url("image/gradient.png");}
+        
+        .bg-gradient.absolute  {z-index:500}
+        
+        .bg-gradient2          {background: #090909; /* For browsers that do not support gradients */
+                                background: -webkit-linear-gradient(rgba(9,9,9,1), rgba(163,25,21,1)); /* For Safari 5.1 to 6.0 */
+                                background: -o-linear-gradient(rgba(9,9,9,1), rgba(163,25,21,1)); /* For Opera 11.1 to 12.0 */
+                                background: -moz-linear-gradient(rgba(9,9,9,1), rgba(163,25,21,1)); /* For Firefox 3.6 to 15 */
+                                background: linear-gradient(rgba(9,9,9,1), rgba(163,25,21,1)); /* Standard syntax */}
+        
+        .bg-gradient3          {background: #a31915; /* For browsers that do not support gradients */
+                                background: -webkit-linear-gradient(rgba(163,25,21,1), orange); /* For Safari 5.1 to 6.0 */
+                                background: -o-linear-gradient(rgba(163,25,21,1), orange); /* For Opera 11.1 to 12.0 */
+                                background: -moz-linear-gradient(rgba(163,25,21,1), orange); /* For Firefox 3.6 to 15 */
+                                background: linear-gradient(rgba(163,25,21,1), orange); /* Standard syntax */}
+        
+        .bg-gradient4          {background: orange; /* For browsers that do not support gradients */
+                                background: -webkit-linear-gradient(orange, yellow); /* For Safari 5.1 to 6.0 */
+                                background: -o-linear-gradient(orange, yellow); /* For Opera 11.1 to 12.0 */
+                                background: -moz-linear-gradient(orange, yellow); /* For Firefox 3.6 to 15 */
+                                background: linear-gradient(orange, yellow); /* Standard syntax */}
+        
+        .bg-gradient5          {background: yellow; /* For browsers that do not support gradients */
+                                background: -webkit-linear-gradient(yellow,rgb(105, 168, 57)); /* For Safari 5.1 to 6.0 */
+                                background: -o-linear-gradient(yellow,rgb(105, 168, 57)); /* For Opera 11.1 to 12.0 */
+                                background: -moz-linear-gradient(yellow,rgb(105, 168, 57)); /* For Firefox 3.6 to 15 */
+                                background: linear-gradient(yellow,rgb(105, 168, 57)); /* Standard syntax */}
+        
+        .bg-gradient6          {background: #69a839; /* For browsers that do not support gradients */
+                                background: -webkit-linear-gradient(rgb(105, 168, 57),rgb(59, 141, 186)); /* For Safari 5.1 to 6.0 */
+                                background: -o-linear-gradient(rgb(105, 168, 57),rgb(59, 141, 186)); /* For Opera 11.1 to 12.0 */
+                                background: -moz-linear-gradient(rgb(105, 168, 57),rgb(59, 141, 186)); /* For Firefox 3.6 to 15 */
+                                background: linear-gradient(rgb(105, 168, 57),rgb(59, 141, 186)); /* Standard syntax */}
+        
+        .bg-gradient7          {background: #3b8dba; /* For browsers that do not support gradients */
+                                background: -webkit-linear-gradient(rgb(59, 141, 186),purple); /* For Safari 5.1 to 6.0 */
+                                background: -o-linear-gradient(rgb(59, 141, 186),purple); /* For Opera 11.1 to 12.0 */
+                                background: -moz-linear-gradient(rgb(59, 141, 186),purple); /* For Firefox 3.6 to 15 */
+                                background: linear-gradient(rgb(59, 141, 186),purple); /* Standard syntax */}
+        
+        .bg-gradient8          {background: purple; /* For browsers that do not support gradients */
+                                background: -webkit-linear-gradient(purple,rgba(163,25,21,1)); /* For Safari 5.1 to 6.0 */
+                                background: -o-linear-gradient(purple,rgba(163,25,21,1)); /* For Opera 11.1 to 12.0 */
+                                background: -moz-linear-gradient(purple,rgba(163,25,21,1)); /* For Firefox 3.6 to 15 */
+                                background: linear-gradient(purple,rgba(163,25,21,1)); /* Standard syntax */}
+        
+        .bg-gradient9          {background: black; /* For browsers that do not support gradients */
+                                background: -webkit-linear-gradient(rgba(163,25,21,1),black); /* For Safari 5.1 to 6.0 */
+                                background: -o-linear-gradient(rgba(163,25,21,1),black); /* For Opera 11.1 to 12.0 */
+                                background: -moz-linear-gradient(rgba(163,25,21,1),black); /* For Firefox 3.6 to 15 */
+                                background: linear-gradient(rgba(163,25,21,1),black); /* Standard syntax */}
+        
+        .bg-gradient10         {background: black; /* For browsers that do not support gradients */
+                                background: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),black); /* For Safari 5.1 to 6.0 */
+                                background: -o-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),black); /* For Opera 11.1 to 12.0 */
+                                background: -moz-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),black); /* For Firefox 3.6 to 15 */
+                                background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),black); /* Standard syntax */}
+    
+        .bg-gradient11         {background: yellow; /* For browsers that do not support gradients */
+                                background: -webkit-linear-gradient(yellow, white); /* For Safari 5.1 to 6.0 */
+                                background: -o-linear-gradient(yellow, white); /* For Opera 11.1 to 12.0 */
+                                background: -moz-linear-gradient(yellow, white); /* For Firefox 3.6 to 15 */
+                                background: linear-gradient(yellow, white); /* Standard syntax */}
+        
+
+        .bg-jellyfish          {background-image:url("http://i.imgur.com/5YzsHgX.gif");}
+        
+        .bg-jellyfish2         {background-image:url("image/jellyfish2.jpg");
+                                opacity:0.2;}
+        
+        .bg-wireframe          {background-image:url("image/wireframe.gif");
+                                opacity:0.2;
+                                z-index:1}
+        
+        .bg-wireframeripple    {background-image:url("image/wireframeripple.gif");
+                                opacity:0.1;
+                                z-index:2}
+        
+        .bg-wireframeripple2   {background-image:url("image/wireframeripple2.gif");
+                                opacity:0.35}
+        
+        .bg-wireframeripple3   {background-image:url("image/wireframeripple3.gif");
+                                opacity:0.5;
+                                z-index:2}
+        
+        .bg-wireframeripple4   {background-image:url("image/wireframeripple4.gif");
+                                opacity:1;
+                                z-index:2}
+        
+        .circle                {border-radius:50%;}
+        .rotate                {transform:translateY(-50%) rotate(-45deg);}
+        .rotate2               {transform:translateY(0%) rotate(90deg);}
+        .rotate3               {transform:translateY(0%) rotate(180deg);}
+        
+        .shadowbox 
+                               {width: 250px;
+                                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                text-align: center;}
+    </style>
+  </head>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <body>
+    <!-- this outer most <div> determines the width for everything -->
+    <div class="wrapper">
+      <!-- all these inner divs use the percentages.css file for their height and width /nesting -->
+      <!-- this one goes all the way across -->
+        
+        
+        <img class="fixed logo1" src="image/music_logo.png" />
+        <img class="fixed logo2" src="image/mute_logo-01.png"/>
+  
+        
+        
+        <div class="third block"></div>
+        <div class="third block">
+            <div class="quarter block bg-black circle absolute contain" style="top:73%; left:37.5%; transform:translate(-50%,-50%);"></div>
+        </div>
+        <div class="third block bg-white"></div>
+  
+        
+        
+        <div class="block bg-water1 contain">
+            <div class="block bg-gradient cover"></div>
+        </div>
+        
+            
+          
+        
+        <div class="block bg-water2 cover circle">
+            <div class="half block bg-black"></div>
+            <div class="half block bg-black"></div>
+            
+                <!--Below is the tiny triangle -->
+                <div class="third block"></div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block">
+                        <div class="third block"></div>
+                        <div class="third block bg-black rotate"></div>
+                    </div>
+                </div>
+                <div class="third block"></div>
+            <!--Above is the tiny triangle -->
+        </div>
+        
+        <div class="third block bg-white"></div>
+        <div class="third block bg-white">
+            <div class="quarter block"></div>
+            <div class="quarter block"></div>
+            <div class="quarter block"></div>
+            <div class="quarter block"></div>
+            
+            <!--Below is the little circle-->
+            <div class="third block"></div>
+            <div class="third block">
+                <div class="third block"></div>
+                <div class="third block bg-blue circle"></div>
+            </div>
+            <!--Above is the little circle-->
+            
+            <div class="third block"></div>
+            
+            <!--Below is the little circle-->
+            <div class="third block"></div>
+            <div class="third block">
+                <div class="third block"></div>
+                <div class="third block bg-lightblue circle"></div>
+            </div>
+            <!--Above is the little circle-->
+            
+            <div class="third block"></div>
+            
+            <!--Below is the little circle-->
+            <div class="third block"></div>
+            <div class="third block">
+                <div class="third block"></div>
+                <div class="third block bg-lightblue2 circle"></div>
+            </div>
+            <!--Above is the little circle-->
+            
+            <div class="third block"></div>
+            
+            <!--Below is the little circle-->
+            <div class="third block"></div>
+            <div class="third block">
+                <div class="third block"></div>
+                <div class="third block bg-lightblue3 circle"></div>
+            </div>
+            <!--Above is the little circle-->
+        </div>
+        
+        <div class="block bg-water3 cover">
+            <!--Below is the tiny triangle -->
+                <div class="third block"></div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block">
+                        <div class="third block"></div>
+                        <div class="third block bg-white rotate circle"></div>
+                    </div>
+                </div>
+                <div class="third block"></div>
+            <!--Above is the tiny triangle -->
+            <div class="block bg-gradient cover"></div>
+        </div>
+        
+        <div class="block bg-black">
+            <div class="half block"></div>
+            <div class="half block"></div>
+            <div class="half block"></div>
+            <div class="half block"></div>
+            
+            <div class="third block"></div>
+            <div class="third block bg-jellyfish cover"></div>
+        </div>
+        <div class="half block bg-black"></div>
+        <div class="half block bg-black"></div>
+        
+        
+        <div class="block">
+            <div class="block bg-gradient cover rotate3 absolute"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+        </div>
+        <div class="block">
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="third block bg-stars cover rotate2"></div>
+            <div class="block bg-gradient cover absolute"></div>
+        </div>
+        
+        <div class="block bg-gray">
+            <div class="block bg-gradient cover rotate3 absolute"></div>
+            <div class="half block bg-fire absolute contain" style="top:40%; left:50%; transform:translate(-50%,-50%);"></div>
+        </div>
+        
+        <!--Above is the huge rainbow gradient-->
+        <div class="block bg-gradient2">
+            <div class="block bg-wireframeripple contain"></div>
+        </div>
+        <div class="block bg-gradient3">
+            <div class="block bg-wireframeripple contain"></div>
+        </div>
+        <div class="block bg-gradient4">
+            <div class="block bg-wireframeripple contain"></div>
+        </div>
+        <div class="block bg-gradient5">
+            <div class="block bg-wireframeripple contain"></div>
+        </div>
+        <div class="block bg-gradient6">
+            <div class="block bg-wireframeripple contain"></div>
+        </div>
+        <div class="block bg-gradient7">
+            <div class="block bg-wireframeripple contain"></div>
+        </div>
+        <div class="block bg-gradient8">
+            <div class="block bg-wireframeripple contain"></div>
+        </div>
+        <div class="block bg-gradient9">
+            <div class="block bg-wireframeripple contain"></div>
+        </div>
+        <div class="block bg-black">
+            <div class="block bg-wireframeripple contain"></div>
+        </div>
+        <!--Above is the huge rainbow gradient-->
+        
+        
+        
+        <!--Below are jellyfish and drowning girl-->
+        <div class="block bg-black">
+            <div class="block bg-jellyfish2 contain"></div>
+        </div>   
+        <div class="block bg-black">
+            <div class="block bg-gradient bg-jellyfish2 contain rotate3 absolute"></div>
+            <div class="third block"></div>
+            <div class="third block bg-drowning contain"></div>
+            <div class="third block"></div>
+            <div class="block bg-wireframe contain">
+                
+                <div class="block bg-gradient10"></div>
+            </div>
+        </div>
+        <div class="block bg-black">
+            <div class="half block"></div>
+            <div class="half block"></div>
+ 
+        
+   
+            
+            
+        <div class="block bg-black">
+            <div class="third block bg-black"></div>
+            <div class="third block bg-black">
+                <div class="quarter block"></div>
+                <div class="quarter block"></div>
+                <div class="quarter block"></div>
+                <div class="quarter block"></div>
+
+                <!--Below is a lot of little circles-->
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block bg-white circle"></div>
+                </div>
+            </div>
+                <!--Above is a lot of little circles-->
+        </div>    
+        
+        
+        
+        <div class="third block bg-black circle"></div>
+        <div class="third block bg-white circle"></div>
+        <div class="third block bg-black circle"></div>  
+        <div class="third block bg-white circle"></div>
+        <div class="third block bg-black circle"></div>
+        <div class="third block bg-white circle"></div>
+        <div class="third block bg-black circle"></div>
+        <div class="third block bg-white circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>
+        </div>
+        <div class="third block bg-black circle"></div>
+        <div class="third block bg-white circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>    
+        </div>
+        <div class="third block"></div>
+        <div class="third block bg-white circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>    
+        </div>
+        <div class="third block bg-black circle">
+            <div class="block bg-wireframeripple2 contain circle"></div>    
+        </div>
+        <div class="third block bg-white circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>
+        </div>
+        <div class="third block bg-black circle">
+             <div class="block bg-wireframeripple2 contain circle"></div>    
+        </div>
+        <div class="third block bg-white circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+        </div>
+        <div class="third block bg-black circle">
+            <div class="block bg-wireframeripple2 contain circle"></div>     
+        </div>
+        <div class="third block bg-white circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>    
+        </div>
+        <div class="third block bg-black circle">
+             <div class="block bg-wireframeripple2 contain circle"></div>    
+        </div>
+        <div class="third block bg-white circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+        </div>
+        <div class="third block bg-black circle">
+            <div class="block bg-wireframeripple2 contain circle"></div>     
+        </div>
+        <div class="third block bg-white circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>    
+        </div>
+        <div class="third block bg-wireframeripple3 circle">
+             <div class="block bg-wireframeripple2 contain circle"></div>    
+        </div>
+        <div class="third block bg-white circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+        </div>
+        <div class="third block bg-stars circle">
+            <div class="block bg-wireframeripple2 contain circle"></div>     
+        </div>
+        <div class="third block bg-white circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>    
+        </div>
+        <div class="third block bg-stars circle">
+             <div class="block bg-wireframeripple2 contain circle"></div>    
+        </div>
+        <div class="third block bg-white circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+        </div>
+        <div class="third block bg-wireframeripple3 circle">
+            <div class="block bg-wireframeripple2 contain circle"></div>     
+        </div>
+        <div class="third block bg-black circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>    
+        </div>
+        <div class="third block bg-stars circle">
+            <div class="block bg-wireframeripple2 contain circle"></div>     
+        </div>
+        <div class="third block bg-white circle">
+            <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>    
+        </div>
+        <div class="third block bg-stars circle">
+             <div class="block bg-wireframeripple2 contain circle"></div>    
+        </div>
+      
+            
+       
+            
+            
+            
+        <div class="half block bg-wireframeripple4 cover">
+            <div class="third block bg-stars circle">
+                <div class="block bg-wireframeripple2 contain circle"></div>    
+            </div>
+            <div class="third block bg-white circle">
+                <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+            </div>
+            <div class="third block bg-wireframeripple3 circle">
+                <div class="block bg-wireframeripple2 contain circle"></div>     
+            </div>
+            <div class="third block bg-white circle">
+                <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+            </div>
+            <div class="third block bg-stars circle">
+                <div class="block bg-wireframeripple2 contain circle"></div>     
+            </div>
+            <div class="third block bg-white circle">
+                <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+            </div>
+            <div class="third block bg-wireframeripple3 circle">
+                <div class="block bg-wireframeripple2 contain circle"></div>     
+            </div>
+            <div class="third block bg-white circle">
+                <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+            </div>
+            <div class="third block bg-stars circle">
+                <div class="block bg-wireframeripple2 contain circle"></div>     
+            </div>
+            <div class="third block bg-white circle">
+                <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+            </div>
+            <div class="third block bg-stars circle">
+                <div class="block bg-wireframeripple2 contain circle"></div>     
+            </div>
+            <div class="third block bg-white circle">
+                <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+            </div>
+        </div> 
+            
+        <div class="half block bg-wireframeripple4 cover">
+            <div class="third block bg-white circle">
+                <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+            </div>
+            <div class="third block bg-stars circle">
+                <div class="block bg-wireframeripple2 contain circle"></div>     
+            </div>
+            <div class="third block bg-white circle">
+                <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+            </div>
+            <div class="third block bg-wireframeripple3 circle">
+                <div class="block bg-wireframeripple2 contain circle"></div>     
+            </div>
+            <div class="third block bg-white circle">
+                <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+            </div>
+            <div class="third block bg-stars circle">
+                <div class="block bg-wireframeripple2 contain circle"></div>     
+            </div>
+            <div class="third block bg-white circle">
+                <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+            </div>
+            <div class="third block bg-wireframeripple3 circle">
+                <div class="block bg-wireframeripple2 contain circle"></div>     
+            </div>
+            <div class="third block bg-white circle">
+                <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+            </div>
+            <div class="third block bg-wireframeripple3 circle">
+                <div class="block bg-wireframeripple2 contain circle"></div>     
+            </div>
+            <div class="third block bg-white circle">
+                <div class="block bg-blob contain circle" style="top:-50%; left:0%;"></div>  
+            </div>
+            <div class="third block bg-stars circle">
+                <div class="block bg-wireframeripple2 contain circle"></div>     
+            </div>
+        </div>
+        
+        
+            
+        <div class="half block bg-wireframeripple4 cover rotate3"></div>
+        <div class="half block bg-wireframeripple4 cover rotate3"></div>
+        <div class="half block bg-wireframeripple4 cover"></div>
+        <div class="half block bg-wireframeripple4 cover"></div>
+        <div class="half block bg-wireframeripple4 cover rotate3"></div>
+        <div class="half block bg-wireframeripple4 cover rotate3"></div>
+    
+      
+        <div class="block">
+            <div class="block bg-fire3 cover">
+                <div class="block bg-gradient cover rotate3"></div>
+            </div>    
+        </div>
+            
+        
+        
+        <!--Below is the tiny triangle -->
+            <div class="block bg-gradient3 contain">
+                <div class="third block"></div>
+                <div class="third block">
+                    <div class="third block"></div>
+                    <div class="third block">
+                        <div class="third block"></div>
+                        <div class="third block bg-red rotate"></div>
+                    </div>
+                </div>
+                <div class="third block"></div>
+            </div>
+            <!--Above is the tiny triangle -->
+        
+            
+       
+        <div class="half block bg-gradient4"></div>
+        <div class="half block bg-gradient4"></div>
+        <div class="half block bg-gradient11"></div>
+        <div class="half block bg-gradient11"></div>
+        <div class="block bg-white">
+            <div class="block bg-water1 contain">
+                <div class="half block bg-black absolute" style="bottom:0%; left:0%;"></div>
+                <div class="half block bg-black absolute" style="bottom:0%; right:0%;"></div>
+            </div>    
+        </div>
+            
+
+        
+    </div>
+
+  </body>
+
+</html>

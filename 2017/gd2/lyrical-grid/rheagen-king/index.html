@@ -1,0 +1,392 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Assignment 1: Lyrical Grid</title>
+
+    <!-- leave this CSS file alone -->
+    <link href="percentages.css" rel="stylesheet" type="text/css" />
+
+    <style>
+      /** some custom colors, etc. You can do this same thing with whatever you need. Delete my starter junk **/
+      /********* color modules **********/
+      .bg-crimson            { background-color: rgba(139,0,0,1); }
+      .bg-red                { background-color: rgba(255,0,0,1); }
+      .bg-maroon             { background-color: rgba(128,0,0,1); }
+      .bg-darkgray           { background-color: rgba(096,103,103,1); }
+      .bg-lightgray          { background-color: rgba(194,211,186,1); }
+      .bg-dimgray            { background-color: rgba(105,105,105,1); }
+      .bg-black              { background-color: rgba(000,000,000,1); }
+      .bg-white              { background-color: rgba(255,255,255,50); }
+      .bg-trans              {background-color: transparent}
+       /** put your custom CSS here, or create and link to your own new css file **/
+      .cover {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+        .image1 {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #300000  100%);
+      }
+        .image2 {
+        background-image: linear-gradient(to bottom, #300000 0%, rgba(0,0,0,0) 100%);
+      }
+        .image4 {
+        background: linear-gradient(to bottom, #f8f8f8 0%, #101010 100%);
+}
+        .image5 {
+    background: linear-gradient(to bottom, #101010 0%, #f8f8f8 100%);
+}
+        .wrapper {
+                background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+                rgba(0,0,0,0.75) url('hands.jpg') no-repeat center;
+                background-size: cover;
+                color: #fff;
+                text-align: center;
+                text-rendering: optimizeLegibility;
+                margin: 0;
+/*                padding: 15px 10px 15px;*/
+                min-height: 640px;
+            }    
+        .dotsgif {
+            background-image: url(dots.gif)
+        }
+        .poltergeistgif {
+            background-image: url(poltergeist.gif);
+            display: none;
+        }
+        .stripes {
+            background-image: url(stripes.png)
+        }
+        .stripes:hover .poltergeistgif {
+            display: block
+        }
+        .redtoblack {
+            background: linear-gradient(to bottom, #300000 0%, #000000 100%);
+        }
+        .parallax {
+            background-color: maroon;
+            width: 300%;
+            height: 2100px;
+            position: absolute;
+        }
+        .overflow {
+            overflow: scroll;
+        }
+        .test {
+            position: relative;
+        }
+        .fuckwithmyself {
+            background-image: url(fuckwithmyself.gif)
+        }
+        .skull {
+            background-image: url(skull.gif)
+        }
+        .rope {
+            background-image: url(rope.gif)
+        }
+        .swirlone {
+            background-image: url(swirlone.gif)
+        }
+        .better1 {
+            background-image: url(better.gif)
+        }
+        .better2 {
+            background-image: url(better2.gif)
+        }
+        .better3 {
+            background-image: url(better3.gif)
+        }
+        .better4 {
+            background-image: url(better4.gif)
+        }
+    </style>
+      
+<style>
+    @-webkit-keyframes flash {
+    0%   { background-color: #b30000; }
+    49% { background-color: #800000; }
+    50% { background-color: #b30000; }
+    99% { background-color: #000; }
+    100% { background-color: #800000; }
+  }
+    @-moz-keyframes flash {
+    0%   { background-color: #660000; }
+    49% { background-color: #800000; }
+    50% { background-color: #b30000; }
+    99% { background-color: #660000; }
+    100% { background-color: #800000; }
+  }
+    @keyframes flash {
+    0%   { background-color: #800000; }
+    49% { background-color: #800000; }
+    50% { background-color: #000; }
+    99% { background-color: #b30000; }
+    100% { background-color: #800000; }
+  }
+  .animated {
+  -webkit-animation: flash 1s infinite;
+  -moz-animation:    flash 2s infinite;
+  animation:         flash 1s infinite;
+}
+</style>
+
+</head>
+
+  <body>
+    <!-- this outer most <div> determines the width for everything -->
+    <div class="wrapper">
+      <!-- all these inner divs use the percentages.css file for their height and width /nesting -->
+
+      <!-- this one goes all the way across -->
+        
+      <div class="block image4 cover"></div>
+      <div class="block image5 cover"></div>
+      <div class="block image4 cover"></div>
+      <div class="block image5 cover"></div>
+      <div class="block image4 cover"></div>
+      <div class="block image5 cover"></div>
+      <div class="block image5 cover"></div>
+      <div class="block image4 cover"></div>
+      <div class="block image5 cover"></div>
+      <div class="block image4 cover"></div>
+      <div class="block image5 cover"></div> 
+        
+        <div class="block animated">
+          <div class="block image1 cover"></div>
+        </div>
+        <div class="block animated">
+          <div class="block image2 cover"></div>
+        </div>
+        <div class="block animated">
+          <div class="block image1 cover"></div>
+        </div>
+        <div class="block animated">
+          <div class="block image2 cover"></div>
+        </div>
+        <div class="block animated">
+          <div class="block image1 cover"></div>
+
+        </div>
+        <div class="block animated">
+          <div class="block image2 cover"></div>
+        </div>
+        <div class="block animated">
+          <div class="block image1 cover"></div>
+        </div>
+        <div class="block animated">
+          <div class="block image1 cover">
+                <div class="third block better4 cover">
+                <div class="third block better3 cover"
+                     style="top:400px;
+                            bottom:400px;
+                            right:400px;
+                            left:400px;">
+                </div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block better4 cover">
+                <div class="third block better3 cover"
+                     style="top:400px;
+                            bottom:400px;
+                            right:400px;
+                            left: -70px;">
+                </div></div>
+            <div class="third block bg-trans"></div>
+              
+            
+             <div class="third block better4 cover">
+                <div class="third block better3 cover"
+                     style="top:400px;
+                            bottom:400px;
+                            right:400px;
+                            left:400px;">
+                </div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block better4 cover">
+                <div class="third block better3 cover"
+                     style="top:400px;
+                            bottom:400px;
+                            right:400px;
+                            left: -70px;">
+                </div></div>
+            <div class="third block bg-trans"></div> 
+             <div class="third block better4 cover">
+                <div class="third block better3 cover"
+                     style="top:400px;
+                            bottom:400px;
+                            right:400px;
+                            left:400px;">
+                </div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block better4 cover">
+                <div class="third block better3 cover"
+                     style="top:400px;
+                            bottom:400px;
+                            right:400px;
+                            left: -70px;">
+                </div></div>
+            <div class="third block bg-trans"></div> 
+              
+               <div class="third block better3 cover">
+                <div class="third block better4 cover"
+                     style="top:400px;
+                            bottom:400px;
+                            right:400px;
+                            left:400px;">
+                </div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block better3 cover">
+                <div class="third block better4 cover"
+                     style="top:400px;
+                            bottom:400px;
+                            right:400px;
+                            left: -70px;">
+                </div></div>
+            <div class="third block bg-trans"></div> 
+
+        </div>
+        <div class="block redtoblack cover"></div>
+        
+            <div class="block overflow">
+                <div class="parallax">
+                    <div class="block swirlone">
+                        <div class="quarter block bg-black"
+                             style="position:relative;
+                                    top:10%;
+                                    bottom:10%;
+                                    right:10%;
+                                    left:10%;"></div>
+                        <div class="half block swirlone"
+                             style="position:absolute;
+                                    top:10%;
+                                    bottom:10%;
+                                    right:10%;
+                                    left:10%;"></div> 
+                        
+                    </div> 
+           </div>
+            
+                </div>
+     </div>
+            
+            <div class="third block bg-black">
+                <div class="third block fuckwithmyself cover"
+                     style="top:400px;
+                            bottom:400px;
+                            right:400px;
+                            left:400px;">
+                </div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block bg-black">
+                <div class="third block fuckwithmyself cover"
+                     style="top:400px;
+                            bottom:400px;
+                            right:400px;
+                            left: -70px;">
+                </div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block bg-black">
+                <div class= "third block fuckwithmyself cover"
+                     style="top:400px;
+                            bottom:400px;
+                            right:400px;
+                            left:-70px;"></div></div>
+            <div class="third block bg-trans">
+                <div class= "third block fuckwithmyself cover"
+                     style="top:400px;
+                            bottom:400px;
+                            right:400px;
+                            left:-70px;"></div></div>
+            <div class="third block bg-black">
+                <div class= "third block fuckwithmyself cover"
+                     style="top:150px;
+                            bottom:150px;
+                            right:150px;
+                            left:150px;"></div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block bg-black">
+                <div class= "third block fuckwithmyself cover"
+                     style="top:150px;
+                            bottom:150px;
+                            right:150px;
+                            left:150px;"></div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block bg-black">
+                <div class= "third block fuckwithmyself cover"
+                     style="top:150px;
+                            bottom:150px;
+                            right:150px;
+                            left:150px;"></div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block bg-black">
+                <div class= "third block skull cover"
+                     style="top:150px;
+                            bottom:150px;
+                            right:150px;
+                            left:150px;"></div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block bg-black">
+                <div class= "third block skull cover"
+                     style="top:150px;
+                            bottom:150px;
+                            right:150px;
+                            left:150px;"></div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block bg-black">
+                <div class= "third block skull cover"
+                     style="top:150px;
+                            bottom:150px;
+                            right:150px;
+                            left:150px;"></div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block rope cover">
+                <div class= "third block rope cover"
+                     style="top:150px;
+                            bottom:150px;
+                            right:150px;
+                            left:150px;"></div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block rope cover">
+                <div class= "third block rope cover"
+                     style="top:150px;
+                            bottom:150px;
+                            right:150px;
+                            left:150px;"></div></div>
+             <div class="third block bg-trans"></div>
+            <div class="third block rope cover">
+                <div class= "third block rope cover"
+                     style="top:150px;
+                            bottom:150px;
+                            right:150px;
+                            left:150px;"></div></div>
+            <div class="third block bg-trans"></div>
+            <div class="third block better2 cover">
+                <div class= "third block better1 cover"
+                     style="top:150px;
+                            bottom:150px;
+                            right:150px;
+                            left:150px;"></div></div>
+             <div class="third block bg-trans"></div>
+            <div class="third block better1 cover">
+                <div class= "third block better2 cover"
+                     style="top:150px;
+                            bottom:150px;
+                            right:150px;
+                            left:150px;"></div></div>
+            
+    <div class="block stripes cover"></div>
+    <div class="block stripes cover"></div>
+    <div class="block stripes cover"></div>
+    <div class="block stripes cover"></div>
+    <div class="block stripes cover"></div>
+    <div class="block stripes cover"></div>
+    <div class="block stripes cover"></div>
+    <div class="block stripes cover">
+         <div class="block poltergeistgif cover"></div>
+        </div>
+      </div>
+ </body>
+</html>

@@ -1,0 +1,554 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cranes in the Sky Test</title>
+
+    <!-- leave this CSS file alone -->
+    <link href="percentages.css" rel="stylesheet" type="text/css" />
+
+            <style>
+             
+                /********* color modules **********/
+              
+                      .bg-pink                                                     { background-color: rgba(240,201,206,1); }
+                      .bg-darkpink                                              { background-color: rgba(218,169,179,1); }
+                      .bg-brown                                                  { background-color: rgba(113,074,056,1); }
+                      .bg-gray                                                    { background-color: rgba(158,154,149,1); }
+                      .bg-darkgray                                             { background-color: rgba(063,071,083,1); }
+                      .bg-lightgray                                              { background-color: rgba(222,222,222,1); }
+                      .bg-red                                                      { background-color: rgba(102,024,022,1); }
+                      .bg-brownorange                                       { background-color: rgba(136,099,045,1); }
+                      .bg-brownyellow                                        { background-color: rgba(192,165,107,1); }
+                      .bg-green                                                  { background-color: rgba(079,110,052,1); }
+                      .bg-darkgreen                                           { background-color: rgba(062,070,039,1); }
+                      .bg-blue                                                    { background-color: rgba(063,081,147,1); }
+                      .bg-purple                                                 { background-color: rgba(158,141,195,1); }
+                      .bg-darkpurple                                          { background-color: rgba(134,112,126,1); }
+                      .bg-beige                                                  { background-color: rgba(239,227,206,1); }
+                      .bg-black                                                  { background-color: rgba(000,000,000,1); }
+                      .bg-white                                                  { background-color: rgba(255,255,255,1); }
+                      .bg-transparent                                         { background-color: rgba(255,255,255,0); }
+
+              /** put your custom CSS here, or create and link to your own new css file **/
+                      
+                    .cover {
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                      }
+                
+                    
+                
+                .baselinebeat {
+                    background-image: url(GIFS/BaselineBeat.gif);
+                }
+                
+                .pluckybase {
+                    background-image: url(GIFS/PluckyBase.gif);
+                }
+                
+                .violin {
+                    background-image: url(GIFS/Violin.gif);
+                }
+                
+                .base {
+                    background-image: url(GIFS/Base.gif)
+                }
+                
+                .harp {
+                    background-image: url(GIFS/Harp.gif)
+                }
+                
+                .piano {
+                    background-image: url(GIFS/Piano.gif)
+                }
+                
+                .line1-4 {
+                    background-image: url(GIFS/Line01-4.gif)
+                }
+                
+                .line5 {
+                    background-image: url(GIFS/Line05.gif)
+                }
+                
+                
+                 .line6 {
+                    background-image: url(GIFS/Line06.gif)
+                }
+                
+
+                .line7 {
+                    background-image: url(GIFS/LIne07.gif)
+                }
+                
+                
+                .line8 {
+                    background-image: url(GIFS/Line08.gif)
+                }
+                
+                .line9 {
+                    background-image: url(GIFS/Line09.gif)
+                }
+                
+
+                .line10 {
+                    background-image: url(GIFS/Line10.gif)
+                }
+                
+                
+                .line11-12 {
+                    background-image: url(GIFS/Lines11-12.gif)
+                }
+                
+                
+                .line13 {
+                    background-image: url(GIFS/Line13.gif)
+                }
+                
+                
+                .line14 {
+                    background-image: url(GIFS/Line14.gif)
+                }
+                
+                
+                .line15 {
+                    background-image: url(GIFS/Line15&28.gif)
+                }
+                
+                
+                .line16 {
+                    background-image: url(GIFS/Line16,18,&29.gif)
+                }
+                
+                
+                 .line17 {
+                    background-image: url(GIFS/Line17,19,&30.gif)
+                }
+                
+                 
+                .line18 {
+                    background-image: url(GIFS/Line16,18,&29.gif)
+                }
+                
+                .line19 {
+                    background-image: url(GIFS/Line17,19,&30.gif)
+                }
+                
+                .line20-23 {
+                    background-image: url(GIFS/LIne20-23.gif)
+                }
+                
+                .line24-26 {
+                    background-image: url(GIFS/Line24-26.gif)
+                }
+                
+                .line27 {
+                    background-image: url(GIFS/Line27.gif)
+                }
+                
+                 .line28 {
+                    background-image: url(GIFS/Line15&28.gif)
+                }
+                
+                .line29 {
+                    background-image: url(GIFS/Line16,18,&29.gif)
+                }
+                
+                .line30 {
+                    background-image: url(GIFS/Line17,19,&30.gif)
+                }
+                
+                .line31 {
+                    background-image: url(GIFS/Line31.gif)
+                }
+                
+                .line32 {
+                    background-image: url(GIFS/Line32.gif)
+                }
+                
+                .line33 {
+                    background-image: url(GIFS/Line33.gif)
+                }
+                
+                .line34 {
+                    background-image: url(GIFS/Line34.gif)
+                }
+                
+                
+                
+                
+            </style>
+
+</head>
+
+    <body>
+
+          <div class="wrapper">
+
+
+                    <!--Baseline Beats -->
+                                        <div class=" block baselinebeat cover"></div>
+              
+                    <!--Plucky Base -->
+                                        <div class=" block pluckybase cover"></div>
+              
+                    <!--Piano -->
+                        
+                                        <div class="quarter block white cover"></div> 
+                                        <div class="quarter block piano cover"></div>
+                                        <div class="quarter block white cover"></div>
+                                        <div class="quarter block piano cover"></div>
+              
+                                        <div class="quarter block piano cover"></div>
+                                        <div class="quarter block white cover"></div>
+                                        <div class="quarter block piano cover"></div>
+                                        <div class="quarter block white cover"></div>
+              
+                                        <div class="quarter block white cover"></div>
+                                        <div class="quarter block piano cover"></div>
+                                        <div class="quarter block white cover"></div>
+                                        <div class="quarter block piano cover"></div>
+              
+                                        <div class="quarter block piano cover"></div>
+                                        <div class="quarter block white cover"></div> 
+                                        <div class="quarter block piano cover"></div>
+                                        <div class="quarter block white cover"></div>
+
+                                       
+
+                                       
+
+                                       
+
+                                        <div class="sixteenth block white cover"></div> 
+                                        <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+                                       <div class="sixteenth block white cover"></div> 
+                                        <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+                                       <div class="sixteenth block white cover"></div> 
+                                        <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+                                      <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+              
+                      <!--Base -->
+
+                                                <div class=" quarter block bg-lightgray"></div>
+                                                <div class=" quarter block base cover"></div>
+                                                <div class=" quarter block bg-lightgray"></div>
+                                                <div class=" quarter block base cover"></div>
+                                                <div class=" quarter block base cover"></div>
+                                                <div class=" quarter block bg-lightgray"></div>
+                                                <div class=" quarter block base cover"></div>
+                                                <div class=" quarter block bg-lightgray"></div>
+                                                <div class=" quarter block bg-lightgray"></div>
+                                                <div class=" quarter block base cover"></div>
+                                                <div class=" quarter block bg-lightgray"></div>
+                                                <div class=" quarter block base cover"></div>
+                                                <div class=" quarter block base cover"></div>
+                                                <div class=" quarter block bg-lightgray"></div>
+                                                <div class=" quarter block base cover"></div>
+                                                <div class=" quarter block bg-lightgray"></div>
+              
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+              
+                    <!--Violin -->
+                        
+                                                <div class="quarter block violin cover"></div>
+                                       <div class="quarter block white cover"></div>
+                                       <div class="quarter block white cover"></div> 
+                                      <div class="quarter block white cover"></div>
+
+                                       <div class="quarter block white cover"></div>
+                                                <div class="quarter block violin cover"></div>
+                                       <div class="quarter block white cover"></div>
+                                       <div class="quarter block white cover"></div>
+
+                                       <div class="quarter block white cover"></div>
+                                       <div class="quarter block white cover"></div>
+                                                <div class="quarter block violin cover"></div>
+                                       <div class="quarter block white cover"></div>
+
+                                       <div class="quarter block white cover"></div> 
+                                      <div class="quarter block white cover"></div>
+                                       <div class="quarter block white cover"></div>
+                                                <div class="quarter block violin cover"></div>
+
+                                        <div class="sixteenth block white cover"></div> 
+                                        <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+                                       <div class="sixteenth block white cover"></div> 
+                                        <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+                                       <div class="sixteenth block white cover"></div> 
+                                        <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+                                      <div class="sixteenth block white cover"></div>
+                                        <div class="sixteenth block white cover"></div>
+              
+                    <!--Harp -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block bg-beige"></div>
+                                    <div class="fifth block harp cover"></div>
+                                    <div class="fifth block bg-beige"></div>
+                                    <div class="fifth block harp cover"></div>
+                                    <div class="fifth block bg-beige"></div>
+                                    <div class="fifth block harp cover"></div>
+                                    <div class="fifth block bg-beige"></div>
+                                    <div class="fifth block harp cover"></div>
+                                    <div class="fifth block bg-beige"></div>
+                                    <div class="fifth block harp cover"></div>
+                                    <div class="fifth block bg-beige"></div>
+                                    <div class="fifth block harp cover"></div>
+                                    <div class="fifth block bg-beige"></div>
+                                    <div class="fifth block harp cover"></div>
+                                    <div class="fifth block bg-beige"></div>
+                                    <div class="fifth block harp cover"></div>
+                                    <div class="fifth block bg-beige"></div>
+                                    <div class="fifth block harp cover"></div>
+                                    <div class="fifth block bg-beige"></div>
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block white"></div>
+              
+              
+                    <!--Chorus -->
+                        
+                            <!--Lines 1-4 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line1-4 cover"></div>
+                                    <div class="fifth block white"></div>
+              
+                            <!-- Line 5 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line5 cover"></div>
+                                    <div class="fifth block white"></div>
+
+                            <!-- Line 6 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line6 cover"></div>
+                                    <div class="fifth block white"></div>
+              
+                            <!-- Line 7 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line7 cover"></div>
+                                    <div class="fifth block white"></div>
+
+                            <!-- Line 8 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line8 cover"></div>
+                                    <div class="fifth block white"></div>
+                                    
+              
+                            <!-- Line 9 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line9 cover"></div>
+                                    <div class="fifth block white"></div>
+
+                            <!-- Line 10 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line10 cover"></div>
+                                    <div class="fifth block white"></div>
+              
+                            <!-- Line 11 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line11-12 cover"></div>
+                                    <div class="fifth block white"></div>
+                
+                            <!-- Line 13 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line13 cover"></div>
+                                    <div class="fifth block white"></div>
+
+                            <!-- Line 14 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line14 cover"></div>
+                                    <div class="fifth block white"></div>
+
+                            <!-- Line 15 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line15 cover"></div>
+                                    <div class="fifth block white"></div>
+
+                            <!-- Line 16 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line16 cover"></div>
+                                    <div class="fifth block white"></div>
+
+                            <!-- Line 17 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line17 cover"></div>
+                                    <div class="fifth block white"></div>
+              
+                            <!-- Line 19 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line19 cover"></div>
+                                    <div class="fifth block white"></div>
+
+                            <!-- Line 18 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line18 cover"></div>
+                                    <div class="fifth block white"></div>
+              
+                            <!-- Line 20-23 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line20-23 cover"></div>
+                                    <div class="fifth block white"></div>
+              
+                            <!-- Line 24-26 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line24-26 cover"></div>
+                                    <div class="fifth block white"></div>
+              
+                            <!-- Line 27 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line27 cover"></div>
+                                    <div class="fifth block white"></div>
+              
+                            <!-- Line 28 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line28 cover"></div>
+                                    <div class="fifth block white"></div>
+              
+                            <!-- Line 29 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line29 cover"></div>
+                                    <div class="fifth block white"></div>
+              
+                            <!-- Line 30 -->
+              
+                                    <div class="fifth block white"></div>
+                                    <div class="fifth block line30 cover"></div>
+                                    <div class="fifth block white"></div>
+              
+              <div class="block bg-pink">
+              
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  <div class="sixteenth block bg-transparent"></div>
+                  
+                    
+                            <div class="quarter block violin cover"></div>
+                  <div class="quarter block bg-transparent"></div>
+                  <div class="quarter block bg-transparent"></div>
+                  <div class="quarter block bg-transparent"></div>
+                  
+                  <div class="quarter block bg-transparent"></div>
+                        <div class="quarter block base cover"></div>
+                  <div class="quarter block bg-transparent"></div>
+                  <div class="quarter block bg-transparent"></div>
+                  
+                  <div class="quarter block bg-transparent"></div>
+                  <div class="quarter block bg-transparent"></div>
+                            <div class="quarter block harp cover"></div>
+                  <div class="quarter block bg-transparent"></div>
+                  
+                  <div class="quarter block bg-transparent"></div>
+                  <div class="quarter block bg-transparent"></div>
+                  <div class="quarter block bg-transparent"></div>
+                            <div class="quarter block piano cover"></div>
+              
+              </div>
+              
+                             <!-- Line 31 -->
+              
+                                    <div class="half block white"></div>
+                                    <div class="half block line31 cover"></div>
+              
+                            <!-- Line 32 -->
+
+                                <div class="half block line32 cover"></div>
+                                <div class="half block white"></div>
+              
+                            <!-- Line 33 -->
+
+                                <div class="half block white"></div>
+                                <div class="half block line33 cover"></div>
+                                
+              
+                            <!-- Line 34 -->
+
+                                <div class="half block line34 cover"></div>
+                                <div class="half block white"></div>
+
+                                    
+                                    
+                                    
+
+
+              
+
+                
+              
+
+                                
+
+            
+
+                    
+
+
+
+          </div>
+
+    </body>
+
+</html>
