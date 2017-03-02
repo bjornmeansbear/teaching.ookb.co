@@ -4,11 +4,11 @@
 }
 
 input[type=range]{
-    width: 400px;
-    -webkit-appearance: none;
+    width: 500px;
+    /*-webkit-appearance: none;*/
 }
 
-input[type=range]::-webkit-slider-runnable-track {
+/*input[type=range]::-webkit-slider-runnable-track {
     height: 4px;
     background: lightgray;
     border: none;
@@ -31,14 +31,4 @@ input[type=range]:focus {
 
 input[type=range]:focus::-webkit-slider-runnable-track {
     background: darkgray;
-}
-
-input#songTime::after {
-  content: '';
-  display: block;
-  width: 200px;
-  background-color: red;
-  position: absolute;
-  z-index: 9;
-  height: 4px;
-}
+}*/

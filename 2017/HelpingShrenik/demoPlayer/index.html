@@ -18,17 +18,17 @@
       <button class="track3 trackButton bg-gray white pa2 f3 bn-ns " onclick="soloT3()" type="button">Demo</button>
   </div>
 
-  <audio id="multiTracks1" class="multiTrack" mediagroup="soundGroup" controls>
+  <audio id="multiTracks1" class="multiTrack" mediagroup="soundGroup" >
     <source src="audio/ds-3.mp3" type="audio/mpeg" />
     Your browser does not support HTML5 Audio.
   </audio>
 
-  <audio id="multiTracks2" class="multiTrack" mediagroup="soundGroup" controls>
+  <audio id="multiTracks2" class="multiTrack" mediagroup="soundGroup" >
     <source src="audio/ds-2.mp3" type="audio/mpeg" />
     Your browser does not support HTML5 Audio.
   </audio>
 
-  <audio id="multiTracks3" class="multiTrack" mediagroup="soundGroup" controls>
+  <audio id="multiTracks3" class="multiTrack" mediagroup="soundGroup" >
     <source src="audio/ds-1.mp3" type="audio/mpeg" />
     Your browser does not support HTML5 Audio.
   </audio>
@@ -36,12 +36,12 @@
   <div class="controls">
     <div>This will be a time slider...</div>
     <div class="timeControl mt2 mb4">
-      <span>00:00</span> <input type="range" min="0" max="1" step="0.0001" value="0" id="songTime" oninput="timeUpdate(value)"> <span class="customDuration">{LoadBasedOnSong}</span>
+      <span class="timePlayed">00:00</span> <input type="range" min="0" max="1" step="0.01" value="0" id="songTime" oninput="timeUpdate(value)"> <span class="customDuration">{LoadBasedOnSong}</span>
     </div>
     <div class="buttonGroup">
       <button onclick="playAud()" type="button" class="toggle play bg-green white pa2 f3 bn-ns "><i class="fa fa-play" aria-hidden="true"></i></button>
       <button onclick="pauseAud()" class="toggle pause bg-yellow white pa2 f3 bn-ns " style="display:none;"><i class="fa fa-pause" aria-hidden="true"></i></button>
-      <button onclick="resetAud()" class="bg-red white pa2 f3 bn-ns "><i class="fa fa-stop" aria-hidden="true"></i></button>
+      <button onclick="resetAud()" class="stop bg-red white pa2 f3 bn-ns "><i class="fa fa-stop" aria-hidden="true"></i></button>
     </div>
     <div class="volumeControl mt2">
       <!-- http://brennaobrien.com/blog/2014/05/style-input-type-range-in-every-browser.html -->
@@ -57,6 +57,10 @@
       $('.toggle').click(function() {
         $('.play').toggle();
         $('.pause').toggle();
+      })
+      $('.stop').click(function() {
+        $('.play').show();
+        $('.pause').hide();
       })
 
       var snd1  = document.getElementById("multiTracks1");
@@ -115,20 +119,41 @@
         snd3.volume = vol;
       }
 
+      // Time controls related
+      leadingZero = function(number) {
+        if (number < 10) {
+            return ("0"+number);
+        } else {
+          return (number);
+        }
+      }
+
+      var songLength = snd1.duration;
+      var songMin = Math.floor(songLength / 60);
+      var songSec = Math.round(songLength - (songMin * 60));
+      var customMin = leadingZero(songMin);
+      var customSec = leadingZero(songSec);
+      var customDuration = customMin + ":" + customSec;
+      $(".customDuration").html(customDuration);
+
       function timeUpdate(thisTime) {
-      	document.querySelector('#songTime').value = thisTime;
+        document.querySelector('#songTime').value = thisTime;
         var songLength = snd1.duration;
         var setNewTime = thisTime * songLength;
-
-        console.log(thisTime);
-        console.log(songLength);
-        console.log(setNewTime);
 
         snd1.currentTime = setNewTime;
         snd2.currentTime = setNewTime;
         snd3.currentTime = setNewTime;
+
+        var songMin = Math.floor(setNewTime / 60);
+        var songSec = Math.round(setNewTime - (songMin * 60));
+        var customMin = leadingZero(songMin);
+        var customSec = leadingZero(songSec);
+        var customDuration = customMin + ":" + customSec;
+        $(".timePlayed").html(customDuration);
       }
 
+      // update time slider while tracks playing??????
 
   </script>
 </body>
