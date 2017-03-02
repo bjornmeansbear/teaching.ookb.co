@@ -1,0 +1,44 @@
+.hide {
+  visibility: hidden;
+  display: none;
+}
+
+input[type=range]{
+    width: 400px;
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 4px;
+    background: lightgray;
+    border: none;
+    border-radius: 2px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: cyan;
+    margin-top: -6px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: darkgray;
+}
+
+input#songTime::after {
+  content: '';
+  display: block;
+  width: 200px;
+  background-color: red;
+  position: absolute;
+  z-index: 9;
+  height: 4px;
+}
