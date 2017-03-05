@@ -49,7 +49,8 @@ font-size: 20px;
 .drug{
     
 position: absolute;
-top:1660px;
+top:50%;
+width:575px;
 left:50%;
 color: aliceblue;
 font-size: 20px;
@@ -64,7 +65,7 @@ letter-spacing: 2px;
 .honey{
     
 position: absolute;
-top:6260px;
+top:50%;
 left:38%;
 color: aliceblue;
 font-size: 20px;
@@ -79,8 +80,8 @@ letter-spacing: 2px;
 .vague{
     
 position: absolute;
-top:7990px;
-left:30%;
+top:50%;
+left:10%;
 color: aliceblue;
 font-size: 18px;
 font-family: 'Forum', cursive;
