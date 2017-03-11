@@ -1,0 +1,309 @@
+@keyframes spin {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg);}
+}
+
+
+
+@keyframes fontChange {
+    0% {color:red;}
+    25% {color:darkred;}
+    40% {color:white;}
+    50% {color: burlywood;}
+    90% {color:black;}
+    
+}
+@keyframes colorVibration {
+    0% {background-color:black;}
+   
+    79% {background-color: red;}
+    100% {background-color: white;}
+  
+    
+}
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
+.color-lightyellow{
+    background-color: lightgoldenrodyellow;
+}
+.color-yellow{
+    background-color: rgba(255, 232, 163, 0.97);
+}
+.color-lime{
+    background-color: lawngreen;
+}
+.color-green{
+    background-color: lime;
+}
+.color-burlywood{
+    background-color: burlywood;
+    opacity:.2;
+}
+.color-skyblue{
+    background-color: skyblue;
+    opacity:.1;
+}
+.color-white{
+    background-color: white;
+}
+.color-black{
+    background-color: black
+}
+.color-aqua{
+    background-color: aqua;
+}
+.color-lighterblue{
+    background-color: powderblue;
+}
+.color-lightblue{
+    background-color: rgba(124, 190, 228, 0.8);
+    opacity: .5;
+}
+.color-oblue{
+    background-color: rgba(124, 190, 228, 0.8);
+    opacity: .4
+}
+.color-blue{
+    background-color: cadetblue;
+}
+.color-aquamarine{
+    background-color: aquamarine;
+}
+.color-corn{
+    background-color: cornflowerblue;
+}
+.color-darkblue{
+    background-color:darkblue;
+    opacity: .8;
+}
+.color-darkslate{
+    background-color: darkslateblue;
+}
+.color-orange{
+    background-color: rgba(255, 204, 36, 1);
+}
+.color-grey{
+    background-color: lightgrey;
+    opacity: .8;
+}
+    .block {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.block::after {
+  padding-top: 100%;
+  display: block;
+  content: '';
+}
+
+.block img {
+  width: 100%;
+  height: auto;
+}
+
+.three-quarter.block {
+  width: 75%;
+}
+
+.two-third.block {
+  width: calc(100% / 3 * 2);
+}
+
+.half.block {
+  width: 50%;
+}
+
+.third.block {
+  width: calc(100% / 3);
+}
+
+.quarter.block {
+  width: 25%;
+}
+
+h1 {
+    font-size: 14vw;
+    font-family: Avenir, arial, san-serif;
+    color: darkred;
+    text-align: right;
+    font-weight: bolder;
+    letter-spacing: .4;
+    transition: all 400ms;
+    opacity: 1;
+    margin: 0;
+    transform: translateX(-2%);
+    
+}
+
+h2 {
+      font-size: 9vw;
+    font-family: avenir, arial, san-serif;
+    color: darkred;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: .6;
+    border: 2em;
+    transform: translateY(7%)
+}
+
+h4 {
+      font-size: 2vw;
+    font-family: sans-serif;
+    color: purple;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: .4;
+    position: relative;
+    margin: 2em;
+}
+body {
+    background-color:burlywood;
+    margin: 0;
+}
+
+body {
+ 
+background-position: center center;
+background-size: contain;
+background-repeat: no-repeat;
+opacity: 1;
+}
+
+
+body {
+    background-image: url(background-01.jpg);
+    border: solid darkblue 30px
+    
+    
+}
+h4:hover span {
+display: none;
+
+
+}
+
+
+h4 {
+    background-color: 
+    position: center;
+   
+    
+}
+
+h1:hover{
+    color:red;
+    font-family: Avenir, arial;
+  
+    
+}
+h1:hover span {
+    display: none;
+}
+h1:hover:before {
+    content: "!CROMMEL,";
+    font-size:.4em;
+    letter-spacing:.4;
+    transition: all 300ms;
+    
+}
+
+span:hover {
+    color: red;
+
+    font-family: Avenir, arial;
+    font-style: italic; 
+    animation-name: fontChange;
+
+   transition: all 100ms;
+    animation-duration: .1s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+
+}
+
+b:hover {
+    font-size: 1em;
+    color:white;
+    letter-spacing: .4em;
+       transition: all 300ms;
+}
+
+
+i:hover {
+    font-size: 1.2em;
+    color: yellow;
+    transition: all 300ms;
+}
+h4 {
+     animation-name: spin;
+     transition: all 100ms;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+  
+
+}
+.arm {
+    background-image: url("arms-01.png");
+    background-size: 80%;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    animation-direction: alternate;
+    top: -7vw;
+}
+
+
+div.wiggle.arm {
+  display: inline-block;
+  animation: wiggle .5s infinite;
+}
+
+div.wiggle.arm:hover {
+  animation: wiggle 2.5s infinite;
+}
+
+.fond{position:absolute;padding-top:85px;top:0;left:0; right:0;bottom:0;
+ background-color:#00506b;}
+
+.grow {
+    background-image: url("dukeqr.png");
+    width: 6vw;
+    height: 6vw;
+    background-size: 6vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 36%;
+    bottom: -123%;
+
+ 
+
+}
+.grow:hover { 
+    transform: scale(110%);
+  
+    box-shadow: 0px 0px 100px #000000;
+    z-index: 2;
+   
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+span.crosshair {
+    cursor: crosshair;
+}
+h1.crosshair {
+    cursor: crosshair;
+}
+b.crosshair {
+    cursor: crosshair;
+}

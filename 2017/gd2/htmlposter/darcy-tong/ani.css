@@ -1,0 +1,173 @@
+@keyframes sweetRotation{
+    
+    0% {transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(90eg);}
+    100% {transform: rotate(-90deg);}
+    
+}
+@keyframes sweet{
+
+    25% {transform: rotate(0deg);}
+    50%{transform: rotate(0eg);}
+    100% {transform: rotate(360deg);}
+    
+}
+
+@keyframes mymove {
+    0%   {top: 0px;}
+    50%  {top: 1200px;}
+    100% {top:0px;}
+}
+
+@keyframes mymove1 {
+    0%   {top : 1200px;}
+    50%  {top: 0px;}
+    100% {top:1200px;}
+}
+@keyframes color{
+    
+    0% {background-color: bisque;}
+    25%{background-color: pink;}
+    50% {background-color: thistle;}
+    75% {background-color: lightcyan;}
+    100% {background-color: mistyrose;}
+}
+
+@keyframes color1{
+    
+    0% {background-color: rosybrown;}
+    25%{background-color: palevioletred;}
+    50% {background-color: turquoise;}
+    75% {background-color: peru;}
+    100% {background-color: teal;}
+}
+
+Body{
+    animation-name:color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+div1 {
+    animation-name:sweetRotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+div2 {
+    animation-name:sweetRotation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+div3 {
+    animation-name:sweet;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+div4 {
+    animation-name:sweet;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+h1{
+    animation-name: mymove;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+h2{
+    animation-name: mymove1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+
+
+p1:hover {
+    color: red;
+    font-size: em;
+}
+
+p2:hover {
+    color: magenta;
+    font-size: em;
+}
+
+p3:hover {
+    color: magenta;
+    font-size: em;
+}
+
+p4:hover {
+    color: chartreuse;
+    font-size: em;
+}
+
+p5:hover {
+    color: chartreuse;
+    font-size: em;
+}
+
+p6:hover {
+    color: red;
+    font-size: em;
+}
+
+p7:hover {
+    color: gold;
+    font-size: em;
+}
+
+
+p8:hover {
+    color: magenta;
+    font-size: em;
+}
+
+p9:hover {
+    color: chartreuse;
+    font-size: em;
+}
+
+p10:hover {
+    color: chartreuse;
+    font-size: em;
+}
+
+p11:hover {
+    color: red;
+    font-size: em;
+}
+
+p12:hover {
+    color: gold;
+    font-size: em;
+}
+
+p13:hover {
+    color: chartreuse;
+    font-size: em;
+}
+
+p14:hover {
+    color: chartreuse;
+    font-size: em;
+}
+
+p15:hover {
+    color: red;
+    font-size: em;
+}
+
+p16:hover {
+    color: gold;
+    font-size: em;
+}
+
+
+
+

@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    background-image: url();
+}
+
+#circle{
+    background: none;
+    height: 600px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 7px 7px 29px -8px rgba(102,102,102,1);  
+    position: fixed;
+}
+
+
+#line {
+    border-bottom: 2px solid white;
+    transform: rotate(-20deg);
+    z-index: 300;
+    width: 80%;
+    box-shadow: 7px 7px 29px -8px rgba(102,102,102,1); 
+    position: fixed;
+    left: 6%;
+    top: 11%;
+    cursor: crosshair;
+}
+
+.RS {
+    font-family: "Marian Black", fantasy;
+    font-size: 9em;
+    color: white;
+    position: absolute;
+    top: 72%;
+    cursor: pointer;
+}
+.PVE {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 9em;
+    color:white;
+    position: absolute;
+    top: 90%;
+}
+
+.credits {
+    font-family: "Marian Black", Times, serif;
+    font-size: 3em;
+    color:white;
+    position: absolute;
+    top: 130%;
+}
+
+.untitled {
+    width: 40%;  
+    height: auto;
+    position: fixed;
+    left:30%;
+    z-index: 400;
+}

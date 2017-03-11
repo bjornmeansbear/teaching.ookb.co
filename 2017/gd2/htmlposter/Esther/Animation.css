@@ -1,0 +1,52 @@
+@keyframes sweetRotation {
+     0%   {transform:rotate(0deg)}
+     25 {transform:rotate(90deg)}
+     50%  {transform:rotate(180deg)}
+     70%  {transform:rotate(270deg)}
+    100% {transform:rotate(360deg)}
+}
+p5{
+    animation-name: sweetRotation;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count:1;
+    animation-iteration-count: infinite;
+}
+@keyframes textVibration {
+    0%   {color: peru;}
+    25%  {color: darkgrey;}
+    100% {color: brown;}
+}
+p9 {
+    animation-name: textVibration;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes onemove {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+@keyframes twomove {
+    0%   {top: 0px;}
+    
+   
+    
+    100% {top: 7em;}
+}
+h1 {
+    animation-name: twomove;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes mymove {
+    0%   {top: 19em; background: pink; width: 300px;}
+    100% {top: 13.5; background: gray; width: 300px;}
+}
+p2{
+    animation-name: mymove;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}

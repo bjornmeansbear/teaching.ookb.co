@@ -1,0 +1,99 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Bauhaus Std", Bauhaus, sans-serif;
+    margin: 0;
+    font-size: 1em;
+}
+
+h1{
+    font-size:22vw;
+    position:absolute;
+    transform: rotate(0deg);
+    transform-origin: 20% 100%;
+    top:1%;
+    left:2.5%;
+    margin:0;
+}
+
+h2{
+    font-size:22vw;
+    color:black;
+    transform: rotate(38deg);
+    transform-origin: 60% 33%;
+    position: absolute;
+    left: 51%;
+    top:98%;
+    margin:0;
+}
+
+h3{
+    font-size:22vw;
+    transform: rotate(0deg);
+    transform-origin: 20% 100%;
+    position:absolute;
+    bottom:-139%;
+    right:6%;
+    margin:0;
+}
+
+
+
+
+h1 span {
+    font-size: 3em;
+    display: inline-block;
+}
+
+.typetext1 h1 {
+    transform: rotate(-8deg);
+}
+p{
+    font-size:1.5em;
+    left:2em;
+    top:0;
+    width: 10em;
+    position:absolute;
+}
+
+.black {
+    color:black;
+}
+
+.white {
+    color:white;
+}
+
+
+
+.p1 {
+    transform: rotate(0deg);
+    display: inline-block;
+    width:10em;
+    left:3em;
+    top:16em;
+    position:absolute;
+}
+
+.p2 {
+    transform: rotate(0deg);
+    display: inline-block;
+    width:10em;
+    left:46em;
+    top:30em;
+    position:absolute;
+  
+}
+
+.p3 {
+    transform: rotate(0deg);
+    display: inline-block;
+    width:10em;
+    left:3em;
+    top:43em;
+    position:absolute;
+}

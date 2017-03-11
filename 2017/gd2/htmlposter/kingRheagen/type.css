@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size:10vw;
+    color:lightcyan;
+    font-family: 'PT Mono', monospace;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    letter-spacing: 2px;
+}
+.h11 {
+    font-size:10vw;
+    color:lightcyan;
+    font-family: 'PT Mono', monospace;
+    position: absolute;
+    top: 950px;
+    left: 10%;
+    letter-spacing: 2px;
+}
+.h111 {
+    font-size:10vw;
+    color:lightcyan;
+    font-family: 'PT Mono', monospace;
+    position: absolute;
+    top: 3300px;
+    left: 10%;
+    letter-spacing: 2px;
+}
+h2 {
+    font-family: 'PT Mono', monospace;
+    color: #8b498b;
+    position:absolute;
+    top:1396px;
+    left:5%;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    font-size:24px;
+}
+.p1 {
+    color:lightcyan;
+    position:absolute;
+    left:64%;
+    top: 10%;
+    font-family: 'PT Mono', monospace;
+    width: 25%;
+    display:inline-block;
+    text-align: right;
+}
+
+.p2 {
+    color:lightcyan;
+    position:absolute;
+    left:64%;
+    top: 40%;
+    font-family: 'PT Mono', monospace;
+    width: 25%;
+    display:inline-block;
+    text-align: right;
+}
+
+.p3 {
+    color:lightcyan;
+    position:absolute;
+    left:64%;
+    top:88%;
+    font-family: 'PT Mono', monospace;
+    width: 25%;
+    display:inline-block;
+    text-align: right;
+}
+
+.p4 {
+    color:lightcyan;
+    position:absolute;
+    left:10%;
+    top: 1200px;
+    font-family: 'PT Mono', monospace;
+    width: 25%;
+    display:inline-block;
+    text-align: left;
+}
+.p5 {
+    color:lightcyan;
+    position:absolute;
+    left:10%;
+    top: 1677px;
+    font-family: 'PT Mono', monospace;
+    width: 25%;
+    display:inline-block;
+    text-align: left;
+}
+.p6 {
+    color:lightcyan;
+    position:absolute;
+    left:10%;
+    top: 1979px;
+    font-family: 'PT Mono', monospace;
+    width: 25%;
+    display:inline-block;
+    text-align: left;
+}
+.p7 {
+    color:lightcyan;
+    position:absolute;
+    left:10%;
+    top: 750px;
+    font-family: 'PT Mono', monospace;
+    width: 25%;
+    display:inline-block;
+    text-align: left;
+}
+.p8 {
+    color:lightcyan;
+    position:absolute;
+    left:64%;
+    top:3075px;
+    bottom: 5px;
+    font-family: 'PT Mono', monospace;
+    width: 25%;
+    display:inline-block;
+    text-align: right;
+}
+h3 {
+   font-size:20px;
+    color:#8b498b;
+    font-family: 'PT Mono', monospace;
+    position: absolute;
+    top: 1427px;
+    left: 10%;
+    letter-spacing: 2px; 
+    width: 45%;
+}

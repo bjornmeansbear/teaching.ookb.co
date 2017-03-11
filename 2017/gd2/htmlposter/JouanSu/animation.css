@@ -1,0 +1,27 @@
+@keyframes test{
+    from {transform:rotate(0deg);}
+    to {transform:rotate(1turn);}
+}
+
+.bark{ 
+    animation-duration:0.001s;
+    animation-name:test;
+    animation-iteration-count:infinite;
+    -webkit-animation-name:test;
+    -webkit-animation-duration:0.001s;
+    -webkit-animation-iteration-count:infinite;
+    
+    }
+
+@keyframes bg {
+    0%   {background-color: red;}
+    25%  {background-color: orange;}
+    50%  {background-color: darkorange;}
+    100% {background-color: orangered;}
+}
+
+body{
+     animation-duration:5s;
+     animation-name:bg;
+     animation-iteration-count: infinite;
+     }

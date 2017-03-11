@@ -1,0 +1,25 @@
+h1 {
+    color: lightcyan;
+    transition: all 50ms;
+}
+
+h1:hover {
+   color: #8b498b;
+}
+.h11 {
+    color: lightcyan;
+    transition: all 50ms;
+}
+
+.h11:hover {
+   color: #8b498b;
+}
+
+.h111 {
+    color: lightcyan;
+    transition: all 50ms;
+}
+
+.h111:hover {
+   color: #8b498b;
+}

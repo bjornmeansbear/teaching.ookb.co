@@ -1,0 +1,90 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin:0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size:100%;
+    background-image:url("yellow-background.jpg");
+}
+
+h1 {
+    font-size: 100px;
+    color:white;
+    letter-spacing: 0em;
+    top:80px;
+    left:500px;
+    position: absolute;
+    margin:0em;
+}
+
+.indexcopy h1 {
+    transform: rotate(-12.5deg);
+}
+
+h1 span {
+    font-size: 2em;
+    font-family: monospace;
+    display:inline-block;
+    transform:rotate(25deg);
+    color:deeppink;
+    
+}
+
+p {
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    left: 0;
+    top: 1140px;
+    text-align: right;
+    background-color: navy;
+    margin:0;
+    width:100%;
+    z-index: -1;
+    padding:11px;
+
+}
+
+p2 {
+    font-size: 12px;
+    transform: rotate(0deg);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 2px;
+    top: 1160px;
+    width: 48em;
+    padding: 5px;
+    margin: 0;
+    z-index: 1
+}
+
+p3 {
+    font-size: 1.2em;
+    transform: rotate(0.25turn);
+    color: antiquewhite;
+    font-weight: bold;
+    position: absolute;
+    left: 20em;
+    top: 30em;
+    width: 30em;
+    padding: 0;
+    margin：0；
+}
+
+p2 span {
+    font-family:monospace;
+    color:darkseagreen;
+    display:inline-block;
+    transform:rotate(0.5trun);
+
+}
+
+h1:hover {
+    background-color: navy;
+}

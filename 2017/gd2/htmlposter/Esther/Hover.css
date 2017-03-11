@@ -1,0 +1,19 @@
+h3{
+    color:red;
+    transition: all .3s;
+    
+    
+}
+p11:hover{
+    color:black;
+    font-size: 4em;
+}
+p10:active{
+    color:burlywood;
+    
+}
+
+p1:focus{
+    color:black;
+    
+}

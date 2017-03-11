@@ -1,0 +1,121 @@
+
+@keyframes explosion {
+  @for $i from 1 through 10 {
+    $number: $i * 10;
+    $percent: $number + "%";
+    #{$percent} {
+      content: $i + "";
+      color: white;
+      font-size: $i * 20px;
+    }
+  }
+}
+
+.bomb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:after {
+    font-size: 300px;
+    content: "UMF 2017";
+    display: block;
+    color: red;
+    text-align: center;
+    animation: explosion 7s linear infinite reverse;
+    transition: color .1s ease;
+  }
+}
+
+
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+    text-align: center;
+    content: "Don't Blink";
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+}
+@keyframes sweetRotation {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(0deg);}
+  100% { transform: rotate(359deg);}
+}
+
+@keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+}
+p {
+  animation-name: myfirst;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+h1 span {
+    animation-name: sweetRotation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+ }
+
+
+
+
+@keyframes colorVibration {
+    0% {background-color: red; }
+    25% {background-color: yellow;}
+    50% { background-color: green; }
+    75% {background-color: blue; }
+    100% {background-color: red;}
+}
+
+@keyframes textColors {
+    0% { color: red; }
+    25% { color: yellow;}
+    50% { color: green; }
+    75% { color: blue; }
+    100% { color: red;}
+
+}
+
+body {
+    animation-name: colorVibration;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+   animation-name: textColors;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}

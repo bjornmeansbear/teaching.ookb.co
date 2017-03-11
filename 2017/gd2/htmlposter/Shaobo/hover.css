@@ -1,0 +1,25 @@
+
+
+ h2{
+    color: black;
+    font-size: 22vw;
+    transition: all 1200ms;
+}
+
+
+ h2:hover {
+    color: white;
+    font-size: 50vw;
+}
+
+
+.p1{
+    color: black;
+    font-size: 1.5em;
+    transition: all 1200ms;
+}
+
+.p1:hover {
+    color:white;
+    font-size: 2.5em;
+}

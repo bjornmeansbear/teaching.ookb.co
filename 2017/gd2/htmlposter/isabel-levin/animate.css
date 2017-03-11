@@ -1,0 +1,42 @@
+@keyframes piano {                 0% {font-size:1.5em;}
+                                   50% {font-size:2.5em;}
+                                   100% {font-size:3em;} }
+.animate{                          animation-name:piano;
+                                   animation-duration:0.8s;
+                                   animation-iteration-count: infinite;}
+
+
+
+
+@keyframes piano1 {                0% {font-size:1.5em;}
+                                   50% {font-size:2.5em;}
+                                   100% {font-size:1.5em;} }
+.animate1{                         animation-name:piano1;
+                                   animation-duration:0.75s;
+                                   animation-iteration-count: infinite;}
+
+
+
+
+@keyframes slide {                 0%{left:59%; }
+                                   20%{left:10%; }
+                                   30%{left:30%; }
+                                   41%{left:10%; }
+                                   47%{left:30%; }
+                                   60%{left:10%;}
+                                   100%{left:59%; }}
+.animate2{                         animation-name:slide;
+                                   animation-duration:4s;
+                                   animation-iteration-count: infinite;}
+
+
+
+
+@keyframes colorVibration {        0%{color:#ffd800; }
+                                   25%{color:#e89805; }
+                                   50%{color:#ff6c00; }
+                                   75%{color:#e89805; }
+                                   100%{color:#ffd800;} }
+.animate3{                         animation-name:colorVibration;
+                                   animation-duration:7s;
+                                   animation-iteration-count: infinite;}

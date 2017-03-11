@@ -1,0 +1,49 @@
+
+@keyframes sweetpotato {
+    0% { transform:rotate(0deg); }
+    20% { transform:rotate(180deg); }
+    40% { transform: rotate(0deg); }
+    60% { transform: rotate(120deg); }
+    80% { transform: rotate(0deg); }
+    100% { transform: rotate(120deg); }
+}
+
+@keyframes colorloop {
+    0% { background-color: navy; }
+    20% { background-color: blue; }
+    40% { background-color: dodgerblue; }
+    60% { background-color: deepskyblue; }
+    80% { background-color: dodgerblue; }
+    100% { background-color: blue; }
+}
+
+@keyframes textloop {
+    0% { color: aliceblue; }
+    20% { color: azure; }
+    40% { color: aquamarine; }
+    60% { color: chartreuse; }
+    80% { color: cadetblue; }
+    100% { color: cornflowerblue; }
+}
+
+@keyframes sizeloop {
+    0% { font-size: 1px; background-color: navy; }
+    20% { font-size: 20px; background-color: blue; }
+    40% { font-size: 100px; background-color: dodgerblue; }
+    60% { font-size: 80px; background-color: deepskyblue;  }
+    80% { font-size: 20px; background-color: dodgerblue; }
+    100% { font-size: 1px; background-color: blue; }
+}
+
+
+h1 {
+    animation-name: sizeloop;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+p {
+    animation-name: colorloop;
+    animation-duration:2s;
+    animation-iteration-count: infinite;    
+}

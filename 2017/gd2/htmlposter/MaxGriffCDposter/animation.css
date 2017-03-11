@@ -1,0 +1,55 @@
+@keyframes flipem {
+    0%{transform:rotate(20deg);}
+    10%{transform:rotate(40deg);}
+    20%{transform:rotate(60deg);}
+    30%{transform:rotate(80deg);}
+    40%{transform:rotate(100deg);}
+    50%{transform:rotate(120deg);}
+    60%{transform:rotate(140deg);}
+    70%{transform:rotate(160deg);}
+    80%{transform:rotate(180deg);}
+    90%{transform:rotate(190deg);}
+    100%{transform:rotate(200deg);}
+}
+
+.untitled:hover {
+    animation-name: flipem;
+    animation-play-state: running;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes flash {
+    0% {color:white;}
+    10% {color:black;}
+}
+
+
+.RS:active {
+    animation-name: flash;
+    animation-duration: .25s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+
+@keyframes droppedshadow {
+    0%{box-shadow: 7px 7px 29px -8px rgba(102,102,102,1);}
+    10%{box-shadow: 8px 8px 30px -8px rgba(102,102,102,1);}
+    20%{box-shadow: 12px 12px 34px -12px rgba(255,255,255,1);}
+    30%{box-shadow: 16px 16px 38px -16px rgba(255,255,255,1);}
+    40%{box-shadow: 20px 20px 42px -20px rgba(255,255,255,1);}
+    50%{box-shadow: 24px 24px 46px -24px rgba(255,255,255,1);}
+    60%{box-shadow: 28px 28px 50px -28px rgba(255,255,255,1);}
+    70%{box-shadow: 32px 32px 54px -32px rgba(255,255,255,1);}
+    80%{box-shadow: 36px 36px 58px -36pxpx rgba(255,255,255,1);}
+    90%{box-shadow: 40px 40px 62px -40px rgba(255,255,255,1);}
+    100%{box-shadow: 44px 7px 66px -44px rgba(255,255,255,1);}
+}
+
+#line:active {
+    animation-name: droppedshadow;
+    animation-duration:4s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    cursor:crosshair;
+}

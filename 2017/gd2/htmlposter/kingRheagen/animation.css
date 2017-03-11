@@ -1,0 +1,33 @@
+
+@keyframes index {
+    0% {transform: rotate(0deg); }
+    95% {transform: rotate(-180deg); }
+    100% {transform: rotate(1turn); }
+}
+
+@keyframes textColors {
+    0% {color: lightcyan;}
+    100% {color: #8b498b;}
+}
+
+@keyframes backgroundColors {
+    
+}
+
+h2 {
+    animation-name: textColors;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+h3 {
+    animation-name: textColors;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+class="h11" {
+    animation-name: index;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}

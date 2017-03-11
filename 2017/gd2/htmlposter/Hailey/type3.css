@@ -1,0 +1,59 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size:100%;
+    background-color: #16171c;
+    color: white
+}
+
+.absolute {
+    position: absolute;
+}
+.center{
+    left:50%;
+    top:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+h1{
+    font-size: 2em;
+    transform: rotate(0deg);
+    transform-origin: right top;
+}
+
+h1 span {
+    font-size: 3em;
+    display:inline-block;
+}
+
+.white{
+    color: #ffffff;
+    font-size: 1.3em;
+    transform: rotate(-12.5deg);
+    transform-origin: right top;
+}
+.opacity{
+  opacity: 0.5;
+}
+
+.bottom{
+  transform: rotate(10deg);
+  font-size: 2.2em;
+}
+
+.typetest1 h1 {
+    transform: rotate (-12.5deg);
+}
+p {
+    font-size: 2rem;
+    transform: rotate(12.5deg);
+    color: black;
+    font-weight: bold;
+    position: relative;
+    left: 2em;
+    width: 20em;

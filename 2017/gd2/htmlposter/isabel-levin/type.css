@@ -1,0 +1,279 @@
+*{
+        box-sizing: border-box;}
+
+body{
+                margin:0;
+                font-family:"Akzidenz Grotesk (R) Condensed Medium", Helvetica, Futura, Arial, sans-serif;
+                font-size:100%;
+                line-height:1.5;
+                    /* Putting an integer here (i.e. 1.5) multiples the font-size by that number **/
+                background-color:white;
+                color:black;}
+                    /* Just "color" refers to font color **/
+
+h1{             font-size:2.5em;
+                font-weight:bold;
+                letter-spacing:0.66em;
+                transform:rotate(0deg);
+                transform-origin:bottom right;
+                position:absolute;
+                left:45%;
+                top:9%;
+                color:#e89805;}
+
+h2{             font-size:3em;
+                letter-spacing:0.66em;
+                transform:rotate(0deg);
+                transform-origin:bottom right;
+                position:absolute;
+                left:59%;
+                top:12.5%;
+                color:black;}
+
+
+
+
+
+
+
+
+h3{             font-size:6em;
+                font-weight:900;
+                transform:rotate(-15deg);
+                transform-origin:bottom right;
+                position:absolute;
+                left:54%;
+                top:16%;
+                color:black;}
+
+h4{             font-size:6em;
+                font-weight:900;
+                transform:rotate(15deg);
+                transform-origin:bottom right;
+                position:absolute;
+                left:58%;
+                top:16%;
+                color:black;}
+
+h5{             font-size:6em;
+                font-weight:900;
+                transform:rotate(10deg);
+                transform-origin:bottom right;
+                position:absolute;
+                left:64%;
+                top:18%;
+                color:black;}
+
+h6{             font-size:6em;
+                font-weight:900;
+                transform:rotate(10deg);
+                transform-origin:bottom right;
+                position:absolute;
+                left:71%;
+                top:17.5%;
+                color:black;}
+
+h7{             font-size:6em;
+                font-weight:900;
+                transform:rotate(-10deg);
+                transform-origin:bottom right;
+                position:absolute;
+                left:80%;
+                top:15.5%;
+                color:black;}
+
+h8{             font-size:6em;
+                font-weight:900;
+                transform:rotate(0deg);
+                transform-origin:bottom right;
+                position:absolute;
+                left:85%;
+                top:14%;
+                color:black;}
+
+
+
+
+
+
+
+
+
+
+h9{             font-size:1.5em;
+                font-weight:900;
+                letter-spacing:;
+                transform:rotate(0deg);
+                transform-origin:;
+                position:absolute;
+                left:7%;
+                top:21%;
+                color:black;}
+
+h10{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:;
+                transform:rotate(0deg);
+                transform-origin:;
+                position:absolute;
+                left:7%;
+                top:24%;
+                color:black;}
+
+h11{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:;
+                transform:rotate(0deg);
+                transform-origin:;
+                position:absolute;
+                left:7%;
+                top:27%;
+                color:black;}
+
+h12{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:;
+                transform:rotate(0deg);
+                transform-origin:;
+                position:absolute;
+                left:7%;
+                top:30%;
+                color:black;}
+
+h13{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:;
+                transform:rotate(0deg);
+                transform-origin:;
+                position:absolute;
+                left:7%;
+                top:33%;
+                color:black;}
+
+h14{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:;
+                transform:rotate(0deg);
+                transform-origin:;
+                position:absolute;
+                left:7%;
+                top:36%;
+                color:black;}
+
+
+
+
+
+
+
+h15{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:0.66em;
+                position:absolute;
+                left:7%;
+                top:59%;
+                color:black;}
+
+h16{            font-size:2em;
+                font-weight:900;
+                letter-spacing:0.66em;
+                line-height:1.25em;
+                position:absolute;
+                left:15%;
+                top:59%;
+                color:black;}
+
+h17{            font-size:6.5em;
+                font-weight:900;
+                font-family: cursive;
+                letter-spacing:;
+                line-height:1.25em;
+                position:absolute;
+                left:7%;
+                top:61%;
+                color:black;}
+
+h18{            font-size:2em;
+                font-weight:900;
+                letter-spacing:0.66em;
+                line-height:1.25em;
+                position:absolute;
+                left:13%;
+                top:69%;
+                color:black;}
+
+h19{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:0.25em;
+                position:absolute;
+                left:7%;
+                top:72%;
+                color:black;}
+
+h20{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:0.25em;
+                position:absolute;
+                left:19%;
+                top:74%;
+                color:black;}
+
+
+
+
+
+h21{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:;
+                position:absolute;
+                right:9.5%;
+                top:56%;
+                color:black;}
+
+h22{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:;
+                position:absolute;
+                right:9.5%;
+                top:59%;
+                color:black;}
+
+h23{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:;
+                position:absolute;
+                right:9.5%;
+                top:62%;
+                color:black;}
+
+h24{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:;
+                position:absolute;
+                right:9.5%;
+                top:65%;
+                color:black;}
+
+h25{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:;
+                position:absolute;
+                right:9.5%;
+                top:68%;
+                color:black;}
+
+
+h26{            font-size:1.5em;
+                font-weight:900;
+                letter-spacing:1em;
+                transform:rotate(-32deg);
+                transform-origin:;
+                position:absolute;
+                right:20%;
+                bottom:10%;
+                color:black;
+                z-index:-500;}
+
+
+
+

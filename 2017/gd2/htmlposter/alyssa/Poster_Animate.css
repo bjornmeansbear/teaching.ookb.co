@@ -1,0 +1,322 @@
+.redtri {
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+
+0%   {left: 75px;
+      top: 120px; }
+
+50%  {left: 100px;
+      top: 130px; }
+    
+    100% {left: 75px;
+          top: 120px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+
+0%   {
+        left: 75px;
+        top: 120px; }
+    
+50%  {left: 100px;
+      top: 130px; }
+
+    100% {left: 75px;
+          top: 120px;}
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+
+.redtrib {
+    -webkit-animation: yoyo 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: yoyo 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes yoyo {
+
+0%   {left: 23.8vh;
+      bottom:19.7vh }
+
+50%  {left: 25.1vh;
+      bottom:19.4vh; }
+    
+    100% {left: 23.8vh;
+          bottom:19.7vh}
+}
+
+/* Standard syntax */
+@keyframes yoyo {
+
+0%   {
+        left: 23.8vh;
+        bottom:19.7vh }
+    
+50%  {left: 25.1vh;
+      bottom:19.4vh; }
+
+    100% {left: 23.8vh;
+          bottom:19.7vh}
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.redtribl {
+    -webkit-animation: heyy 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: heyy 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes heyy {
+
+0%   {left: 23vh;
+      bottom: 20.5vh; }
+
+50%  {left: 24.8vh;
+      bottom:20.2vh; }
+    
+    100% {left: 23vh;
+          bottom: 20.5vh;}
+}
+
+/* Standard syntax */
+@keyframes heyy {
+
+0%   {
+        left: 23vh;
+        bottom: 20.5vh; }
+    
+50%  {left: 24.8vh;
+      bottom:20.2vh; }
+
+    100% {left: 23vh;
+          bottom: 20.5vh;}
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.whitec {
+    -webkit-animation: circ 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: circ 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes circ {
+
+0%   {width: 38vh;
+height: 38vh; }
+
+50%  {width: 35vh;
+height: 35vh; }
+    
+    100% {width: 38vh;
+height: 38vh;}
+}
+
+/* Standard syntax */
+@keyframes circ {
+
+0%   {
+        width: 38vh;
+height: 38vh; }
+    
+50%  {width: 35vh;
+height: 35vh; }
+
+    100% {width: 38vh;
+height: 38vh;}
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.topr1 {
+    -webkit-animation: nice 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: nice 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes nice {
+
+0%   {top:19.8vh;
+left: 33.6vh; }
+
+50%  {top:20vh;
+left: 36vh; }
+    
+    100% {top:19.8vh;
+left: 33.6vh;}
+}
+
+/* Standard syntax */
+@keyframes nice {
+
+0%   {
+        top:19.8vh;
+left: 33.6vh; }
+    
+50%  {top:20vh;
+left: 36vh; }
+
+    100% {top:19.8vh;
+left: 33.6vh;}
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.topr2 {
+    -webkit-animation: nice1 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: nice1 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes nice1 {
+
+0%   {top:16.8vh;
+left: 45.9vh;}
+
+50%  {top:15.8vh;
+left: 48.9vh; }
+    
+    100% {top:16.8vh;
+left: 45.9vh;}
+}
+
+/* Standard syntax */
+@keyframes nice1 {
+
+0%   {
+        top:16.8vh;
+left: 45.9vh; }
+    
+50%  {top:15.8vh;
+left: 48.9vh; }
+
+    100% {top:16.8vh;
+left: 45.9vh;}
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.topr3 {
+    -webkit-animation: nice2 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: nice2 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes nice2 {
+
+0%   {left: 38vh;
+top: 20.8vh;}
+
+50%  {left: 36vh;
+top: 20.8vh; }
+    
+    100% {left: 38vh;
+top: 20.8vh;}
+}
+
+/* Standard syntax */
+@keyframes nice2 {
+
+0%   {
+        left: 38vh;
+top: 20.8vh; }
+    
+50%  {left: 36vh;
+top: 20.8vh; }
+
+    100% {left: 38vh;
+top: 20.8vh;}
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.cirout {
+    -webkit-animation: cir 2s infinite; /* Safari 4.0 - 8.0 */
+    animation: cir 2s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cir {
+
+0%   {width: 2.4vh;
+height: 2.4vh;}
+
+50%  {width: 1.4vh;
+height: 1.4vh; }
+    
+    100% {width: 2.4vh;
+height: 2.4vh;}
+}
+
+/* Standard syntax */
+@keyframes cir {
+
+0%   {
+        width: 2.4vh;
+height: 2.4vh; }
+    
+50%  {width: 1.4vh;
+height: 1.4vh; }
+
+    100% {width: 2.4vh;
+height: 2.4vh;}
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.cirin {
+    -webkit-animation: cir1 2s infinite; /* Safari 4.0 - 8.0 */
+    animation: cir1 2s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cir1 {
+
+0%   {width: 1.9vh;
+height: 1.9vh;}
+
+50%  {width: .9vh;
+height: .9vh; }
+    
+    100% {width: 1.9vh;
+height: 1.9vh;}
+}
+
+/* Standard syntax */
+@keyframes cir1 {
+
+0%   {
+       width: 1.9vh;
+height: 1.9vh;}
+    
+50%  {width: .9vh;
+height: .9vh; }
+
+    100% {width: 1.9vh;
+height: 1.9vh;}
+}
+
+
