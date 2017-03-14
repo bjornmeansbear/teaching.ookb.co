@@ -11,11 +11,6 @@ h2 {
     animation-iteration-count: infinite;
 }
 
-
-
-
-
-
 @keyframes PEEK {
     0% { color: white; }
     25% { color: rgba(000,000,000,0); }

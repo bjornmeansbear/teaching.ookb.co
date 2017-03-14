@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Bauhaus Std", Bauhaus, sans-serif;
     margin: 0;
     font-size: 1em;
 }
 
-h1{
+h1 {
     font-size: 8em;
     position: absolute;
     top: 0.2em;
@@ -18,7 +18,7 @@ h1{
     margin: 0;
 }
 
-h2{
+h2 {
     font-size: 8em;
     color:black;
     transform: rotate(38deg);
@@ -29,7 +29,7 @@ h2{
     margin:0;
 }
 
-h3{
+h3 {
     font-size:8em;
     position:absolute;
     bottom: -0.08em;
@@ -37,10 +37,7 @@ h3{
     margin:0;
 }
 
-
-
-
-p{  
+p {
     font-family: "ITC Bauhaus", Bauhaus Std, sans-serif;
     font-size: 1em;
     top:0;
@@ -54,8 +51,6 @@ p{
 .white {
     color:white;
 }
-
-
 
 .p1 {
     transform: rotate(0deg);
@@ -73,6 +68,4 @@ p{
     right: 55em;
     top: 69em;
     position:absolute;
-    
 }
-
