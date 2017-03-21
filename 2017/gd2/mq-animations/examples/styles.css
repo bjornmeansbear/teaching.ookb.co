@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-image: url('/images/muybridge10.jpg');
+}
+
+.ball {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #00ff00;
+  box-shadow: inset -1rem -1rem 1rem rgba(0,0,0,.6);
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  transform: translate(-100%, -100%);
+  transition: all .5s;
+}
+
+.text {
+  font-size: 10rem;
+  color: white;
+  text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate3d(-1, -1, -1, 60deg);
+  transition: all .5s;
+}
+
+.text:after {
+  content: 'Frame Ten';
+}
+
+/*            */
+/* "frame" 9  */
+/*            */
+@media (min-width: 30rem) {
+  .background {
+      background-image: url('images/muybridge9.jpg');
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(1, 1, 1, 60deg);
+  }
+
+  .text:after {
+    content: 'Frame Nine';
+  }
+
+  .ball {
+    top: 94%;
+    left: 50%;
+  }
+}
+
+/*            */
+/* "frame" 8  */
+/*            */
+@media (min-width: 34rem) {
+  .background {
+      background-image: url('images/muybridge8.jpg');
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(1, -1, 1, 60deg);
+  }
+
+  .text:after {
+    content: 'Frame Eight';
+  }
+
+  .ball {
+    top: 100%;
+    left: 70%;
+  }
+}
+
+/*            */
+/* "frame" 7  */
+/*            */
+@media (min-width: 38rem) {
+  .background {
+      background-image: url('images/muybridge7.jpg');
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(-1, -1, 1, 60deg);
+  }
+
+  .text:after {
+    content: 'Frame Seven';
+  }
+
+  .ball {
+    top: 88%;
+    left: 90%;
+  }
+}
+
+/*            */
+/* "frame" 6  */
+/*            */
+@media (min-width: 42rem) {
+  .background {
+      background-image: url('images/muybridge6.jpg');
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(-1, -1, -1, 60deg);
+  }
+
+  .text:after {
+    content: 'Frame Six';
+  }
+
+  .ball {
+    top: 100%;
+    left: 100%;
+  }
+}
+
+/*            */
+/* "frame" 5  */
+/*            */
+@media (min-width: 46rem) {
+  .background {
+      background-image: url('images/muybridge5.jpg');
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(1, -1, -1, 60deg);
+  }
+
+  .text:after {
+    content: 'Frame Five';
+  }
+
+  .ball {
+    top: 75%;
+    left: 90%;
+  }
+}
+
+/*            */
+/* "frame" 4  */
+/*            */
+@media (min-width: 50rem) {
+  .background {
+      background-image: url('images/muybridge4.jpg');
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(1, -1, 1, 60deg);
+  }
+
+  .text:after {
+    content: 'Frame Four';
+  }
+
+  .ball {
+    top: 100%;
+    left: 70%;
+  }
+}
+
+/*            */
+/* "frame" 3  */
+/*            */
+@media (min-width: 54rem) {
+  .background {
+      background-image: url('images/muybridge3.jpg');
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(1, 1, 1, 60deg);
+  }
+
+  .text:after {
+    content: 'Frame Three';
+  }
+
+  .ball {
+    top: 50%;
+    left: 50%;
+  }
+}
+
+/*            */
+/* "frame" 2  */
+/*            */
+@media (min-width: 58rem) {
+  .background {
+      background-image: url('images/muybridge2.jpg');
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(1, 1, -1, 60deg);
+  }
+
+  .text:after {
+    content: 'Frame Two';
+  }
+
+  .ball {
+    top: 100%;
+    left: 30%;
+  }
+}
+
+/*            */
+/* "frame" 1  */
+/*            */
+@media (min-width: 62rem) {
+  .background {
+      background-image: url('images/muybridge1.jpg');
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(1, -1, -1, 60deg);
+  }
+
+  .text:after {
+    content: 'Frame One';
+  }
+
+  .ball {
+    top: 10%;
+    left: 10%;
+  }
+}
