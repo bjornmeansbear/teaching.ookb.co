@@ -23,7 +23,16 @@ body {
   z-index: 999;
   box-shadow: 0 0 1em 0 rgba(0,0,50,.3);
   font-size: 1rem !important;
+  height: 1rem;
+  overflow: hidden;
 }
+
+.info:hover {
+  height: 90%;
+  overflow: auto;
+}
+
+.mt1 { margin-top: 1rem; }
 
 h1 {
   position: absolute;
@@ -37,7 +46,7 @@ ul {
   list-style: none;
 }
 
-.widthRed {
+.widthRef {
   position: absolute;
   bottom:0;
   left:0;
@@ -45,7 +54,7 @@ ul {
   height: 1em;
 }
 
-.widthRed li {
+.widthRef li {
   position: absolute;
   bottom:-3em;
 }
@@ -99,6 +108,10 @@ ul {
   body {
     background-color: green;
   }
+  h1 {
+    left: 5%;
+    bottom: 55%;
+  }
   li:nth-child(3) {
     bottom: -3em;
   }
@@ -110,6 +123,10 @@ ul {
 @media (min-width: 888px) {
   body {
     background-color: blue;
+  }
+  h1 {
+    left: 55%;
+    bottom: 95%;
   }
   li:nth-child(4) {
     bottom: -3em;
@@ -123,6 +140,10 @@ ul {
   body {
     background-color: purple;
   }
+  h1 {
+    left: 25%;
+    bottom: 25%;
+  }
   li:nth-child(5) {
     bottom: -3em;
   }
@@ -134,6 +155,10 @@ ul {
 @media (min-width: 1111px) {
   body {
     background-color: pink;
+  }
+  h1 {
+    left: 85%;
+    bottom: 1%;
   }
   li:nth-child(6) {
     bottom: -3em;
