@@ -1,0 +1,156 @@
+* {
+  transition: all 500ms;
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  padding:0;
+  /**/
+  background-color: black;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+.mt1 { margin-top: 1; }
+
+.info {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  max-width: 333px;
+  padding: 1em;
+  background-color: white;
+  z-index: 999;
+  box-shadow: 0 0 1em 0 rgba(0,0,50,.3);
+  font-size: 1rem !important;
+}
+
+h1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+ul {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+.widthRed {
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  height: 1em;
+}
+
+.widthRed li {
+  position: absolute;
+  bottom:-3em;
+}
+
+@media (min-width: 444px) {
+  body {
+    background-color: gray;
+  }
+  h1 {
+    left: 80%;
+    bottom: 10%;
+  }
+  li:nth-child(1) {
+    bottom: 4em;
+  }
+}
+
+@media (min-width: 555px) {
+  body {
+    background-color: red;
+  }
+  h1 {
+    left: 3em;
+    bottom: 50%;
+  }
+  li:nth-child(1) {
+    bottom: -3em;
+  }
+  li:nth-child(2) {
+    bottom: 5em;
+  }
+}
+
+@media (min-width: 666px) {
+  body {
+    background-color: yellow;
+  }
+  h1 {
+    left: 75%;
+    bottom: 75%;
+  }
+  li:nth-child(2) {
+    bottom: -3em;
+  }
+  li:nth-child(3) {
+    bottom: 6em;
+  }
+}
+
+@media (min-width: 777px) {
+  body {
+    background-color: green;
+  }
+  li:nth-child(3) {
+    bottom: -3em;
+  }
+  li:nth-child(4) {
+    bottom: 8em;
+  }
+}
+
+@media (min-width: 888px) {
+  body {
+    background-color: blue;
+  }
+  li:nth-child(4) {
+    bottom: -3em;
+  }
+  li:nth-child(5) {
+    bottom: 10em;
+  }
+}
+
+@media (min-width: 999px) {
+  body {
+    background-color: purple;
+  }
+  li:nth-child(5) {
+    bottom: -3em;
+  }
+  li:nth-child(6) {
+    bottom: 12em;
+  }
+}
+
+@media (min-width: 1111px) {
+  body {
+    background-color: pink;
+  }
+  li:nth-child(6) {
+    bottom: -3em;
+  }
+  li:nth-child(7) {
+    bottom: 15em;
+  }
+}
+
+@media (min-width: 1222px) {
+  body {
+    background-color: white;
+  }
+  li:nth-child(7) {
+    bottom: -3em;
+  }
+  li:nth-child(8) {
+    bottom: 22em;
+  }
+}
