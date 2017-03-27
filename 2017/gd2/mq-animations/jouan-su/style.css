@@ -1,0 +1,45 @@
+body {
+  padding: 5em;
+}
+
+div {
+  border-radius: 50% ;
+  height: 200px;
+  width: 200px;
+  transition: all 1s;
+  position: relative;
+  background:  rgba(0,215,225,235);
+  top:0;
+  left:0;
+}
+
+div:hover > div {
+  animation-name: spin;
+  animation-duration: 4s;
+  left: 100px;
+  top:  100px;
+  background:  rgba(0,245,0,255);
+}
+
+div:hover > div > div {
+    background:  rgba(265,275,0,.5);
+}
+
+div:hover > div > div > div {
+    background:  rgba(255,0,0,.5);
+}
+
+div:hover > div > div > div > div {
+    background:  rgba(255,0,255,.5);
+}
+
+div:hover > div > div > div > div > div{
+    background:  rgba(0,0,275,.5);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(-5turn)}
+}
+
+

@@ -1,0 +1,258 @@
+.wrapper    {max-width:50em;
+             margin-left:auto;
+             margin-right:auto;
+             font-size:1.5em;}
+
+body        {background:gray;
+             color:white;}
+
+section     {position:absolute;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,-50%);
+            height:300px;
+            width:300px;
+            font-size:0;
+            transition: all 0.75s;}
+
+
+
+
+
+@media      (min-width:30em)
+   {body    {background:#101010;
+             color:white;}}
+
+@media      (min-width:40em)
+   {body    {background:#1a1a1a;
+             color:white;}}
+
+@media      (min-width:50em)
+   {body    {background:#242424;
+             color:white;}}
+
+@media      (min-width:60em)
+   {body    {background:#2a2a2a;
+             color:white;}}
+
+@media      (min-width:70em){
+    body    {background:#313131;
+             color:white;}
+   .wrapper{font-size:1em;}}
+
+
+
+
+
+
+
+
+@media      (min-width:30em){
+    section  {left:50%;
+             top:50%;
+             height:150px;
+            width:150px;}}
+
+@media      (min-width:40em){
+    section  {left:50%;
+             top:50%;
+             height:200px;
+            width:200px;}}
+
+@media      (min-width:50em){
+    section  {left:50%;
+             top:50%;
+             height:250px;
+            width:250px;}}
+
+@media      (min-width:60em){
+    section  {left:50%;
+             top:50%;
+             height:300px;
+            width:300px;}}
+
+@media      (min-width:70em){
+    section  {left:50%;
+             top:50%;
+             height:350px;
+            width:350px;}}
+
+
+
+
+
+
+
+
+@media      (min-width:30em){
+    div       {background-color:rgba(255, 0, 0, 0.3);}
+    div:hover > div {
+              background: rgba(255, 0, 0, 0.3);
+              border-radius:14%;
+              left: -10px;
+              top:  -10px;}
+    div.a:hover > div {
+              background:rgba(255, 0, 0, 0.3);
+              left: 10px;
+              top:  -10px;}
+    div.b:hover > div {
+              background: rgba(255, 0, 0, 0.3);
+              left: -10px;
+              top:  10px;}
+    div.c:hover > div {
+              background: rgba(255, 0, 0, 0.3);
+              left: 10px;
+              top:  10px;}
+    div.d:hover > div {
+              background: rgba(255, 0, 0, 0.3);
+              left: -10px;
+              top:  -10px;}
+    div.a:active > div, div.b:active > div, div.c:active > div, div.d:active > div {
+                background:rgba(255, 0, 0, 1);
+                border-radius:0%;}}
+
+
+
+@media      (min-width:40em){
+    div       {background-color:rgba(255, 108, 0, 0.3);}
+    div:hover > div {
+              background: rgba(255, 108, 0, 0.3);
+              border-radius:14%;
+              left: -10px;
+              top:  -10px;}
+    div.a:hover > div {
+              background:rgba(255, 108, 0, 0.3);
+              left: 10px;
+              top:  -10px;}
+    div.b:hover > div {
+              background:rgba(255, 108, 0, 0.3);
+              left: -10px;
+              top:  10px;}
+    div.c:hover > div {
+              background:rgba(255, 108, 0, 0.3);
+              left: 10px;
+              top:  10px;}
+    div.d:hover > div {
+              background:rgba(255, 108, 0, 0.3);
+              left: -10px;
+              top:  -10px;}
+    div.a:active > div, div.b:active > div, div.c:active > div, div.d:active > div {
+                background:rgba(255, 108, 0, 1);
+                border-radius:0%;}}
+
+
+
+@media      (min-width:50em){
+    div       {background-color:rgba(255, 206, 0, 0.3);}
+    div:hover > div {
+              background:rgba(255, 206, 0, 0.3);
+              border-radius:14%;
+              left: -10px;
+              top:  -10px;}
+    div.a:hover > div {
+              background:rgba(255, 206, 0, 0.3);
+              left: 10px;
+              top:  -10px;}
+    div.b:hover > div {
+              background:rgba(255, 206, 0, 0.3);
+              left: -10px;
+              top:  10px;}
+    div.c:hover > div {
+              background:rgba(255, 206, 0, 0.3);
+              left: 10px;
+              top:  10px;}
+    div.d:hover > div {
+              background:rgba(255, 206, 0, 0.3);
+              left: -10px;
+              top:  -10px;}
+    div.a:active > div, div.b:active > div, div.c:active > div, div.d:active > div {
+                background:rgba(255, 206, 0, 1);
+                border-radius:0%;}}
+
+
+
+@media      (min-width:60em){
+    div       {background-color:rgba(94, 224, 139, 0.3);}
+    div:hover > div {
+              background:rgba(94, 224, 139, 0.3);
+              border-radius:14%;
+              left: -10px;
+              top:  -10px;}
+    div.a:hover > div {
+              background:rgba(94, 224, 139, 0.3);
+              left: 10px;
+              top:  -10px;}
+    div.b:hover > div {
+              background:rgba(94, 224, 139, 0.3);
+              left: -10px;
+              top:  10px;}
+    div.c:hover > div {
+              background:rgba(94, 224, 139, 0.3);
+              left: 10px;
+              top:  10px;}
+    div.d:hover > div {
+              background:rgba(94, 224, 139, 0.3);
+              left: -10px;
+              top:  -10px;}
+    div.a:active > div, div.b:active > div, div.c:active > div, div.d:active > div {
+                background:rgba(94, 224, 139, 1);
+                border-radius:0%;}}
+
+
+
+@media      (min-width:70em){
+    div       {background-color:rgba(126, 177, 199,0.3);}
+    div:hover > div {
+              background:rgba(126, 177, 199,0.3);
+              border-radius:14%;
+              left: -10px;
+              top:  -10px;}
+    div.a:hover > div {
+              background:rgba(126, 177, 199,0.3);
+              left: 10px;
+              top:  -10px;}
+    div.b:hover > div {
+              background:rgba(126, 177, 199,0.3);
+              left: -10px;
+              top:  10px;}
+    div.c:hover > div {
+              background:rgba(126, 177, 199,0.3);
+              left: 10px;
+              top:  10px;}
+    div.d:hover > div {
+              background:rgba(126, 177, 199,0.3);
+              left: -10px;
+              top:  -10px;}
+    div.a:active > div, div.b:active > div, div.c:active > div, div.d:active > div {
+                background:rgba(126, 177, 199,1);
+                border-radius:0%;}}
+
+
+
+
+
+
+
+
+
+
+@media      (min-width:30em){
+    div.circle       {background-color:rgba(94, 224, 139, 0.3);}
+    div.circle:hover {background-color:rgba(94, 224, 139, 1);}}
+
+@media      (min-width:40em){
+    div.circle       {background-color:rgba(126, 177, 199,0.3);}
+    div.circle:hover {background-color:rgba(126, 177, 199,1);}}
+
+@media      (min-width:50em){
+    div.circle       {background-color:rgba(147, 109, 199, 0.3);}
+    div.circle:hover {background-color:rgba(147, 109, 199, 1);}}
+
+@media      (min-width:60em){
+    div.circle       {background-color:rgba(255, 0, 0, 0.3);}
+    div.circle:hover {background-color:rgba(255, 0, 0, 1);}}
+
+@media      (min-width:70em){
+    div.circle      {background-color:rgba(255, 108, 0, 0.3);}
+    div.circle:hover {background-color:rgba(255, 108, 0, 1);}}
+

@@ -1,0 +1,293 @@
+body{
+    background:cornflowerblue;
+}
+
+
+
+.wrapper
+{
+    max-width: 50em ;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+}
+
+@media (min-width: 10em) {
+    body {
+        background-color: lightgrey;
+        }
+
+     h3{ animation-name: sweet;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+    
+     
+    }
+
+@media (min-width: 15em) {
+    body {
+        background-color: lightgrey;
+        }
+    h1{
+        font-size: 1em;
+        color: teal;
+    }
+  
+    
+     
+    }
+
+
+@media (min-width: 30em) {
+    body {
+        background-color: skyblue;
+        }
+    h1{
+        font-size: 1em;
+        color: teal;
+    }
+    h4{ animation-name: sweet;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        
+        
+    }
+       h3{ animation-name: mymove;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+    }
+
+@media (min-width: 35em) {
+    body {
+        background-color: lightcyan;
+        }
+    h1{
+        font-size: 2em;
+        color: darkmagenta;
+    }
+@media (min-width: 38em) {
+    body {
+        background-color:sandybrown;
+        }
+    h1{
+        font-size: 3em;
+        color: hotpink;
+    }
+    }
+    
+ 
+    
+    }
+
+@media (min-width: 40em) {
+    body {
+        background-color:azure;
+        }
+     h1{
+        font-size: 5em;
+        color: royalblue;
+    }
+    
+    h2{ animation-name: sweet;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        color: aquamarine;
+        
+    }
+}
+    
+
+
+@media (min-width: 45em) {
+    body {
+        background-color:lavender;
+        }
+        
+    h1{
+        font-size: 7em;
+        color: thistle;
+
+    }
+    }
+
+@keyframes sweet{
+
+    25% {transform: rotate(0deg);}
+    50%{transform: rotate(0eg);}
+    100% {transform: rotate(360deg);}
+    
+}
+
+@keyframes mymove {
+    0%   {top: 0px;}
+    50%  {top: 500px;}
+    100% {top:0px;}
+}
+
+
+
+
+
+
+h1{
+    font-family: sans-serif;
+    
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 30pt;
+    position: absolute;
+    color: darksalmon;
+    
+}
+h3{
+    font-family: sans-serif;
+    font-size: 10pt;
+    position: absolute;
+    color: gray;
+    
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 20pt;
+    position: absolute;
+    color: burlywood;
+    
+}
+
+/*
+h5{
+    font-family: sans-serif;
+    font-size: 45pt;
+    position: absolute;
+    color: burlywood;
+    
+}
+*/
+
+
+h5 {
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
+
+h5:hover {
+    width: 500px;
+}
+
+h6 {
+    width: 50px;
+    height: 50px;
+    background-color: hotpink;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
+
+h6:hover {
+    width: 500px;
+}
+
+h7 {
+    width: 100px;
+    height: 50px;
+    background-color: hotpink;
+    -webkit-transition: width .5s; /* For Safari 3.1 to 6.0 */
+    transition: width .5s;
+}
+
+h7:hover {
+    width: 300px;
+}
+
+
+
+
+body {
+  padding: 10em;
+}
+
+
+
+
+div {
+  width: 300px;
+  height: 300px;
+  background-color: darkcyan;
+   border-radius: 50% 0 0 0;
+  -webkit-animation: Circle 2s 1s infinite alternate;
+}
+
+@-webkit-keyframes Circle {
+    0% {
+      border-radius: 0 0 0 0;
+      background-color: darkblue;
+      transform: rotate(0deg);
+    }
+    25% {
+      border-radius: 50% 0 0 0;
+      background-color: aquamarine;
+      transform: rotate(45deg);
+    }
+    50% {
+      border-radius: 50% 50% 40% 0;
+      background-color: skyblue;
+      transform: rotate(90deg);
+    }
+    75% {
+      border-radius: 50% 50% 50% 0;
+      background-color: lightskyblue;
+      transform: rotate(180deg);
+    }
+    100% {
+      border-radius: 50% 50% 50% 50%;
+      background-color: navy;
+      transform: rotate(-180deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

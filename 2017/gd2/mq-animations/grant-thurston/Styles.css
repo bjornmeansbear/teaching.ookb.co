@@ -1,0 +1,218 @@
+body {font-family: "Memphis LT Std",sans-serif;
+color: white;
+text-align: center;}
+
+@media (max-width: 30em) {
+  body {
+    background: #F6B51D;
+    animation-name: JulepShift;
+    animation-duration: .5s;
+  }
+  .Title {
+    background-image: url(http://i.imgur.com/zj801wQ.png);
+  }
+
+  .Drink {
+    background-image: url(http://i.imgur.com/c83Bn7D.png);
+  }
+
+
+  .Recipe1 {color: white;}
+  .Recipe2 {color: transparent;}
+  .Recipe3 {color: transparent;}
+  .Recipe4 {color: transparent;}
+  .Recipe5 {color: transparent;}
+
+  }
+
+@media (min-width:30em) {
+  body {background: #BB4398;
+    animation-name: BrambleShift;
+    animation-duration: .5s;
+  }
+  .Title {
+    background-image: url(http://i.imgur.com/BC3UUo5.png);
+  }
+  .Drink {
+    background-image: url(http://i.imgur.com/kwd1S0f.png);}
+
+  .Recipe1 {color: transparent;}
+  .Recipe2 {color: white;}
+  .Recipe3 {color: transparent;}
+  .Recipe4 {color: transparent;}
+  .Recipe5 {color: transparent;}
+
+}
+
+@media (min-width:50em) {
+  body {background: #D65039;
+    animation-name: BloodyShift;
+    animation-duration: .5s;
+  }
+  .Title {
+    background-image: url(http://i.imgur.com/nDKWMp4.png);
+  }
+  .Drink {
+    background-image: url(http://i.imgur.com/m9XDku5.png);
+  }
+
+  .Recipe1 {color: transparent;}
+  .Recipe2 {color: transparent;}
+  .Recipe3 {color: white;}
+  .Recipe4 {color: transparent;}
+  .Recipe5 {color: transparent;}
+
+}
+
+/* @media (max-width: 70em) {
+  body {animation-name: AppletiniBackShift;
+    animation-duration: .5s;}
+} */
+
+@media (min-width:70em) {
+  body {background: #AED147;
+    animation-name: AppletiniShift;
+    animation-duration: .5s;
+  }
+  .Title {
+    background-image: url(http://i.imgur.com/irqLi4s.png);
+  }
+  .Drink {
+    background-image: url(http://i.imgur.com/IvTPvK8.png);
+  }
+
+  .Recipe1 {color: transparent;}
+  .Recipe2 {color: transparent;}
+  .Recipe3 {color: transparent;}
+  .Recipe4 {color: white;}
+  .Recipe5 {color: transparent;}
+
+}
+
+/* @media (max-width:90em) {
+  body {
+  animation-name: PinaBackShift;
+  animation-duration: .5s;}
+} */
+
+@media (min-width:90em) {
+  body {background: #F9E167;
+  animation-name: PinaShift;
+  animation-duration: .5s;}
+  .Title {
+    background-image: url(http://i.imgur.com/YHyTGa2.png);
+  }
+  .Drink {
+    background-image: url(http://i.imgur.com/0r5B7GV.png);
+  }
+
+  .Recipe1 {color: transparent;}
+  .Recipe2 {color: transparent;}
+  .Recipe3 {color: transparent;}
+  .Recipe4 {color: transparent;}
+  .Recipe5 {color: white;}
+
+}
+
+@keyframes BrambleShift {
+  0% {background: #F6B51D}
+  100% {background: #BB4398}
+
+}
+
+@keyframes JulepShift {
+  0% {background: #BB4398}
+  100% {background: #F6B51D}
+}
+
+@keyframes BloodyShift {
+  0% {background: #BB4398}
+  100% {background: #D65039}
+}
+/* @keyframes AppletiniBackShift {
+  0% {background: rgb(0, 0, 255)}
+  100% {background: rgb(0, 255, 0)}
+} */
+
+@keyframes AppletiniShift {
+  0% {background: #D65039}
+  100% {background: #AED147}
+}
+
+/* @keyframes PinaBackShift {
+  0% {background: rgb(255, 0, 216)}
+  100% {background: rgb(0, 0, 255)}
+} */
+
+@keyframes PinaShift {
+  0% {background: #AED147}
+  100% {background: #F9E167}
+}
+
+@keyframes JulepMove {
+  0% {position: absolute;
+  left: 20%
+  bottom: -100%}
+  100% {position: absolute;
+    left: 20%;
+    bottom: 5%;}
+}
+
+/* All image assets listed below. */
+
+.Drink {width: 300px;
+height: 400px;
+background-color: transparent;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+margin:auto;}
+
+
+
+.Title {width: 250px;
+height: 250px;
+background-color: transparent;
+background-size: cover;
+margin-left: auto;
+margin-right: auto;}
+
+.Title1 {background-image: url('img/MintJulepTitle.png');}
+
+.Title2 {background-image: url();}
+
+.Title3 {background-image: url();}
+
+.Title4{background-image: url();}
+
+.Title5 {background-image: url();}
+
+.Recipe1 {width: 400px;
+margin: auto;
+position: absolute;
+bottom: 1.5%;
+left: 2%}
+
+.Recipe2 {width: 400px;
+margin: auto;
+position: absolute;
+bottom: 1.5%;
+left: 12%}
+
+.Recipe3 {width: 700px;
+margin: auto;
+position: absolute;
+bottom: 0%;
+left: 10%}
+
+.Recipe4 {width: 800px;
+margin: auto;
+position: absolute;
+bottom: 1.5%;
+left: 10%}
+
+.Recipe5 {width: 800px;
+margin: auto;
+position: absolute;
+bottom: 1.5%;
+left: 23%}

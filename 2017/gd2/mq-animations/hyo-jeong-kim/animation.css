@@ -1,0 +1,178 @@
+
+
+div{
+   width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid white;
+  background-color:rgba(0,0,0,.1);
+  border-radius:50%;
+  position:relative;
+  transition:all 1s;
+  top:0;
+  left:0;
+}
+
+div > div{
+  position:absolute;
+  left: -50px;
+}
+
+.parent { top: 100px; left: 100px; }
+
+div:hover div{
+  border-radius:50%;
+  top:150px;
+  left:150px;
+  
+}
+
+div:hover.child{
+  border-radius:12.5%;
+  
+}
+
+div:hover.grand-child{
+  border-radius:25%;
+  
+}
+
+div:hover.great-grand-child{
+  border-radius:50%;
+  
+}
+
+div:hover.great-grand-child:nth-child(2){
+  left:300px;
+  background-color:rgb(0, 255, 153);
+  
+}
+
+div:hover.great-grand-child:nth-child(3){
+  top:300px;
+  background-color:rgb(255, 80, 80);
+  
+}
+
+div:hover.great-grand-child:nth-child(4){
+  top:300px;
+  left:300px;
+  background-color:rgba(0,0,255,1);
+  
+}
+
+
+
+
+html {
+	background: linear-gradient(to right, rgba(0,176,240,1) 30%,rgba(0,179, 136, 255) 30%,rgba(0,245, 0, 87) 70%,rgba(237,40,141,1) 70%);
+	height: 100%;
+}
+
+$color: ##CCFFCC;
+$color2: #00b0f0;
+$color3: #FF5733;
+
+body {
+	padding: 2rem;
+	height: 100%;
+}
+
+h1 {
+	font-size: 8vw;
+	top: 60%;
+	left: 0;
+	margin: 0;
+	transform: translate(0, -50%);
+	position: absolute;
+	color: $color3;
+	width: 100%;
+	text-align: center;
+
+	&:before, 
+	&:after {
+		content: attr(data-heading);
+		overflow: hidden;
+		position: absolute;
+		top: 0;	
+		left: 0;
+		z-index: 3;
+		width: 100%;
+		text-align: center;
+	}
+	
+	&:after {
+		color: $color;
+		clip-path: polygon(30% 0, 100% 0, 100% 100%, 30% 100%);
+	}
+	
+	&:before {
+		color: $color2;
+				clip-path: polygon(70% 0, 100% 0, 100% 100%, 70% 100%);
+    }
+
+    
+}
+
+
+.wrapper{
+    max-width: 50em;
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 1.2em;
+}
+
+
+@media(min-width:30em){
+    body{background:purple;
+    color:powderblue;
+        
+    }
+}
+
+@media(min-width:40em){
+    body{background:blue;
+    color:white;
+        
+    }
+}
+
+
+@media(min-width:50em){
+    body{background:red;
+    color:white;
+    }
+}
+
+@media(min-height:50em){
+    body{background:navy;
+    color:cornflowerblue;
+    }
+}
+
+@media(min-width:60em){
+    body{background:pink;
+    color:cornflowerblue;
+    }
+}
+
+@media(min-width:80em){
+    body{background:yellow;
+    color:navy;
+    }
+}
+
+@media(min-height:80em){
+    body{background:navy;
+    color:royalblue;
+    }
+}
+
+
+
+
+
+
+
+

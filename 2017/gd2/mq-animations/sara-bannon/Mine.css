@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-image: url(Images/BaugasmPractice-10.jpg);
+}
+
+
+.info {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  max-width: 333px;
+  padding: 1em;
+  background-color: white;
+  z-index: 999;
+  box-shadow: 0 0 1em 0 rgba(0,0,50,.3);
+  font-size: 1rem !important;
+  height: 1rem;
+  overflow: hidden;
+}
+
+.info:hover {
+  height: 90%;
+  overflow: auto;
+}
+
+.text {
+  font-size: 3rem;
+  font-family: "Helvetica";
+  color: white;
+  text-shadow: 0 0 4px pink, 0 0 4px pink, 0 0 4px pink, 0 0 4px pink, 0 0 4px pink;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate3d(-1, -1, -1, 15deg);
+  transition: all .5s;
+}
+
+.text:after {
+  content: 'too far for even your arms to reach';
+}
+
+/*            */
+/* "frame" 9  */
+/*            */
+
+@media (min-width: 30rem) {
+  .background {
+       background-image: url(Images/BaugasmPractice-09.jpg);
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(1, 1, 1, 20deg);
+  }
+
+  .text:after {
+    content: 'daydreamming distanced orbit,';
+  }
+}
+
+/*            */
+/* "frame" 8  */
+/*            */
+
+@media (min-width: 34rem) {
+  .background {
+       background-image: url(Images/BaugasmPractice-08.jpg);
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(-1, -1, -1, 25deg);
+  }
+
+  .text:after {
+    content: 'into my ever eternal ';
+  }
+}
+
+/*            */
+/* "frame" 7  */
+/*            */
+
+@media (min-width: 38rem) {
+  .background {
+       background-image: url(Images/BaugasmPractice-07.jpg);
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(-1, -1, 1, 30deg);
+  }
+
+  .text:after {
+    content: 'before rocketing back up ';
+  }
+}
+
+/*            */
+/* "frame" 6  */
+/*            */
+
+@media (min-width: 42rem) {
+  .background {
+ background-image: url(Images/BaugasmPractice-06.jpg);  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(-1, 1, 1, 35deg);
+  }
+
+  .text:after {
+    content: ' for a brief hello,';
+  }
+}
+
+/*            */
+/* "frame" 5  */
+/*            */
+
+@media (min-width: 46rem) {
+  .background {
+      background-image: url(Images/BaugasmPractice-05.jpg);
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(-1, -1, 1, 40deg);
+  }
+
+  .text:after {
+    content: 'brushing up against my skin';
+  }
+}
+
+/*            */
+/* "frame" 4  */
+/*            */
+
+@media (min-width: 50rem) {
+  .background {
+      background-image: url(Images/BaugasmPractice-04.jpg);
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(-1, -1, -1, 45deg);
+  }
+
+  .text:after {
+    content: 'close to my body again';
+  }
+}
+
+/*            */
+/* "frame" 3  */
+/*            */
+
+@media (min-width: 54rem) {
+  .background {
+    background-image: url(Images/BaugasmPractice-03.jpg);  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(1, -1, -1, 50deg);
+  }
+
+  .text:after {
+    content: 'my small floaty soul ';
+  }
+}
+
+/*            */
+/* "frame" 2  */
+/*            */
+
+@media (min-width: 58rem) {
+  .background {
+      background-image: url(Images/BaugasmPractice-02.jpg);
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(1, 1, -1, 55deg);
+  }
+
+  .text:after {
+    content: 'I could almost feel';
+  }
+}
+
+/*            */
+/* "frame" 1  */
+/*            */
+
+@media (min-width: 62rem) {
+  .background {
+      background-image: url(Images/BaugasmPractice-01.jpg);
+  }
+
+  .text {
+    transform: translate(-50%, -50%) rotate3d(1, 1, 1, 60deg);
+  }
+
+  .text:after {
+    content: 'The wind was so very passionate today';
+  }
+}
+
+

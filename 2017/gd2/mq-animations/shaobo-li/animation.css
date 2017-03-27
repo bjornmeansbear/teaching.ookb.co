@@ -1,0 +1,175 @@
+
+* {
+  margin: 10%;
+  padding: 0;
+}
+
+body {
+  height: 55vh;
+  width: 10vw;
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: burlywood;
+  background-image: url('image/LOE0057.jpg');
+  transition: all 2s;
+}
+
+h1 {
+    font-family: "Didot LT Std Roman", Didot, serif;
+    color: burlywood;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 1em;
+    size: 2em;
+    transition: all 1s;
+    transform: translate(-50%, -50%);
+}
+
+ h1:hover {
+    font-size: 12em;
+}
+
+
+
+.loewe001 {
+    width: 5em;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+}
+
+.loewe002 {
+    width:5em;
+    position:absolute;
+    top:2%;
+    left:2%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+}
+
+
+
+
+@keyframes ARotation {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(-30deg);}
+    50% { transform: rotate(0deg);}
+    75% { transform: rotate(30deg);}
+    100% {transform: rotate(0deg);}
+}
+
+h1 {
+    animation-name: ARotation;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+@media (min-width: 30em) {
+    body {
+        background-color: wheat;
+        background-image: url('image/LOE0269.jpg');
+        }
+    h1 {
+        color:wheat;
+        top:30%;
+        left:55%;
+    }
+    .loewe001 {
+        top: 2%;
+        left:78%;
+    }
+    .loewe002 {
+        top: 2%;
+        left: 2%;    
+    }
+}
+
+@media (min-width: 45em) {
+    body {
+        background-color: darkorange;
+        background-image: url('image/LOE0493.jpg');
+        }
+    h1 {
+        color:darkorange;
+        top:45%;
+        left:20%;
+    }
+    .loewe001 {
+        top:70%;
+        left:78%;
+    }
+    .loewe002 {
+        top: 70%;
+        left: 2%;    
+    }
+}
+
+@media (min-width: 60em) {
+    body {
+        background-color: red;
+        background-image: url('image/LOE0549.jpg');
+        }
+    h1 {
+        color:red;
+        top:60%;
+        left:52%;
+    }
+    .loewe001 {
+        top:2%;
+        left:2%;
+    }
+    .loewe002 {
+        top: 2%;
+        left: 78%;    
+    }
+}
+
+@media (min-width: 75em) {
+    body {
+        background-color: seagreen;
+        background-image: url('image/LOE0363.jpg');
+        }
+    h1 {
+        color:seagreen;
+        top:16%;
+        left:50%;
+    }
+    .loewe001 {
+        top: 2%;
+        left: 78%;    
+    }
+    .loewe002 {
+        top: 2%;
+        left: 2%;
+    }
+
+}
+
+
+@media (min-width: 83em) {
+    body {
+        background-color: dimgray;
+        background-image: url('image/LOE0868.jpg');
+        }
+    h1 {
+        color: dimgray;
+        top:3%;
+        left:30%;
+    }
+    .loewe001 {
+        top:2%;
+        left:2%;
+    }
+    .loewe002 {
+        top: 2%;
+        left: 2%;    
+    }
+}
