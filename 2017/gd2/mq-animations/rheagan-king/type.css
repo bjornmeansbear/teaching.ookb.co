@@ -1,0 +1,15 @@
+h1 {
+    font-size:4vw;
+    color:#DAF7A6;
+    font-family:'Roboto Condensed', sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    letter-spacing: 2px;
+}
+
+article {
+    font-size:24px;
+    color: #FF5733;
+    font-family: 'Roboto Condensed',sans-serif;
+}

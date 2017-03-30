@@ -1,0 +1,46 @@
+@media (min-width:3000px) {
+    body{
+        background-image: url(animationstate_0000_Layer%206%20copy.jpg);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width:400px) {
+    body {
+        background-image: url(animationstate_0001_Layer%205%20copy.jpg);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width:500px) {
+    body {
+        background-image: url(animationstate_0002_Layer%204%20copy.jpg);
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width:600px) {
+    body {
+        background-image: url(animationstate_0003_Layer%203%20copy.jpg);
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width:700px) {
+    body {
+background-image: url(animationstate_0004_Layer%202%20copy.jpg);
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width:800px) {
+    body {
+        background-image:url(animationstate_0005_Layer%201%20copy.jpg);
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width:900px) {
+    body {
+        background-image:url(animationstate_0006_Layer%200%20copy.jpg);
+        background-repeat: no-repeat;
+    }
+}
+
+/*make sure the largest frame is at the bottom*/

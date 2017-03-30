@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+transition: background .5s;
+background-image:url(BGP/Glitch09.png);
+background-repeat:round;
+background-size:cover;
+background-attachment: fixed;
+font-family: fredoka one;
+font-size: 200px;
+color: white;
+font-weight: 500;
+}
+
+.w1, .o1, .w2 {
+left: .5em;
+position: absolute; 
+transition: .5s;
+}
+
+.w1 {
+top: 0vh;
+}
+
+.o1 {
+top: 30vh;
+left: .2em;
+background-image: url(BGP/donut.gif);
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+width: 300px;
+height: 300px;
+}
+
+.w2 {
+top: 60vh;
+}
+
+/*            */
+/* "frame" 9  */
+/*            */
+
+@media (min-width: 26rem){
+    body {
+    background-color: turquoise;
+     background-image:url(BGP/Glitch09.png);
+    }
+    
+    .w1, .o1, .w2 {
+    left: 1.3em;
+    transform: rotateY(180deg);
+    }
+    
+    .o1 {
+    left: 1em;
+    transform: rotateY(180deg);
+    }
+}
+
+
+/*            */
+/* "frame" 8  */
+/*            */
+
+@media (min-width: 31rem){
+    body {
+    background-color: purple;
+     background-image:url(BGP/Glitch08.png);
+    }
+    
+    .w1, .o1, .w2  {
+    left: 1.2em;
+    transform: rotate(35deg);
+    transform: rotateY(180deg);
+    }
+    
+    .o1 {
+    left: .9em;
+    transform: rotateY(180deg);
+    }
+    
+}
+
+/*            */
+/* "frame" 7  */
+/*            */
+
+@media (min-width: 36rem){
+    body {
+    background-color: gray;
+     background-image:url(BGP/Glitch07.png);
+    }
+    
+    .w1, .o1, .w2  {
+    left: 1.1em;
+    transform: rotate(30deg);
+    }
+    
+    .o1 {
+    left: .7em;
+    transform: rotateY(180deg);
+    }
+}
+
+
+/*            */
+/* "frame" 6  */
+/*            */
+
+@media (min-width: 41rem){
+    body {
+    background-color: green;
+     background-image:url(BGP/Glitch06.png);
+    }
+    
+    .w1, .o1, .w2  {
+    left: 1em;
+    transform: rotate(25deg);
+    }
+    
+    .o1 {
+    left: .6em;
+    transform: rotateY(180deg);
+    }
+}
+
+
+/*            */
+/* "frame" 5  */
+/*            */
+
+@media (min-width: 46rem){
+    body {
+    background-color: green;
+     background-image:url(BGP/Glitch05.png);
+    }
+    
+    .w1, .o1, .w2  {
+    left: .9em;
+    transform: rotate(20deg);
+    }
+    
+       .o1  {
+    left: .5em;
+    transform: rotate(0deg);
+    }
+}
+
+
+/*            */
+/* "frame" 4  */
+/*            */
+
+@media (min-width: 51rem){
+    body {
+    background-color: green;
+     background-image:url(BGP/Glitch04.png);
+    }
+    
+    .w1, .o1, .w2  {
+    left: .8em;
+    transform: rotate(15deg);
+    }
+    
+      .o1  {
+    left: .3em;
+    transform: rotate(0deg);
+    }
+}
+
+
+/*            */
+/* "frame" 3  */
+/*            */
+
+@media (min-width: 56rem){
+    body {
+    background-color: red;
+     background-image:url(BGP/Glitch03.png);
+    }
+    
+    .w1, .o1, .w2  {
+    left: .7em;
+    transform: rotate(10deg);
+    }
+    
+      .o1  {
+    left: .2em;
+    transform: rotate(0deg);
+    }
+}
+
+/*            */
+/* "frame" 2  */
+/*            */
+
+@media (min-width: 61rem){
+    body {
+    background-color: pink;
+     background-image:url(BGP/Glitch02.png);
+    }
+    
+    .w1, .o1, .w2  {
+    left: .6em;
+    transform: rotate(5deg);
+    }
+    
+     .o1  {
+    left: .2em;
+    transform: rotate(0deg);
+    }
+    
+}
+
+
+/*            */
+/* "frame" 1  */
+/*            */
+
+@media (min-width: 67rem){
+    body {
+    background-color: blue;
+    background-image:url(BGP/Glitch01.png);
+    }
+    
+    .w1, .o1, .w2  {
+    left: .5em;
+    transform: rotate(0deg);
+    }
+    
+    .o1  {
+    left: .2em;
+    transform: rotate(0deg);
+    }
+}
+
