@@ -12,50 +12,50 @@
     <title>HYO</title>
 
     <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" type="text/css" rel="stylesheet" />
-    <link href="../Hyojeong_kim_behance/basics.css" type="text/css" rel="stylesheet" />
+    <link href="basics.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-    
-    
-  
+
+
+
 </head>
-  
+
 
 
    <body>
     <header>
-    
-    
+
+
     <a class="title-name" href="../Hyojeong_kim_behance/index4.html">
      <h1 class="hyo">HYO</h1></a>
-      
+
       <nav>
           <button class="hamburger">
               <span></span>
               <span></span>
               <span></span>
           </button>
-          
+
           <ul class="navi">
               <li><a href="https://hyojeong-kim-p6z9.squarespace.com/process/">Process</a></li>
               <li><a href="#">Work</a></li>
-              <li><a href="../Hyojeong_kim_behance/abouth.html">About</a></li>
+              <li><a href="abouth.html">About</a></li>
           </ul>
       </nav>
-     
+
     </header>
-    
-    
-    
-    
-    
+
+
+
+
+
 
     <main>
-    
-    
-     
+
+
+
       <i class="fa fa-instagram" aria-hidden="true"></i>
-      
-     
+
+
       <div id="behance-magix" class="group">
         <!-- insert some HTML via magic JS -->
         <!-- this initially seeds the main div and shows something here even if JS doesn't load -->
@@ -77,7 +77,7 @@
                 <div class="name-wrapper">
                 <h2 class="name">{{name}}</h2>
                 </div>
-                
+
               </div>
               <div class="info">
               </div>
@@ -167,13 +167,13 @@
             var template = $('#project-page').html();
             var info = Mustache.to_html(template, data);
             $('#dynamic-pages').html(info);
-              
+
               $('.media_collection .slideshow').cycle({
                 fx: "scrollHorz",
                 slides: ".slide",
                 pager: ".cycle-pager"
               });
-              
+
             $('.project-page button.close').click(function() {
               $(this).parent().hide();
               $('body').removeClass('stop-scrolling');
@@ -193,7 +193,7 @@
     <script id="project-page" type="text/template">
       <div class="project-page {{#project.tags}}{{project.tags}} {{/project.tags}}" id="project-{{project.id}}">
         <div class="container">
-        
+
           <div class="projectInfo">
             <h1>{{project.name}}</h1>
             <p>{{project.description}}</p>
@@ -229,53 +229,53 @@
             {{/project.modules}}
           </ul>
 
-        
+
         </div>
         <button class="close"><i class="fa fa-times fa-2x"></i></button>
       </div>
     </script>
-        
+
      <script>
-//    hide modal when clicked   
-         
+//    hide modal when clicked
+
     $(".modal").click(function(){
         console.log("log");
         $(".modal").hide();
     });
-         
 
 
-         
+
+
 /*this makes menu hide/show when you click hamburger button*/
-        
+
     $(".hamburger").click(function(){
-        
+
         $("header nav ul").toggle();
-        
-        
+
+
     });
         $(window).resize(function(){
             var windowWidth = $(window).width();
             console.log(windowWidth);
-            
+
         if(windowWidth >=800){
             $("header nav ul").show();
         }else{
             $("header nav ul").hide();
         };
-            
+
         });
-           
+
     </script>
-        
-    
 
 
- 
-    
-    
-    
-    
+
+
+
+
+
+
+
 
 
   </body>
