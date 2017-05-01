@@ -1,0 +1,123 @@
+
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    background: 0 0;
+    padding: 0;
+    outline: 0;}
+
+html,body {
+  margin: 0;
+  padding:0;
+  height: 100%;
+  width: 100%;
+}
+header{
+    box-shadow: inset 0 0 2em rgba(0,0,0,.5);
+}
+ul{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+        top: 30%;
+    right: 15%;
+    list-style: none;
+    text-align: right;
+}
+
+.topImage {
+    
+  height: 180vh;
+ background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+img{
+    height: auto;
+    width: 100%;}
+
+
+.overlapping{
+    position: absolute;
+   height: 180vh;
+ background-size: cover;
+  background-repeat: no-repeat;
+    top: 0;
+    opacity: 0;
+  
+  
+}
+.topImage:hover  {
+  opacity:0;
+}
+
+
+
+.box1{
+    position: absolute;
+    left:15%;
+    top: 30%;
+    height: 80%;
+    width: 30%;
+    border: black solid;
+        
+}
+.box2{
+    position: absolute;
+    left:35%;
+    top: 80%;
+    height: 40%;
+    width: 50%;
+    border: black solid;
+        
+}
+
+.box2:hover {
+    color: gray;
+}
+
+li:hover {
+  color: grey;
+}
+
+footer{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 60em;
+    left: 15%;
+}
+.fb {
+     background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  position: fixed;
+  top: 20em;
+  left: 1rem;
+  font-size: 1rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;}
+.ins{
+      background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  position: fixed;
+  top: 22em;
+  left: 1rem;
+  font-size: 1rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+}
+.pri{
+    background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  position: fixed;
+  top: 18em;
+  left: 1rem;
+  font-size: 1rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+}

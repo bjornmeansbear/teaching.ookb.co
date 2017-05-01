@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+/** This example is for a 12 column grid **/
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1024px){
+.column,
+.columns {
+    float:left;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.group,
+.grouped {
+    border: 1px solid;
+    }
+
+.group::after,
+.grouped::after {
+    content:'';
+    display: table;
+    clear:both;
+}
+
+
+/** Create different widths of columns **/
+.one    {width: calc(100% / 12 *01);background-color: red;}
+.two    {width: calc(100% / 12 *02);background-color: yellow;}
+.three  {width: calc(100% / 12 *03);background-color: green;}
+.four   {width: calc(100% / 12 *04);background-color: blue;}
+.five   {width: calc(100% / 12 *05);background-color: pink}
+.six    {width: calc(100% / 12 *06);background-color: lavender}
+.seven  {width: calc(100% / 12 *07);background-color: lightcyan}
+.eight  {width: calc(100% / 12 *08);background-color: darkolivegreen}
+.nine   {width: calc(100% / 12 *09);background-color: black}
+.ten    {width: calc(100% / 12 *10);background-color: goldenrod}
+.eleven {width: calc(100% / 12 *11);background-color: orange}
+.twelve {width: calc(100% / 12 *12);background-color: mediumspringgreen}
+
+.offset-by-one    {margin-left: calc(100% / 12 *01);}
+.offset-by-two    {margin-left: calc(100% / 12 *02);}
+.offset-by-three  {margin-left: calc(100% / 12 *03);}
+.offset-by-four   {margin-left: calc(100% / 12 *04);}
+.offset-by-five   {margin-left: calc(100% / 12 *05);}
+.offset-by-six    {margin-left: calc(100% / 12 *06);}
+.offset-by-seven  {margin-left: calc(100% / 12 *07);}
+.offset-by-eight  {margin-left: calc(100% / 12 *08);}
+.offset-by-nine   {margin-left: calc(100% / 12 *09);}
+.offset-by-ten    {margin-left: calc(100% / 12 *10);}
+.offset-by-eleven {margin-left: calc(100% / 12 *11);}
+.offset-by-twelve {margin-left: calc(100% / 12 *12);}
+}
+
+.project:nth-child(5n) {
+    clear:left;
+}
+
+

@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html>
+  <head>
+    <!-- this is the proper meta tag to use common special characters, etc. -->
+    <meta charset="UTF-8" />
+
+    <!-- this is necessary for responsive @media queries to work properly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" type="text/css" rel="stylesheet" />
+          <link href="Menu-bar.css" type="text/css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <!-- The Title to your website. Shows in the browser tab or window, as well as in search engine results. Not actually on the page anywhere -->
+    <title>Esther Rou Jiao Portfolio</title>
+     <style>
+ /* unvisited link */
+a:link {
+    color:black;
+}
+
+/* visited link */
+a:visited {
+    color: gray;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: brown;
+}
+      
+      </style>
+    </head>
+    <body>
+    <header>
+         
+        <div class="topImage"><img src="Logo.png" alt="HTML5 Icon" width="120" height="120"></div>
+       <div class="overlapping"><img src="Logo-overlapping.png"  alt="HTML5 Icon" width="120" height="120"></div>
+       
+    <a href="https://www.facebook.com/jiao.rou.3" class="fb">
+       <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/jr_esther/?hl=en" class="ins">
+            
+         <i class="fa fa-instagram fa-2x" aria-hidden="true" ></i>  
+            </a>
+        <a href="https://www.pinterest.com/roujiao/" class="pri">
+        <i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i>
+        </a>
+     
+        
+        <div class="box1"></div>
+        <div class="box2"></div>
+        
+        <ul>
+            <li><div class="works"><a href="index.html" >works</a></div></li>
+            <li><div class="resume"><a href="Step5%20EstherJiao.pdf">resume</a></div></li>
+        
+        </ul>
+         <script>
+      // dynamically update the year in the footer (not the best idea, but this works!...)
+      var d = new Date();
+      var year = d.getFullYear();
+      console.log('It is ' + year + '.');
+      $('footer .year.dynamic').html(year);
+    </script>
+                <div id="footer">
+  <footer>
+      <p>© copyright <span class="year dynamic">2017</span> Esther Rou Jiao</p>
+    </footer></div>
+    </header>
+ 
+    </body>
+</html>

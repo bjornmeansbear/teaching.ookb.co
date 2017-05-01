@@ -1,0 +1,254 @@
+
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    background: 0 0;
+    padding: 0;
+    outline: 0;
+    vertical-align: baseline;
+    }
+html,body {
+  margin: 0;
+  padding:0;
+  height: 100%;
+  width: 100%;
+
+}
+}
+header{
+    box-shadow: inset 0 0 2em rgba(0,0,0,.5);
+}
+main {
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 3em;
+  min-height: 100vh;
+}
+img{
+    height: auto;
+    width: 100%;
+   
+}
+.webpage{
+    font-family: 'Oswald', sans-serif;
+  top: 40%;
+    background position: center;
+}
+a:visited ul{
+    color: darkslategray;
+}
+a:active ul{
+    color: firebrick;
+}
+.minilogo{
+    width: 10%;
+    height: auto;
+    position: relative;
+    left: 5%;
+    top: 50px;
+}
+.project{
+    top: 0;
+    position: relative;
+    margin:0.5em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+footer{
+    font-family: 'Oswald', sans-serif;
+   bottom: 1em;
+    left: 15%;
+}
+ul{
+    list-style: none;
+}
+.home{
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+    text-align: right;
+     position: absolute;
+        top: 9%;
+    right: 10%;
+      
+}
+
+
+.proj-name{
+    font-family: 'Oswald', sans-serif;
+    text-align: right;
+    
+}
+
+.close:hover {
+    color:gray;
+   
+}
+s
+.info{
+    position: absolute;
+    top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+  opacity: 0;
+}
+
+@medi (mid-width: 1024px){}
+/*12 colum geid*/
+.column,
+.columns {
+    float:left;
+
+}
+.group,
+.grouped{}
+
+.group::after,
+.grouped::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+/*Create different widths of columns*/
+.one    {width: calc(100% / 12 * 01); background-color: aliceblue;}
+.two    {width: calc(100% / 12 * 02); background-color: antiquewhite;}
+.three  {width: calc(100% / 12 * 03); }
+.four   {width: calc(100% / 3 - 1em); background-color: }
+.five   {width: calc(100% / 12 * 05); background-color: aquamarine;}
+.six    {width: calc(100% / 12 * 06); background-color: coral;}
+.seven  {width: calc(100% / 12 * 07); background-color: burlywood}
+.eight  {width: calc(100% / 12 * 08); background-color: cornsilk;}
+.nine   {width: calc(100% / 12 * 09); background-color: cornflowerblue;}
+.ten    {width: calc(100% / 12 * 10); background-color: darkcyan;}
+.eleven {width: calc(100% / 12 * 11); background-color: darkgrey;}
+.twelve {width: calc(100% / 12 * 12); background-color: darkorange;}
+
+.offset-by-one    {margin-left: calc(100% / 12 * 01); }
+.offset-by-two    {margin-left: calc(100% / 12 * 02); }
+.offset-by-three  {margin-left: calc(100% / 12 * 03); }
+.offset-by-four   {margin-left: calc(100% / 12 * 04); }
+.offset-by-five   {margin-left: calc(100% / 12 * 05); }
+.offset-by-six    {margin-left: calc(100% / 12 * 06); }
+.offset-by-seven  {margin-left: calc(100% / 12 * 07); }
+.offset-by-eight  {margin-left: calc(100% / 12 * 08); }
+.offset-by-nine   {margin-left: calc(100% / 12 * 09); }
+.offset-by-ten    {margin-left: calc(100% / 12 * 10); }
+.offset-by-eleven {margin-left: calc(100% / 12 * 11); }
+.offset-by-twelve {margin-left: calc(100% / 12 * 12); }
+
+
+.project img {
+    filter: grayscale(100%);
+   transition: .4s ease;
+}
+
+
+.project:hover img{
+filter: grayscale(0);
+   
+}
+
+
+.footersetting{
+    padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
+  height: 30vh;
+    /**bottom-paddding*/
+}
+.info {
+  background-color: white;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+ font-family: 'Oswald', sans-serif;
+  background-color: rgba(255,255,255,0);
+    text-align: center;
+   overflow: hidden; 
+    text-decoration-line: line-through;
+    opacity: 0;
+}
+
+.name{
+    color:firebrick;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: absolute;    
+}
+
+.project:hover .info {
+  background-color: rgba(225,225,225,.7);
+transition: 1s ease;
+    opacity: 1;
+}
+
+/*.project:hover .info {
+   color: black;
+  opacity:1;
+}*/
+
+
+/*** project overlay ***/
+.project-page {
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index: 9999999999;
+  background-color: rgba(255,255,255,.95);
+  padding: 3em;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.project-page * {
+  margin-left: auto;
+  margin-right:auto;
+}
+.project-page .container {
+  max-width: 50em;
+}
+.project-page button.close {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+  font-size: 1rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+}
+
+/* easy class to add to <ul>s to get rid of listy stuff */
+.list-reset {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+/* try to keep body from scrolling in the background */
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+@media (max-width: 1111px) {
+     
+  .four  {width: calc(100%/ 3 - 1em ); background-color: }
+  }
+@media (max-width: 999px) {
+     
+  .four  {width: calc(100%/ 2 - 1em ); background-color: }
+  }
+@media (max-width: 666px) {
+    
+  .four  {width: calc(100% ); background-color: }
+  }
