@@ -9,57 +9,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- The Title to your website. Shows in the browser tab or window, as well as in search engine results. Not actually on the page anywhere -->
-    <title>HYO</title>
+    <title>Esther Rou Jiao Portfolio</title>
 
     <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" type="text/css" rel="stylesheet" />
-    <link href="basics.css" type="text/css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+           <style>
+ /* unvisited link */
+a:link {
+    color:black;
+}
 
+/* visited link */
+a:visited {
+    color: gray;
+}
 
+/* mouse over link */
+a:hover {
+    color: black;
+}
 
-</head>
+/* selected link */
+a:active {
+    color: brown;
+}
 
+      </style>
 
+  </head>
 
-   <body>
+  <body>
     <header>
-
-
-    <a class="title-name" href="../Hyojeong_kim_behance/index4.html">
-     <h1 class="hyo">HYO</h1></a>
-
-      <nav>
-          <button class="hamburger">
-              <span></span>
-              <span></span>
-              <span></span>
-          </button>
-
-          <ul class="navi">
-              <li><a href="https://hyojeong-kim-p6z9.squarespace.com/process/">Process</a></li>
-              <li><a href="#">Work</a></li>
-              <li><a href="abouth.html">About</a></li>
-          </ul>
-      </nav>
-
-    </header>
-
-
+      <h1></h1>
+      <div class="minilogo"><img src="Logo-mini.png"e  alt="HTML5 Icon" width="120" height="120"></div>
 
 
 
 
     <main>
+      <h1></h1><ul>
+            <li><div class="home"><a href="index.html" >homepage</a></div></li>
 
 
-
-      <i class="fa fa-instagram" aria-hidden="true"></i>
+        </ul>
 
 
       <div id="behance-magix" class="group">
         <!-- insert some HTML via magic JS -->
         <!-- this initially seeds the main div and shows something here even if JS doesn't load -->
-        <p></p>
+        <p>This will be erased when javascript draws our new content. But, you can also put other things here incase the behance API is down or for some other reason the javascript doesn't run/load, or if you burned through your 100 calls/hr. So maybe a placeholder image of a few of your projects, maybe a little explainer text, or something similar?</p>
 
         <!-- ================================================== -->
         <!-- ================================================== -->
@@ -70,16 +69,13 @@
         <!-- ================================================== -->
         <script id="project-cards" type="text/template">
           {{#projects}}
-          <div class="project" id="b{{id}}">
+          <div class="project column four" id="b{{id}}">
             <a href="#{{id}}" data-project-id="{{id}}">
               <div class="image-wrapper">
-                <img src="{{covers.original}}" alt="{{name}}" />
-                <div class="name-wrapper">
-                <h2 class="name">{{name}}</h2>
-                </div>
-
+                <img src="{{covers.404}}" alt="{{name}}" />
               </div>
               <div class="info">
+                <h2 class="name">{{name}}</h2>
               </div>
             </a>
           </div>
@@ -89,10 +85,8 @@
       </div>
     </main>
 
-    <footer>
-      <p> <span class="year dynamic"></span> </p>
-    </footer>
 
+      <div class="page">
     <div id="dynamic-pages">
       <!-- individual pages will appear to "print" here -->
     </div>
@@ -105,12 +99,10 @@
     <!-- ================================================== -->
 
     <!-- this is jquery, needed for a bunch of stuff -->
-<!--    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>-->
-    <script src="jquery-3.2.0.min(1).js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!-- this is mustache, required for the templating to happen -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
-        <!-- this makes the year in your footer always the current year -->
+    <!-- this makes the year in your footer always the current year -->
     <script>
       // dynamically update the year in the footer (not the best idea, but this works!...)
       var d = new Date();
@@ -122,10 +114,10 @@
     <script>
       // your behance user machine name. Take it from your profile url
       // www.behance.net/userName
-      var userName = 'Hyojeongkim'
+      var userName = 'rjiao01552a'
 
       // this is your behance APIkey — figure out how to set this up at » URL TO COME
-      var apiKey   = '5T8WWYiQqGy7sJV1sEQIdO2k8CDNDQS7'
+      var apiKey   = 'escT05yEWfZni14AedIgl6102zca6HPE'
 
       // this url will provide a feed of content for the site based on your userName and apiKey.
       var url = 'https://api.behance.net/v2/users/' + userName + '/projects/?api_key=' + apiKey +'&per_page=25&callback=?';
@@ -168,12 +160,6 @@
             var info = Mustache.to_html(template, data);
             $('#dynamic-pages').html(info);
 
-              $('.media_collection .slideshow').cycle({
-                fx: "scrollHorz",
-                slides: ".slide",
-                pager: ".cycle-pager"
-              });
-
             $('.project-page button.close').click(function() {
               $(this).parent().hide();
               $('body').removeClass('stop-scrolling');
@@ -190,19 +176,13 @@
     <!-- ================================================== -->
     <!-- ================================================== -->
     <!-- this will print in the above "dynamic-pages" area  -->
+
     <script id="project-page" type="text/template">
-      <div class="project-page {{#project.tags}}{{project.tags}} {{/project.tags}}" id="project-{{project.id}}">
+      <div class="project-page" id="project-{{project.id}}">
         <div class="container">
 
-          <div class="projectInfo">
-            <h1>{{project.name}}</h1>
-            <p>{{project.description}}</p>
-            <p>
-            <small>
-              <a href="{{project.url}}" target="_blank"> {{project.name}} post on Behance.net</a>
-            </small>
-          </p>
-          </div>
+          <h1 class="proj-name">{{project.name}}</h1>
+          <p>{{project.description}}</p>
 
           <ul class="modules-list list-reset">
             {{#project.modules}}
@@ -214,69 +194,31 @@
                 {{/sizes}}
                 {{#text_plain}}<p>{{text_plain}}</p>{{/text_plain}}
                 {{#original_embed}}<p>{{{original_embed}}}</p>{{/original_embed}}
-              <div class="slideshow">
-                {{#components}}
-                <div class="slide">
-                  {{#sizes}}<img src="
-                            {{#sizes.max_1200}}{{sizes.max_1200}}{{/sizes.max_1200}}
-                            {{^sizes.max_1200}}{{sizes.original}}{{/sizes.max_1200}}
-                          " /> {{/sizes}}
-                </div>
-                {{/components}}
-              </div>
-              <div class="cycle-pager"></div>
-            </li>
+              </li>
             {{/project.modules}}
           </ul>
 
-
+          <p>
+            <small class="webpage">
+              <a href="{{project.url}}" target="_blank">See the original {{project.name}} post on Behance.net</a>
+            </small>
+          </p>
         </div>
-        <button class="close"><i class="fa fa-times fa-2x"></i></button>
+        <button class="close"><i class="fa fa-window-close-o fa-2x"></i></button>
       </div>
     </script>
-
-     <script>
-//    hide modal when clicked
-
-    $(".modal").click(function(){
-        console.log("log");
-        $(".modal").hide();
-    });
-
-
-
-
-/*this makes menu hide/show when you click hamburger button*/
-
-    $(".hamburger").click(function(){
-
-        $("header nav ul").toggle();
-
-
-    });
-        $(window).resize(function(){
-            var windowWidth = $(window).width();
-            console.log(windowWidth);
-
-        if(windowWidth >=800){
-            $("header nav ul").show();
-        }else{
-            $("header nav ul").hide();
-        };
-
-        });
-
-    </script>
-
-
-
-
-
-
-
-
-
-
-
+      <div class="footersetting">
+     <div id="container">
+   <div id="header"></div>
+   <div id="body"></div>
+   <div id="footer">
+  <footer>
+      <p>© copyright <span class="year dynamic">2017</span> Esther Rou Jiao</p>
+    </footer></div>
+</div>
+</div>
+          </div>
+      </header>
   </body>
+
 </html>
