@@ -1,0 +1,90 @@
+* { box-sizing: border-box; }
+
+footer           {color:#9fbccc;
+                  font-family:Apercu, Futura, "Helvetica Neue", Helvetica, sans-serif;
+                  font-size:0.55em;
+                  letter-spacing:0em;
+                  font-weight:100;
+                  text-align:center;
+                  margin-top:4rem;
+                  margin-bottom:3rem;}
+
+footer p        {color:#9fbccc;}
+
+p               {color:#505050;
+                 font-weight:100;
+                 font-size:1.6em;
+                 letter-spacing: 0.02em;
+}
+
+h5              {color:#9fbccc;
+                 font-weight:bold;
+                 font-size:1.6em;
+                 letter-spacing:0.2em;
+                 margin-left:25%;
+                 width: 100%;}
+                 
+.container2     {margin-left:20%;
+                 margin-right:65%;
+                 margin-top:5%;
+                 margin-bottom:7%;
+                 z-index: 1;}
+
+
+.flex           {margin:0;
+                 padding-left:3rem;
+                 list-style:none;
+                 display:flex;
+                 align-content:center;
+                 justify-content:center;
+                 flex-direction:row;
+                 flex-wrap:wrap;
+                 max-width: 900px;
+                 margin-left:auto;
+                 margin-right:auto;}
+
+.flex dt { 
+    width: 25%;
+    padding-right: 1rem;
+}
+.flex dd { width: 75%; margin:0; }
+
+.li1   {width:15%;
+      padding:1em;}
+
+.li2    {width:53%;
+      padding:1em;}
+
+dl *:first-child { margin-top: 0; }
+
+.button         {background-color:#d5e1e8;
+                 border: none;
+                 color: white;
+                 padding: 15px 32px;
+                 text-align: center;
+                 text-decoration: none;
+                 letter-spacing: 0.1em;
+                 display: inline-block;
+                 font-family: Apercu, Futura, "Helvetica Neue", Helvetica, sans-serif;
+                 font-size: 2em;
+                 border-radius:50px;
+                 margin-left:90%;}
+
+.button:hover   {background-color:orange;
+                 cursor:pointer;}
+
+a               {color:white;}
+a:hover         {color:white;}
+
+
+@media (max-width:50rem) {
+    p          {font-size:1.25em;}
+    h5          {font-size:1.25em;}
+    
+    .flex dt        {width:25%;}
+    .flex {
+        padding-left: 0 !important;
+    }   
+    
+}
+

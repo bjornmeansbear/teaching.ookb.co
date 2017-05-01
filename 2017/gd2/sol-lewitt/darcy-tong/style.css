@@ -1,0 +1,66 @@
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 80%;
+    padding-left: 10%;
+    padding-right:15 %;
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+    line-height: 165%;
+    text-align: justify;
+    text-align-last: left;
+    text-decoration: underline;
+
+    border-left: 25px black solid;
+ 
+}
+
+
+
+
+.content{
+    padding-top: 1%;
+
+}
+
+
+h1{
+    font-family: Gill Sans, "Extrabold", sans-serif;
+    font-size: 3em;
+    margin:0;
+    padding-top: 7%;
+    padding-left: 12%;
+    padding-right: 15%;
+    text-align: justify;
+    text-shadow: 3px 3px wheat;
+     
+  
+}
+
+h2{
+    font-family: Gill Sans, "Extrabold", sans-serif;
+    font-size: 1em;
+    margin:0;
+    padding-top: 2%;
+    padding-left: 12%;
+    padding-right: 15%;
+
+}
+
+body{
+    background-color:gold;
+}
+
+.test1 {
+    position:relative;
+    height: 30px;
+    width: 30px;
+    margin:0;
+    top:-85px;
+    left:100px;
+    background-color: black;
+}
+
+
+
+

@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html>
+  <head>
+    <!-- this is the proper meta tag to use common special characters, etc. -->
+    <meta charset="UTF-8" />
+
+    <!-- this is necessary for responsive @media queries to work properly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The Title to your website. Shows in the browser tab or window, as well as in search engine results. Not actually on the page anywhere -->
+    <title>Isabel Levin | Portfolio</title>
+
+    <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" type="text/css" rel="stylesheet" />
+    <link href="basics.css" type="text/css" rel="stylesheet" />
+    <link href="floatGrid.css" type="text/css" rel="stylesheet" />
+    <link href="about.css" type="text/css" rel="stylesheet" />
+    <link href="menu.css" type="text/css" rel="stylesheet" />
+  </head>
+
+    
+    
+    
+  <body>
+        <div class="container"> 
+            <header>
+                  <h1>
+                      <a href="index.html">ISABEL <br> LEVIN </a>
+                  </h1>
+                
+                
+                    <nav>
+                        <button class="hamburger">ME<br>NU</button>
+
+                        <ul>
+                            <li> <a href="work.html">WORK</a></li>
+                            <li> <a href="about.html">ABOUT</a> </li>
+                            <li> <a href="contact.html">CONTACT</a> </li>
+                            <li> <a href="resume.html">RESUME</a> </li>
+                        </ul>
+                    </nav>
+                
+            </header>
+
+
+            <main>
+                  <h3><a href="work.html">WORK</a></h3>
+                  <h4>ABOUT</h4>
+                  <h3>
+                      <a href="contact.html">CONTACT</a>
+                  </h3>
+                  <h3>
+                      <a href="resume.html">RESUME</a>
+                  </h3>
+
+                  
+                  <div class="flex">
+                        <img src="images/professionalPortrait.jpeg">
+                
+                        <div class="container1"><p>I am a rising junior Graphic Design and Humanistic Studies double major at the Maryland Institute College of Art (MICA). I am passionate about design for social change and as a means of creative problem solving.</p></div>
+                  </div>
+                  
+            </main>
+            
+            <footer>
+                <p>© Copyright <span class="year dynamic">2017</span> Isabel Levin</p>
+            </footer>
+
+        </div>
+      
+          <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+              <script src="jquery-3.2.0.min.js"></script>
+                <script>
+                    /* this makes menu hide and show when you click hamburger button */
+                    $(".hamburger").click(function(){
+                         $("header nav ul").toggle();
+                        $("header nav").toggleClass('expanded');
+                    });
+                    
+                    $(window).resize(function(){
+                         var windowWidth = $(window).width();
+                         console.log(windowWidth);
+
+                         if (windowWidth >= 1024) {
+                            $("header nav ul").show();
+                         } else {
+                             $("header nav ul").hide();
+                         };
+                    });
+                    
+                   $("header nav ul").hide();
+
+                </script>
+
+   </body>
+ 
+    

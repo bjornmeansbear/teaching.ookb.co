@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(255, 191, 0,.7);
+}
+    
+header{
+    font-size: 50pt;
+    color: black;
+    position: relative;
+    font-family: sans-serif;
+    padding-left:5%;
+    padding-top: 3%;
+}
+    
+h2{
+    font-size: 1.5em;
+    color: black;
+    font-family: sans-serif;
+    padding-top: 0;
+}
+
+.flex{
+  display:flex;
+  margin:0;
+  padding:0;
+  list-style: none;
+  align-items:center;
+  justify-content:center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+h2 {
+    width: 100%;
+}
+
+li{
+  width:20%;
+}
+   
+img{
+    max-width:80%;
+    height: auto;
+    padding-bottom: 20%;
+}

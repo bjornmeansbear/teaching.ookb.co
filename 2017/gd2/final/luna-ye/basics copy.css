@@ -1,0 +1,315 @@
+/** write your styles in this sheet. **/
+
+* {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+    align-content: center;
+    top:40px;
+    background-color: rgba(145,210,197,0);
+    position:relative;
+    margin-left:20px;
+    margin-right:20px;
+    z-index: 20;
+    animation: spin 2s linear infinite;
+    animation-play-state: paused;
+}
+
+h1:hover {
+  
+  animation-play-state: running;
+}
+
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
+   
+
+.clearfix:after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.clearfix {
+    background-color: rgba(145,210,197,1);
+}
+    
+nav {
+    position:absolute;
+    top:200px;
+    margin:0;
+    padding:0px;
+    background-color: rgba(145,210,197,1);
+    width:100%;
+}
+
+main {
+    position: relative;
+    width: 90%;
+    left: 15%;
+    min-height: 95vh;
+    height: 100vh;
+    padding: 0;
+    z-index: 19;
+    background-color: rgba(255,255,255,0.2);
+    margin-right: 0;
+}
+
+
+.wrapper {
+    position:absolute;
+    top:200px;
+    z-index: 12;
+}
+header {
+    position:fixed;
+    width:15%;
+    min-height: 100vh;
+    padding:0;
+    z-index: 19;
+    background-color:rgba(145,210,197,1);
+}
+footer {
+    position:absolute;
+    bottom: 3%;
+    padding:0;
+    margin:0;
+    color:white;
+    left:40%;
+}
+
+
+
+header nav ul {
+    list-style:none;
+    margin:0;
+    padding: 0;
+    display:none;
+    font-size: 1em;
+}
+
+.close {
+    color: rgba(145,210,197,1);
+    width:100%;
+    
+}
+
+header nav ul li {
+    float:left;
+    width:100%;
+    text-align: center;
+    align-self: center;
+    font-size-adjust: auto;
+    max-width: 14.8vw;
+    line-height: 1em;
+}
+
+header nav ul li a{
+    padding:1em;
+    display:block;
+    text-decoration: none;
+    color:white;
+    font-family: Archer;
+    padding-left:0;
+    padding-right: 0;
+}
+
+
+header nav ul li a:hover{
+    background-color:rgba(240,255,255,1);
+    color:rgba(145,210,197,1);
+}
+
+.hamburger {
+    border:none;
+    background-color:rgba(145,210,197,1);
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 10vw;
+    min-width:40px;
+    align-content: center;
+}
+
+.hamburger span {
+    display:block;
+    width:100%;
+    height:.25em;
+}
+
+
+
+.block {
+  float: left;
+  position: relative;
+  width: 100%;
+    border: 0px solid blue;
+    height: 300px;
+/*
+    margin-left: 2em;
+    margin-right: -2em;
+*/
+}
+
+.contain {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+@media (min-width:50em){
+    .hamburger {
+        display:none;
+        
+    }
+    header nav ul{
+        display:block;
+    }
+}
+
+
+
+.img {
+    margin:0;
+    padding:0;
+    opacity: 0.8;
+}
+
+body {
+  background-color: rgba(145,210,197,1);
+  color: black;
+  font-family: Archer;
+  margin-left: 0;
+    margin: 0;
+    padding-right: 1.2em;
+}
+
+.image-wrapper:hover .info {
+    height: 100%;
+    background-color:rgba(145,210,197,1);
+    box-shadow: none;
+}
+
+.image-wrapper {
+    box-shadow: 0.2px 0.2px 5px 0.2px rgba(136,136,136,0.78);
+}
+
+h2 {
+    padding:0.2em;
+    margin:0.2em;
+    font-family: Archer;
+    font-size: 1.2em;
+    align-content: center;
+    color:white;
+    position: absolute;
+    top:60%;
+    left:30%;
+    width:70%;
+    text-decoration: none;
+}
+
+.block:hover {
+    opacity: 0.5;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,255,255,0.9);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+    align-content: center;
+}
+
+div#behance-magix {
+    margin-top: .5em;
+}
+
+.image-wrapper {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+p1 {
+    width: 40%;
+    position: fixed;
+    top: 28%;
+    left: 35%;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 1em;
+    color: white;
+
+    
+}
+/*** project overlay ***/
+.project-page {
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index: 9999999999;
+  background-color: rgba(255,255,255,.95);
+  padding: 3em;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.project-page * {
+  margin-left: auto;
+  margin-right:auto;
+}
+.project-page .container {
+  max-width: 50em;
+}
+.project-page button.close {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 50%;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  font-size: 1rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+}
+
+button.close .fa {
+    line-height: 3.33rem;
+    align-content: center;
+}
+
+/* easy class to add to <ul>s to get rid of listy stuff */
+.list-reset {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+/* try to keep body from scrolling in the background */
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}

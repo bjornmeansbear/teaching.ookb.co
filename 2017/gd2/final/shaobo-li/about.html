@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html>
+  <head>
+    <!-- this is the proper meta tag to use common special characters, etc. -->
+    <meta charset="UTF-8" />
+
+    <!-- this is necessary for responsive @media queries to work properly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The Title to your website. Shows in the browser tab or window, as well as in search engine results. Not actually on the page anywhere -->
+    <title>Shaobo Li</title>
+
+    <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" type="text/css" rel="stylesheet" />
+    <link href="basics.css" type="text/css" rel="stylesheet" />
+    <link href="floatGrid.css" type="text/css" rel="stylesheet" />
+    <link href="subpage.css" type="text/css" rel="stylesheet" /> 
+
+  </head>
+
+  <body>    
+      
+      <header>
+         
+          
+            <nav>
+                <img src="image/Untitled-2-01.jpg">
+                
+                <button class="hamburger">
+                    <img src="image/burgermenu.png">
+                </button>
+                <ul>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="index.html">WORK</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!--- Javascript goes at the bottom ---->
+        <script src="jquery-3.2.0.min.js"></script>
+        
+        <script>
+            
+            /** this makes menu hide/show when you click hamburger button**/
+            $(".hamburger").click(function() {
+                
+                $("header nav ul").toggle();
+                
+            });
+            
+            //this fixed that menu sometimes stays hidden
+            $(window).resize(function() {
+                var windowWidth = $(window).width();
+                console.log(windowWidth);
+                
+                if ( windowWidth >= 800 ) {
+                    $("header nav ul").show();   
+                } else {
+                    $("header nav ul").hide();
+                };
+            });
+            
+        </script>
+      
+      
+      
+      
+
+    <main>
+      <h1></h1>
+         <br><br>
+         <br><br>
+         <br><br>
+         <br><br>
+         <br><br>
+         <br><br>
+        
+        <div class="photo">
+            <img class="profile" src="image/IMG_6645.jpg">
+            <p class="description">Chicago, 2016</p>    
+        </div>
+        
+        <div class="paragraph">
+        <p>Shaobo Li is a Chinese graphic designer and art lover based in Baltimore.</p>
+        <p>He currently studies Graphic Design and Illustration at Maryland Institute College of Art. Since he was major in Journalism in China, he doesn’t consider himself as a professional artist. Instead, he finds enjoyment in combining design with philosophic thinkings.</p>
+        <p>His artworks are mainly inspired by memory, as well as his interests in fashion, films, novels and music.</p>
+        <p>And he is a fan of Chinese calligraphy.</p>
+        </div>
+
+
+
+        
+        
+      </main>
+      
+    </body>
+</html>

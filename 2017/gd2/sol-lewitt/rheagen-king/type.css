@@ -1,0 +1,30 @@
+h1 {
+    font-size:10vw;
+    color:darkcyan;
+    font-family: 'PT Mono', monospace;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    letter-spacing: 2px;
+}
+h2 {
+    font-family: 'PT Mono', monospace;
+    color: #8b498b;
+    position:absolute;
+    text-align:center;
+    top:90%;
+    left:32%;
+    font-size:24px;
+}
+p {
+    color:black;
+    position: relative;
+    left:25%;
+    top:700px;
+    font-family: sans-serif;
+    width: 45%;
+    line-height: 32pt;
+    text-align: center;
+    font-size: 16pt;
+    padding: 24px;
+}

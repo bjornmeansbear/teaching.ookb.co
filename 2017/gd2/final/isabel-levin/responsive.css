@@ -1,0 +1,90 @@
+.wrapper    {max-width:50em;
+             margin-left:auto;
+             margin-right:auto;
+             font-size:1.5em;}
+
+body        {background:white;
+             color:white;}
+
+section     {position:absolute;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,-50%);
+            height:300px;
+            width:300px;
+            font-size:0;
+            transition: all 0.75s;}
+
+
+
+
+@media      (min-width:30em){
+    section  {left:50%;
+             top:50%;
+             height:150px;
+            width:150px;}}
+
+@media      (min-width:40em){
+    section  {left:50%;
+             top:50%;
+             height:200px;
+            width:200px;}}
+
+@media      (min-width:50em){
+    section  {left:50%;
+             top:50%;
+             height:250px;
+            width:250px;}}
+
+@media      (min-width:60em){
+    section  {left:50%;
+             top:50%;
+             height:300px;
+            width:300px;}}
+
+@media      (min-width:70em){
+    section  {left:50%;
+             top:50%;
+             height:350px;
+            width:350px;}}
+
+
+
+
+
+
+
+
+
+
+@media      (min-width:70em){
+    div       {background-color:rgba(126, 177, 199,0.3);}
+    div:hover > div {
+              background:rgba(126, 177, 199,0.3);
+              border-radius:14%;
+              left: -10px;
+              top:  -10px;}
+    div.a:hover > div {
+              background:rgba(126, 177, 199,0.3);
+              left: 10px;
+              top:  -10px;}
+    div.b:hover > div {
+              background:rgba(126, 177, 199,0.3);
+              left: -10px;
+              top:  10px;}
+    div.c:hover > div {
+              background:rgba(126, 177, 199,0.3);
+              left: 10px;
+              top:  10px;}
+    div.d:hover > div {
+              background:rgba(126, 177, 199,0.3);
+              left: -10px;
+              top:  -10px;}
+    div.a:active > div, div.b:active > div, div.c:active > div, div.d:active > div {
+                background:rgba(126, 177, 199,1);
+                border-radius:0%;}}
+
+
+
+
+

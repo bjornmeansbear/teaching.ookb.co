@@ -1,0 +1,93 @@
+a.ex1:hover,
+a.ex1:active {
+    color: blue;
+}
+    
+a.ex2:hover,
+a.ex2:active {
+    color: blue;
+}
+    
+a.ex3:hover,
+a.ex3:active {
+    color: #f286b7;
+}
+
+a.ex4:hover,
+a.ex4:active {
+    color: #9ef9e5;
+}
+
+a.ex5:hover, 
+a.ex4:active {
+    color: red;
+}
+
+@keyframes blink {
+    0%   {color: white;}
+    20%  {color: #9ef9e5;}
+    40%  {color:  #f286b7;}
+    60% {color: blue;}
+    80% {color: red;}
+    100% {color: #f0c631;}
+}
+
+h1 {
+    font-family: Futura;
+    font-size: 9em;
+    text-align: center;
+    position: fixed;
+    top: 10%;
+    left: 15%;
+    color: white;
+}
+    
+h1:hover {
+    animation-name: blink;
+    animation-duration: 1s;
+}
+
+li {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: Futura;
+    background-color: pink;
+    color: white;
+}
+
+nav {
+    padding-top: 1em;
+    position: fixed;
+    top: 30em;
+    right: 10em;
+    bottom: 40em;
+    left: 10em;
+    color: white;
+}
+
+nav li {
+    float:none;
+    font-family: Futura;
+        color: white;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-image: pink;
+    color: white;
+}
+
+body {
+    background-color: pink;
+}

@@ -1,0 +1,143 @@
+body{
+    background: purple;
+}
+
+.wrapper {
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 0em) {
+    body{
+        background:rgba(255,51,102,1);
+        color: white;
+        }
+    h2{
+        transform: scale(0,0);
+    }
+    h3 {
+        transform: rotate(0);
+    }
+    p {
+        color:rgba(255,255,255,1);
+    }
+    h4 {
+        position: fixed;
+        left:3%;
+        top:60%;
+    }
+}
+
+@media (min-width: 20em) {
+    body{
+        background: rgba(255,102,51,1);
+        color: white;
+        }
+    h2{
+        transform: scale(0.2,0.2);
+    }
+    h3 {
+        transform: rotate(45deg);
+    }
+    p {
+        color: rgba(255,219,112,1);
+    }
+    h4 {
+        position: fixed;
+        left:20%;
+        top:60%;
+    }
+}
+
+@media (min-width: 40em) {
+    body{
+        background: rgba(255,204,51,1);
+        color: white;
+        }
+    h2{
+        transform: scale(0.6,0.6);
+    }
+    h3 {
+        transform: rotate(90deg);
+    }
+    p {
+        color:white;
+    }
+    h4 {
+        position: fixed;
+        left:40%;
+        top:60%;
+    }
+}
+
+@media (min-width: 60em) {
+    body{
+        background: rgba(255,219,112,1);
+        color: white;
+        }
+    h2{
+        transform: scale(0.8,0.8);
+    }
+    h3 {
+        transform: rotate(45deg);
+    }
+    p {
+        color:rgba(255,102,51,1);
+    }
+    h4 {
+        position: fixed;
+        left:60%;
+        top:60%;
+    }
+}
+
+@media (min-width: 80em) {
+    body{
+        background: rgba(255,255,255,1);
+        color: white;
+        }
+    h2{
+        transform: scale(1,1);
+    }
+    h3 {
+        transform: rotate(0deg);
+    }
+    p {
+        color:rgba(255,51,102,1);
+    }
+    h4 {
+        position: fixed;
+        left:80%;
+        top:60%;
+    }
+}
+
+@keyframes cola {
+    from {background-color: red;}
+    to {background-color: hotpink;}
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:deeppink; left:200px; top:0px;}
+    50%  {background-color:hotpink; left:200px; top:200px;}
+    75%  {background-color:pink; left:0px; top:200px;}
+    100% {background-color:lightpink; left:0px; top:0px;}
+}
+
+h1 {
+    padding:0;
+    animation-name: cola;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+h3 {
+    position:fixed;
+    left:10%;
+    top:30%;
+}
+
+p {
+    width:80%;
+    text-align: center;
+}

@@ -1,0 +1,90 @@
+body { 
+  margin:0;
+  padding:0; 
+  font-family: sans-serif;
+  color: rgba(140,165,115,1);
+}
+
+* {
+  box-sizing: inherit;
+  /* type stuff */
+  -webkit-font-feature-settings: "kern";
+  -ms-font-feature-settings: "kern";
+  -o-font-feature-settings: "kern";
+  font-feature-settings: "kern";
+  -webkit-font-kerning: normal;
+          font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  /**/
+  /**/
+  /**/
+  /**/
+  font-family: "ogg-roman", cursive;
+  font-size: 20pt;
+  -webkit-transition:all 350ms;
+  transition: all 350ms;
+  text-shadow: 10px 10px 5px rgba(155, 155, 155,1);
+  background-color:white;
+  color: dodgerblue; 
+  list-style-type: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+div{
+    display: inline-block;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    top: 0px;
+    left: 0px;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+div:hover {
+    border-style: solid;
+    border-width: 5px;
+    border-color:red;
+    box-shadow: 5px 5px 5px rgba(255,0,0,.30);
+    cursor:crosshair;
+}
+
+a {
+    text-decoration: none;
+    color: gold; 
+}
+
+.indicator {
+  background: -webkit-linear-gradient(90deg, #1e90ff, #fefefe, #feff00, #ffffff, #1e90ff);
+  background: linear-gradient(89deg, #1E90FF, #ffff00, #ffffff, #ffff, #1E90FF);
+  width: 0;
+  height: 40px;
+  position: fixed;
+  top:0;
+  left:0;
+    z-index: 200;
+  margin:0;
+  padding:0;
+}
+
+#posts,
+.close,
+.hide {
+  display:none;
+  color: black;
+}
+
+.close {
+ color: white;
+}
+
+button {
+  font-family: "ogg-roman", cursive;
+  font-size: 20pt;
+}

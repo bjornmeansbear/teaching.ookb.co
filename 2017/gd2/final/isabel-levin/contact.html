@@ -1,0 +1,123 @@
+<!doctype html>
+
+<html>
+  <head>
+    <!-- this is the proper meta tag to use common special characters, etc. -->
+    <meta charset="UTF-8" />
+
+    <!-- this is necessary for responsive @media queries to work properly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The Title to your website. Shows in the browser tab or window, as well as in search engine results. Not actually on the page anywhere -->
+    <title>Isabel Levin | Portfolio</title>
+
+    <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" type="text/css" rel="stylesheet" />
+    <link href="basics.css" type="text/css" rel="stylesheet" />
+    <link href="floatGrid.css" type="text/css" rel="stylesheet" />
+    <link href="contact.css" type="text/css" rel="stylesheet" />
+    <link href="menu.css" type="text/css" rel="stylesheet" />
+  </head>
+
+    
+    
+    
+  <body>
+    <div class="container"> 
+        <header>
+              <h1>
+                  <a href="index.html">ISABEL <br> LEVIN </a>
+              </h1>
+            
+                <nav>
+                        <button class="hamburger">ME<br>NU</button>
+
+                        <ul>
+                            <li> <a href="work.html">WORK</a></li>
+                            <li> <a href="about.html">ABOUT</a> </li>
+                            <li> <a href="contact.html">CONTACT</a> </li>
+                            <li> <a href="resume.html">RESUME</a> </li>
+                        </ul>
+                </nav>
+            
+        </header>
+        
+        
+        <main>
+              <h3><a href="work.html">WORK</a></h3>
+              <h3>
+                  <a href="about.html">ABOUT</a>
+              </h3>
+              <h4>CONTACT</h4>
+              <h3>
+                  <a href="resume.html">RESUME</a>
+              </h3>
+
+            <!--
+                    <form action="https://formspree.io/ilevin@mica.edu"
+                      method="POST">
+                    <label for="name">
+                        <h2>Your name:</h2>
+                        <input id="name" type="text" name="name">
+                    </label>
+                    <label for="email">
+                        <h2>Email:</h2>
+                        <input id="email" type="email" name="_replyto">
+                    </label>
+                    <input type="submit" value="Send">
+</form>
+            -->
+            
+                <div>
+                    <p>Get in touch with me by <br>filling out the form below:</p> 
+                </div>
+                <form method="POST" action="http://formspree.io/ilevin@mica.edu">
+                    <div>
+                        <input type="email" name="email" placeholder="Your email">
+                    </div>
+                    <div>
+                        <textarea name="message" placeholder="Your message"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">SEND</button>
+                    </div>
+                  <input type="hidden" name="_next" value="thanks.html" />
+                </form>
+            
+                   
+        </main>
+        
+        
+        
+        
+        
+        
+        
+        <footer>
+            <p>© Copyright <span class="year dynamic">2017</span> Isabel Levin</p>
+        </footer>
+        
+      </div>
+      
+                <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+                <script>
+                    /* this makes menu hide and show when you click hamburger button */
+                    $(".hamburger").click(function(){
+                         $("header nav ul").toggle();
+                        $("header nav").toggleClass('expanded');
+                    });
+
+                    //this fixes that menu sometimes stays hidden. Also another way write JS comments
+                    $(window).resize(function(){
+                         var windowWidth = $(window).width();
+                         console.log(windowWidth);
+
+                         if (windowWidth >= 1024) {
+                            $("header nav ul").show();
+                         } else {
+                             $("header nav ul").hide();
+                         };
+                    });
+                    
+                    $("header nav ul").hide();
+                </script>
+    </body>

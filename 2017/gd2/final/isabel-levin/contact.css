@@ -1,0 +1,66 @@
+label           {font-family:Apercu, Futura, "Helvetica Neue", Helvetica, sans-serif;
+                 color:#9fbccc;
+                 font-size:2em;}
+
+p               {font-family:Apercu, Futura, "Helvetica Neue", Helvetica, sans-serif;
+                 color:#9fbccc;
+                 font-size:1.6em;
+                 letter-spacing:0.09em;}
+
+footer           {color:#9fbccc;
+                  font-family:Apercu, Futura, "Helvetica Neue", Helvetica, sans-serif;
+                  font-size:0.55em;
+                  letter-spacing:0em;
+                  font-weight:100;
+                  text-align:center;
+                  margin-top:16rem;
+                  margin-bottom:3rem;}
+
+
+form button           {background-color:#d5e1e8;
+                  border:none;
+                  border-radius:50px;
+                  color:white;
+                  text-align:center;
+                  letter-spacing:0.1em;
+                  font-size:2em;
+                  margin-left:24%;
+                  padding: 15px 32px;
+                  font-family: Apercu, Futura, "Helvetica Neue", Helvetica, sans-serif;
+                  outline:0;}
+
+button:hover     {background-color:orange;
+                  cursor:pointer;}
+
+input           {background-color:#d5e1e8;
+                 border:none;
+                 border-radius:25px;
+                 padding: 30px 30px;
+                 color:#505050;
+                 outline:0;}
+
+textarea        {background-color:#d5e1e8;
+                 border:none;
+                 border-radius:25px;
+                 padding-top:30px;
+                 padding-bottom:80px;
+                 padding-left:30px;
+                 padding-right:30px;
+                 width:300px;
+                 color:#505050;
+                 outline:0;}
+
+div            {margin-left:35%;
+                padding-bottom:1rem;}
+
+@media (max-width:1024px){
+    div              {margin-left:25%;}
+    button           {margin-left:25%;}
+}
+
+@media (max-width:512px){
+    div              {margin-left:0%;}
+    button           {margin-left:0%;}
+}
+
+

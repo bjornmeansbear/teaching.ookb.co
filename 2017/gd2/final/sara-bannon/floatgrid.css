@@ -1,0 +1,74 @@
+* {
+        box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    height:3em;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .5rem;
+}
+
+.group {
+    
+}
+
+.group :: after  {
+    content: ' ' ;
+    display: table;
+    clear: both;
+}
+
+/** Create different widths of columns **/
+
+.one               {  width: calc(100% / 12 * 01);  background: red; }
+
+.two               {  width: calc(100% / 12 * 02);  background: blue;}
+
+.three             {  width: calc(100% / 12 * 03);  background: yellow;}
+
+.four              {  width: calc(100% / 12 * 04);  background: red;}
+
+.five               {  width: calc(100% / 12 * 05);  background: blue;}
+
+.six                {  width: calc(100% / 12 * 06);  background: yellow;}
+
+.seven            {  width: calc(100% / 12 * 07);  background: red;}
+
+.eight             {  width: calc(100% / 12 * 08); background: blue; }
+
+.nine              {  width: calc(100% / 12 * 09);  background: yellow;}
+
+.ten                {  width: calc(100% / 12 * 10);  background: red;}
+
+.eleven           {  width: calc(100% / 12 * 11);  background: blue;}
+
+.twelve            {  width: calc(100% / 12 * 12);  background: yellow;}
+
+
+
+.offset-by-one               {  margin-left: calc(100% / 12 * 01);  }
+
+.offset-by-two               {  margin-left: calc(100% / 12 * 02);  }
+
+.offset-by-three             {  margin-left: calc(100% / 12 * 03);  }
+
+.offset-by-four              {  margin-left: calc(100% / 12 * 04);  }
+
+.offset-by-five               {  margin-left: calc(100% / 12 * 05);  }
+
+.offset-by-six                {  margin-left: calc(100% / 12 * 06);  }
+
+.offset-by-seven            {  margin-left: calc(100% / 12 * 07);  }
+
+.offset-by-eight             {  margin-left: calc(100% / 12 * 08);  }
+
+.offset-by-nine              {  margin-left: calc(100% / 12 * 09);  }
+
+.offset-by-ten                {  margin-left: calc(100% / 12 * 10);  }
+
+.offset-by-eleven           {  margin-left: calc(100% / 12 * 11);  }
+
+.offset-by-twelve            {  margin-left: calc(100% / 12 * 12);  }
+

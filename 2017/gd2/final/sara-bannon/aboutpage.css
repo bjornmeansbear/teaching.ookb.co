@@ -1,0 +1,145 @@
+a.ex1:hover,
+a.ex1:active {
+    color: blue;
+}
+    
+a.ex2:hover,
+a.ex2:active {
+    color: blue;
+}
+    
+a.ex3:hover,
+a.ex3:active {
+    color: #f286b7;
+}
+
+a.ex4:hover,
+a.ex4:active {
+    color: #9ef9e5;
+}
+
+a.ex5:hover, 
+a.ex4:active {
+    color: red;
+}
+
+nav {
+    padding-top: 1em;
+    position: fixed;
+    top: 3em;
+    right: 8em;
+    bottom: 40em;
+    left: 3em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: Futura;
+    position: fixed;
+    left: 69.8%
+}
+
+nav li {
+    float: right;
+    font-family: Futura;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1 {
+    position: absolute;
+    font-family: Futura;
+    top: 4%;
+    right: 12em;
+    bottom: 40em;
+    left: 7%;
+    padding: 14px 16px;
+}
+
+h1:hover {
+    animation-name: blink;
+    animation-duration: 1s;
+}
+
+@keyframes blink {
+    0%   {color: white;}
+    20%  {color: #9ef9e5;}
+    40%  {color:  #f286b7;}
+    60% {color: blue;}
+    80% {color: red;}
+    100% {color: #f0c631;};
+}
+
+
+
+p {
+    font-family: Futura;
+    text-align: left;
+    position: relative;
+    top: 20em;
+    margin-left: 32%;
+    margin-right: 31%;
+    margin-bottom: 3em;
+    line-height: 2em;
+    font-size: .9em;
+}
+
+
+
+
+p span {
+    color: black;
+    font-size: 1.8em;
+    font-family: Futura;
+}
+
+p span:hover {
+    color: red;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h2 span {
+    color: black;
+    font-size: 1em;
+    font-family: Futura;
+    padding-left: 15%;
+    padding-bottom: 1em;
+    top: -10px;
+}
+
+
+img {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    position: absolute;
+    left: 8%;
+    top: 30%;
+}
+
+img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1, 1.1);
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}

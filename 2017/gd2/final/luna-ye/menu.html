@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <title> Mobile Menu Patterns</title>
+      
+      <link href="menu.css" rel="stylesheet">
+      
+    </head>
+    
+       
+    <body>
+     <!---- Javascript goes at the bottom ---->
+        
+        <header>
+            <nav>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">A Second Thing</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">We have a super amazing R&amp;D facility</a></li>
+                </ul>
+            
+            </nav>
+        
+        </header>
+    
+        
+        <script src="jquery-3.2.0.min.js"></script>
+    
+        <script> 
+        //this makes menu hide or show when you click hamburger button
+            $(".hamburger").click(function() {
+                $("header nav ul").toggle();
+
+            });
+        /* using jq, targeting hamburger, when u click, a new function runs
+            this fixes that menu sometimes stays hidden
+            this isn't  COMMENT anymore'
+            */
+            $(window).resize(function() {
+                var windowWidth = $(window).width();
+                console.log(windowWidth);
+
+            
+            if ( windowWidth >= 800 ) {
+                  $("header nav ul").show();
+        
+            } else {
+                 $("header nav ul").hide();
+            };
+                
+        });
+            
+        </script>
+    
+    
+    </body>
+    
+</html>
+
+
+
+
+
+
+
+
+

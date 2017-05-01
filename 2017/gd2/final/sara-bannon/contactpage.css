@@ -1,0 +1,257 @@
+a.ex1:hover,
+a.ex1:active {
+    color: blue;
+}
+    
+a.ex2:hover,
+a.ex2:active {
+    color: blue;
+}
+    
+a.ex3:hover,
+a.ex3:active {
+    color: #f286b7;
+}
+
+a.ex4:hover,
+a.ex4:active {
+    color: #9ef9e5;
+}
+
+a.ex5:hover, 
+a.ex4:active {
+    color: red;
+}
+
+nav {
+    padding-top: 1em;
+    position: fixed;
+    top: 3em;
+    right: 7em;
+    bottom: 40em;
+    left: 3em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: Futura;
+    position: fixed;
+    left: 69.8%
+}
+
+nav li {
+    float: right;
+    font-family: Futura;
+}
+
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Futura;
+}
+
+li a {
+    list-style-type: none;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    position: absolute;
+    font-family: Futura;
+    top: 4%;
+    right: 12em;
+    bottom: 40em;
+    left: 7%;
+    padding: 14px 16px;
+}
+
+h1:hover {
+    animation-name: blink;
+    animation-duration: 1s;
+}
+
+@keyframes blink {
+    0%   {color: white;}
+    20%  {color: #9ef9e5;}
+    40%  {color:  #f286b7;}
+    60% {color: blue;}
+    80% {color: red;}
+    100% {color: #f0c631;};
+}
+
+p {
+    font-family: Futura;
+    text-align: left;
+    position: relative;
+    top: 20em;
+    margin-left: 30em;
+    margin-right: 27em;
+    margin-bottom: 3em;
+    line-height: 2em;
+}
+
+p span {
+    color: black;
+    font-size: 1.8em;
+}
+
+p span:hover {
+    color: red;
+}
+
+img {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1, 1.1);
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+div body {
+	font-family:Futura;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+    padding: 1em;
+    margin-top: 7%;
+}
+
+#contact input[type="text"], 
+#contact input[type="email"], #contact input[type="tel"], 
+#contact textarea, 
+#contact button[type="submit"] { font:400 12px/16px Futura; }
+
+#contact {
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: black;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:18px;
+    color: black;
+    font-family: Futura;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#contact h4:hover{
+  color: pink;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], 
+#contact input[type="email"], #contact input[type="tel"], 
+#contact input[type="url"], 
+#contact textarea {
+	width:100%;
+	border:1px solid black;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	border:1px solid blue;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:white;
+	color: black;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+  font-family: Futura;
+}
+
+#contact button[type="submit"]:hover {
+	background:red;
+  color: white;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { background: pink; }
+
+::-webkit-input-placeholder {
+ color: black;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}

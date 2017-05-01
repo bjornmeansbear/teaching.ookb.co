@@ -1,0 +1,195 @@
+
+.m0 { margin: 0; }
+.static   { position: static; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed    { position: fixed; }
+.zneg1    { z-index: -1; }
+
+* {box-sizing: border-box;}
+body {
+  font-family: "Gotham", helvetica, arial, sans-serif;
+  padding: 1rem;
+  color:#333;
+}
+
+.translate {
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+h1 {
+  padding: 15px;
+}
+
+footer {
+  clear: both;
+  margin-top: 6em;
+}
+
+.flex {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: right;
+}
+
+/*******************/
+#behance-magix {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.project {
+  display: flex;
+  width: 100%;
+  margin-bottom: .75rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+@media (min-width: 600px) {
+  .project {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .project {
+    width: 25%;
+  }
+}
+
+
+.project a {
+  display:block;
+  text-decoration: none;
+  color:#333;
+  border: 2px solid;
+  background-color: white;
+}
+
+.project h2 {
+  font-weight: 400;
+}
+.project .imgWrapper {
+  background: black;
+  display: none;
+  /**/
+  top:50%;
+  left:50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.imgWrapper img {
+  opacity: .75;
+}
+
+.project:hover h2 {
+  color:white;
+  text-shadow: 0 0 .3em rgba(0,0,0,.5);
+}
+.project:hover .imgWrapper {
+  display: block;
+  box-shadow: 0 0 .5em 0 rgba(0,0,0,.5);
+}
+
+.Wrapper {
+  width:auto;
+  height: 200px;
+  padding: 12px;
+}
+
+.AboutMe {
+  width: 118px;
+  height: 50px;
+  background-color: white;
+  transition: width .5s, height .5s;
+  transition-delay: .25s;
+  font-weight: 500;
+  overflow: hidden;
+  border: 2px solid;
+
+}
+
+.AboutMe:hover {
+  width: auto;
+  height: auto;
+  transition: width .5s, height .5s;
+}
+
+.AboutContent {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.text-wrapper {
+  padding-left: 1rem;
+}
+
+.module {
+  width: auto;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.ProjectName
+{
+  text-align: center;
+}
+
+.name
+{
+  text-align: center;
+}
+
+.ThumbnailImage
+{
+  max-width: 100%;
+  max-height: auto;
+}
+
+.ProjectList {
+background-color: black;
+border: solid 2px;
+height: 475px;
+width: 98%;
+overflow-x: auto;
+overflow-y: hidden;
+}
+
+.modules-list {
+  width: 4000px;
+  display: flex;
+  background-color: black;
+}
+
+.ProjectImage {
+  max-width: auto;
+  max-height: 450px;
+  padding: 10px;
+}
+
+.ProjectText
+{
+  display: none;
+}
+
+.thumbnail
+{
+  width: 100;
+  height:100;
+}
+
+.close
+{position: fixed;
+bottom: 10px;
+right: 5%}
+
+.link
+{padding-right: 10px;
+font-size: 1.25em;
+color: black;}

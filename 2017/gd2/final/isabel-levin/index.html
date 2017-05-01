@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Isabel Levin | Portfolio</title>
+        <link href="hover.css" rel="stylesheet" type="text/css"/>
+        <link href="basics.css" rel="stylesheet" type="text/css"/>
+        <link href="responsive.css" rel="stylesheet" type="text/css"/>
+        <link href="menu.css" rel="stylesheet" type="text/css"/>
+        <link href="index.css" rel="stylesheet" type="text/css"/>
+              
+    </head>
+
+    <body>
+        
+        <h1>ISABEL <br> LEVIN</h1>
+        <h2>GRAPHIC<br> DESIGNER</h2>
+        
+        <section>
+            <div class="parent d">
+                <a href="work.html">
+                    <div>
+                        <h3>WORK</h3>
+                    </div>
+                </a>
+            </div>
+            
+            
+            <div class="parent a">
+                <a href="about.html">
+                    <div>
+                        <h3>ABOUT</h3>
+                    </div>
+                </a>
+            </div>
+            
+            
+            <div class="parent b">
+                <a href="contact.html">
+                    <div>
+                        <h3>CONTACT</h3>
+                    </div>
+                </a>
+            </div>
+            
+            
+            <div class="parent c">
+                <a href="resume.html">
+                    <div>
+                        <h3>RESUME</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+        
+        
+        
+        <header>
+            <nav>
+                <button class="hamburger">ME<br>NU</button>
+
+                <ul>
+                    <li> <a href="work.html">WORK</a></li>
+                    <li> <a href="about.html">ABOUT</a> </li>
+                    <li> <a href="contact.html">CONTACT</a> </li>
+                    <li> <a href="resume.html">RESUME</a> </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> 
+        <script src="jquery-3.2.0.min.js"></script>
+        <script>
+            /* this makes menu hide and show when you click hamburger button */
+            $(".hamburger").click(function(){
+                 $("header nav ul").toggle();
+                 $("header nav").toggleClass('expanded');
+            });
+
+            //this fixes that menu sometimes stays hidden. Also another way write JS comments
+            $(window).resize(function(){
+                 var windowWidth = $(window).width();
+                 console.log(windowWidth);
+
+                 if (windowWidth >= 1024) {
+                    $("header nav ul").show();
+                 } else {
+                     $("header nav ul").hide();
+                 };
+            });
+            
+            $("header nav ul").hide();
+
+        </script>
+     
+    </body>
+</html>

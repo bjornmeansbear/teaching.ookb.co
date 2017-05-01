@@ -1,0 +1,235 @@
+* { box-sizing: border-box; }
+
+header                  {color:#d5e1e8;
+                         font-family:Apercu, Futura, "Helvetica Neue", Helvetica, sans-serif;
+                         font-size:1em;
+                         font-weight: bold;
+                         letter-spacing:0.15em;
+                         margin-top:3rem;}
+
+header a                {text-decoration:none;
+                         color:#d5e1e8;}
+
+header a:hover          {text-decoration:none;
+                         color:orange;}
+
+h2                      {margin-left:1rem;
+                         margin-right:1rem;
+                         margin-top:1.25rem;
+                         margin-bottom:0.75rem;}
+
+
+h3                      {color:#d5e1e8;
+                         font-size:1.75em;
+                         text-align: right;}
+
+h3 a                    {text-decoration:none;
+                         color:#d5e1e8;}
+
+h3 a:hover              {text-decoration:none;
+                         color:orange;}
+
+h4                      {color:orange;
+                         font-size:1.75em;
+                         text-align: right;}
+
+h3,h4 {
+    line-height: 1;
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+
+
+@media (max-width:1024px) {
+    
+    h3,h4               {display:none;}}
+
+@media (min-width:1024px) {
+    
+    nav              {display:none;}}
+
+
+
+img                      {max-width:100%;
+                          height:auto;}
+
+main                     {font-family:Apercu, Futura,"Helvetica Neue", Helvetica, sans-serif;
+                          font-weight:100;
+                          color:black;
+                          font-size:0.6em;
+                          letter-spacing:0.15em;}
+
+
+footer                   {color:#9fbccc;
+                          font-family:Apercu, Futura, "Helvetica Neue", Helvetica, sans-serif;
+                          font-weight:100;
+                          text-align:center;
+                          margin-top:4rem;
+                          margin-bottom:3rem;}
+
+a                        {color:#9fbccc;
+                          text-decoration:none;}
+
+a:hover                   {color:#9fbccc;}
+
+
+.name                     {color:#9fbccc;
+                           font-weight:100;
+                           opacity:0;
+                           transform:translateY(-100%);
+                           transition:0.55s;}
+
+
+.container              {max-width:1500px;
+                         margin-left:7rem;
+                         margin-right:7rem;
+                         background:white;}
+.project-page .container {margin-left:auto;
+                         margin-right:auto;
+                         }
+
+    .flex .oneSide         {order: 1;
+                            padding-left: 2em;}
+    
+.project img              {opacity:1;
+                           box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);}
+
+/*box-shadow:0 0 1em 0 rgba(4, 8, 39, 0.33); /* First property is x offset, second is y offset, third is amount of blur, fourth is spread of shadow. Then there's the RGBA color */
+
+.project:hover img        {}
+
+.project:hover .name       {opacity:1;
+                            transform:translateY(0%);}
+
+.flex                      {display: flex;
+                            justify-content: space-between;
+                            flex-direction: column;}
+
+
+
+    
+    .flex                  {flex-direction: row; 
+                            flex-wrap: wrap; }
+    
+    /** This example is for a 12 column grid **/
+    .column,
+    .columns              {float:left;
+                           padding-left:4rem;
+                           padding-right:4rem;
+                           padding-top:4rem;}
+
+    .group,
+    .grouped              {}
+
+    .group::after,
+    .grouped::after       {content:'';
+                           display:table;
+                           clear:both;}
+
+/*    * Create different widths of columns **/
+    .one                  {width:calc(100% / 12 * 01);}
+    .two                  {width:calc(100% / 12 * 02);}
+    .three                {width:calc(100% / 12 * 03);}
+    .four                 {width:calc(100% / 12 * 04);}
+    .five                 {width:calc(100% / 12 * 05);}
+    .six                  {width:calc(100% / 12 * 06);}
+    .seven                {width:calc(100% / 12 * 07);}
+    .eight                {width:calc(100% / 12 * 08);}
+    .nine                 {width:calc(100% / 12 * 09);}
+    .ten                  {width:calc(100% / 12 * 10);}
+    .eleven               {width:calc(100% / 12 * 11);}
+    .twelve               {width:calc(100% / 12 * 12);}
+
+    .offset-by-one        {margin-left:calc(100% / 12 * 01);}
+    .offset-by-two        {margin-left:calc(100% / 12 * 02);}
+    .offset-by-three      {margin-left:calc(100% / 12 * 03);}
+    .offset-by-four       {margin-left:calc(100% / 12 * 04);}
+    .offset-by-five       {margin-left:calc(100% / 12 * 05);}
+    .offset-by-six        {margin-left:calc(100% / 12 * 06);}
+    .offset-by-seven      {margin-left:calc(100% / 12 * 07);}
+    .offset-by-eight      {margin-left:calc(100% / 12 * 08);}
+    .offset-by-nine       {margin-left:calc(100% / 12 * 09);}
+    .offset-by-ten        {margin-left:calc(100% / 12 * 10);}
+    .offset-by-eleven     {margin-left:calc(100% / 12 * 11);}
+    .offset-by-twelve     {margin-left:calc(100% / 12 * 12);}
+
+
+
+
+/*SCROLL BAR*/
+body {
+margin-bottom: 5%;
+}
+
+/* Box styles */
+.myBox {
+border: none;
+padding: 5px;
+width: 200px;
+height: 200px;
+overflow: scroll;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+}
+
+::-webkit-scrollbar-track {
+border: 1px solid #9fbccc;
+}
+
+::-webkit-scrollbar-thumb {
+background: #9fbccc;  
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: orange;  
+}
+/*SCROLL BAR ABOVE*/
+
+
+
+
+
+
+
+
+.project                { 
+    width: calc(80% / 3 );
+    margin:1rem 0;
+}
+
+.project-page {
+      padding: 3em;
+        padding-left: 4em;
+    padding-right: 4em;
+}
+
+@media (max-width: 70rem) {
+    .project-page { padding-left: 3em;
+                    padding-right: 3em;}
+    
+}
+
+@media (max-width: 70rem) {
+    .project        {width: calc(90% / 2);
+                     margin:1rem 0;}
+    .project-page { padding-left: 2em;
+                    padding-right: 2em;}
+}
+
+@media (max-width: 50rem) {
+    .project        {width: calc(100% / 1);}
+    .three          {width: 100%; }
+    .nine           {width: 100%; }
+    .flex .oneSide  {order: -1;}
+    .project-page { padding-left: 1em;
+                    padding-right: 1em;}
+    .project-page .container {
+        flex-direction: column;
+    }
+}
+
+

@@ -1,0 +1,193 @@
+/** write your styles in this sheet. **/
+
+* {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/**.info {
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  background-color: rgba(0,0,0,.7);
+  margin:0;
+  display:none;
+  
+    
+}**/
+
+
+
+
+
+
+
+body {
+  background: white;
+  color: black;
+  font-family: "Didot LT Std Roman", Didot, serif;
+    
+  
+}
+
+/*** project overlay ***/
+.project-page {
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index: 9999999999;
+  background-color: rgba(255,255,255,.95);
+  padding: 3em;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.project-page * {
+  margin-left: auto;
+  margin-right:auto;
+}
+.project-page .container {
+  max-width: 50em;
+}
+.project-page button.close {
+  background-color: transparent;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  font-size: 0.2rem;
+  height: 2rem;
+  width: 2rem;
+  border: 0;
+}
+
+/* easy class to add to <ul>s to get rid of listy stuff */
+.list-reset {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+/* try to keep body from scrolling in the background */
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    transition: all 350ms;
+} 
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: lightgray;
+    letter-spacing: 1.25px;
+    font-size: .9em;
+    font-weight: normal;
+    z-index: 9999;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+header nav ul li {
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+    header nav ul li {
+    float: left;
+    width: calc(100% / 3);}
+}
+
+header nav ul li a {
+    display: block;
+    padding: .5em;
+    text-decoration: none;
+    color: white;
+    font-family: "Didot LT Std Roman", Didot, serif;
+    letter-spacing: 1.45px;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+    color: lightgray;
+}
+
+.hamburger {
+    height: 3.8em;
+    width: 3.8em;
+    background: lightgray;
+    border: none;
+    /**box-shadow: 0 0 1em 0 rgba(0,0,0,.333);**/
+    text-align: center;
+}
+
+.fa {
+    font-size: 2.5em;
+}
+
+
+
+/**.hamburger span {
+    display: block;
+    width: 100%;
+    height: .15em;
+    border-radius: .125em;
+    background-color: white;
+    margin-bottom: .25em;
+    margin-top: .25em;
+}**/
+
+@media (min-width: 800px) {
+    .hamburger {
+        display: none;
+    }
+    header nav ul {
+        display: block;
+    }
+}
+
+
+
+footer {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.project-page h1 {
+    color: gray;
+}
+
+.link {
+    color: gray;
+    font-family: "Didot LT Std Roman", Didot, serif;
+    letter-spacing: .6px;
+    font-weight: 300;
+}
+
+p {
+    color: gray;
+}

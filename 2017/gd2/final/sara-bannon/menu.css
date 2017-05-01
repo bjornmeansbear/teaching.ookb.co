@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    transition: all 350ems;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: red;
+}
+
+header nav ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+header nav ul li a:hover {
+    background-color: yellow;
+    color: blue;
+}

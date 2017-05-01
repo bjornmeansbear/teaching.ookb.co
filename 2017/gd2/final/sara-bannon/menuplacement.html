@@ -1,0 +1,68 @@
+<!doctype HTML>
+
+<HTML>
+
+<head>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width-device-width, initital scale=1.0">
+    
+<title> Menu Placement Exercise</title>
+    
+<link href="menu.css" rel="stylesheet" />
+    
+</head>
+    
+<body>
+    
+    <header> 
+            <nav>
+                    
+                    <button class="hamburger"> 
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                
+                    <ul>
+                        <li> <a href="#"> Home </a> </li>
+                        <li> <a href="#"> About </a> </li>
+                        <li> <a href="#"> Contact </a> </li>
+                        <li> <a href="#"> Store </a> </li>
+                    </ul>
+            </nav>
+    </header>
+
+</body>
+    
+/* Javascript will go at the bottom */
+    
+<script src="jquery-3.2.0.min.js"></script>
+    
+<script>
+    
+    // This toggle menu hide/show when you click the hamburger button //
+    
+    $(".hamburger").click(function()  {
+        $("header nav ul").toggle();
+    });
+    
+    // This fixes that the menu sometimes stays hidden //
+    
+    $(window).resize(function ()  {
+        var windowWidth = $(window).width();
+        console.log(windowWidth);
+        
+        if ( windowWidth >= 800 ) {
+            $("header nav ul").show();
+        } else {
+            $("header nav ul").hide();
+        };
+        
+    });
+    
+</script>
+
+</HTML>
+
+

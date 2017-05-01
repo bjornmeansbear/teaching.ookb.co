@@ -1,0 +1,204 @@
+/** write your styles in this sheet. **/
+
+* {
+    box-sizing: border-box;
+    transition: all 350ems;
+}
+
+nav {
+    padding-top: 1em;
+    position: fixed;
+    top: 3em;
+    right: 7em;
+    bottom: 40em;
+    left: 3em;
+}
+
+a.ex1:hover,
+a.ex1:active {
+    color: #f0c631;
+}
+    
+a.ex2:hover,
+a.ex2:active {
+    color: blue;
+}
+    
+a.ex3:hover,
+a.ex3:active {
+    color: #f286b7;
+}
+
+a.ex4:hover, 
+a.ex4:active {
+    color: #9ef9e5;
+}
+
+a.ex5:hover, 
+a.ex4:active {
+    color: red;
+}
+
+.module {
+    padding: 1em;
+    font-family: Futura;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: Futura;
+}
+
+nav li {
+    float: right;
+    font-family: Futura;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+h1 {
+    position: absolute;
+    font-family: Futura;
+    top: 4%;
+    right: 12em;
+    bottom: 40em;
+    left: 7%;
+    padding: 14px 16px;
+}
+
+h1:hover {
+    animation-name: blink;
+    animation-duration: 1s;
+}
+
+body.img {
+    position: absolute;
+    
+}
+
+.window {
+    position: fixed;
+    top: 9em;
+    right: 6em;
+    bottom: 4em;
+    left: 6em;
+    height: calc(100 - 4em);
+    overflow: auto;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+
+@keyframes blink {
+    0%   {color: white;}
+    20%  {color: #9ef9e5;}
+    40%  {color:  #f286b7;}
+    60% {color: blue;}
+    80% {color: red;}
+    100% {color: #f0c631;};
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%)
+}
+
+img:hover {
+    filter: grayscale(0%)
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  color: black;
+  /**/
+  font-family: Futura;
+}
+
+/*** project overlay ***/
+.project-page {
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index: 9999999999;
+  background-color: rgba(255,255,255,.95);
+  padding: 3em;
+ padding-top: 6em;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.project-page a {
+    color: black;
+    text-decoration: none;
+    font-family: Futura;
+}
+
+.project-page a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.project-page * {
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.project-page .container {
+  max-width: 50em;
+}
+
+.project-page button.close {
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  font-size: 1rem;
+  color: white;
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+}
+
+button.close:hover { background-color: red; }
+
+
+@media-query 
+
+/* easy class to add to <ul>s to get rid of listy stuff */
+.list-reset {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+/* try to keep body from scrolling in the background */
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}

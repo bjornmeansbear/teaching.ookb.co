@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    transition: all 350ms;
+}
+
+header {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color:azure; 
+}
+
+header nav ul{
+    display:none;
+    list-style: none; /* no bullet point */
+    margin:0;
+    padding:0;
+}
+
+header nav li{
+    float:left;
+    width: calc(100% / 3); /* divide by number of items in your menu */ 
+    text-align:center;
+}
+
+header nav li a{
+    display:block; /* "block" can define space around it, not just the text (type + padding) */
+    padding:1em;
+    text-decoration: none; /* get rid of the underline */
+    color:deeppink;
+    font-family: Helvetica, sans-serif;
+}
+
+header nav ul li a:hover{
+    background-color:blueviolet;
+    color:palegreen;
+}
+
+
+
+

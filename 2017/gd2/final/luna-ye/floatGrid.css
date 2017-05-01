@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width:100%;
+    height: auto;
+}
+
+.column,
+.columns{
+    padding-top: 2em;
+}
+
+@media (min-width: 500px){
+    /** this example is for a 12 column grid **/
+    .column,
+    .columns{
+        float: left;
+        padding-left:1.2rem;
+        padding-right:1.2rem;
+    }
+    
+    .project {
+        background-color: rgba(255,255,255,0.3);
+        width: calc(100% / 2);
+        padding-bottom: 2em;
+    }
+    .project:nth-child(2n+1) {
+        clear: left;
+    }
+    
+}
+
+@media (min-width: 900px){
+    /** this example is for a 12 column grid **/
+    .project {
+        background-color: rgba(255,255,255,0.3);
+        width: calc(100% / 3);
+    }
+    .project:nth-child(2n+1) {
+        clear: none;
+
+    }
+    .project:nth-child(3n+1) {
+        clear: left;
+
+    }
+  
+.group,
+.grouped { border:1px solid;}
+
+.group::after,
+.grouped::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/** create different width of columns **/
+.one     {width: calc(100%/12 * 01); }
+.two     {width: calc(100%/12 * 02); }
+.three   {width: calc(100%/12 * 03); }
+.four    {width: calc(100%/12 * 04); }
+.five    {width: calc(100%/12 * 05); }
+.six     {width: calc(100%/12 * 06); }
+.seven   {width: calc(100%/12 * 07); }
+.eight   {width: calc(100%/12 * 08); }
+.nine    {width: calc(100%/12 * 09); }
+.ten     {width: calc(100%/12 * 10); }
+.eleven  {width: calc(100%/12 * 11); }
+.twelve  {width: calc(100%/12 * 12); }
+
+
+.offset-by-one     {margin-left:   calc(100%/12 * 01); }
+.offset-by-two     {margin-left:   calc(100%/12 * 02); }
+.offset-by-three   {margin-left:   calc(100%/12 * 03); }
+.offset-by-four    {margin-left:   calc(100%/12 * 04); }
+.offset-by-five    {margin-left:   calc(100%/12 * 05); }
+.offset-by-six     {margin-left:   calc(100%/12 * 06); }
+.offset-by-seven   {margin-left:   calc(100%/12 * 07); }
+.offset-by-eight   {margin-left:   calc(100%/12 * 08); }
+.offset-by-nine    {margin-left:   calc(100%/12 * 09); }
+.offset-by-ten     {margin-left:   calc(100%/12 * 10); }
+.offset-by-eleven  {margin-left:   calc(100%/12 * 11); }
+.offset-by-twelve  {margin-left:   calc(100%/12 * 12); }
+}
+
+
+
+
+
+
+
+
+

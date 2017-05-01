@@ -1,0 +1,98 @@
+/* This file is a grid system! */
+
+
+*                      {-webkit-box-sizing: border-box;
+                        -mox-box-sizing: border-box;
+                        -ms-box-sizing: border-box;
+                        -o-box-sizing: border-box;
+                         box-sizing: border-box;}
+
+
+.container              {padding-left:5rem;
+                         padding-right:5rem;
+                         max-width:1500px;
+                         margin-left:auto;
+                         margin-right:auto;
+                         }
+
+
+h1                      {font-family: Apercu, Helvetica, sans-serif;
+                         letter-spacing: 0.25em;
+                         color:#9ecece;}
+
+h2                      {font-family: Apercu, Helvetica, sans-serif;
+                         letter-spacing: 0.05em;
+                         color:#9ecece;
+                         font-size:1.3em;}
+
+h3                      {font-family: Apercu, Helvetica, sans-serif;
+                         letter-spacing: 0.05em;
+                         color:#9ecece;
+                         font-size:2em;
+                         padding-left:4.5em;
+                         padding-right:4.5em;}
+
+h3:hover                {color:orange;}
+h3:active               {color:darkorange:}
+
+p                       {color:#171717;
+                         font-size:1.3em;}
+
+img                     {max-width:100%;
+                         height:auto;}
+
+a:link                  {color:#9ecece;}
+a:visited               {color:#9ecece;}
+a:hover                 {color:orange;}
+a:active                {color:darkorange;}
+
+
+
+
+
+
+
+
+.fixed                  {position: fixed;}
+.absolute               {position: absolute;}
+
+img                     {top:5.5%;
+                         right:6%;
+                         bottom:;
+                         left:;
+                         z-index:1;
+                         width: 50px;
+                         opacity:1;}
+
+.column, 
+.columns                {float:left;
+                         padding-left:1em;
+                         padding-right:1em;
+                         padding-top:1em;}
+
+.clear                  {display:block;
+                         clear:both;}
+
+.group,
+.row                    {margin-bottom:1.5em;}
+
+.group::after,
+.row::after,
+.clearfix::after,
+.cf::after              {content:"";
+                         clear:both;
+                         display:table;}
+
+.one                     {width:calc(100% / 12 * 01); }
+.two                     {width:calc(100% / 12 * 02); }
+.three                   {width:calc(100% / 12 * 03); }
+.four                    {width:calc(100% / 12 * 04); }
+.five                    {width:calc(100% / 12 * 05); }
+.six                     {width:calc(100% / 12 * 06); }
+.seven                   {width:calc(100% / 12 * 07); }
+.eight                   {width:calc(100% / 12 * 08); }
+.nine                    {width:calc(100% / 12 * 09); }
+.ten                     {width:calc(100% / 12 * 10); }
+.eleven                  {width:calc(100% / 12 * 11); }
+.twelve                  {width:calc(100% / 12 * 12); }
+

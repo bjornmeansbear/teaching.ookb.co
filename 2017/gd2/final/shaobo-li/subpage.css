@@ -1,0 +1,66 @@
+p {
+  color: darkgray;
+  font-family: "Didot LT Std Roman", Didot, serif;
+  font-size: 1.6em;
+  letter-spacing: 1.55px;
+  padding-left: 3%;
+  width: 70%;
+  text-align: left;
+  
+}
+
+.profile {
+    width: 18em;
+    box-shadow: 0 0 5px 1.5px lightgray;
+    border-radius: 4px 4px 4px 4px;
+
+}
+
+.photo {
+    background-position: center;
+    position: absolute;
+    left: 6%;
+    top: 38%;
+}
+
+a {
+    color: darkgray;
+}
+
+.paragraph {
+    position: absolute;
+    left: 31%;
+    line-height: 36px;
+}
+
+.description {
+    font-family: "helvetica Light", helvetica, sans-serif;
+    font-size: .6em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-left: .6rem;
+    font-weight: 400;
+    margin: 0.2em;
+    text-align: right;
+    width: inherit;
+}
+
+@media (max-width: 1160px) {
+    .paragraph {
+    float: left;
+    top: 60%;
+    left: 3%;}
+    .photo {
+    top: 22%;
+    }
+}
+
+
+.contact {
+    width: 100%;
+    margin:0;
+}
+
+.title {
+    z-index: -100;
+}
