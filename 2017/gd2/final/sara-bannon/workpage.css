@@ -18,23 +18,23 @@ a.ex1:hover,
 a.ex1:active {
     color: #f0c631;
 }
-    
+
 a.ex2:hover,
 a.ex2:active {
     color: blue;
 }
-    
+
 a.ex3:hover,
 a.ex3:active {
     color: #f286b7;
 }
 
-a.ex4:hover, 
+a.ex4:hover,
 a.ex4:active {
     color: #9ef9e5;
 }
 
-a.ex5:hover, 
+a.ex5:hover,
 a.ex4:active {
     color: red;
 }
@@ -85,7 +85,7 @@ h1:hover {
 
 body.img {
     position: absolute;
-    
+
 }
 
 .window {
@@ -100,7 +100,7 @@ body.img {
     padding-bottom: 1em;
     padding-left: 1em;
     padding-right: 1em;
-    
+
 }
 
 @keyframes blink {
@@ -109,7 +109,7 @@ body.img {
     40%  {color:  #f286b7;}
     60% {color: blue;}
     80% {color: red;}
-    100% {color: #f0c631;};
+    100% {color: #f0c631;}
 }
 
 img {
@@ -187,7 +187,7 @@ body {
 button.close:hover { background-color: red; }
 
 
-@media-query 
+@media-query
 
 /* easy class to add to <ul>s to get rid of listy stuff */
 .list-reset {
