@@ -1,0 +1,194 @@
+body { margin: 0; padding: 0;}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/*** project grid ***/
+/*** attempting to use flexbox for ease of use in regards to mismatched heights, etc ***/
+/*** http://codepen.io/bjornmeansbear/pen/OpRqEW?editors=0100 ***/
+
+#behance-magix {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+}
+
+.project {
+  width: 100%;
+  padding: 0;
+  position: relative;
+  background-color: rgb(63, 62, 62);
+}
+
+#b51894985 {
+    background:rgb(63, 62, 62);    
+}
+
+.height1 {
+    height: 60vw;
+}
+
+.project .image-wrapper {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.3;
+}
+.project:hover .image-wrapper {
+    opacity: 1;
+}
+.margin1 {
+    margin-left: 16%;
+    margin-top: 19.9%;
+}
+.height2 {
+    height: 42vw;
+}
+.width1 {
+    width: 70%;
+}
+
+.project .title {
+    text-decoration: none;
+    display: block;
+    margin-left: 17%;
+    z-index: 100;
+    position: absolute;
+    top:10vw;
+    font-size: 5vw;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}
+
+/*** project overlay ***/
+.project-page {
+  color: black;
+  background-color: white;
+    padding: 0;
+}
+.project-page .container {
+    max-width: none;
+}
+.project-page a {
+  color: white;
+}
+
+.line {
+    position: absolute;
+    border-color: rgba(255,255,255,.5);
+    border-width: .5px;
+    
+}
+.project-page .line {
+    border-color: black;
+}
+.line1{
+    width: 100%;
+    height: 0.5vw;
+    margin-top: 19.9%;
+    margin-left: 4%;
+    border-top-style: solid; 
+    
+}
+.line2{
+    width: 100%;
+    height: 0.5vw;
+    margin-bottom: 1%;
+    margin-left: 4%;
+    border-top-style: solid; 
+}
+.line3{
+    width: 0.5vw;
+    height: 60vw;
+    margin-left: 16%;
+    border-left-style: solid; 
+}
+.line4{
+    width: 0.5vw;
+    height: 100%;
+    margin-left: 86%;
+    border-left-style: solid; 
+}
+.line5{
+    width: 0.5vw;
+    height: 100%;
+    margin-left: 4%;
+    border-left-style: solid; 
+}
+
+.proj-image{
+    margin-top: 21.8%;
+    margin-left: 18%;
+    width:70%;
+    z-index: 10;
+}
+/*
+.boxbox{
+    width:34%;
+    height:67.5%;
+    background-color:black;
+    position:absolute;
+    left:16%;
+    top:19.5vw;
+    z-index: 5;
+    
+}
+*/
+.project:hover .boxbox  {
+    opacity: 0;
+    
+}
+li.module image{
+    top:20vw;
+}
+
+
+
+@media (min-width:1000px){
+    .project{
+        width:50%;
+        float:left;
+        box-sizing: border-box;
+    }
+    .height1 {
+        height: 30vw;
+    }
+    .height2 {
+        height: 20vw;
+    }
+    .boxbox{
+        top:9.75vw;
+    }
+    .project:nth-child(even) .line1{
+        margin-left: 0;
+    }
+    .project:nth-child(even) .line2{
+        margin-left: 0;
+    }
+    .project:nth-child(even) .line5{
+        width: 0;
+        margin-left: 0;
+    }
+    .project .title {
+    text-decoration: none;
+    display: block;
+    margin-left: 17%;
+    z-index: 100;
+    position: absolute;
+    top:3vw;
+    font-size: 3vw;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Rajdhani', sans-serif;
+    color
+
+}
+
