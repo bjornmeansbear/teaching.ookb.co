@@ -1,0 +1,41 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=e555acf7-a959-48da-9a08-1fcdcf8ce6d7");
+@font-face{
+font-family:"din light";
+src:url("3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix");
+src:url("3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix") format("eot"),url("de1216be-00c2-43c0-9c45-3e7f925eb519.woff2") format("woff2"),url("bc176270-17fa-4c78-a343-9fe52824e501.woff") format("woff"),url("3516f91d-ac48-42cd-acfe-1be691152cc4.ttf") format("truetype"),url("d1b1e866-a411-42ba-8f75-72bf28e23694.svg#d1b1e866-a411-42ba-8f75-72bf28e23694") format("svg");
+}
+@font-face{
+font-family:"din light italic";
+src:url("3ab2ca1d-35c8-4471-9c57-04cb66b9cffa.eot?#iefix");
+src:url("3ab2ca1d-35c8-4471-9c57-04cb66b9cffa.eot?#iefix") format("eot"),url("26f280d7-8bd0-4192-90f1-3c3cb4cde341.woff2") format("woff2"),url("e1c997f3-fb27-4289-abc6-5ef059e51723.woff") format("woff"),url("0b3b140c-bdbe-488f-8976-992b4104de0c.ttf") format("truetype"),url("1fdd14a5-aaa2-4662-a7ae-ab0d4c3adb3c.svg#1fdd14a5-aaa2-4662-a7ae-ab0d4c3adb3c") format("svg");
+}
+@font-face{
+font-family:"din regular";
+src:url("da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix");
+src:url("da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix") format("eot"),url("44e7b0fa-6c8d-43c2-b19e-f1e3ce9ea57c.woff2") format("woff2"),url("c5a7f89e-15b6-49a9-8259-5ea665e72191.woff") format("woff"),url("868c94b5-ca49-46b7-b62b-297f8d861125.ttf") format("truetype"),url("e3145f65-29b5-4f7f-8c6e-2dc135021b6a.svg#e3145f65-29b5-4f7f-8c6e-2dc135021b6a") format("svg");
+}
+@font-face{
+font-family:"din regular italic";
+src:url("4393bcd9-65c9-4c71-b688-9a0c17e40ebf.eot?#iefix");
+src:url("4393bcd9-65c9-4c71-b688-9a0c17e40ebf.eot?#iefix") format("eot"),url("f37f8098-b16e-405f-ab24-bd595a5d5762.woff2") format("woff2"),url("c5635d60-91fa-4e4b-8a51-41c97fc744c3.woff") format("woff"),url("de34232f-b870-49c0-a6c0-24c25db73bc2.ttf") format("truetype"),url("35916fb2-3ed3-4d39-bec8-74155a53b1f0.svg#35916fb2-3ed3-4d39-bec8-74155a53b1f0") format("svg");
+}
+@font-face{
+font-family:"din bold";
+src:url("b32ab78b-6c51-4bd3-bc37-4edcec0331f8.eot?#iefix");
+src:url("b32ab78b-6c51-4bd3-bc37-4edcec0331f8.eot?#iefix") format("eot"),url("121784c1-863c-4e49-b682-625ea7de55b0.woff2") format("woff2"),url("9949035f-6226-4080-a14a-bf7d94ffb1e1.woff") format("woff"),url("6241bd09-15c2-485e-9796-9db8d0aa6974.ttf") format("truetype"),url("af94da3e-4232-416a-b6bc-f39f85dd5db6.svg#af94da3e-4232-416a-b6bc-f39f85dd5db6") format("svg");
+}
+@font-face{
+font-family:"din bold italic";
+src:url("d7c339aa-46b7-4f31-8573-7ea230bfcbbb.eot?#iefix");
+src:url("d7c339aa-46b7-4f31-8573-7ea230bfcbbb.eot?#iefix") format("eot"),url("4e20348d-41a7-4295-94ab-2b1019e9d453.woff2") format("woff2"),url("140a0a6f-f218-4071-8eb8-f2bc45ed5121.woff") format("woff"),url("ecbfe302-4f46-4fef-b823-83eedbc353e7.ttf") format("truetype"),url("58f54e11-a0ac-4cfa-852e-3c73b93d74a8.svg#58f54e11-a0ac-4cfa-852e-3c73b93d74a8") format("svg");
+}
+@font-face{
+font-family:"din black";
+src:url("abcc85a3-c3f7-49d9-a80a-f79267998ec7.eot?#iefix");
+src:url("abcc85a3-c3f7-49d9-a80a-f79267998ec7.eot?#iefix") format("eot"),url("9ab9d016-1519-4c53-849d-77e9a49db637.woff2") format("woff2"),url("9541b817-6a02-4e7a-af21-ce24b70d9ba3.woff") format("woff"),url("c1a5af90-f79a-44b1-a4a4-5fd6d888c2f2.ttf") format("truetype"),url("0c36e45b-5edd-4927-b9ad-2e46a30e5593.svg#0c36e45b-5edd-4927-b9ad-2e46a30e5593") format("svg");
+}
+@font-face{
+font-family:"din black italic";
+src:url("df1e59d8-ad9a-4792-868c-bb82a81b7d9d.eot?#iefix");
+src:url("df1e59d8-ad9a-4792-868c-bb82a81b7d9d.eot?#iefix") format("eot"),url("5e0a3aa5-9027-417a-9eab-6f8818680a7e.woff2") format("woff2"),url("4cd37f64-b230-4162-88bf-f6cccde94e4b.woff") format("woff"),url("10805f32-49cb-4842-b9ef-0d593ddb961c.ttf") format("truetype"),url("1c343c91-343a-4326-84db-bcce4ce82979.svg#1c343c91-343a-4326-84db-bcce4ce82979") format("svg");
+}

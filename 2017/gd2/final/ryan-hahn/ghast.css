@@ -1,0 +1,29 @@
+@keyframes fontChange {
+    0% {color:red;}
+    25% {color:darkred;}
+    40% {color:white;}
+    50% {color: burlywood;}
+    90% {color:black;}
+}
+
+@keyframes ghast {
+    0% {filter:blur(.5px);}
+    25% {filter:blur(1px;}
+    40% {filter:blur(6px;}
+    50% {filter:blur(4px;}
+    90% {filter:blur(0px;}
+    
+}
+@-webkit-keyframes blur {
+    0%, 100% { -webkit-filter: blur(0px);}
+    50% {-webkit-filter: blur(10px); }
+
+}
+i:hover {
+    animation-name: ghast;
+    transition: all 100ms;
+    animation-duration: .6s;
+    animation-iteration-count:infinite;
+    -webkit-animation: blur 3s infinite;
+
+}

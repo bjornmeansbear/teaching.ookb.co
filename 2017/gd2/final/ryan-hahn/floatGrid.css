@@ -1,0 +1,311 @@
+
+* {
+box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.bnw {
+     filter: grayscale(100%);
+    transition: .7s;
+    padding-bottom: 10px;
+    padding-top: 10px;
+     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+}
+.bnw:hover {
+    filter: grayscale(0%);
+    
+}
+
+body{
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/** 12 column grid example **/
+
+h1 {
+    color: aliceblue;
+    text-align: right;
+    font-family: futura, avenir, sans-serif;
+    font-size: .7em;
+  
+    padding-right: .5em;
+    padding-top: 1.2em;
+    position: absolute;
+    right: 1%;
+    top: -1%;
+    filter: blur(1px);
+     -webkit-filter:blur(1px); /* Safari 6.0 - 9.0 */
+    transition: all .4s ease-in-out;
+    line-height:1.5em;
+}
+.qr {
+    background-image: url("static_qr_code_without_logo.jpg");
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    z-index: 10;
+    background-size: contain;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+   border-radius: 100%;
+  padding-top: 1.2em;
+
+}
+
+
+header:hover h1 {
+    
+    color: aliceblue;
+   
+    display:     block;
+    filter: blur(0px);
+    cursor: crosshair;
+    text-shadow: 3px 3px 9px #ff00f0, 0 0 5px #0000FF;
+}
+
+header:hover .qr {
+    opacity: 1;
+    border-radius: 15%;
+    border: 2px dashed lightcoral;
+}
+
+h2 {
+    color: azure;
+    text-align: LEFT;
+    font-family: "din bold", futura, avenir, sans-serif;
+    font-size: .9em;
+    padding-bottom: 2em;
+    transition: all .3s ease-in-out;
+    opacity: .5;
+    padding-left:.5em;
+    filter: blur(.9px);
+         -webkit-filter:blur(.9px); /* Safari 6.0 - 9.0 */
+
+  
+}
+h2:hover {
+    opacity: 1;
+    filter: blur(0px);
+    text-shadow: 3px 3px 9px #ff00f0, 0 0 5px #0000FF;
+    
+}
+
+h3 {
+    color: azure;
+    text-align: center;
+    font-family: futura, avenir, sans-serif;
+    font-size: .9em;
+    padding-bottom: 5em;
+    padding-top: 5em;
+
+    
+}
+
+h4 {
+    color: lightcoral;
+    text-align: left;
+    font-family: futura, avenir, sans-serif;
+    font-size: 2em;
+    
+    
+}
+
+h5 {
+    color: palegreen;
+    
+}
+p {
+    font-family: "din Bold", futura, avenir, sans-serif;
+    opacity: .8;
+    
+}
+h6 {
+    color: palegreen;
+    font-family: "plantin regular", futura, avenir, sans-serif;
+    font-size: 1em;
+    opacity: .8;
+}
+
+body {
+    border: solid 4px black;
+    
+}
+
+b {
+    color: lightcoral;
+    opacity: .9;
+    text-shadow: 0px 0px 15px #ff00f0;
+}
+
+i {
+    color: palegreen;
+    filter: blur(.9px);
+              -webkit-filter:blur(.9px); /* Safari 6.0 - 9.0 */
+
+}
+
+div {
+  color: azure;
+    font-family: futura, avenir, sans-serif;
+    font-style: oblique;
+    font-size: 1em;
+    
+    
+}
+
+
+    
+.image-wrapper {
+  position: relative;
+    
+ 
+}
+
+
+
+
+@media (min-width: 1024px) {
+ 
+    .column,
+.columns {
+    float:left;
+    padding-left:.5rem;
+    padding-right: .5rem;
+}
+
+
+.group,
+.grouped {}
+
+.group::after,
+.grouped::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+
+/* Create different widths of columns */
+.one           { width: calc(100% / 12 * 01); background: black;}
+.two           { width: calc(100% / 12 * 02); background: black;}
+.three         { width: calc(100% / 12 * 03); background: black;}
+.four          { width: calc(100% / 12 * 04); background: black;}
+.five          { width: calc(100% / 12 * 05); background: black;}
+.six           { width: calc(100% / 12 * 06); background: black;}
+.seven         { width: calc(100% / 12 * 07); background: black;}
+.eight         { width: calc(100% / 12 * 08); background: black;}
+.nine          { width: calc(100% / 12 * 09); background: black;}
+.ten           { width: calc(100% / 12 * 10); background: black;}
+.eleven        { width: calc(100% / 12 * 11); background: black;}
+.twelve        { width: calc(100% / 12 * 12); background: black;}
+
+/* if i want 8 columns for example, comment out nine - 12, and change 12 to 8 */
+
+/* right margins */
+.offset-by-one           { margin-left: calc(100% / 12 * 01); }
+.offset-by-two           { margin-left: calc(100% / 12 * 02); }
+.offset-by-three         { margin-left: calc(100% / 12 * 03); }
+.offset-by-four          { margin-left: calc(100% / 12 * 04); }
+.offset-by-five          { margin-left: calc(100% / 12 * 05); }
+.offset-by-six           { margin-left: calc(100% / 12 * 06); }
+.offset-by-seven         { margin-left: calc(100% / 12 * 07); }
+.offset-by-eight         { margin-left: calc(100% / 12 * 08); }
+.offset-by-nine          { margin-left: calc(100% / 12 * 09); }
+.offset-by-ten           { margin-left: calc(100% / 12 * 10); }
+.offset-by-eleven        { margin-left: calc(100% / 12 * 11); }
+.offset-by-twelve        { margin-left: calc(100% / 12 * 12); }
+}
+
+.project:nth-child(4n+1) {
+    clear: left; 
+}
+
+#behance-magix {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+    #behance-magix {
+        max-width: 1600px;
+    }
+    body {
+        border: 4px solid pink;
+    }
+}
+
+/* hopefully this works... */
+
+
+.project {
+  position: relative;
+    transition: all .2s ease-in-out;
+   
+}
+
+.project img {
+  display: block;
+  width: 100%;
+  height: auto;
+border-radius: 20%;
+    padding-bottom: 3em;
+     border-radius: 9%;
+    transition: all .2s ease-in-out;
+    position: center;
+    cursor: context-menu;
+}
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+  
+}
+
+.project:hover .info {
+  opacity: 1;
+    width:100%;
+    border-radius: 5%;
+    transform: scale(1.05);
+    
+}
+
+.info h2 {
+  color: azure;
+  font-size: 15px;
+  position: absolute;
+    transform: translate(0px, -50px);
+    
+}
+    
+
+
+.image-wrapper img {
+    border-radius: 10%;
+    transition: all .2s ease-in-out;
+    position: center;
+}
+.image-wrapper img:hover {
+    border-radius: 5%;
+    transform: scale(1.05);
+  
+}
+*/

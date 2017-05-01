@@ -1,0 +1,84 @@
+/** write your styles in this sheet. **/
+
+* {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  color: black;
+  /**/
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/*** project overlay ***/
+.project-page {
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index: 9999999999;
+  padding: 3em;
+  overflow: hidden;
+}
+.project-page * {
+  margin-left: auto;
+  margin-right:auto;
+}
+.project-page .container {
+    width: 90%;
+  max-width: 54em;
+  position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  z-index: 2;
+    cursor: default;
+    background: black;
+    padding: 2em;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+    padding-bottom: 3em;
+}
+
+.project-page button.close {
+    background-color: rgba(0,0,0,1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    font-size: 1rem;
+    line-height: 3.5rem;
+    z-index: 1;
+    cursor: pointer;
+    transition: .3s;
+    border: none;
+}
+.project-page button.close:hover {
+  background-color: rgba(0,0,0,.60);
+}
+
+/* easy class to add to <ul>s to get rid of listy stuff */
+.list-reset {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+/* try to keep body from scrolling in the background */
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
