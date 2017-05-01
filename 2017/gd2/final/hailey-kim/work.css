@@ -1,0 +1,534 @@
+/** write your styles in this sheet. **/
+
+* {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgba(33, 33, 33, 0.9);
+    color:#ffffff;
+    display:block;
+    font: 14px/1.3 Arial,sans-serif;
+    height:50px;
+    position:relative;
+    z-index:5;
+}
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+header h2{
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+    text-align: center;
+}
+header a, a:visited {
+    text-decoration:none;
+    color:#fcfcfc;
+}
+
+.title
+ {
+    font-size: 10em;
+    margin: auto;
+    color:#ffffff;
+    overflow: hidden;
+    z-index: 9999;
+    transition:500ms;
+    font-family: monospace;
+    position:absolute;
+    margin-top:0px;
+    bottom:50%;
+    transform: translateX(-50%);
+    left:50%;
+     animation: pulsate 5s ease;
+    animation-iteration-count: infinite; 
+    -webkit-transform: scaleX(-1,-1);
+    -webkit-animation: pulsate 8s ease;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+
+@keyframes pulsate  {
+    0% { opacity: 0.0; }
+    50% { opacity: 1.0; }
+    100% { opacity: 0.0; }
+}
+
+@-webkit-keyframes pulsate {
+    0% { opacity: 0.0; }
+    50% { opacity: 1.0; }
+    100% { opacity: 0.0; }
+}
+
+
+
+.title:hover {
+    color:blue;
+    transition:0ms;
+}
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(images/stars.png) repeat top center;
+  z-index:-3;
+}
+
+.twinkling{
+  background:transparent url(images/twinkling.png) repeat top center;
+  z-index:-2;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+    background:transparent url(images/cloud.png) repeat top center;
+    z-index:-1;
+    
+  -moz-animation:move-clouds-back 200s linear infinite;
+  -ms-animation:move-clouds-back 200s linear infinite;
+  -o-animation:move-clouds-back 200s linear infinite;
+  -webkit-animation:move-clouds-back 200s linear infinite;
+  animation:move-clouds-back 200s linear infinite;
+}
+
+.navigation {
+	background: rgba(255, 255, 255, 0);
+	padding: 11px 54px 4px 46px;
+	line-height: 2;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	font-weight: bold;
+	z-index: 102;
+}
+
+
+
+.navigation:after {
+  content: '';
+  display: block;
+  height: 0px;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+}
+
+body.phone .navigation {
+	position: relative;
+	padding: 22px 0px 16px 20px;
+	width: auto;
+}
+
+.navigation .group {
+	display: inline-block;
+	margin-right: 40px;
+	margin-bottom: 5px;
+}
+
+.navigation .following {
+	color: #999999;
+	margin-left: 30px;
+}
+
+.navigation div {
+	display: inline-block;
+	margin-left: 4px;
+}
+
+
+body[data-bodyview="index"] .navigation .set_link.active a {
+	border-bottom: 1px dotted #999;
+}
+
+.navigation div.active a {
+	background: #000;
+	color: #fff;
+}
+
+.navigation a {
+    border: 0px none rgba(0, 0, 0, 0);
+	color: white;
+	padding-bottom: 2px;
+	text-decoration: none;
+	padding: 6px 22px 5px 4px;
+    
+    -moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.navigation a:hover {
+	border: 0px none rgba(255, 255, 255, 0);
+}
+
+.navigation a:active {
+    border: 1px none rgba(0, 0, 0, 0.0);
+	color: #ffffff;
+}
+
+/**
+ * Tag filter
+ * - Seen on filter pages
+ */
+
+.filter {
+	font-size: 14px;
+	letter-spacing: initial;
+	padding-top: 35px;
+	clear: both;
+}
+
+body.phone .filter {
+	padding-top: 70px;
+	font-size: 26px;
+}
+
+.filter a {
+	color: #000;
+	border-bottom: 1px solid #000;
+	margin-left: 5px;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+.filter a:hover {
+	border-bottom: 1px solid #18bb78;
+	color: #18bb78;
+}
+
+.filter a:active {
+	border-bottom: 1px solid #666;
+	color: #666;
+}
+
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  color: black;
+  /**/
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/*** project overlay ***/
+.project-page {
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index: 9999999999;
+  background-color: white;
+ padding: 3em;
+  color: black;
+    font: monospace;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.project-page * {
+  margin-left: auto;
+  margin-right:auto;
+}
+.project-page .container {
+  max-width: 50em;
+}
+.project-page button.close {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 50%;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  font-size: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  line-height: 3.5rem;
+}
+
+/* easy class to add to <ul>s to get rid of listy stuff */
+.list-reset {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+/* try to keep body from scrolling in the background */
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav {
+    overflow: hidden;
+    color:#ffffff;
+    z-index: 999;
+    position: absolute;
+    font-family: monospace;
+    width:100%;
+}
+
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.topnav a:hover {
+    background-color: clear;
+    color: gray;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.topnav .menu {
+    position: absolute;
+    right: 0;3
+}
+footer {
+    font-size: 0.5em;
+}
+
+
+
+#behance-magix .project:last-child, .modules-list .module:last-child{
+    margin-bottom:105px;
+
+    }
+    
+@media screen and (max-width: 800px) {
+
+    .info h2{
+        font-size:24px;
+    }
+
+    #behance-magix .project .info {
+        max-width: 9999px;
+    }
+    
+}
+
+
+@media screen and (max-width: 640px) {
+    #behance-magix .project{
+        width:94vw;
+        height:60vw!important;
+    }
+
+    .info h2{
+        font-size:24px;
+    }
+
+    
+}
+
+    
+    #behance-magix .project:nth-child(3n-2){
+    width:94vw;
+    height:40vw;
+    }
+
+
+    #behance-magix .project:nth-child(1){
+    width:100vw;
+    margin: 0vw -2vw 2vw -2vw;
+    height:40vw;
+    }
+
+    #behance-magix .project:nth-child(1)#bmissing-project{
+        width:96vw!important;
+        height:70vw!important;
+        margin: 2vw 0vw 0vw 0vw!important;
+    }
+
+    #behance-magix .project:nth-child(1)#bmissing-project h2:before{
+        content:none!important;
+    }
+
+    
+
+    #behance-magix .project img{
+    width:100%;
+    height:auto;
+    transform:translateY(-50%) scale(1);
+    position:relative;
+    top:50%;
+    opacity:.4;
+
+    /* filter: url(#duotone); */
+    }
+
+    #behance-magix .project .info{
+    position: absolute;
+    top:5vw;
+    left:5vw;
+    bottom:5vw;
+    right:5vw;
+    display: flex;
+    padding:2em;
+    align-items: center;
+    color:#fceaeb;
+    max-width: 34vw;
+    transform:scale(.8);
+    flex-wrap:wrap;
+    }
+
+    .info h2{
+        font-family: 'Playfair Display', serif;
+        font-size:34px;
+        line-height: 1.2;
+        margin:0;
+        transform:translateY(20px);
+        transition: all 500ms cubic-bezier(0.800, 0.005, 0.125, 0.995); /* custom */
+    }
+
+
+    .info p{
+        font-family: monospace;
+        font-size:10px;
+        opacity:0;
+        transition: all 500ms cubic-bezier(0.800, 0.005, 0.125, 0.995); /* custom */
+        transform:translateY(-10px);
+    }
+
+    .project:hover .info p{
+        opacity:1;
+        transform:translateX(0px);
+    }
+
+    .project:hover .info h2{
+        opacity:1;
+        transform:translateY(0px);
+    }
+
+    #behance-magix .project .info, #behance-magix .project img {
+        transition: all 500ms cubic-bezier(0.800, 0.005, 0.125, 0.995); /* custom */
+        z-index: 999;
+    }
+
+    #behance-magix .project:hover .info{
+    transform:scale(1);
+    background:rgba(22, 60, 240, 0.86);
+    }
+
+    #behance-magix .project:hover .info{
+    transform:scale(1);
+    background:rgba(22, 60, 240, 0.86);
+    }
+
+    #behance-magix .project:hover img{
+    transform:translateY(-50%) scale(1.1);
+    opacity:1;
+    }
+
+     #behance-magix .project{
+    width:46vw;
+    height:33.33vw;
+    margin:1vw;
+    overflow: hidden;
+    float:left;
+    position: relative;
+    }
+
+    .modules-list{
+        padding:0;
+        margin:0;
+    }    
+
+    .modules-list li{
+        list-style: none;
+    }
+
+    .modules-list li img{
+        max-width: 100%;
+        height:auto;
+    }
+
+
+@keyframes star-compensate {
+	0%   {transform:rotateZ(0deg);}
+	100% {transform:rotateZ(360deg);}
+
+}
+
+
+@keyframes image-fade {
+    0%   {opacity:0;}
+    100% {opacity:1;}
+
+}
+
+

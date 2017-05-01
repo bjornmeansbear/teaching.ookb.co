@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+    
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HAI</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Status bar styles -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link href="index.css" rel="stylesheet" type="text/css" />
+
+</head>
+    
+    <body>
+    
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds"></div>
+    
+    <div class="topnav" id="myTopnav">
+        <div class="logo" id="logo">
+        <a href="index.html">HAI KIM</a>  </div>
+        <div class="menu" id="menu"><a href="hai.html">About</a>
+        <a href="work.html">Work</a></div>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;
+        </a>
+        </div>
+
+    <script> 
+    fuction myFunction(){
+        var x = document.getElementById ("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className= "topnav";
+        }
+    }
+    </script>
+        
+        <div class="flex">
+        <div class="child flex">
+       <br><br> <h1>Hailey Kim</h1> <br> <br>
+    <p class="child">My name is Hailey Kim, and I'm from Atlanta, Georgia. <br> I am currently studying Graphic Design at Maryland Institute College of Art (MICA) in Baltimore, Maryland.<br> I try to makes designs that I enjoy and like.<br> I'm just a human who likes watching baseball game while eating a bag of haribo jelly. 
+    <br> <br> Feel free to inquire further or say hello at: hkim12@mica.edu</p>
+           <br> <img src="images/hailey.jpg"alt="me" width="230" height="230"></img>
+  </div>
+</div>
+    
+    </body>
+</html>
