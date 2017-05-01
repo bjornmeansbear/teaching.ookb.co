@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    transition: all 350mm;
+}
+
+h1 {
+    line-height: 34px;
+}
+
+p {
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 18em;
+}
+
+.newp {
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 18em;
+}
+
+.copyrightp {
+    line-height: 22px;
+    text-align: left;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .newp {
+        line-height: 20px;
+        font-size: 14px;
+        margin-bottom: 5em;
+    }
+    
+    .copyrightp {
+        margin-bottom: auto;
+    }
+}
+
+.portfoliop {
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 18em;
+}
+
+header {
+    position:fixed;
+    list-style: none;
+    right:20%;
+    z-index: 10;
+    top:0;
+    right:0;
+    background-color:transparent;
+    margin-bottom: 12px;
+}
+
+header nav ul {
+        list-style: none;
+        margin:0;
+        padding:0;
+        display:none;
+    }
+    
+header nav ul li {
+    float:right;
+    width:32%;
+    text-align: center;
+    }
+    
+header nav ul li a {
+    display: block;
+    padding: 1em;
+    width:7%;
+    text-decoration: none;
+    color: darkgray;
+    font-family: 'PT Mono', monospace;
+    }
+
+header nav ul li a:hover {
+    background-color:none;
+    color:white;
+    }
+
+.hamburger {
+    height: 4em;
+    width: 4em;
+    background-color:black;
+    border: none;
+    text-align: center;
+}
+
+.hamburger span {
+    display:block;
+    
+    width: 2em;
+    height: .25em;
+    border-radius: .125em;
+    margin-bottom: .25em;
+    background-color: darkgray;
+}
+
+@media (min-width: 50em) {
+    .hamburger {
+        display:none;
+    }
+    header nav ul {
+        display:block;
+    }
+}

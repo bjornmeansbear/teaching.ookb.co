@@ -1,0 +1,64 @@
+.aboutp {
+    font-family: 'PT Mono', monospace;
+    color:white;
+    width:44%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.aboutp:first-of-type {
+    margin-top: 10%;
+}
+
+@media (max-width: 800px) {
+.aboutp {
+        font-size:12px;
+        width:83%;
+        line-height: 30px;
+        text-align: left;
+    }
+    
+.aboutp:first-of-type {
+        margin-top:30%;
+    }
+}
+
+@media (min-width: 800px) {
+    .project-words {
+    position: fixed;
+    left:60%;
+}
+}
+
+.contactp {
+    font-size: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+    margin-top: 4em;
+    text-align: center;
+}
+
+.contactp1 {
+    font-size: 22px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .contactp {
+        font-size: 28px;
+        margin-top: 24px;
+    }
+    
+    .contactp1 {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+}

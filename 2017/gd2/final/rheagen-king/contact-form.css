@@ -1,0 +1,176 @@
+* {
+    background: black;
+    color: white;
+    line-height: 22px;
+    font-family: 'PT Mono',monospace;
+    
+}
+
+.form-item fields name required {
+    align-content: center;
+    position: relative;
+    left: 43%;
+    border-color: transparent;
+    margin-bottom: 18px;
+
+}
+
+.field list-clear {
+    align-content: center;
+    position: relative;
+    left: 43%;
+    margin-bottom: 18px;
+}
+
+.field first-name field-element control field-control {
+    align-content: left;
+    position: relative;
+    margin-bottom: 14px; 
+    left: 33%;
+}
+
+.caption {
+    align-content: center;
+    position: relative;
+    left: 33%;
+}
+
+.title {
+    align-content: center;
+    position: relative;
+    left: 33%;
+    margin-bottom: 18px;
+    margin-top: 8px;
+}
+
+.description {
+    align-content: center;
+    position: relative;
+    left: 33%;
+    margin-bottom: 18px;
+}
+
+@media (max-width: 800px) {
+    
+    .description {
+    align-content: left;
+    position: relative;
+    left: 8%;
+    margin-bottom: 18px;
+    margin-right: 4px;
+    }
+    
+    .field-control {
+        align-content: left;
+        position: relative;
+        left: -28%;
+        margin-bottom: 18px;
+        margin-right: 4px;
+    }
+    
+    .title {
+    align-content: left;
+    position: relative;
+    left: 8%;
+    margin-bottom: 18px;
+    margin-right: 4px;
+    }
+    
+    .field first-name {
+    align-content: left;
+    position: relative;
+    left: 8%;
+    margin-bottom: 18px;
+    margin-right: 4px;
+    }
+    
+    .option !important {
+    align-content: left;
+    position: relative;
+    left: -28%;
+    margin-bottom: 18px;
+    margin-right: 4px;
+    }
+    
+    .form-button-wrapper form-button-wrapper--align-center {
+    align-content: left;
+    position: relative;
+    left: 23%;
+    margin-bottom: 18px;
+    margin-right: 4px;
+    }
+    
+    .editable-button {
+    align-content: left;
+    position: relative;
+    left: -25%;
+    margin-bottom: 18px;
+    margin-right: 4px;
+    }
+    
+    .field-element-email {
+    align-content: left;
+    position: relative;
+    left: -25%;
+    margin-bottom: 18px;
+    margin-right: 4px;
+    }
+    
+    .field-element-message {
+    align-content: left;
+    position: relative;
+    left: -25%;
+    margin-bottom: 18px;
+    margin-right: 4px;
+    }
+    
+    .form-item field textarea required {
+    align-content: left;
+    position: relative;
+    left: -24%;
+    margin-bottom: 18px;
+    margin-right: 4px;
+    }
+}
+
+.option {
+    align-content: center;
+    position: relative;
+    left: 33%;
+    margin-bottom: 14px;
+}
+
+.form-button-wrapper form-button-wrapper--align-center {
+    align-content: center;
+    position: relative;
+    left: 47%;
+}
+
+.editable-button {
+    align-content: center;
+    position: relative;
+    left: 47%;
+}
+                
+fieldset { border: none; 
+
+}
+
+.form-item field textarea required {
+    align-content: center;
+    position: relative;
+    left: 43%;
+    margin-top: 14px;
+}
+
+.field-element-email {
+    align-content: center;
+    margin-left: 33%;
+ 
+}
+
+.field-element-message {
+    align-content: center;
+    margin-left: 33%;
+ 
+}

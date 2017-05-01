@@ -1,0 +1,220 @@
+<!doctype html>
+
+<html>
+  <head>
+    <!-- this is the proper meta tag to use common special characters, etc. -->
+    <meta charset="UTF-8" />
+
+    <!-- this is necessary for responsive @media queries to work properly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The Title to your website. Shows in the browser tab or window, as well as in search engine results. Not actually on the page anywhere -->
+    <title>Rheagency</title>
+
+    <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" type="text/css" rel="stylesheet" />
+    <link href="basics.css" type="text/css" rel="stylesheet" />
+    <link href="floatGrid.css" type="text/css" rel="stylesheet" />
+    <link href="type.css" type="text/css" rel="stylesheet" />
+    <link href="menu.css" type="text/css" rel="stylesheet" />
+    <link href="portfolio.css" type="text/css" rel="stylesheet" />
+    <link href="thumbtitle.css" type="text/css" rel="stylesheet" />
+    <link href="private.css" type="text/css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+    
+    <header><nav>
+          
+          <button class="hamburger">
+             <img src="favicon-grayscale.png" />
+          </button>
+          
+        <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+              </nav>
+        </header>
+
+    <main>
+
+      <div id="behance-magix">
+        <p>Loading...</p>
+
+        <!-- ================================================== -->
+        <!-- ================================================== -->
+        <!-- this is the template for each project Thumbnail/Title combo -->
+        <!-- this will be replaced w/ all our items! -->
+        <!-- one project Card per project/entry on behance -->
+        <!-- ================================================== -->
+        <!-- ================================================== -->
+        <script id="project-cards" type="text/template">
+          {{#projects}}
+          <div class="project {{privacy}}" id="b{{id}}">
+            <a href="#{{id}}" data-project-id="{{id}}">
+              <div class="image-wrapper">
+                <img src="{{covers.404}}" alt="{{name}}" />
+              </div>
+              <div class="thumb-title">
+              <p>View</p></div>
+            </a>
+          </div>
+          {{/projects}}
+        </script>
+
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+           <div class="copyrightp">© Copyright <span class="year dynamic">2017</span> Rheagen King</div></div>
+    </footer>
+
+    <div id="dynamic-pages">
+      <!-- individual pages will appear to "print" here -->
+    </div>
+
+    <!-- All your javascript (other than typekit related stuff) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- ================================================== -->
+    <!-- ================================================== -->
+    <!-- ================================================== -->
+    <!-- ================================================== -->
+
+    <!-- this is jquery, needed for a bunch of stuff -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- this is mustache, required for the templating to happen -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+    <!-- this makes the year in your footer always the current year -->
+    <script>
+      // dynamically update the year in the footer (not the best idea, but this works!...)
+      var d = new Date();
+      var year = d.getFullYear();
+      console.log('It is ' + year + '.');
+      $('footer .year.dynamic').html(year);
+    </script>
+
+    <script>
+      // your behance user machine name. Take it from your profile url
+      // www.behance.net/userName
+      var userName = 'rking01'
+
+      // this is your behance APIkey — figure out how to set this up at » URL TO COME
+      var apiKey   = 'FOZHOBe7xM8n00PNT5knYF9DHWVWBkVc'
+
+      // this url will provide a feed of content for the site based on your userName and apiKey.
+      var url = 'https://api.behance.net/v2/users/' + userName + '/projects/?api_key=' + apiKey +'&per_page=25&callback=?';
+      /* some issue where no more than 25 can be returned at a time, there are ways to ask for more? https://help.behance.net/hc/communities/public/questions/202357274-Number-of-Behance-API-request-results-limited-to-25- */
+
+      // log url in console to make sure that things are working so far.
+      // you can view this log output in console in developer tools in your browser.
+      console.log('connected to ' + url + '.');
+
+      // this is where the actual magic happens.
+      // $.getJSON is a jquery command that asks for JSON from a url and then lets you run functions on it.
+      $.getJSON(url, function(data) {
+
+        //mustache for project list/grid
+        var template = $('#project-cards').html();
+        var info = Mustache.to_html(template, data);
+        $('#behance-magix').html(info);
+
+        $('.project a').click(function() {
+          // each project has a unique ID, we need it to build our project JSON url
+          var projectID  = $(this).attr('data-project-id');
+
+          // this then constructs the url for an individual project
+          var projectUrl = 'https://api.behance.net/v2/projects/' + projectID + '/?api_key=' + apiKey +'&callback=?';
+
+          // then we log the result to the console so we can double check that this is working correctly
+          console.log('trying to show ' + projectUrl + '.');
+
+          // okay, now since we're showing the project as a popup on top
+          // we need to stop the body from scrolling and only allow our popup to scroll
+          $('body').addClass('stop-scrolling');
+          console.log('body should stop scrolling and only overlay should scroll');
+
+          // we then run another getJSON request with the newly made individual project url
+          // this will allow us to on the fly generate some “pages” for our projects.
+          // more mustache templating will then happen
+          $.getJSON(projectUrl, function(data) {
+            //mustache for individual project “page”
+            var template = $('#project-page').html();
+            var info = Mustache.to_html(template, data);
+            $('#dynamic-pages').html(info);
+
+            $('.project-page button.close').click(function() {
+              $(this).parent().hide();
+              $('body').removeClass('stop-scrolling');
+              console.log('overlay should go away and body should go back to scrolling');
+            });
+          });
+        });
+      });
+    </script>
+
+    <!-- this is the template for our individual projects   -->
+    <!-- ================================================== -->
+    <!-- ================================================== -->
+    <!-- ================================================== -->
+    <!-- ================================================== -->
+    <!-- this will print in the above "dynamic-pages" area  -->
+
+    <script id="project-page" type="text/template">
+      <div class="project-page" id="project-{{project.id}}">
+        <div class="container">
+
+          <div class="project-words"><h1>{{project.name}}</h1>
+         <div class="newp">{{project.description}}</div></div>
+
+          <ul class="modules-list list-reset">
+            {{#project.modules}}
+              <li class="module {{type}}">
+                {{#sizes}}<img src="
+                  {{#sizes.max_1200}}{{sizes.max_1200}}{{/sizes.max_1200}}
+                  {{^sizes.max_1200}}{{sizes.original}}{{/sizes.max_1200}}
+                " />
+                {{/sizes}}
+                {{#text_plain}}<p>{{text_plain}}</p>{{/text_plain}}
+                {{#original_embed}}<p>{{{original_embed}}}</p>{{/original_embed}}
+              </li>
+            {{/project.modules}}
+          </ul>
+
+          <p>
+            <small>
+              <a href="{{project.url}}" target="_blank">See the original {{project.name}} post on Behance.net</a>
+            </small>
+          </p>
+        </div>
+        <button class="close"><i class="fa fa-times fa-2x"></i></button>
+      </div>
+    </script>
+        
+    
+    <script src="jquery-3.2.0.min.js"></script>
+      <script>
+        
+          //this makes menu hide/show when you click on the hamburger//
+        $(".hamburger").click(function() {
+            
+            $("header nav ul").toggle();
+        });
+          
+          //this fixes that menu sometimes stay hidden
+          $(window).resize(function() {
+              var windowWidth = $(window).width();
+              console.log(windowWidth);
+              
+              if ( windowWidth >= 800 ) {
+                  $("header nav ul").show();
+              } else {};
+          });
+      
+        </script>
+
+  </body>
+</html>

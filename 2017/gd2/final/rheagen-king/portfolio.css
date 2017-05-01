@@ -1,0 +1,43 @@
+.project p {
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    text-align: center;
+}
+.project:hover img {
+    opacity:0;
+    }
+.project:hover p {
+    opacity:1;
+    }
+.project, .project * {
+    transition: all 50ms;
+    margin-top: 10px;
+}
+
+.project {
+    padding: 10px;
+    position: relative;
+}
+@media (min-width: 800px) {
+    .project {
+        float:left;
+        width: calc(100% / 3);
+    }
+}
+
+#behance-magix::after {
+    clear:both;
+    display:block;
+    content: "";
+}
+/*consider adding media query to make sure the padding and column spacing is responsive*/
+
+img {
+    width: 100%;
+    height:auto;
+    position: relative;                                                                                   
+}
+
