@@ -1,42 +1,35 @@
-*{
-    box-sizing: border-box;
-    transition: all 350ms;
-}
-
-header {
-    position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    background-color:azure; 
-}
-
-header nav ul{
-    display:none;
-    list-style: none; /* no bullet point */
-    margin:0;
-    padding:0;
-}
-
-header nav li{
-    float:left;
-    width: calc(100% / 3); /* divide by number of items in your menu */ 
+.hamburger{
+    height:3em;
+    width:3em;
+    background-color:transparent;
+    border:none;
+    border-radius:50%;
+    /*box-shadow:0 0 1em 0 rgba(0,0,0,0.4);
+    x offset, y offset, blur, diffusion */
     text-align:center;
+    display:inline-block;
+    vertical-align:middle;
 }
 
-header nav li a{
-    display:block; /* "block" can define space around it, not just the text (type + padding) */
-    padding:1em;
-    text-decoration: none; /* get rid of the underline */
-    color:deeppink;
-    font-family: Helvetica, sans-serif;
+.hamburger span{
+    display:block;
+    width:2em;
+    height:.25em;
+    border-radius: .125em;
+    background-color:rgba(73,73,170,1);
+    margin-bottom:.25em;
 }
 
-header nav ul li a:hover{
-    background-color:blueviolet;
-    color:palegreen;
-}
 
+
+@media (min-width:40em) {
+    .hamburger{
+        display:none;
+    }
+    header nav ul{
+        display:block;    
+    }
+}
 
 
 

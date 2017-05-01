@@ -16,6 +16,7 @@
     <link href="basics.css" type="text/css" rel="stylesheet" />
     <link href="floatGrid.css" type="text/css" rel="stylesheet" />
     <link href="menu.css" type="text/css" rel="stylesheet" />
+     <link href="globalmenu.css" type="text/css" rel="stylesheet" />
 
 
   </head>
@@ -23,9 +24,14 @@
   <body>
     <header class="flex">
         
-        
         <h2 class="name"><a href="index.html">HYEJIN AHN</a></h2>
         <nav>
+            
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             
           <ul>
                 <li><a href="home.html">Projects</a></li>
@@ -234,6 +240,31 @@
         </div>
         <button class="close"><i class="fa fa-times fa-2x"></i></button>
       </div>
+    </script>
+      
+       <script src="jquery-3.2.0.min.js"></script>
+    
+    <script>
+        
+        //this makes menu hide/show when you click hamburger button//
+    
+        $(".hamburger").click(function() {
+             $("header nav ul").toggle();
+            
+        });  
+        
+        //this fixes that manu sometimes stays hidden
+        
+        $(window).on("load resize", function() {
+            var windowWidth = $(window).width();
+            if ( windowWidth >=800){
+                    $("header nav ul").show();
+            }else{
+                $("header nav ul").hide();
+            }
+                
+        });
+        
     </script>
 
   </body>

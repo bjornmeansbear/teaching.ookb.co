@@ -9,7 +9,7 @@ header {
 
 header h2 {
     left:0;
-    color:#4949aa;
+    color:rgba(73,73,170,1);
     font-weight: 300;
     letter-spacing:1pt;
     font-size:2em;
@@ -24,6 +24,9 @@ header nav {
 header nav ul{
     list-style: none; /* no bullet point */
     margin-right:0em;  
+    display:inline-block;
+    vertical-align: middle;
+    padding-left:0;
 }
 
 header nav li{
@@ -60,14 +63,14 @@ h1{
 
 h1{
     font-weight: 100;
-    color:#4949aa;
+    color:rgba(73,73,170,1);
 }
 
 .project-page h1{
     position: static;
     text-align: center;
     font-weight: 100;
-    color:#4949aa;
+    color:rgba(73,73,170,1);
 
 }
 
