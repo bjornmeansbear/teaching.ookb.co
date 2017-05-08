@@ -1,0 +1,610 @@
+/** ******************************************** **/
+/** ******************************************** **/
+/** Design Students: Please Don't Edit this File **/
+/** ******************************************** **/
+/** ******************************************** **/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/** setup! **/
+.block {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.block::after {
+  padding-top: 100%;
+  display: block;
+  content: '';
+}
+
+.block img {
+  width: 100%;
+  height: auto;
+}
+
+.three-quarter.block {
+  width: 75%;
+}
+
+.two-third.block {
+  width: calc(100% / 3 * 2);
+}
+
+.half.block {
+  width: 50%;
+}
+
+.third.block {
+  width: calc(100% / 3);
+}
+
+.quarter.block {
+  width: 25%;
+}
+.one-fifth.block{
+  width: 20%;
+}
+h1, h2, h3, h4, h5, h6, p {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-25%, -50%);
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 0;
+  font-size: 1vw;
+}
+/*font*/
+
+.font-size-50pt{font-size:3.3vw;}
+.font-size-72pt{font-size:5.2vw;}
+.font-size-85pt{font-size:7.08333333vw;}
+
+.font-size-100pt{
+    font-size:8.3333333vw;
+}
+
+
+.font-center{
+    text-align: center;
+}
+
+/*square*/
+           
+
+.square-pink-30{
+    width: 28vw;
+    height: 28vw;
+    position: absolute;
+    margin: 2.5vw;
+    border: solid 1.2vw #ff009a; 
+}
+.square-blue-30{
+    width: 28vw;
+    height: 28vw;
+    position: absolute;
+    margin: 2.5vw;
+    border: solid 1.2vw #3bb3f9; 
+}
+           
+
+
+
+
+.square-blue-45{
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    margin: 2.5vw;
+    border: solid 1.5vw #3bb3f9;
+}
+.square-pink-45{
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    margin: 2.5vw;
+    border: solid 1.5vw #ff009a;
+}
+.square-yellow-45{
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    margin: 2.5vw;
+    border: solid 1.5vw #ffef35;
+}
+.square-pink-95{
+    width: 95vw;
+    height: 95vw;
+    position: absolute;
+    margin: 2.5vw;
+    border: solid 2.5vw #ff009a;
+}
+/** animation**/
+@keyframes technologic-change{
+    0%{
+        background-image: url(images/technlogic-3.png);
+    }
+    35%{
+        background-image: url(images/technlogic-2.png);
+    }
+    70%{
+        background-image: url(images/technlogic-1.png);
+    }
+    100%{
+        background-image: url(images/technlogic-3.png);
+    }
+}
+
+@keyframes upgrade1-change{
+    0%{
+        background-image: url(images/7upgrade-1.png);
+    }
+    35%{
+        background-image: url(images/7upgrade-1y.png);
+    }
+    70%{
+        background-image: url(images/7upgrade-1b.png);
+    }
+    100%{
+        background-image: url(images/7upgrade-1.png);
+    }
+}
+
+@keyframes upgrade2-change{
+    0%{
+        background-image: url(images/7upgrade-2.png);
+    }
+    35%{
+        background-image: url(images/7upgrade-2y.png);
+    }
+    70%{
+        background-image: url(images/7upgrade-2b.png);
+    }
+    100%{
+        background-image: url(images/7upgrade-2.png);
+    }
+}
+
+
+@keyframes boder-change{
+    0%{
+        border-color: #f40099;
+    }
+    35%{
+        border-color: #001bf4;
+    }
+    70%{
+         border-color: #00f158;
+    }
+    100%{
+         border-color: #f40099;
+    }
+}
+@keyframes background-change{
+    0%{
+        background-color:   #f40099;
+    }
+    35%{
+        background-color:  #001bf4;
+    }
+    70%{
+        background-color:  #00f158;
+    }
+    100%{
+         background-color:   #f40099;
+    }
+}
+.square-pink-95{
+     animation: boder-change 2s  infinite;
+}
+
+@keyframes technologic-move1 {
+    0% { transform: translate(0);
+    }
+    20% {
+        transform: translate(-1px, 1px);
+    }
+    40% {
+        transform: translate(-1px, 1px);
+    }
+    60% {
+        transform: translate(-1px, -1px);
+    }
+    80% {
+        transform: translate(1px, 1px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+@keyframes technologic-move2 {
+    0% { transform: translate(0);
+    }
+    20% {
+        transform: translate(1px, -1px);
+        opacity: 0;
+    }
+    40% {
+        transform: translate(1px, 1px);
+    }
+    60% {
+        transform: translate(-1px, 1px);
+    }
+    80% {
+        transform: translate(-1px, -1px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+@keyframes technologic-move3 {
+    0% { transform: translate(0);
+         opacity: 0;
+    }
+    20% {
+        transform: translate(-1px, -1px);
+    }
+    40% {
+        transform: translate(-1px, 1px);
+         
+    }
+    60% {
+        transform: translate(1px, -1px);
+        opacity: 100;
+        
+    }
+    80% {
+        transform: translate(1px, -1px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+.technologic-font{
+    animation: technologic-move1 0.3s  infinite;
+    text-align: center;
+    position: absolute;
+    top: 45vw;
+    left: 30vw;
+    
+}
+/**border**/
+
+.technologic1{
+    animation: technologic-change 2s  infinite;
+
+}
+.technologic-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 45vw;
+    left: 30vw;
+}
+.technologic-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 45vw;
+    left: 30vw;
+}
+.technologic-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 45vw;
+    left: 30vw;
+}
+
+
+
+
+
+.buy:hover{
+    opacity: 0;
+}
+.buy-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 17vw;
+}
+.buy-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 17vw;
+}
+.buy-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 17vw;
+}
+
+.use:hover{
+    opacity: 0;
+}
+.use-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 17vw;
+}
+.use-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 17vw;
+}
+.use-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 17vw;
+}
+
+.break:hover{
+    opacity: 0;
+}
+.break-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 15vw;
+}
+.break-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 15vw;
+}
+.break-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 15vw;
+}
+.fix:hover{
+    opacity: 0;
+}
+.fix-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 18vw;
+}
+.fix-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 18vw;
+}
+.fix-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 18vw;
+}
+.trash:hover{
+    opacity: 0;
+}
+.trash-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 15vw;
+}
+.trash-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 15vw;
+}
+.trash-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 15vw;
+}
+.change:hover{
+    opacity: 0;
+}
+.change-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 13vw;
+}
+.change-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 13vw;
+}
+.change-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 20vw;
+    left: 13vw;
+}
+
+.up-grade1{
+    animation: upgrade1-change 2s  infinite;
+}
+
+.up-grade2{
+    animation: upgrade2-change 2s  infinite;
+}
+
+.upgrade-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 270vw;
+    left: 25vw; 
+}
+.upgrade-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 270vw;
+    left: 25vw;
+}
+.upgrade-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 270vw;
+    left: 25vw;
+}
+
+.charge:hover{
+    opacity: 0;
+}
+.charge-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 13vw;
+    left: 7vw;
+}
+.charge-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 13vw;
+    left: 7vw;
+}
+.charge-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 13vw;
+    left: 7vw;
+}
+
+.point:hover{
+    opacity: 0;
+}
+.point-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 13vw;
+    left: 10vw;
+}
+.point-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 13vw;
+    left: 10vw;
+}
+.point-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 13vw;
+    left: 10vw;
+}
+
+.zoom:hover{
+    opacity: 0;
+}
+.zoom-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 13vw;
+    left: 10vw;
+}
+.zoom-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 13vw;
+    left: 10vw;
+}
+.zoom-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 13vw;
+    left: 10vw;
+}
+
+.press:hover{
+    opacity: 0;
+}
+.press-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 14vw;
+    left: 10vw;
+}
+.press-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 14vw;
+    left: 10vw;
+}
+.press-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 14vw;
+    left: 10vw;
+}
+
+.snap:hover{
+    opacity: 0;
+}
+.snap-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 14vw;
+    left: 10vw;
+}
+.snap-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 14vw;
+    left: 10vw;
+}
+.snap-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 14vw;
+    left: 10vw;
+}
+
+.work:hover{
+    opacity: 0;
+}
+.work-font-1{
+    animation: technologic-move1 0.3s  infinite;
+    position: absolute;
+    top: 14vw;
+    left: 10vw;
+}
+.work-font-2{
+    animation: technologic-move2 0.3s  infinite;
+    position: absolute;
+    top: 14vw;
+    left: 10vw;
+}
+.work-font-3{
+    animation: technologic-move3 0.3s  infinite;
+    position: absolute;
+    top: 14vw;
+    left: 10vw;
+}
+
+.square-color{
+    animation: background-change 1s  infinite;
+}
+
+

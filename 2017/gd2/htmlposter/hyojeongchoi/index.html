@@ -1,0 +1,565 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    
+
+    <title>Assignment 1: Lyrical Grid</title>
+
+    <!-- leave this CSS file alone -->
+    <link href="percentages.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+    <style>
+      /** some custom colors, etc. You can do this same thing with whatever you need. Delete my starter junk **/
+      /********* color modules **********/
+      .bg-pink               { background-color: rgba(255,0,154,1); 
+      }
+      .bg-brown              { background-color: rgba(047,041,038,1); }
+      .bg-gray               { background-color: rgba(132,132,120,1); }
+      .bg-darkgray           { background-color: rgba(096,103,103,1); }
+      .bg-lightgray          { background-color: rgba(194,211,186,1); }
+      .bg-red                { background-color: rgba(183,080,081,1); }
+      .bg-orange             { background-color: rgba(195,115,099,1); }
+      .bg-yellow             { background-color: rgba(255,239,53,1); 
+      }
+      .bg-green              { background-color: rgba(140,165,115,1); }
+      .bg-blue               { background-color: rgba(59, 179, 249,1); }
+      .bg-purple             { background-color: rgba(174,139,164,1); }
+      .bg-black              { background-color: rgba(000,000,000,1); }
+      .bg-white              { background-color: rgba(255,255,255,1); }
+      .yellow { color: #ffef35; }
+      .blue { color: #3bb3f9; }
+      .pink { color: #ff009a; }
+      
+
+      /** put your custom CSS here, or create and link to your own new css file **/
+      .cover {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .technologic1 {
+        background-image: url('images/technlogic-3.png');
+      }
+      .technologic2{
+        background-image: url('images/technlogic-1.png');    
+      }
+       .technologic3{
+        background-image: url('images/technlogic-2.png');    
+      }
+      .buy {
+        background-image: url('images/1buy.png');
+      }
+      .buy-border {
+        background-image: url('images/1buy-border.png');
+      }
+      
+      .use{
+         background-image: url('images/2use.png');
+      }
+      .use-border{
+         background-image: url('images/2use-border.png');
+      }
+      .break {
+        background-image: url('images/3break.png');
+      }
+      .break-border {
+        background-image: url('images/3break-border.png');
+      }
+      .fix {
+        background-image: url('images/4.fix.png');
+      }
+      .fix-border {
+        background-image: url('images/4fix-border.png');
+      }
+      .trash {
+        background-image: url('images/5trash.png');
+      }
+      .trash-border {
+        background-image: url('images/5trash-border.png');
+      }
+        
+      .change {
+        background-image: url('images/6change.png');
+      }
+      .change-border {
+        background-image: url('images/6change-border.png');
+      }
+      .up-grade1 {
+        background-image: url('images/7upgrade-1.png');
+      }
+      .up-grade2 {
+        background-image: url('images/7upgrade-2.png');
+      }
+      
+     .charge {
+        background-image: url('images/8charge.png');
+      }
+     .charge-border {
+        background-image: url('images/8charge-border.png');
+      }
+      .point {
+        background-image: url('images/9point.png');
+      }
+      .point-border {
+        background-image: url('images/9point-border.png');
+      }
+      .zoom {
+        background-image: url('images/10zoom.png');
+      }
+      .zoom-border {
+        background-image: url('images/10zoom-border.png')
+      }
+      .press {
+        background-image: url('images/11press.png');
+      }
+      .press-border {
+        background-image: url('images/11press-border.png');
+      }
+      .snap {
+        background-image: url('images/12snap.png');
+      }
+      .snap-border {
+        background-image: url('images/12snap-border.png');
+      }
+      .work {
+        background-image: url('images/13work.png');
+      }
+      .work-border {
+        background-image: url('images/13work-border.png');
+      }
+      .erase1{
+        background-image: url('images/14erase-1.png');
+       }
+      .erase2{
+        background-image: url('images/14erase-2.png');
+       }
+      .write{
+        background-image: url('images/15write.png');
+       }
+      .cut{
+        background-image: url('images/16cut.png');
+       }
+      .paste{
+        background-image: url('images/17paste.png');
+       }
+      .save{
+        background-image: url('images/18save.png');
+       }
+      .load{
+        background-image: url('images/19load.png');
+       }
+      .check{
+        background-image: url('images/20check.png');
+       }
+      .plug{
+        background-image: url('images/21jplug.png');
+       }
+      .play{
+        background-image: url('images/22play.png');
+       }
+      .burn{
+        background-image: url('images/23burn.png');
+       }
+      .rip{
+        background-image: url('images/24rip.png');
+       }
+      .zip{
+        background-image: url('images/25zip.png');
+       }
+      .un-zip{
+        background-image: url('images/26unzip.png');
+       }
+      .lock{
+        background-image: url('images/27lock.png');
+       }
+      .fill{
+        background-image: url('images/28fill.png');
+       }
+      .curl{
+        background-image: url('images/29curl.png');
+       }
+      .find{
+        background-image: url('images/30find.png');
+       }
+      .view{
+        background-image: url('images/31view.png');
+       }
+      .coat{
+        background-image: url('images/32coat.png');
+       }
+      .jam{
+        background-image: url('images/33jam.png');
+       }
+      .unlock{
+        background-image: url('images/34unlock.png');
+       }
+      .surf{
+        background-image: url('images/35surf.png');
+       }
+      .scroll{
+        background-image: url('images/36scroll.png');
+       }
+      .pose{
+        background-image: url('images/37pose.png');
+       }
+      .click{
+        background-image: url('images/38click.png');
+       }
+      .cross{
+        background-image: url('images/39cross.png');
+       }
+      .crack{
+        background-image: url('images/40crack.png');
+       }
+      .twich{
+        background-image: url('images/41twich.png');
+       }
+      .update{
+        background-image: url('images/42update.png');
+       }
+      .name{
+        background-image: url('images/43name.png');
+       }
+      .rate{
+        background-image: url('images/44rate.png');
+       }
+      .tune{
+        background-image: url('images/45tune.png');
+       }
+      .print{
+        background-image: url('images/46print.png');
+       }
+      .scan{
+        background-image: url('img/50scan.png');
+       }
+      .send{
+        background-image: url('img/51send.png');
+       }
+      .fax{
+        background-image: url('img/52fax-.png');
+       }
+      .touch{
+        background-image: url('img/54touch.png');
+       }
+      .bring{
+        background-image: url('img/55bring.png');
+       }
+      .pay{
+        background-image: url('img/56pay.png');
+       }
+      .watch{
+        background-image: url('img/57watch.png');
+       }
+      .turn{
+        background-image: url('img/58turn.png');
+       }
+      .leave{
+        background-image: url('img/59leave.png');
+       }
+      .stop{
+        background-image: url('img/60stop.png');
+       }
+      .format{
+        background-image: url('img/61format.png');
+       }
+       .technologicf{
+         background-image: url('img/tech-F.png');   
+        }
+    </style>
+
+  </head>
+
+  <body>
+    <!-- this outer most <div> determines the width for everything -->
+    <div class="wrapper">
+      <!-- all these inner divs use the percentages.css file for their height and width /nesting -->
+
+      <!-- this one goes all the way across -->
+      <div class="block technologic1 cover">
+          <div class="square-pink-95"></div>
+          <p class="technologic-font-1 font-size-100pt blue ">TECHNOLOGIC</p>
+          <p class="technologic-font-2 font-size-100pt pink ">TECHNOLOGIC</p>
+          <p class="technologic-font-3 font-size-100pt yellow ">TECHNOLOGIC</p>
+      </div>
+      
+
+      <!-- this is only half width, plus it contains children... -->
+      <div class="half block">
+        <div class="block buy-border cover">
+          <div class="block buy cover"></div>
+          <p class="buy-font-1 font-size-85pt blue">Buy it</p>
+          <p class="buy-font-2 font-size-85pt pink">Buy it</p>
+          <p class="buy-font-3 font-size-85pt yellow">Buy it</p>
+          
+        </div>
+      </div>
+
+      <div class="half block use-border cover">
+        <div class="block use cover"></div>
+        <p class="use-font-1 font-size-85pt blue">Use it</p>
+        <p class="use-font-2 font-size-85pt pink">Use it</p>
+        <p class="use-font-3 font-size-85pt yellow">Use it</p>
+      </div>
+
+      <div class="half block break-border cover">
+         <div class="block break cover"></div>
+         <p class="break-font-1 font-size-85pt yellow">Break it</p>
+         <p class="break-font-2 font-size-85pt pink">Break it</p>
+         <p class="break-font-3 font-size-85pt blue">Break it</p>
+      </div>
+      
+      <div class="half block fix-border cover">
+         <div class="block fix cover"></div>
+         <p class="fix-font-1 font-size-85pt yellow">Fix it</p>
+         <p class="fix-font-2 font-size-85pt pink">Fix it</p>
+         <p class="fix-font-3 font-size-85pt blue">Fix it</p> 
+      </div>
+      
+      <div class="half block trash-border cover">
+          <div class="block trash cover"></div>
+          <p class="trash-font-1 font-size-85pt blue">Trash it</p>
+          <p class="trash-font-2 font-size-85pt yellow">Trash it</p>
+          <p class="trash-font-3 font-size-85pt pink">Trash it</p>   
+      </div>
+      
+      <div class="half block change-border cover">
+          <div class="block change cover"></div>
+          <p class="change-font-1 font-size-85pt blue">Change it</p>
+          <p class="change-font-2 font-size-85pt yellow">Change it</p>
+          <p class="change-font-3 font-size-85pt pink">Change it</p> 
+      </div>
+      
+      <div class="half block up-grade1 cover"></div>
+      
+      <div class="half block up-grade2 cover"></div>
+      
+      
+      <p class="upgrade-font-1 font-size-100pt blue">Mail - Up Grade</p>
+      <p class="upgrade-font-2 font-size-100pt pink">Mail - Up Grade</p>
+      <p class="upgrade-font-3 font-size-100pt yellow">Mail - Up Grade</p>
+      
+      <div class="third block charge-border cover">
+          <div class="block charge cover"></div>
+          <p class="charge-font-1 font-size-72pt yellow">Charge it</p>
+          <p class="charge-font-2 font-size-72pt pink">Charge it</p>
+          <p class="charge-font-3 font-size-72pt blue">Charge it</p>
+      </div>
+          
+      <div class="third block point-border cover">
+          <div class="block point cover"></div>
+          <p class="point-font-1 font-size-72pt pink">Point it</p>
+          <p class="point-font-2 font-size-72pt blue">Point it</p>
+          <p class="point-font-3 font-size-72pt yellow">Point it</p>
+      </div>
+      
+      <div class="third block zoom-border cover">
+          <div class="block zoom cover"></div>
+          <p class="zoom-font-1 font-size-72pt pink">Zoom it</p>
+          <p class="zoom-font-2 font-size-72pt blue">Zoom it</p>
+          <p class="zoom-font-3 font-size-72pt yellow">Zoom it</p>
+      </div>
+      
+      <div class="third block press-border cover">
+          <div class="block press cover"></div>
+          <p class="press-font-1 font-size-72pt blue">Press it</p>
+          <p class="press-font-2 font-size-72pt yellow">Press it</p>
+          <p class="press-font-3 font-size-72pt pink">Press it</p>
+      </div>
+      
+      <div class="third block snap-border cover">
+          <div class="block snap cover"></div>
+          <p class="snap-font-1 font-size-72pt blue">Snap it</p>
+          <p class="snap-font-2 font-size-72pt pink">Snap it</p>
+          <p class="snap-font-3 font-size-72pt yellow">Snap it</p>
+      </div>
+      
+        <div class="third block work-border cover">
+          <div class="block work cover"></div>
+          <p class="work-font-1 font-size-72pt blue">Work it</p>
+          <p class="work-font-2 font-size-72pt pink">Work it</p>
+          <p class="work-font-3 font-size-72pt yellow">Work it</p>
+      </div>
+      
+      
+      <div class="half block erase1 cover">
+          <p class="font-size-100pt blue">Quick -</p>
+      </div>
+      
+      <div class="half block erase2 cover">
+          <p class="font-size-100pt blue">Erase it</p>
+      </div>
+      
+      <div class="quarter block write cover">
+          <p class="font-size-50pt yellow">Write it</p>
+      </div>
+     
+      <div class="quarter block cut cover">
+          <p class="font-size-50pt blue">Cut it</p>
+      </div>
+      
+      <div class="quarter block paste cover">
+          <p class="font-size-50pt pink">Paste it</p>
+      </div>
+      
+      <div class="quarter block save cover">
+          <p class="font-size-50pt pink">Save it</p>
+      </div>
+      
+      <div class="quarter block load cover">
+          <p class="font-size-50pt blue">Load it</p>
+      </div>
+      
+      <div class="quarter block check cover">
+          <p class="font-size-50pt yellow">Check it</p>
+      </div>
+      
+      <div class="square-color quarter block bg-pink">
+         <p class="font-size-50pt yellow">Quick-</p>
+      </div>
+      
+      <div class="square-color quarter block bg-pink">
+         <p class="font-size-50pt yellow">Rewrite it</p>
+          
+      </div>
+      
+      <div class="quarter block plug cover">
+         <p class="font-size-50pt yellow">Plug it</p> 
+      </div>
+      
+      <div class="quarter block play cover">
+         <p class="font-size-50pt blue">Play it</p> 
+      </div>
+      
+      <div class="quarter block burn cover">
+         <p class="font-size-50pt pink">Burn it</p> 
+      </div>
+      
+      <div class="quarter block rip cover">
+         <p class="font-size-50pt pink">Rip it</p>  
+      </div>
+      
+      <div class="square-color quarter block bg-yellow">
+         <p class="font-size-72pt pink">Drag</p>   
+      </div>
+      
+      <div class="square-color quarter block bg-yellow">
+          <p class="font-size-72pt pink">and</p> 
+      </div>
+      <div class="quarter block bg-pink">
+          <p class="font-size-72pt yellow">Drop it</p>
+      </div>
+      
+      <div class="quarter block bg-pink"></div>
+      
+         <div class="half block zip cover">
+          <div class="square-pink-45"></div>
+          <p class="font-size-100pt yellow">  Zip- </p>
+      </div>
+      
+      <div class="half block un-zip cover">
+          <div class="square-blue-45"></div>
+          <p class="font-size-100pt pink">Unzip it</p>
+      </div>
+      
+      <div class="square-color one-fifth block bg-yellow"></div>
+      <div class="one-fifth block lock cover">
+          <p class="font-size-50pt yellow">lock it</p>
+      </div>
+      <div class="one-fifth block fill cover">
+          <p class="font-size-50pt yellow">fill it</p>
+      </div>
+      <div class="one-fifth block curl cover">
+           <p class="font-size-50pt yellow">curl it</p>
+      </div>
+      <div class="one-fifth block find cover">
+           <p class="font-size-50pt yellow">find it</p>
+      </div>
+      
+      
+      
+      <div class="one-fifth block view cover">
+          <p class="font-size-50pt yellow">veiw it</p>
+      </div>
+      <div class="square-color one-fifth block bg-yellow"></div>
+      
+      
+      <div class="one-fifth block coat cover">
+          <p class="font-size-50pt yellow">coat it</p>
+      </div>
+      <div class="one-fifth block jam cover">
+          <p class="font-size-50pt blue">jam it</p>
+      </div>
+      <div class="one-fifth block unlock cover">
+          <p class="font-size-50pt yellow">unlock it</p>
+      </div>
+      
+      
+      
+      
+      <div class="one-fifth block surf cover">
+          <p class="font-size-50pt yellow">surf it</p>
+      </div>
+      <div class="one-fifth block scroll cover">
+          <p class="font-size-50pt yellow">scroll it</p>
+      </div>
+      <div class="square-color one-fifth block bg-yellow"></div>
+      
+        <div class="one-fifth block pose cover">
+          <p class="font-size-50pt yellow">pose it</p>
+      </div>
+      <div class="one-fifth block click cover">
+          <p class="font-size-50pt yellow">click it</p>
+      </div>
+      
+      
+      <div class="one-fifth block cross cover">
+          <p class="font-size-50pt yellow">cross it</p>
+      </div>
+      <div class="one-fifth block crack cover">
+          <p class="font-size-50pt yellow">crack it</p>
+      </div>
+      <div class="one-fifth block twich cover">
+          <p class="font-size-50pt yellow">twich it</p>
+      </div>
+      <div class="square-color one-fifth block bg-yellow"></div>
+      <div class="one-fifth block update cover">
+          <p class="font-size-50pt yellow">update it</p>
+      </div>
+      
+      
+      <div class="one-fifth block name cover">
+          <p class="font-size-50pt pink">name it</p>
+      </div>
+      <div class="one-fifth block rate cover">
+          <p class="font-size-50pt blue">rate it</p>
+      </div>
+      <div class="one-fifth block tune cover">
+          <p class="font-size-50pt yellow">tune it</p>
+      </div>
+      <div class="one-fifth block print cover">
+          <p class="font-size-50pt blue">print it</p>
+      </div>
+      <div class="square-color one-fifth block "></div>
+      
+      <div class="block technologicf cover">
+          <p class="font-size-100pt blue">TECHNOLOGIC</p>
+      </div>
+      
+      
+      
+      
+      
+      
+
+      
+
+   
+
+    </div>
+
+  </body>
+
+</html>
